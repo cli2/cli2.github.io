@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Photography</title>
+    <link rel="shortcut icon" href="p_image/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Open+Sans:300,400,700" rel="stylesheet">
+    <script src='p_js/jquery-3.1.1.min.js'></script>
+    <script src='p_js/js.js'></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="p_css/style.css" media="screen" title="no title">
+    <link rel="stylesheet" href="p_css/bootstrap.css" media="screen" title="no title">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+  </head>
+  <body>
+    <header class='nav-down'>
+      <a href="index.html">
+        <img class='logo_img' src="p_image/logo.png" alt="logo of Chong Li" />
+      </a>
+      <nav class="nav nav_bread">
+        <a href="#"><img  class="bread_img" onclick="show_nav()" src="p_image/bread.png" alt="nav bread icon" /></a>
+      </nav>
+      <nav class="nav">
+        <ul>
+          <li><a href="design.html">design</a></li>
+          <li><a href="make.html">make</a></li>
+          <li><a href="photography.html"  class='bold'>photography</a></li>
+          <li><a href="about.html">about</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="full" id='full' onclick='show_page()'>
+      <ul>
+        <li><a href="design.html">Design</a></li>
+        <li><a href="make.html">Make</a></li>
+        <li><a href="photography.html">Photography</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+    <section class="page_des clearfix">
+      <h1>Photography</h1>
+      <p>
+        I love travelling and photographing.
+        The goal of photography is to convey communication in an effective way through different mediums.
+        (<i>All the photos are taken with iPhone.</i>)
+      </p>
+    </section>
+
+    <section class='slideshow'>
+      <h2>My photography</h2>
+      <div class="content clearfix">
+        <div class="slide content">
+          <a href="#img1" class='p-cover'><img src="p_image/p_photography/1.jpg" alt="webpage"></a>
+          <p>
+            Webpage design for Marshall amplifier.
+          </p>
+          <a href="#" class='lightbox' id='img1'><img src="p_image/p_photography/1.jpg" alt="webpage"></a>
+        </div>
+        <div class="slide content">
+          <a href="#img2" class='p-cover'><img src="p_image/p_photography/2.jpg" alt="product"></a>
+          <p>
+            Product design for Marshall amplifier.
+          </p>
+          <a href="#" class='lightbox' id='img2'><img src="p_image/p_photography/2.jpg" alt="product"></a>
+        </div>
+        <div class="slide content">
+          <a href="#img3" class='p-cover'><img src="p_image/p_photography/3.jpg" alt="hospital poster"></a>
+          <p>
+            Poster design for recruiting hospital volunteers.
+          </p>
+          <a href="#" class='lightbox' id='img3'><img src="p_image/p_photography/3.jpg" alt="hospital poster"></a>
+        </div>
+        <div class="slide content">
+          <a href="#img4" class='p-cover'><img src="p_image/p_photography/4.jpg" alt="hospital post card"></a>
+          <p>
+            Postcard design for recruiting hospital volunteers.
+          </p>
+          <a href="#" class='lightbox' id='img4'><img src="p_image/p_photography/4.jpg" alt="hospital post card"></a>
+        </div>
+
+        <div class="slide content">
+          <a href="#img4" class='p-cover'><img src="p_image/p_photography/5.jpg" alt="hospital post card"></a>
+          <p>
+            Postcard design for recruiting hospital volunteers.
+          </p>
+          <a href="#" class='lightbox' id='img5'><img src="p_image/p_photography/5.jpg" alt="hospital post card"></a>
+        </div>
+
+        <div class="slide content">
+          <a href="#img4" class='p-cover'><img src="p_image/p_photography/6.jpg" alt="hospital post card"></a>
+          <p>
+            Postcard design for recruiting hospital volunteers.
+          </p>
+          <a href="#" class='lightbox' id='img6'><img src="p_image/p_photography/6.jpg" alt="hospital post card"></a>
+        </div>
+
+        <div class="slide content">
+          <a href="#img4" class='p-cover'><img src="p_image/p_photography/7.jpg" alt="hospital post card"></a>
+          <p>
+            Postcard design for recruiting hospital volunteers.
+          </p>
+          <a href="#" class='lightbox' id='img7'><img src="p_image/p_photography/7.jpg" alt="hospital post card"></a>
+        </div>
+
+        <div class="slide content">
+          <a href="#img4" class='p-cover'><img src="p_image/p_photography/8.jpg" alt="hospital post card"></a>
+          <p>
+            Postcard design for recruiting hospital volunteers.
+          </p>
+          <a href="#" class='lightbox' id='img8'><img src="p_image/p_photography/8.jpg" alt="hospital post card"></a>
+        </div>
+
+        <div class="slide content">
+          <a href="#img4" class='p-cover'><img src="p_image/p_photography/9.jpg" alt="hospital post card"></a>
+          <p>
+            Postcard design for recruiting hospital volunteers.
+          </p>
+          <a href="#" class='lightbox' id='img9'><img src="p_image/p_photography/9.jpg" alt="hospital post card"></a>
+        </div>
+
+        <div class="slide content">
+          <a href="#img4" class='p-cover'><img src="p_image/p_photography/10.jpg" alt="hospital post card"></a>
+          <p>
+            Postcard design for recruiting hospital volunteers.
+          </p>
+          <a href="#" class='lightbox' id='img10'><img src="p_image/p_photography/10.jpg" alt="hospital post card"></a>
+        </div>
+
+
+        <!-- <img class="slide" src="p_image/p_photography/web_amp.jpg" alt="webpage">
+        <img class="slide" src="p_image/p_photography/product_amp.jpg" alt="product"> -->
+
+        <a class="floating displayleft" onclick="plusDivs(-1)">&#10094;</a>
+        <a class="floating displayright" onclick="plusDivs(1)">&#10095;</a>
+      </div>
+
+      <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("slide");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+      }
+      </script>
+    </section>
+
+    <footer id='graphic_footer'>
+      <hr>
+      <a href="https://www.linkedin.com/in/jonlichong" target="_blank">
+        <img class='footer_img' src="p_image/linkedin.png" alt="linkedin of Chong Li" />
+      </a>
+      <a href="https://www.behance.net/catacil" target="_blank">
+        <img class='footer_img' src="p_image/behance.png" alt="behance of Chong Li" />
+      </a>
+      <a href="https://www.instagram.com/catacil/" target="_blank">
+        <img class='footer_img' src="p_image/instagram.png" alt="instagram of Chong Li" />
+      </a>
+      <p class="copyright">
+        Self Designed and Coded <br>
+        &copy;&nbsp;Chong Li 2016
+      </p>
+    </footer>
+  </body>
+</html>
