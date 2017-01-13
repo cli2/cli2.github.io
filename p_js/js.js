@@ -8,7 +8,7 @@ function cover_m(){
   document.getElementById('index').style.backgroundImage = "url('" + './p_image/cover_m.jpg' + "')";
 }
 function cover_g(){
-  document.getElementById('index').style.backgroundImage = "url('" + './p_image/cover_g.jpg' + "')";
+  document.getElementById('index').style.backgroundImage = "url('" + './p_image/cover_p.jpg' + "')";
 }
 function cover_a(){
   document.getElementById('index').style.backgroundImage = "url('" + './p_image/cover_a.jpg' + "')";

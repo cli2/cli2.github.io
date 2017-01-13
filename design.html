@@ -1,183 +1,217 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang='en'>
+
+<head>
     <meta charset="utf-8">
-    <title>Design</title>
+    <title>Work</title>
     <link rel="shortcut icon" href="p_image/logo.png">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Open+Sans:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto+Slab:300,400|Ubuntu:300,400" rel="stylesheet">
     <script src='p_js/jquery-3.1.1.min.js'></script>
     <script src='p_js/js.js'></script>
     <script type="text/javascript">
-    $(document).ready(function() {
-    $('#filters li span').click(function() {
-      // fetch the class of the clicked item
-      var ourClass = $(this).attr('class');
+        $(document).ready(function() {
+            $('#filters li span').click(function() {
+                // fetch the class of the clicked item
+                var ourClass = $(this).attr('class');
 
-      // reset the active class on all the buttons
-      $('#filters li').removeClass('active');
-      // update the active state on our clicked button
-      $(this).parent().addClass('active');
+                // reset the active class on all the buttons
+                $('#filters li').removeClass('active');
+                // update the active state on our clicked button
+                $(this).parent().addClass('active');
 
-      if(ourClass == 'all') {
-        // show all our items
-        $('#coverlist').children('div.cover').show();
-      }
-      else {
-        // hide all elements that don't share ourClass
-        $('#coverlist').children('div:not(.' + ourClass + ')').hide();
-        // show all elements that do share ourClass
-        $('#coverlist').children('div.' + ourClass).show();
-      }
-      return false;
-    });
-    });
+                if (ourClass == 'all') {
+                    // show all our items
+                    $('#coverlist').children('div.cover').show();
+                } else {
+                    // hide all elements that don't share ourClass
+                    $('#coverlist').children('div:not(.' + ourClass + ')').hide();
+                    // show all elements that do share ourClass
+                    $('#coverlist').children('div.' + ourClass).show();
+                }
+                return false;
+            });
+        });
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="p_css/style.css" media="screen" title="no title">
-    <link rel="stylesheet" href="p_css/bootstrap.css" media="screen" title="no title">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
-  </head>
-  <header class='nav-down'>
+</head>
+<header class='nav-down'>
     <a href="index.html">
-      <img class='logo_img' src="p_image/logo.png" alt="logo of Chong Li" />
+        <img class='logo_img' src="p_image/logo.png" alt="logo of Chong Li" />
     </a>
     <nav class="nav nav_bread">
-      <a href="#"><img  class="bread_img" onclick="show_nav()" src="p_image/bread.png" alt="nav bread icon" /></a>
+        <a href="#"><img class="bread_img" onclick="show_nav()" src="p_image/bread.png" alt="nav bread icon" /></a>
     </nav>
     <nav class="nav">
-      <ul>
-        <li><a href="design.html" class='bold'>design</a></li>
-        <li><a href="make.html">make</a></li>
-        <li><a href="photography.html">photography</a></li>
-        <li><a href="about.html">about</a></li>
-      </ul>
+        <ul>
+            <li><a href="design.html" class='bold'>Work</a></li>
+            <li><a href="fun.html">Fun</a></li>
+            <li><a href="about.html">about</a></li>
+        </ul>
     </nav>
-  </header>
-  <div class="full" id='full' onclick='show_page()'>
+</header>
+<div class="full" id='full' onclick='show_page()'>
     <ul>
-      <li><a href="design.html">Design</a></li>
-      <li><a href="make.html">Make</a></li>
-      <li><a href="photography.html">Photography</a></li>
-      <li><a href="about.html">About</a></li>
+        <li><a href="design.html">Work</a></li>
+        <li><a href="fun.html">Fun</a></li>
+        <li><a href="about.html">About</a></li>
     </ul>
-  </div>
-    <section class="page_des clearfix">
-      <h1>Design</h1>
-      <p>
+</div>
+<section class="page_des clearfix">
+    <h1>Design</h1>
+    <p>
         I design for the interaction between human and technology.
-        Focusing on virtual experience as well as spatial experience.
+        Focusing on virtual experience as well as spatial experience,
         I explore incorporating cutting-edge technologies to enhance user experiece both virtually and physically.
-      </p>
-    </section>
-    <section  class="clearfix">
-      <ul id="filters">
-      <li class='active'><span class="all">ALL</span></li>
-      <li><span class="featured">FEATURED</span></li>
-      <li><span class="ux">UX</span></li>
-      <li><span class="graphics">GRAPHICS</span></li>
-      <li><span class="arch">ARCHITECTURE</span></li>
+    </p>
+</section>
+<section class="clearfix">
+    <ul id="filters">
+        <li class='active'><span class="featured">FEATURED</span></li>
+        <li><span class="ux" id='ux'>UX/UI</span></li>
+        <li><span class="arch" id='arch'>ARCHITECTURE</span></li>
+        <li><span class="make" id='make'>MAKE</span></li>
     </ul>
-    </section>
-    <section class="clearfix" id='coverlist'>
-      <h2>My design works</h2>
-      <div class="col-lg-4 col-md-6 cover arch featured">
-        <a href="timber.html">
-          <img src="p_image/p_cover/timber.jpg" class="img-responsive" alt="" />
-          <p class='cover_title'>
-            Scripted Timber
-          </p>
-          <p class='cover_des'>
-            Interactive Platform<br>Fabrication
-          </p>
-        </a>
-      </div>
-      <div class="col-lg-4 col-md-6 cover arch featured">
-        <a href="lighting.html">
+</section>
+<section class="clearfix" id='coverlist'>
+
+  <div class="col-lg-4 col-md-6 cover ux featured">
+    <a href="pages/nsportc.html">
+        <img src="p_image/p_cover/nsportc.jpg" class="img-responsive" alt="" />
+        <p class='cover_des'>
+            <b>NSportC</b><br><br>UX Design
+        </p>
+    </a>
+  </div>
+  <div class="col-lg-4 col-md-6 cover ux featured">
+    <a href="pages/legal.html">
+        <img src="p_image/p_cover/legal.jpg" class="img-responsive" alt="" />
+        <p class='cover_des'>
+            <b>ClariLegal</b><br><br>UX ReDesign
+        </p>
+    </a>
+  </div>
+  <div class="col-lg-4 col-md-6 cover ux featured">
+    <a href="pages/inquiry.html">
+        <img src="p_image/p_cover/inquiry.jpg" class="img-responsive" alt="" />
+        <p class='cover_des'>
+            <b>Contextual Inquiry</b><br><br>User Research
+        </p>
+    </a>
+  </div>
+  <div class="col-lg-4 col-md-6 cover ux featured">
+    <a href="pages/ui.html">
+        <img src="p_image/p_cover/ui.jpg" class="img-responsive" alt="" />
+        <p class='cover_des'>
+            <b>UI Design</b><br><br>Web/App Design
+        </p>
+    </a>
+  </div>
+  <div class="col-lg-4 col-md-6 cover ux featured">
+    <a href="pages/graphic.html">
+        <img src="p_image/p_cover/graphic.jpg" class="img-responsive" alt="" />
+        <p class='cover_des'>
+            <b>Graphics</b><br><br>Graphic Design
+        </p>
+    </a>
+  </div>
+
+    <div class="col-lg-4 col-md-6 cover make hide">
+      <a href="pages/lighting.html">
           <img src="p_image/p_cover/lighting.jpg" class="img-responsive" alt="" />
-          <p class='cover_title'>
-            Interactive Ground
-          </p>
           <p class='cover_des'>
-            Interactive Installation<br>Handcraft
+              <b>Interactive Ground</b><br><br>Interactive Installation
           </p>
-        </a>
-      </div>
-      <div class="col-lg-4 col-md-6 cover ux">
-        <a href="ctrip.html">
-          <img src="p_image/p_cover/ctrip.jpg"  class="img-responsive" alt="Ctrip UX Redesign" />
-        <p class='cover_title'>
-          Ctrip UX Redesign
-        </p>
-        <p class='cover_des'>
-          UX Design<br>Competitor Studies
-        </p>
       </a>
-      </div>
-      <div class="col-lg-4 col-md-6 cover arch ux featured">
-        <a href="museum.html">
-          <img src="p_image/p_cover/museum.jpg"  class="img-responsive" alt="Hyperreality Museum" />
-        <p class='cover_title'>
-          Hyperreality Museum
-        </p>
-        <p class='cover_des'>
-          Architecture Design<br>VR AR Experience
-        </p>
-      </a>
-      </div>
-      <div class="col-lg-4 col-md-6 cover arch">
-        <a href="lujiazui.html">
-          <img src="p_image/p_cover/lujiazui.jpg" class="img-responsive" alt="Synecdoche Lujiazui" />
-          <p class='cover_title'>
-            Synecdoche Lujiazui
-          </p>
-          <p class='cover_des'>
-            Urban research<br>Exhibition
-          </p>
+    </div>
+    <div class="col-lg-4 col-md-6 cover make hide">
+        <a href="pages/timber.html">
+            <img src="p_image/p_cover/timber.jpg" class="img-responsive" alt="" />
+            <p class='cover_des'>
+              <b>Scripted Timber</b><br><br>Interactive Platform
+            </p>
         </a>
-      </div>
-
-      <div class="col-lg-4 col-md-6 cover arch">
-        <a href="urbandesign.html">
-          <img src="p_image/p_cover/urbandesign.jpg"  class="img-responsive" alt="Urban Design" />
-        <p class='cover_title'>
-          Urban Design
-        </p>
-        <p class='cover_des'>
-          Interactive Urban Interface<br>Urban Research
-        </p>
+    </div>
+    <div class="col-lg-4 col-md-6 cover make featured">
+        <a href="pages/lujiazui.html">
+            <img src="p_image/p_cover/lujiazui.jpg" class="img-responsive" alt="Synecdoche Lujiazui" />
+            <p class='cover_des'>
+                <b>Synecdoche Lujiazui</b><br><br>Visualization
+            </p>
         </a>
-      </div>
-      <div class="col-lg-4 col-md-6 cover arch graphics">
-        <a href="mask.html">
-          <img src="p_image/p_cover/mask.jpg"  class="img-responsive" alt="Interrelating Mask" />
-        <p class='cover_title'>
-          Interrelating Mask
-        </p>
+    </div>
+    <div class="col-lg-4 col-md-6 cover make hide">
+      <a href="pages/particle.html">
+        <img src="p_image/p_cover/particle.jpg"  class="img-responsive" alt="Particle Hut" />
         <p class='cover_des'>
-          Architecture Design<br>Interactive Facade
+          <b>Particle Hut</b><br><br>Digital Fabrication
         </p>
-      </a>
-      </div>
+    </a>
+    </div>
 
 
 
-    </section>
+    <div class="col-lg-4 col-md-6 cover arch featured">
+        <a href="pages/museum.html">
+            <img src="p_image/p_cover/museum-1.jpg" class="img-responsive" alt="Hyperreality Museum" />
+            <p class='cover_des'>
+                <b>Hyperreality Museum</b><br><br>Experience Research
+            </p>
+        </a>
+    </div>
+    <div class="col-lg-4 col-md-6 cover arch hide">
+        <a href="pages/urbandesign.html">
+            <img src="p_image/p_cover/urbandesign.jpg" class="img-responsive" alt="Urban Design" />
+            <!-- <p class='cover_title'>
+                Urban Design
+            </p> -->
+            <p class='cover_des'>
+                <b>Overlapping</b><br><br>Urban Design
+            </p>
+        </a>
+    </div>
+    <div class="col-lg-4 col-md-6 cover arch hide">
+        <a href="pages/wall.html">
+            <img src="p_image/p_cover/wall.jpg" class="img-responsive" alt="wall" />
+            <p class='cover_des'>
+                <b>Morphological Wall</b><br><br>Architecture
+            </p>
+        </a>
+    </div>
+    <div class="col-lg-4 col-md-6 cover arch hide">
+        <a href="pages/mask.html">
+            <img src="p_image/p_cover/mask.jpg" class="img-responsive" alt="Interrelating Mask" />
+            <p class='cover_des'>
+                <b>Inter Mask</b><br><br>Interactive Facade
+            </p>
+        </a>
+    </div>
 
-    <footer>
-      <hr>
-      <a href="https://www.linkedin.com/in/jonlichong" target="_blank">
+
+
+</section>
+<hr>
+<footer>
+
+    <a href="https://www.linkedin.com/in/jonlichong" target="_blank">
         <img class='footer_img' src="p_image/linkedin.png" alt="linkedin of Chong Li" />
-      </a>
-      <a href="https://www.behance.net/catacil" target="_blank">
-        <img class='footer_img' src="p_image/behance.png" alt="behance of Chong Li" />
-      </a>
-      <a href="https://www.instagram.com/catacil/" target="_blank">
+    </a>
+    <a href="https://www.openprocessing.org/user/74111" target="_blank">
+        <img class='footer_img' src="p_image/oprocessing.png" alt="Openprocessing of Chong Li" />
+    </a>
+    <a href="https://www.instagram.com/catacil/" target="_blank">
         <img class='footer_img' src="p_image/instagram.png" alt="instagram of Chong Li" />
-      </a>
-      <p class="copyright">
-        Self Designed and Coded <br>
-        &copy;&nbsp;Chong Li 2016
-      </p>
-    </footer>
-  </body>
+    </a>
+    <a href="https://github.com/cli2" target="_blank">
+        <img class='footer_img' src="p_image/github.png" alt="github of Chong Li" />
+    </a>
+    <a href="https://www.behance.net/catacil" target="_blank">
+        <img class='footer_img' src="p_image/behance.png" alt="behance of Chong Li" />
+    </a>
+    <p class="copyright">
+        &copy;&nbsp;2017 Chong Li | All Rights Reserved
+    </p>
+</footer>
+</body>
+
 </html>
