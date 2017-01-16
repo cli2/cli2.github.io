@@ -1,3 +1,13 @@
+function change_cover(index) {
+	$('.cover_image').eq(0).addClass('cover_fade');
+	$('.cover_image').eq(index).removeClass('cover_fade');
+}
+
+function reset_cover(index) {
+	$('.cover_image').eq(0).removeClass('cover_fade');
+	$('.cover_image').eq(index).addClass('cover_fade');
+}
+
 function cover_i(){
   document.getElementById('index').style.backgroundImage = "url('" + './p_image/cover.jpg' + "')";
 }
@@ -14,10 +24,8 @@ function cover_a(){
   document.getElementById('index').style.backgroundImage = "url('" + './p_image/cover_a.jpg' + "')";
 }
 function show_nav(){
-  document.getElementById('full').style.opacity='1';
-  document.getElementById('full').style.display='block';
+  $('#full').fadeIn('fast');
 }
 function show_page(){
-  document.getElementById('full').style.display='none';
-  document.getElementById('full').style.opacity='0';
+  $('#full').fadeOut('fast');
 }

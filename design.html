@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang='en'>
-
 <head>
     <meta charset="utf-8">
     <title>Work</title>
@@ -9,28 +8,32 @@
     <script src='p_js/jquery-3.1.1.min.js'></script>
     <script src='p_js/js.js'></script>
     <script type="text/javascript">
-        $(document).ready(function() {
-            $('#filters li span').click(function() {
-                // fetch the class of the clicked item
-                var ourClass = $(this).attr('class');
+    $(document).ready(function() {
+        $('#filters li span').click(function() {
+            // fetch the class of the clicked item
+            var ourClass = $(this).attr('class');
 
-                // reset the active class on all the buttons
-                $('#filters li').removeClass('active');
-                // update the active state on our clicked button
-                $(this).parent().addClass('active');
+            // reset the active class on all the buttons
+            $('#filters li').removeClass('active');
+            // update the active state on our clicked button
+            $(this).parent().addClass('active');
 
-                if (ourClass == 'all') {
-                    // show all our items
-                    $('#coverlist').children('div.cover').show();
-                } else {
-                    // hide all elements that don't share ourClass
-                    $('#coverlist').children('div:not(.' + ourClass + ')').hide();
-                    // show all elements that do share ourClass
-                    $('#coverlist').children('div.' + ourClass).show();
-                }
-                return false;
-            });
+            if (ourClass == 'all') {
+                // show all our items
+                $('#coverlist').children('div.cover').fadeIn("slow");
+            } else {
+                var listnum = $('#coverlist').children().length;
+                // // hide all elements that don't share ourClass
+                $('#coverlist').children().fadeOut("fast", function() {
+                  listnum = listnum - 1;
+                  if(listnum == 0) {
+                    $('#coverlist').children('div.' + ourClass).fadeIn("fast");
+                  }
+                });
+                // show all elements that do share ourClass
+            }
         });
+    });
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="p_css/style.css" media="screen" title="no title">
@@ -67,10 +70,10 @@
 </section>
 <section class="clearfix">
     <ul id="filters">
-        <li class='active'><span class="featured">FEATURED</span></li>
+        <li><span class="featured">FEATURED</span></li>
         <li><span class="ux" id='ux'>UX/UI</span></li>
-        <li><span class="arch" id='arch'>ARCHITECTURE</span></li>
         <li><span class="make" id='make'>MAKE</span></li>
+        <li><span class="arch" id='arch'>ARCHITECTURE</span></li>
     </ul>
 </section>
 <section class="clearfix" id='coverlist'>
@@ -153,7 +156,7 @@
 
     <div class="col-lg-4 col-md-6 cover arch featured">
         <a href="pages/museum.html">
-            <img src="p_image/p_cover/museum-1.jpg" class="img-responsive" alt="Hyperreality Museum" />
+            <img src="p_image/p_cover/museum.jpg" class="img-responsive" alt="Hyperreality Museum" />
             <p class='cover_des'>
                 <b>Hyperreality Museum</b><br><br>Experience Research
             </p>
@@ -166,15 +169,7 @@
                 Urban Design
             </p> -->
             <p class='cover_des'>
-                <b>Overlapping</b><br><br>Urban Design
-            </p>
-        </a>
-    </div>
-    <div class="col-lg-4 col-md-6 cover arch hide">
-        <a href="pages/wall.html">
-            <img src="p_image/p_cover/wall.jpg" class="img-responsive" alt="wall" />
-            <p class='cover_des'>
-                <b>Morphological Wall</b><br><br>Architecture
+                <b>Overlapping River</b><br><br>Urban Design
             </p>
         </a>
     </div>

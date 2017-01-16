@@ -41,7 +41,6 @@
       </p>
     </section>
     <section class='slideshow'>
-      <h2>My photography</h2>
       <div class="content clearfix">
         <div class="slide">
           <a href="#img13" class='p-cover'><img src="p_image/p_photography/13.jpg" alt=""></a>
@@ -108,6 +107,7 @@
       </div>
       <script>
       var slideIndex = 1;
+
       showDivs(slideIndex);
       function plusDivs(n) {
         showDivs(slideIndex += n);
@@ -118,10 +118,20 @@
         if (n > x.length) {slideIndex = 1}
         if (n < 1) {slideIndex = x.length}
         for (i = 0; i < x.length; i++) {
-           x[i].style.display = "none";
+           $(x[i]).fadeOut('slow');
+
         }
-        x[slideIndex-1].style.display = "block";
+        $(x[slideIndex-1]).fadeIn('slow');
       }
+
+      //automatically
+      // var slideLength = document.getElementsByClassName("slide").length;
+      //
+      // window.setInterval(function(){
+      //   slideIndex = slideIndex + 1;
+      //   showDivs(slideIndex);
+      //
+      // },3000);
       </script>
     </section>
 
@@ -152,7 +162,8 @@
     <section>
       <div class="content clearfix">
         <div class="single_slide">
-            <img src="p_image/p_other/drawing.jpg" alt="paitings" />
+          <a href="#painting" class='p-cover'><img src="p_image/p_other/drawing.jpg" alt=""></a>
+          <a href="#" class='lightbox' id='painting'><img src="p_image/p_other/drawing.jpg" alt=""></a>
         </div>
       </div>
     </section>
@@ -168,7 +179,8 @@
     <section>
       <div class="content clearfix">
         <div class="single_slide">
-            <img src="p_image/p_other/model.jpg" alt="models" />
+          <a href="#model" class='p-cover'><img src="p_image/p_other/model.jpg" alt=""></a>
+          <a href="#" class='lightbox' id='model'><img src="p_image/p_other/model.jpg" alt=""></a>
         </div>
       </div>
     </section>

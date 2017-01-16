@@ -4,7 +4,9 @@
 <head>
     <meta charset="utf-8">
     <title>Chong Li's Portfolio</title>
+    <link rel="stylesheet" href="p_css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto+Slab:300,400|Ubuntu:300,400" rel="stylesheet">
+    <script src='p_js/jquery-3.1.1.min.js'></script>
     <script src='p_js/js.js'></script>
     <link rel="shortcut icon" href="p_image/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,18 +14,31 @@
 </head>
 
 <body>
-    <div class="index half" id='index'></div>
+    <div class="index half">
+        <div class="cover_image" style="background-image: url(./p_image/cover.jpg);"></div>
+        <div class="cover_image cover_fade" style="background-image: url(./p_image/cover_d.jpg);"></div>
+        <div class="cover_image cover_fade" style="background-image: url(./p_image/cover_m.jpg);"></div>
+        <div class="cover_image cover_fade" style="background-image: url(./p_image/cover_p.jpg);"></div>
+    </div>
     <div class="main_des">
-        <div class="right">
-            <!-- Hi, I’m -->
-            <!-- <br><a onmouseover="cover_a()" onmouseout="cover_i()" href="about.html"><b>Chong li</b></a><br><br> -->
+      <div class="right">
+        <div class="in">
             interaction
-            <br><a onmouseover="cover_d()" onmouseout="cover_i()" href="design.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Designer</b></a><img src="p_image/mouse-02.png" alt="mouse icon" /><br>
-            <br><br>digital
-            <br><a onmouseover="cover_m()" onmouseout="cover_i()" href="design.html"><b>Fab maker</b></a><br>
-            <br><br>amateur
-            <br><a onmouseover="cover_g()" onmouseout="cover_i()" href="fun.html"><b>Photographer</b></a>
+            <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="backcolor" onmouseover="change_cover(1)" onmouseout="reset_cover(1)" href="design.html"><b>Designer</b></a>
+              <i class="fa fa-mouse-pointer" aria-hidden="true" style="font-size:20px; padding-left:20px;"></i><br>
+            </h1>
+            <!-- <img src="p_image/mouse-02.png" alt="mouse icon" /> -->
         </div>
+        <div class="in">
+          digital
+          <h1><a class="backcolor" onmouseover="change_cover(2)" onmouseout="reset_cover(2)" href="design.html"><b>Fab maker</b></a><br></h1>
+        </div>
+        <div class="in">
+          amateur
+          <h1><a class="backcolor" onmouseover="change_cover(3)" onmouseout="reset_cover(3)" href="fun.html"><b>Photographer</b></a></h1>
+        </div>
+      </div>
+
     </div>
     <header class="index_header">
         <a href="index.html">
@@ -40,7 +55,7 @@
             </ul>
         </nav>
     </header>
-    <div class="full" id='full' onclick='show_page()'>
+    <div class="full" id='full' onclick='show_page()' style="display: none;">
         <ul>
             <li><a href="design.html">Work</a></li>
             <li><a href="fun.html">Fun</a></li>
