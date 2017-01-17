@@ -10,6 +10,22 @@
     <script src='../p_js/js.js'></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../p_css/style.css" media="screen" title="no title">
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-90454244-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 <header class='non-fixed' id='top'>
     <a href="../index.html">
@@ -35,9 +51,9 @@
 </div>
 
 <!-- Begin of custom code -->
-<section class="title clearfix" style="background-color:;">
+<section class="title clearfix" style="background-color:#e58027;">
     <h1>ClariLegal</h1>
-    <p></p>
+    <p>Redesign the Reporting Function for a Vendor Management Software in the Legal Industry</p>
     <img src="image/legal/title.jpg" alt="lighting design title"/>
 </section>
 <section class="page clearfix">
@@ -45,61 +61,227 @@
     <h3>
       <b>Project Type</b>
     </h3>
-    <p>Urban Design</p>
-    <!-- <p>Form Generation</p> -->
+    <p>UX Redesign</p>
+    <p>User Research</p>
   </div>
   <div class="col-md-4 center-div">
     <h3>
       <b>Roles</b>
     </h3>
-    <p>Designer</p>
-    <!-- <p>Group Coordinator</p> -->
+    <p>UX Designer</p>
+    <p>UX Researcher</p>
   </div>
   <div class="col-md-4 center-div">
     <h3>
       <b>Team</b>
     </h3>
-    <p>Xinwen LIU, Murong MI</p>
-    <!-- <p>Zhehan LIN, Jiaxin LI</p> -->
+    <p>Fei Ren, Lola Jiang</p>
+    <p>Bicheng Xu, Courtney Luk</p>
   </div>
   <hr style="width:100%;">
-  <div>
-    <h1 class='center'>Problem of North Bund River</h1>
-    <p class="text">
-      This project focuses on the renewal of waterfront typologies in the North bund, Shanghai.
-      <b>The river is inaccessible and hinders the development of this area</b>.
-      Here, multiple layers are implemented to solve various problems.
-      These layers focus on the river, which works as landscape, infrastructure or facilities.
+  <div class="col-md-6">
+    <h1 class=''>About ClariLegal</h1>
+    <p class="">
+      Clarilegal is a platform that connects and facilitates business between law firms and vendors. For example if a law firm needs data collection on multiple devices for a case they’re working on, the contact several vendors in order to determine what specialists they want to hire to get the job done.
     </p>
-    <div class="" >
-      <img src="image/legal/a2.jpg" alt=""/>
-      <p class="center">
-        <i>Inaccessibility to River</i>
-      </p>
-    </div>
   </div>
+    <div class="col-md-6">
+      <img src="image/legal/service.jpg" alt=""/>
+      <!-- <p class="center">
+        <i>Inaccessibility to River</i>
+      </p> -->
+    </div>
 </section>
 <section class="page clearfix grey" >
-  <div class="col-md-4">
-    <h1>Design Strategy</h1>
-    <p>
-      Our main strategy is to make multiple layers of the river and synthesize them together.
+
+
+  <div class="col-md-7">
+    <img src="image/legal/program.jpg" alt="" />
+    <p class="center">
+      <i>Three Main Benefits of ClariLegal</i>
     </p>
   </div>
-  <div class="col-md-8">
-    <img src="image/legal/strategy.jpg" alt="" />
+  <div class="col-md-5">
+    <h1 class="">Problem Statement</h1>
+    <p class="">
+    Due to the complicated nature of the legal industry, it is crucial that ClariLegal offers straightforward communication tools if it is to be successful in facilitating such detailed and intensive information.
+    However, ClariLegal lacks <b>flexible</b> and <b>cohesive</b> reporting tools for both vendor and clients.
+    </p>
   </div>
 </section>
 <section class="page clearfix" >
+    <h1 class="center">Evaluating the Current Platform</h1>
+    <div class="clearfix">
+      <div class="col-md-5">
+        <h3>Interviews</h3>
+        <p>
+          We did 5 interviews of our clients and users of Clarilegal, and they provided us some very useful feedback.
+        </p>
+      </div>
+      <div class="col-md-7">
+        <img src="image/legal/interview.jpg" alt="" />
+      </div>
+    </div>
+    <div class="clearfix">
+      <div class="col-md-5">
+        <h3>Affinity Wall</h3>
+        <p>
+          We interpreted the interviews and made some key findings (see below) after building the affinity diagram.
+        </p>
+      </div>
+      <div class="col-md-7">
+        <img src="image/legal/affinitywall.jpg" alt="" />
+      </div>
+    </div>
+    <div class="clearfix">
+      <div class="col-md-5">
+        <h3>Heuristic Evaluation</h3>
+        <p>
+          We did heuristic evaluations for the existing platform.
+        </p>
+        <p class='button'>
+          <a href="image/legal/evaluation.pdf" target="_blank">VIEW EVALUATION REPORT</a>
+        </p>
+      </div>
+      <div class="col-md-7">
+        <img src="image/legal/evaluation.jpg" alt="" />
+      </div>
+    </div>
 
-  <div class="col-md-8">
-    <img src="image/legal/section.jpg" alt="" />
+</section>
+
+<section class="page clearfix grey">
+  <h1 class="center">Key Findings</h1>
+  <p>
+    <ul class="padding">
+      <li><b>Current discussion panel is not efficient</b><br>
+      Every word matters in the legal world. ClariLegal needs to create a functionality where chat transcripts between buyers and vendors can be organized and readily accessible for future reference.</li>
+      <li><b>The statement of work is not editable</b><br>
+      Currently, once one is made there is no ability to edit. In the legal world, this is incredibly limiting, as things are always changing. ClariLegal needs to allow and present changes to work criteria in flexible yet easily traceable manner.</li>
+      <li><b>The service comparison between vendors is not intuitive</b><br>
+      Law firms need ClariLegal to be their discriminating eye when it comes down to vendor offers. ClariLegal needs a tool that aids in making this an efficient decision making process by providing intuitive, easy to understand comparisons. </li>
+      <li><b>The visualization of project progress is not clear</b><br>
+      Time is money, money is time. Upper level management will always want to see the progress of a case, so ClariLegal needs better data visualization tools to easily track progress and hold vendors accountable.</li>
+    </ul>
+  </p>
+</section>
+
+<section class="page clearfix">
+  <h1 class="center">UX Redesign</h1>
+  <p class="text center">
+    Based on the 4 key findings, we did UX Redesign for ClariLegal.
+  </p>
+  <h1 class="center">Discussion Panel</h1>
+  <div class="clearfix">
+    <div class="col-md-4" style="padding:1.5%;">
+      <p class="center">
+        Before
+      </p>
+      <img src="image/legal/d1.png" alt="" />
+      <p class="center">
+        <i>The existing discussion panel is too bulky to use and lacks real-time communication.</i>
+      </p>
+    </div>
+    <div class="col-md-4" style="padding:1.5%;">
+      <p class="center">
+        After
+      </p>
+      <img src="image/legal/d2.png" alt="" />
+      <p class="center">
+        <i>We designed a chat-box which enables real-time communication. Users can set private chat or group chat.</i>
+      </p>
+    </div>
+    <div class="col-md-4" style="padding:1.5%;">
+      <p class="center">
+        Report
+      </p>
+      <img src="image/legal/d3.png" alt="" />
+      <p class="center">
+        <i>Through the chatbox users can generate a full report of the chat history to a third part for references.</i>
+      </p>
+    </div>
   </div>
-  <div class="col-md-4">
-    <h1>Final Design</h1>
-    <p>
-      By overlapping the layers, the system is flexible, always evolving to accommodate local contingencies while maintaining overall continuity. The overlapped river works as artificial ecology, which enhances the urban space in a discrete while synthetic approach.
-    </p>
+  <h1 class="center">Statement of Work</h1>
+  <div class="clearfix">
+    <div class="col-md-4" style="padding:1.5%;">
+      <p class="center">
+        Before
+      </p>
+      <img src="image/legal/s1.png" alt="" />
+      <p class="center">
+        <i>The existing statement of work is not editable once it is signed. However, it is very common that it could be revised often.</i>
+      </p>
+    </div>
+    <div class="col-md-4" style="padding:1.5%;">
+      <p class="center">
+        After
+      </p>
+      <img src="image/legal/s2.png" alt="" />
+      <p class="center">
+        <i>We redesigned the platform and added a revise button, which users can propose changes to the other party.</i>
+      </p>
+    </div>
+    <div class="col-md-4" style="padding:1.5%;">
+      <p class="center">
+        Report
+      </p>
+      <img src="image/legal/s3.png" alt="" />
+      <p class="center">
+        <i>The red ones show pending approvals and green ones are approved changes.</i>
+      </p>
+    </div>
+  </div>
+  <h1 class="center">Service Comparison</h1>
+  <div class="clearfix">
+    <div class="col-md-4" style="padding:1.5%;">
+      <p class="center">
+        Before
+      </p>
+      <img src="image/legal/c1.png" alt="" />
+      <p class="center">
+        <i>The cells in the existing comparison form are too narrow to hold passages.
+It is also very burdensome to click on each headlines and wait for the charts to drop down.</i>
+      </p>
+    </div>
+    <div class="col-md-4" style="padding:1.5%;">
+      <p class="center">
+        After
+      </p>
+      <img src="image/legal/c2.png" alt="" />
+      <p class="center">
+        <i>In the new design, all parts are enlarged by default, and users can also click the navigation to get a certain part quickly.</i>
+      </p>
+    </div>
+    <div class="col-md-4" style="padding:1.5%;">
+      <p class="center">
+        Report
+      </p>
+      <img src="image/legal/c3.png" alt="" />
+      <p class="center">
+        <i>The export function is easy to use and informative.</i>
+      </p>
+    </div>
+  </div>
+  <h1 class="center">Project Progress</h1>
+  <div class="clearfix">
+    <div class="col-md-6" style="padding:1.5%;">
+      <p class="center">
+        Before
+      </p>
+      <img src="image/legal/p1.png" alt="" />
+      <p class="center">
+        <i>The existing export function is limited and the visualization is not well-designed</i>
+      </p>
+    </div>
+    <div class="col-md-6" style="padding:1.5%;">
+      <p class="center">
+        After
+      </p>
+      <img src="image/legal/p2.png" alt="" />
+      <p class="center">
+        <i>We used a new visualization strategy in the new design and different colors indicate different status.</i>
+      </p>
+    </div>
   </div>
 </section>
 

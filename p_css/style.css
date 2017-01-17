@@ -165,12 +165,16 @@ section.page li{
   font-size: 17px;
 }
 p.text{
-  padding: 0 20%;
+  padding: 0 15%;
+  position: relative;
+}
+ul.padding{
+  padding: 0 15%;
 }
 section.page img{
   width: 100%;
   box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);
-  margin: 4% 0;
+  margin: 2% 0;
   float: right;
   display: inline-block;
   /*border-radius: 10px;*/
@@ -551,6 +555,7 @@ footer{
   margin: auto;
   margin-bottom: 10vh;
   overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .slide img{
   max-width: 100%;
@@ -708,7 +713,7 @@ footer{
 .button{
   text-align: center;
 }
-.page_des p.button a{
+p.button a{
   padding: 7px;
   color: black;
   border: 2px solid black;
@@ -719,7 +724,7 @@ footer{
   -moz-transition: all .5s ease;*/
   font-weight: 400;
 }
-.page_des p.button a:hover{
+p.button a:hover{
   text-decoration: none;
   background-color: black;
   color: white;
@@ -788,6 +793,23 @@ footer{
   }
   #filters li span{
     font-size: 10px;
+  }
+  .cover{
+    padding:10% 3%;
+  }
+  .page p{
+    font-size: 12px;
+  }
+  p.text{
+    padding: 0;
+  }
+  footer a p.project{
+    font-size: 12px;
+    line-height: 120%;
+  }
+  div.full li a{
+    font-size: 36px;
+    padding-right: 10%;
   }
 }
 
