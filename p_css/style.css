@@ -786,7 +786,9 @@ p.button a:hover{
     background-color: rgba(255, 255, 255, 0.8);
   }
   #filters{
-    width: 300px;
+    width: 260px;
+    padding-left: 0;
+    padding-right: 0;
   }
   #filters li{
     margin: 0 4px;
