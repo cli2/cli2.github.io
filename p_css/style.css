@@ -4,10 +4,19 @@ header, footer, section{
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   padding: 0px 14%;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
-header{
-  border-bottom: 1px solid #eee;
+p{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  opacity: 0.8;
+}
+h1{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 48px;
+  opacity: 0.8;
+  /*text-align: center;*/
 }
 a{
   color: #6076c1;
@@ -32,17 +41,17 @@ img {
 
 /* header style */
 header.nav-down{
-  background-color: white;
+  background-color: rgba(0,0,0,0);
   position: fixed;
-  width: 100vw;
+  width: 100%;
   height: 70px;
   z-index: 1000;
   right: 0;
   left: 0;
-  top: 0;
-  -webkit-transition: height 0.3s;
-  -moz-transition: height 0.3s;
-  transition: height 0.3s;
+  top: 0px;
+  /*-webkit-transition: all 0.31s;
+  -moz-transition: all 0.31s;
+  transition: all 0.31s;*/
 }
 header.non-fixed{
   background-color: white;
@@ -56,8 +65,14 @@ header.non-fixed{
   -webkit-transition: height 0.3s;
   -moz-transition: height 0.3s;
   transition: height 0.3s;
+  border-bottom: 1px solid #eee;
 }
-header a{
+header.nav-down a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+header.non-fixed a{
   text-decoration: none;
   color: grey;
   text-transform: uppercase;
@@ -102,8 +117,41 @@ header a:hover{
   display: none;
 }
 
+/*blue style*/
+.blue{
+  position: relative;
+  background-color: rgb(33,181,127);
+  background-size: 100%;
+  left: 0;
+  top:0;
+  margin: 30px 0;
+  width: 100%;
+}
+.blue div{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 100px;
+}
+.blue div h1,
+.blue div p{
+  text-align: center;
+  color: white;
+  opacity: 1;
+}
+#toportfolio{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  bottom: 50px;
+  margin: auto;
 
-
+}
 /*projects style*/
 section.title{
   text-align: center;
@@ -192,6 +240,10 @@ section.grey img{
 .center{
   text-align: center;
 }
+div.center-div{
+  margin-top: -50px;
+  margin-bottom: 10px;
+}
 div.center-div p{
   text-align: center;
   font-size: 18px;
@@ -199,9 +251,6 @@ div.center-div p{
 }
 div.center-div h3{
   text-align: center;
-}
-div.center-div{
-  margin-bottom: 20px;
 }
 
 .backtotop a{
@@ -223,10 +272,10 @@ footer.end-nav .previous{
   float: left;
   padding: 30px 10px;
 }
-footer a{
+footer.end-nav a{
   opacity: 0.6;
 }
-footer a:hover{
+footer.end-nav a:hover{
   opacity: 1;
   background-color: rgb(245,244,243);
 }
@@ -246,14 +295,15 @@ footer.end-nav .project{
   font-size: 20px;
 }
 
-
-
-
-
-
-
-
-
+footer.blue p,
+footer.blue a{
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  opacity: 1;
+  /*line-height: 120px;*/
+  padding-top: 45px;
+}
 
 /* paragraph style */
 .index_header{
@@ -341,7 +391,7 @@ footer.end-nav .project{
 .right{
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-  line-height: 200%;
+  line-height: 230%;
   font-size: 18px;
   text-align: center;
   margin: auto;
@@ -356,7 +406,7 @@ footer.end-nav .project{
   margin-bottom: 60px;
 }
 .right b{
-  font-size: 48px;
+  font-size: 54px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.7);
@@ -367,6 +417,8 @@ footer.end-nav .project{
   -moz-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
+
+
 .right h1{
   position: relative;
 }
@@ -452,6 +504,31 @@ footer.end-nav .project{
   opacity: 0.6;
   color: black;
   cursor: pointer;
+}
+.about_des h1{
+  text-align: center;
+}
+.about_des .me img{
+  /*float: left;*/
+  border: 0.2px solid rgba(0,0,0,0.2);
+  padding: 5px;
+  width: 200px;;
+  border-radius: 100%;
+}
+.about_des img:hover{
+  opacity: 1;
+}
+.about_des p{
+  /*left: 0;*/
+  /*right: 0;*/
+  position: relative;
+  margin: auto;
+  width: 600px;
+  max-width: 100%;
+  /*text-align: center;*/
+}
+.about_des .col-md-4 p{
+  text-align: center;
 }
 table{
   width: 63%;
@@ -565,7 +642,7 @@ footer{
   bottom: 0;
   left: 0;
   right: 0;
-  cursor: pointer;
+  /*cursor: pointer;*/
 }
 .single_slide img{
   max-width: 100%;
@@ -645,7 +722,7 @@ footer{
   padding-bottom: 15px;
   margin-bottom: 35px;
   margin-top: 30px;
-  width: 600px;
+  width: 480px;
 }
 #filters li{
   list-style:none;
@@ -653,23 +730,23 @@ footer{
   margin: 0 25px;
 }
 #filters li span{
-	color:black;
-  opacity: 0.5;
+	color:rgb(33,181,127);
+  opacity: 0.8;
 	cursor: pointer;
   font-size: 16px;
   padding: 6px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid rgb(33,181,127);
+  border-bottom: 1px solid rgb(33,181,127);
 }
 #filters li span:hover{
   text-decoration:none;
-	color:black;
+	color:rgb(33,181,127);
   opacity: 1;
 	cursor: pointer;
 }
 #filters li.active span{
   color:white;
-  background: black;
+  background: rgb(33,181,127);
   font-weight: 400;
   opacity: 1;
   -webkit-transition: all 0.3s ease-in-out;
@@ -682,10 +759,8 @@ footer{
 }
 
 /*lightbox*/
-.lightbox {
-	/** Default lightbox to hidden */
+/*.lightbox {
 	display: none;
-	/** Position and style */
 	position: fixed;
 	z-index: 1001;
 	width: 100%;
@@ -694,7 +769,6 @@ footer{
 	left: 0;
 	background: rgba(0,0,0,0.8);
 }
-
 .lightbox img {
   position: absolute;
   top: 0;
@@ -703,11 +777,9 @@ footer{
 	max-height: 90%;
 }
 .lightbox:target {
-	/** Remove default browser outline */
 	outline: none;
-	/** Unhide lightbox **/
 	display: block;
-}
+}*/
 
 /*button style*/
 .button{
@@ -730,6 +802,30 @@ p.button a:hover{
   color: white;
   opacity: 1;
 }
+.button-white{
+  text-align: center;
+  font-size: 28px;
+  line-height: 100px;
+  margin: 0;
+}
+p.button-white a{
+  padding: 10px;
+  color: white;
+  border: 2px solid white;
+  text-transform: uppercase;
+  text-decoration: none;
+  /*opacity: 0.8;*/
+  /*transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;*/
+  font-weight: 400;
+}
+p.button.white a:hover{
+  text-decoration: none;
+  background-color: rgba(255,255,255,0.2);
+  color: white;
+  /*opacity: 1;*/
+}
 
 /*responsive design*/
 @media only screen and (max-width: 900px){
@@ -750,7 +846,7 @@ p.button a:hover{
     font-size: 14px;
   }
   #filters{
-    width: 430px;
+    width: 350px;
   }
   #filters li{
     margin: 0 10px;
@@ -786,7 +882,7 @@ p.button a:hover{
     background-color: rgba(255, 255, 255, 0.8);
   }
   #filters{
-    width: 260px;
+    width: 190px;
     padding-left: 0;
     padding-right: 0;
   }

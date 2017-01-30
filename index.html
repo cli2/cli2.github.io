@@ -3,11 +3,38 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Chong Li's Portfolio</title>
+    <title>Chong Li - UX Designer</title>
     <script src="https://use.fontawesome.com/f3a7dfaa36.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto+Slab:300,400|Ubuntu:300,400" rel="stylesheet">
-    <script src='p_js/jquery-3.1.1.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src='p_js/js.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#filters li span').click(function() {
+                // fetch the class of the clicked item
+                var ourClass = $(this).attr('class');
+                // reset the active class on all the buttons
+                $('#filters li').removeClass('active');
+                // update the active state on our clicked button
+                $(this).parent().addClass('active');
+                if (ourClass == 'all') {
+                    // show all our items
+                    $('#coverlist').children('div.cover').fadeIn("slow");
+                } else {
+                    var listnum = $('#coverlist').children().length;
+                    // // hide all elements that don't share ourClass
+                    $('#coverlist').children().fadeOut("fast", function() {
+                        listnum = listnum - 1;
+                        if (listnum == 0) {
+                            $('#coverlist').children('div.' + ourClass).fadeIn("fast");
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript">
+    </script>
     <link rel="shortcut icon" href="p_image/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="p_css/style.css" media="screen" title="no title">
@@ -30,57 +57,323 @@
 </head>
 
 <body>
-    <div class="index half">
-        <div class="cover_image" style="background-image: url(./p_image/cover.jpg);"></div>
-        <div class="cover_image cover_fade" style="background-image: url(./p_image/cover_d.jpg);"></div>
-        <div class="cover_image cover_fade" style="background-image: url(./p_image/cover_m.jpg);"></div>
-        <div class="cover_image cover_fade" style="background-image: url(./p_image/cover_p.jpg);"></div>
-    </div>
-    <div class="main_des">
-      <div class="right">
-        <div class="in">
-            interaction
-            <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="backcolor" onmouseover="change_cover(1)" onmouseout="reset_cover(1)" href="design.html"><b>Designer</b></a>
-              <i class="fa fa-mouse-pointer" aria-hidden="true" style="font-size:20px; padding-left:20px;"></i><br>
-            </h1>
-            <!-- <img src="p_image/mouse-02.png" alt="mouse icon" /> -->
-        </div>
-        <div class="in">
-          digital
-          <h1><a class="backcolor" onmouseover="change_cover(2)" onmouseout="reset_cover(2)" href="design.html"><b>Fab maker</b></a><br></h1>
-        </div>
-        <div class="in">
-          amateur
-          <h1><a class="backcolor" onmouseover="change_cover(3)" onmouseout="reset_cover(3)" href="fun.html"><b>Photographer</b></a></h1>
-        </div>
-      </div>
-
-    </div>
-    <header class="index_header">
+    <header class='nav-down' id='top'>
         <a href="index.html">
             <img class='logo_img' src="p_image/logo.png" alt="logo of Chong Li" />
         </a>
-        <nav class="nav nav_bread_index">
+        <nav class="nav nav_bread">
             <a href="#"><img class="bread_img" onclick="show_nav()" src="p_image/bread.png" alt="nav bread icon" /></a>
         </nav>
-        <nav class="nav nav_hide">
+        <nav class="nav">
             <ul>
-                <li><a href="design.html">Work</a></li>
-                <li><a href="fun.html">Fun</a></li>
-                <li><a href="about.html">about</a></li>
+                <li><a href="index.html#portfolio" id="nav-p">Portfolio</a></li>
+                <li><a href="index.html#about" id="nav-a">About</a></li>
+                <li><a href="Chong-Li-Resume.pdf" target="_blank">Resume</a></li>
             </ul>
         </nav>
     </header>
-    <div class="full" id='full' onclick='show_page()' style="display: none;">
+    <div class="full" id='full' onclick='show_page()'>
         <ul>
-            <li><a href="design.html">Work</a></li>
-            <li><a href="fun.html">Fun</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="Chong-Li-Resume.pdf" target="_blank">Resume</a></li>
         </ul>
     </div>
+    <div class="blue" style="height:88vh; margin-top:-10px;">
+        <div style="height:130px;">
+            <h1>Designer | Maker | Programmer</h1>
+        </div>
+        <a id='toportfolio' href="#portfolio" style=" opacity:1; color: white;"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+    </div>
 
-    <footer>
+    <!-- <section class="" style="text-align:center; margin-top:60px; height:150px;">
+      <div class="col-md-4">
+        <i class="fa fa-pencil-square-o" aria-hidden="true" style="font-size:50px; opacity:0.7;"></i>
+        <p>UX DESIGN</p>
+      </div>
+      <div class="col-md-4">
+        <i class="fa fa-superpowers" aria-hidden="true" style="font-size:50px; opacity:0.7;"></i>
+        <p>DIGITAL MAKE</p>
+      </div>
+      <div class="col-md-4">
+        <i class="fa fa-code" aria-hidden="true" style="font-size:50px; opacity:0.7;"></i>
+        <p>ART CODE</p>
+      </div>
+    </section> -->
+
+    <div>
+        <section style="height:70px; width:100%;" id="portfolio">
+        </section>
+        <section class="clearfix">
+            <ul id="filters">
+                <li class="active"><span class="all">ALL</span></li>
+                <li><span class="ux" id='ux'>UX/UI</span></li>
+                <li><span class="code" id='code'>CODE</span></li>
+                <li><span class="make" id='make'>MAKE</span></li>
+            </ul>
+        </section>
+        <section class="clearfix" id='coverlist'>
+
+            <div class="col-lg-4 col-md-6 cover ux featured">
+                <a href="pages/nsportc.html">
+                    <img src="p_image/p_cover/nsportc.jpg" class="img-responsive" alt="" />
+                    <p class='cover_des'>
+                        <b>NSportC</b><br><br>UX Design
+                    </p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 cover ux featured">
+                <a href="pages/legal.html">
+                    <img src="p_image/p_cover/legal.jpg" class="img-responsive" alt="" />
+                    <p class='cover_des'>
+                        <b>ClariLegal</b><br><br>UX ReDesign
+                    </p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 cover ux featured">
+                <a href="pages/inquiry.html">
+                    <img src="p_image/p_cover/inquiry.jpg" class="img-responsive" alt="" />
+                    <p class='cover_des'>
+                        <b>Contextual Inquiry</b><br><br>User Research
+                    </p>
+                </a>
+            </div>
+            <!-- <div class="col-lg-4 col-md-6 cover ux featured">
+          <a href="pages/ui.html">
+              <img src="p_image/p_cover/ui.jpg" class="img-responsive" alt="" />
+              <p class='cover_des'>
+                  <b>UI Design</b><br><br>Web/App Design
+              </p>
+          </a>
+        </div> -->
+            <div class="col-lg-4 col-md-6 cover ux featured">
+                <a href="pages/graphic.html">
+                    <img src="p_image/p_cover/ui.jpg" class="img-responsive" alt="" />
+                    <p class='cover_des'>
+                        <b>Visual Design</b><br><br>UI &amp; Graphics
+                    </p>
+                </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 cover code featured">
+                <a href="pages/artcode.html">
+                    <img src="p_image/p_cover/artcode.png" class="img-responsive" alt="" />
+                    <p class='cover_des'>
+                        <b>Interactive Graphics</b><br><br>Creative Programming
+                    </p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 cover code featured">
+                <a href="pages/data.html">
+                    <img src="p_image/p_cover/data.jpg" class="img-responsive" alt="" />
+                    <p class='cover_des'>
+                        <b>Data Programming</b><br><br>Data Manipulation
+                    </p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 cover code featured">
+                <a href="pages/cv.html">
+                    <img src="p_image/p_cover/cv.jpg" class="img-responsive" alt="" />
+                    <p class='cover_des'>
+                        <b>Image Processing</b><br><br>Computer Vision
+                    </p>
+                </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 cover make hide">
+                <a href="pages/lighting.html">
+                    <img src="p_image/p_cover/lighting.png" class="img-responsive" alt="" />
+                    <p class='cover_des'>
+                        <b>Interactive Ground</b><br><br>Interactive Installation
+                    </p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 cover make hide">
+                <a href="pages/timber.html">
+                    <img src="p_image/p_cover/timber.png" class="img-responsive" alt="" />
+                    <p class='cover_des'>
+                        <b>Scripted Timber</b><br><br>Interactive Platform
+                    </p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 cover make featured">
+                <a href="pages/lujiazui.html">
+                    <img src="p_image/p_cover/lujiazui.jpg" class="img-responsive" alt="Synecdoche Lujiazui" />
+                    <p class='cover_des'>
+                        <b>Synecdoche Lujiazui</b><br><br>Visualization
+                    </p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 cover make hide">
+                <a href="pages/particle.html">
+                    <img src="p_image/p_cover/particle.jpg" class="img-responsive" alt="Particle Hut" />
+                    <p class='cover_des'>
+                        <b>Particle Hut</b><br><br>Digital Fabrication
+                    </p>
+                </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 cover make featured">
+                <a href="pages/museum.html">
+                    <img src="p_image/p_cover/museum.jpg" class="img-responsive" alt="Hyperreality Museum" />
+                    <p class='cover_des'>
+                        <b>Hyperreality Museum</b><br><br>Experience Research
+                    </p>
+                </a>
+            </div>
+
+            <!-- <div class="col-lg-4 col-md-6 cover make hide">
+              <a href="pages/mask.html">
+                  <img src="p_image/p_cover/mask.jpg" class="img-responsive" alt="Interrelating Mask" />
+                  <p class='cover_des'>
+                      <b>Inter Mask</b><br><br>Interactive Facade
+                  </p>
+              </a>
+          </div> -->
+        </section>
+    </div>
+    <!-- <div class="blue" style="height:250px;" >
+      <div class="">
+          <h1 style="font-size:30px;">
+            When I am not working,
+            I paint, travel, and photograph.
+          </h1>
+      </div>
+    </div> -->
+    <div class="blue" style="height:250px; margin:65px 0 0 0;">
+        <div>
+            <p class='button-white'>
+                <a href="Chong-Li-Resume.pdf" target="_blank">VIEW RESUME</a>
+            </p>
+        </div>
+    </div>
+
+    <div>
+        <section style="height:50px;width:100%;" id="about">
+        </section>
+        <section class="about_des clearfix">
+            <div class="clearfix">
+                <h1 class="me"><img src="p_image/me-2.png" alt="picture of Chong" /></h1>
+                <p>
+                    Hi, I am Chong Li, a designer with experiences in interaction design, architecture, creative programming and digital fabrication. I create products that combine technology and design to bring convenience, delight and meaning to people’s lives.
+                    <br><br>Born in Mainland China, I studied architecture in <a href="http://en.tongji-caup.org/" target="_blank">Shanghai Tongji University</a> and
+                    <a href="https://www.arch.nus.edu.sg/" target="_blank">National University of Singapore</a>. Now I am pursuing a Masters degree in Human-Computer Interaction at the <a href="https://www.si.umich.edu/" target="_blank">University of Michigan, Ann Arbor</a>.
+                    With passion for design and technology, <b>I am currently seeking UX design and product design summer internships starting May 2017.</b>
+                </p>
+            </div>
+            <!-- <br>
+        <p class='button'>
+          <a href="Chong-Li-Resume.pdf" target="_blank">VIEW RESUME</a>
+        </p> -->
+            <br>
+            <h1 style="margin:10px;"><a href="https://www.linkedin.com/in/jonlichong" target="_blank">
+            <img class='footer_img' src="p_image/linkedin.png" alt="linkedin of Chong Li" />
+        </a>
+        <a href="https://www.openprocessing.org/user/74111" target="_blank">
+            <img class='footer_img' src="p_image/oprocessing.png" alt="Openprocessing of Chong Li" />
+        </a>
+        <a href="https://www.instagram.com/catacil/" target="_blank">
+            <img class='footer_img' src="p_image/instagram.png" alt="instagram of Chong Li" />
+        </a>
+        <a href="https://github.com/cli2" target="_blank">
+            <img class='footer_img' src="p_image/github.png" alt="github of Chong Li" />
+        </a>
+        <a href="https://www.behance.net/catacil" target="_blank">
+            <img class='footer_img' src="p_image/behance.png" alt="behance of Chong Li" />
+        </a></h1>
+        </section>
+
+    </div>
+
+    <!-- <div class="blue" style="height:250px;">
+      <div style="margin:auto;">
+        <p class='button-white'>
+          <a href="Chong-Li-Resume.pdf" target="_blank">VIEW RESUME</a>
+        </p>
+      </div>
+    </div> -->
+
+    <!-- <div id="contact">
+      <section class="about_des clearfix">
+
+      </section>
+    </div> -->
+
+
+    <footer class="blue" style="height:120px; margin-bottom:0px;">
+        <div style="text-align:center;  top: -60px; width:60px; height:60px;">
+            <a href="#portfolio" style="text-align:center;font-size:30px; opacity:1; color: white;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+        </div>
+        <p class="col-md-4">
+            (734)389-5728
+        </p>
+
+        <p class="col-md-4">
+            &copy;&nbsp;2017 Chong Li | All Rights Reserved
+        </p>
+        <p class="col-md-4">
+            <a href="mailto:chongli@umich.edu">chongli@umich.edu</a><br>
+        </p>
     </footer>
+    <script type="text/javascript">
+        var t = $('#portfolio').offset().top - 100;
+        var t1 = $('#about').offset().top - 100;
+        $(document).scroll(function() {
+            if ($(this).scrollTop() < t) {
+                $('#top').css({
+                    "background-color": "rgba(0,0,0,0)",
+                    "border-bottom": "0px solid #eee",
+                    "color": "white"
+                });
+            } else {
+                $('#top').css({
+                    "background-color": "white",
+                    "border-bottom": "1px solid #eee",
+                    "color": "grey"
+                });
+            }
+            if ($(this).scrollTop() < t) {
+                $('#top a').css({
+                    "color": "white"
+                });
+            } else {
+                $('#top a').css({
+                    "color": "grey"
+                });
+            }
+            if ($(this).scrollTop() > t && $(this).scrollTop() < t1) {
+                $('#nav-p').css({
+                    "color": "rgb(33,181,127)",
+                    "font-weight": "400"
+                });
+            } else if ($(this).scrollTop() < t) {
+              $('#nav-p').css({
+                  "color": "white",
+                  "font-weight": "300"
+              });
+            } else {
+                $('#nav-p').css({
+                    "color": "grey",
+                    "font-weight": "300"
+                });
+            }
+            if ($(this).scrollTop() > t1) {
+                $('#nav-a').css({
+                    "color": "rgb(33,181,127)",
+                    "font-weight": "400"
+                });
+            } else if ($(this).scrollTop() < t) {
+              $('#nav-a').css({
+                  "color": "white","font-weight": "300"
+              });
+            } else {
+                $('#nav-a').css({
+                    "color": "grey",
+                    "font-weight": "300"
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>

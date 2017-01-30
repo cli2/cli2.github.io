@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="utf-8">
+    <title>Data Programming</title>
+    <link rel="shortcut icon" href="../p_image/logo.png">
+    <script src="https://use.fontawesome.com/f3a7dfaa36.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto+Slab:300,400|Ubuntu:300,400" rel="stylesheet">
+    <script src='../p_js/jquery-3.1.1.min.js'></script>
+    <script src='../p_js/js.js'></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../p_css/style.css" media="screen" title="no title">
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-90454244-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+    <header class='non-fixed' id='top'>
+        <a href="../index.html">
+            <img class='logo_img' src="../p_image/logo.png" alt="logo of Chong Li" />
+        </a>
+        <nav class="nav nav_bread">
+            <a href="#"><img class="bread_img" onclick="show_nav()" src="../p_image/bread.png" alt="nav bread icon" /></a>
+        </nav>
+        <nav class="nav">
+            <ul>
+                <li><a href="../index.html#portfolio">Portfolio</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../Chong-Li-Resume.pdf" target="_blank">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="full" id='full' onclick='show_page()'>
+        <ul>
+            <li><a href="../index.html#portfolio">Portfolio</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../Chong-Li-Resume.pdf" target="_blank">Resume</a></li>
+        </ul>
+    </div>
+<section class="title clearfix" style='background-color:#ffffff; color: rgba(0,0,0,0.8);'>
+    <h1>Data Programming</h1>
+    <p>Data Manipulation by Using Python and Libraries like SQL, Regex, Hadoop, and Json</p>
+    <img src="image/data/back.jpg" alt="data programming title"/>
+</section>
+<section class="page clearfix">
+  <div class="col-md-4 center-div">
+      <h3>
+    <b>Project Type</b>
+  </h3>
+      <p>Data Programming</p>
+      <!-- <p>Cross-platform Design</p> -->
+  </div>
+  <div class="col-md-4 center-div">
+      <h3>
+    <b>Roles</b>
+  </h3>
+      <p>Programmer</p>
+      <!-- <p>User Researcher</p> -->
+  </div>
+  <div class="col-md-4 center-div">
+      <h3>
+    <b>Team</b>
+  </h3>
+      <p>Individual Work</p>
+      <!-- <p>Bicheng Xu, Courtney Luk</p> -->
+  </div>
+  <hr style="width:100%;">
+  <p style="text-align: center;">
+    All the code is hosted on <a href="https://github.com/cli2/data-manipulation" target="_blank">Github</a>
+  </p>
+  <div class="col-md-5">
+    <h1>Data Cleaning and Plotting</h1>
+    <p>
+      This work aims to clean data collected from world bank and plot related information to find relevance and distill findings.
+    </p>
+  </div>
+  <div class="col-md-7">
+    <img src="image/data/plot.jpg" alt="" />
+  </div>
+</section>
+<section class="page clearfix grey">
+  <div class="col-md-7">
+    <img src="image/data/regex.png" alt="" />
+  </div>
+  <div class="col-md-5">
+    <h1>Regular Expression</h1>
+    <p>
+      This work aims to use regular expression to find valid logs and visitor locations.
+    </p>
+  </div>
+</section>
+<section class="page clearfix">
+  <div class="col-md-5">
+    <h1>IMDB Movies and Actors Relations</h1>
+    <p>
+      This work finds co-star movies actors/actresses in the top 100 IMDB movies by parsing the HTML file and using graph dot to visualize the relations.
+    </p>
+  </div>
+  <div class="col-md-7">
+    <img src="image/data/imdb.jpg" alt="" />
+  </div>
+</section>
+<section class="page clearfix grey">
+  <div class="col-md-7">
+    <img src="image/data/movie.png" alt="" />
+  </div>
+  <div class="col-md-5">
+    <h1>SQLITE Database Design</h1>
+    <p>
+      This work builds a database of movie stars by sorting their movies and genres.
+    </p>
+  </div>
+</section>
+
+<div class="backtotop">
+  <a href="#top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+</div>
+<hr>
+<footer class="end-nav">
+  <a class="previous" href="artcode.html">
+    <p>< PREV</p>
+    <p class="project">
+      &nbsp;&nbsp;Art Code
+    </p>
+  </a>
+  <a class="next" href="cv.html">
+    <p>NEXT ></p>
+    <p class="project">
+      Computer Vision&nbsp;&nbsp;
+    </p>
+  </a>
+</footer>
+</body>
+
+</html>
