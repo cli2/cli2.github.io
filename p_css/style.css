@@ -120,7 +120,7 @@ header a:hover{
 /*blue style*/
 .blue{
   position: relative;
-  background-color: rgb(33,181,127);
+  background-color: rgb(52,183,143);
   background-size: 100%;
   left: 0;
   top:0;
@@ -730,23 +730,23 @@ footer{
   margin: 0 25px;
 }
 #filters li span{
-	color:rgb(33,181,127);
+	color:rgb(52,183,143);
   opacity: 0.8;
 	cursor: pointer;
   font-size: 16px;
   padding: 6px;
-  border-top: 1px solid rgb(33,181,127);
-  border-bottom: 1px solid rgb(33,181,127);
+  border-top: 1px solid rgb(52,183,143);
+  border-bottom: 1px solid rgb(52,183,143);
 }
 #filters li span:hover{
   text-decoration:none;
-	color:rgb(33,181,127);
+	color:rgb(52,183,143);
   opacity: 1;
 	cursor: pointer;
 }
 #filters li.active span{
   color:white;
-  background: rgb(33,181,127);
+  background: rgb(52,183,143);
   font-weight: 400;
   opacity: 1;
   -webkit-transition: all 0.3s ease-in-out;
