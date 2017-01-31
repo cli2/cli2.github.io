@@ -59,7 +59,8 @@
 <body>
     <header class='nav-down' id='top'>
         <a href="index.html">
-            <img class='logo_img' src="p_image/logo.png" alt="logo of Chong Li" style="opacity:0.7;"/>
+            <img class='logo_img' id="logo_img" src="p_image/logo.png" alt="logo of Chong Li" style="display:none"/>
+            <img class='logo_img' id="logo_img-1" src="p_image/logo-1.png" alt="logo of Chong Li" style="display:block;"/>
         </a>
         <nav class="nav nav_bread">
             <a href="#"><img class="bread_img" onclick="show_nav()" src="p_image/bread.png" alt="nav bread icon" /></a>
@@ -288,11 +289,23 @@
                     "border-bottom": "0px solid #eee",
                     "color": "white"
                 });
+                $('#logo_img').css({
+                  "display": "none"
+                });
+                $('#logo_img-1').css({
+                  "display": "block"
+                });
             } else {
                 $('#top').css({
                     "background-color": "white",
                     "border-bottom": "1px solid #eee",
                     "color": "grey"
+                });
+                $('#logo_img').css({
+                  "display": "block"
+                });
+                $('#logo_img-1').css({
+                  "display": "none"
                 });
             }
             if ($(this).scrollTop() < t) {
