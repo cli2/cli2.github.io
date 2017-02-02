@@ -828,6 +828,18 @@ p.button.white a:hover{
   /*opacity: 1;*/
 }
 
+#title div{
+  width: 50%;
+  height:300px;
+  position: absolute;
+}
+#title div h1{
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 150%;
+  /*text-align: left;*/
+}
+
 /*responsive design*/
 @media only screen and (max-width: 900px){
   .nav li a{display: none;}
