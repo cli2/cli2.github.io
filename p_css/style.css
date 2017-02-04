@@ -152,8 +152,8 @@ header a:hover{
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
-  /*height: 75vh;*/
+  min-width: 100%;
+  min-height: 75vh;
   z-index: 0;
 }
 #toportfolio{
@@ -908,7 +908,7 @@ p.button.white a:hover{
     height: 25px;
   }
   #title div h1{
-    font-size: 28px;}
+    font-size: 24px;}
     #title div{
       height:180px;
     }
