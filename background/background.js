@@ -3,7 +3,7 @@ boolean flag=false;
 int distance=50;
 void setup()
 {
-  size(1000,600);
+  size(1000,420);
   smooth();
   poop = new ArrayList();
   for (int i=0;i<100;i++)
@@ -47,7 +47,7 @@ void draw()
             vertex(Pn3.x, Pn3.y);
             endShape();
           }
- 
+
           Pn3.update();
         }
       }
@@ -81,7 +81,7 @@ class Particle {
       c = color(#3D3E3E);
     }
   }
- 
+
   void display()
   {
     pushStyle();
@@ -90,7 +90,7 @@ class Particle {
     ellipse(x, y, r, r);
     popStyle();
   }
- 
+
   void update()
   {
     x = x + j*0.01;
