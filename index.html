@@ -8,6 +8,11 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto+Slab:300,400|Ubuntu:300,400" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src='p_js/js.js'></script>
+    <script type="text/javascript" src="processing.js"></script>
+    <script type="text/javascript">
+      // convenience function to get the id attribute of generated sketch html element
+      function getProcessingSketchId () { return 'theCanvas'; }
+      </script>
     <script type="text/javascript">
         $(document).ready(function() {
             $('#filters li span').click(function() {
@@ -59,8 +64,8 @@
 <body>
     <header class='nav-down' id='top'>
         <a href="index.html">
-            <img class='logo_img' id="logo_img" src="p_image/logo.png" alt="logo of Chong Li" style="display:none"/>
-            <img class='logo_img' id="logo_img-1" src="p_image/logo-1.png" alt="logo of Chong Li" style="display:block;"/>
+            <img class='logo_img' id="logo_img" src="p_image/logo.png" alt="logo of Chong Li" style=""/>
+            <!-- <img class='logo_img' id="logo_img-1" src="p_image/logo-1.png" alt="logo of Chong Li" style="display:block;"/> -->
         </a>
         <nav class="nav nav_bread">
             <a href="#"><img class="bread_img" onclick="show_nav()" src="p_image/bread.png" alt="nav bread icon" /></a>
@@ -80,37 +85,25 @@
             <li><a href="Chong-Li-Resume.pdf" target="_blank">Resume</a></li>
         </ul>
     </div>
-    <div class="blue" style="height:75vh; margin-top:-10px;" id="title">
+    <!-- <canvas id="theCanvas" data-processing-sources="back/back.pde"></canvas> -->
+    <canvas id="theCanvas" datasrc="background/background.js"></canvas>
+    <div class="blue" style="height:75vh; margin-top:-10px;" id="title" style="margin-bottom:0;">
         <!-- <div style="height:150px;"><h1>Designer | Maker | Programmer</h1></div> -->
+
         <div>
-          <h1>
+          <h1 style="color:black">
             Hi, I am Chong Li,<br>
-            a <b>UX Designer</b> passionate about<br>
+            a <b style="color: rgb(52,183,143);">UX Designer</b> passionate about<br>
             design, code, and making</b>.
           </h1>
         </div>
+
         <!-- <div style="height:360px;"><h1 style="line-height:100px;"> UX Designer <br> Digital Maker <br> Art Programmer </h1></div> -->
-        <a id='toportfolio' href="#portfolio" style=" opacity:1; color: white;"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+        <a id='toportfolio' href="#portfolio"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
     </div>
 
-    <!-- <section class="" style="text-align:center; margin-top:60px; height:150px;">
-      <div class="col-md-4">
-        <i class="fa fa-pencil-square-o" aria-hidden="true" style="font-size:50px; opacity:0.7;"></i>
-        <p>UX DESIGN</p>
-      </div>
-      <div class="col-md-4">
-        <i class="fa fa-superpowers" aria-hidden="true" style="font-size:50px; opacity:0.7;"></i>
-        <p>DIGITAL MAKE</p>
-      </div>
-      <div class="col-md-4">
-        <i class="fa fa-code" aria-hidden="true" style="font-size:50px; opacity:0.7;"></i>
-        <p>ART CODE</p>
-      </div>
-    </section> -->
-
     <div>
-        <section style="height:70px; width:100%;" id="portfolio">
-        </section>
+        <section style="height:70px; width:100%;" id="portfolio"></section>
         <section class="clearfix">
             <ul id="filters">
                 <li class="active"><span class="all">ALL</span></li>
@@ -120,7 +113,6 @@
             </ul>
         </section>
         <section class="clearfix" id='coverlist'>
-
             <div class="col-lg-4 col-md-6 cover ux">
                 <a href="pages/nsportc.html">
                     <img src="p_image/p_cover/nsportc.jpg" class="img-responsive" alt="" />
@@ -153,7 +145,6 @@
                     </p>
                 </a>
             </div>
-
             <div class="col-lg-4 col-md-6 cover code">
                 <a href="pages/artcode.html">
                     <img src="p_image/p_cover/artcode.png" class="img-responsive" alt="" />
@@ -182,7 +173,7 @@
                 <a href="pages/lighting.html">
                     <img src="p_image/p_cover/lighting.png" class="img-responsive" alt="" />
                     <p class='cover_des'>
-                        <b>Interactive Ground</b><br><br>Interactive Installation
+                        <b>Interactive Ground</b><br><br>Lighting Installation
                     </p>
                 </a>
             </div>
@@ -221,14 +212,6 @@
         </section>
     </div>
 
-    <!-- <div class="blue" style="height:250px;" >
-      <div class="">
-          <h1 style="font-size:30px;">
-            When I am not working,
-            I paint, travel, and photograph.
-          </h1>
-      </div>
-    </div> -->
     <div class="blue" style="height:250px; margin:65px 0 0 0;">
         <div>
             <p class='button-white'>
@@ -289,34 +272,34 @@
         var t = $('#portfolio').offset().top - 100;
         var t1 = $('#about').offset().top - 100;
         $(document).scroll(function() {
-            if ($(this).scrollTop() < t) {
+            if ($(this).scrollTop() < t-400) {
                 $('#top').css({
                     "background-color": "rgba(0,0,0,0)",
                     "border-bottom": "0px solid #eee",
                     "color": "white"
                 });
-                $('#logo_img').css({
-                  "display": "none"
-                });
-                $('#logo_img-1').css({
-                  "display": "block"
-                });
+                // $('#logo_img').css({
+                //   "display": "none"
+                // });
+                // $('#logo_img-1').css({
+                //   "display": "block"
+                // });
             } else {
                 $('#top').css({
                     "background-color": "white",
                     "border-bottom": "1px solid #eee",
                     "color": "grey"
                 });
-                $('#logo_img').css({
-                  "display": "block"
-                });
-                $('#logo_img-1').css({
-                  "display": "none"
-                });
+                // $('#logo_img').css({
+                //   "display": "block"
+                // });
+                // $('#logo_img-1').css({
+                //   "display": "none"
+                // });
             }
             if ($(this).scrollTop() < t) {
                 $('#top a').css({
-                    "color": "white"
+                    "color": "grey"
                 });
             } else {
                 $('#top a').css({
@@ -330,7 +313,7 @@
                 });
             } else if ($(this).scrollTop() < t) {
               $('#nav-p').css({
-                  "color": "white",
+                  "color": "grey",
                   "font-weight": "300"
               });
             } else {
@@ -346,7 +329,7 @@
                 });
             } else if ($(this).scrollTop() < t) {
               $('#nav-a').css({
-                  "color": "white","font-weight": "300"
+                  "color": "grey","font-weight": "300"
               });
             } else {
                 $('#nav-a').css({
