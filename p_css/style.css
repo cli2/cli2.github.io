@@ -299,6 +299,9 @@ div.center-div h3{
   border: 2px solid rgba(0,0,0,0.2);
   border-radius: 100%;
 }
+footer.end-nav{
+  border-top:1px solid rgba(0,0,0,0.2);
+}
 footer.end-nav .previous{
   width: 50%;
   float: left;
