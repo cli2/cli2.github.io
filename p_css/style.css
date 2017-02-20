@@ -661,13 +661,10 @@ footer{
 /* slide show*/
 .content{
   max-width:1300px;
-  width: 90%;
-  height: 60vh;
+  width: 100%;
+  height: 70vh;
   position:relative;
-  margin: auto;
-  margin-bottom: 10vh;
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.1);
 }
 .slide img{
   max-width: 100%;
@@ -677,43 +674,19 @@ footer{
   bottom: 0;
   left: 0;
   right: 0;
+  box-shadow: 0 0 0px 0px rgba(0,0,0,0);
   /*cursor: pointer;*/
-}
-.single_slide img{
-  max-width: 100%;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  cursor: pointer;
 }
 .slide p{
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   color: white;
   bottom:0;
   left: 0;
   width: 100%;
-  height: 7vh;
-  line-height: 7vh;
-  margin-bottom: 0;
-  margin-top: 0;
-  opacity: 1;
-  z-index: 999;
-}
-.single_slide p{
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  color: white;
-  bottom:0;
-  left: 0;
-  width: 100%;
-  height: 7vh;
-  line-height: 7vh;
+  height: 40px;
+  line-height: 40px;
   margin-bottom: 0;
   margin-top: 0;
   opacity: 1;
@@ -741,12 +714,12 @@ footer{
 }
 .displayleft{
   position:absolute;
-  top:42%;
+  top:45%;
   left:0;
 }
 .displayright{
   position:absolute;
-  top:42%;
+  top:45%;
   right:0;
 }
 
@@ -757,7 +730,7 @@ footer{
   padding-bottom: 15px;
   margin-bottom: 35px;
   margin-top: 30px;
-  width: 480px;
+  width: 520px;
 }
 #filters li{
   list-style:none;

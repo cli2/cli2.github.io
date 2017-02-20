@@ -126,70 +126,63 @@
   <h2>Section</h3>
   <img src="image/museum/section.jpg" alt="" />
 </section>
-<section class="page clearfix grey">
-  <h1 class="center">Other 3D Modeling works</h1>
-  <div class="clearfix">
-    <p class="center">
-      3D Lighting Scenarios
-      <br><i>Google SketchUp + VRay + Photoshop</i>
-    </p>
-    <div class="col-md-6">
-      <img src="image/museum/3d/5-1.png" alt="" />
-    </div>
-    <div class="col-md-6">
-      <img src="image/museum/3d/5-2.png" alt="" />
-    </div>
-  </div>
-  <div class="clearfix">
-    <p class="center">
-      Facade Modeling and Rendering
-      <br><i>Rhino3D + KeyShot + Photoshop</i>
-    </p>
-    <div class="col-md-6">
-      <img src="image/museum/3d/4-1.jpg" alt="" />
-    </div>
-    <div class="col-md-6">
-      <img src="image/museum/3d/4-2.jpg" alt="" />
-    </div>
-  </div>
-  <div class="col-md-12">
-    <p class="center">
-      Shanghai CBD Modeling
-      <br><i>Rhino 3D + Adobe Illustrator</i>
-    </p>
-    <img src="image/museum/3d/1.jpg" alt="" />
-  </div>
-  <div class="col-md-12">
-    <p class="center">
-      Shanghai CBD Modeling
-      <br><i>Rhino 3D + 3D Printing</i>
-    </p>
-    <img src="image/museum/3d/2.jpg" alt="" />
-  </div>
-  <div class="col-md-12">
-    <p class="center">
-      Particle Hut
-      <br><i>Rhino 3D + Grasshopper + Laser Cut</i>
-    </p>
-    <img src="image/museum/3d/3.jpg" alt="" />
-  </div>
-</section>
 
+<section class='slideshow page clearfix grey'>
+  <h1 class="center">Other 3D Modeling Works</h1>
+  <div class="content">
+    <div class="slide">
+      <img src="image/museum/3d/5-1.png" alt="">
+      <p>3D Lighting Scenarios / <i>Google SketchUp + VRay + Photoshop</i></p>
+    </div>
+    <div class="slide">
+      <img src="image/museum/3d/4-1.jpg" alt="">
+      <p>Facade Modeling and Rendering / <i>Rhino3D + KeyShot + Photoshop</i></p>
+    </div>
+    <div class="slide">
+      <img src="image/museum/3d/2.jpg" alt="">
+      <p>Shanghai CBD Modeling / <i>Rhino 3D + Adobe Illustrator</i></p>
+    </div>
+    <div class="slide">
+      <img src="image/museum/3d/3.jpg" alt="">
+      <p>Particle Hut / <i>Rhino 3D + Grasshopper + Laser Cut</i></p>
+    </div>
+    <a class="floating displayleft" onclick="plusDivs(-1)">&#10094;</a>
+    <a class="floating displayright" onclick="plusDivs(1)">&#10095;</a>
+  </div>
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("slide");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       $(x[i]).fadeOut('slow');
+
+    }
+    $(x[slideIndex-1]).fadeIn('slow');
+  }
+  </script>
+</section>
 <!-- End of custom code -->
 <div class="backtotop">
   <a href="#top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
 </div>
 <footer class="end-nav">
-  <a class="previous" href="legal.html">
+  <a class="previous" href="cv.html">
     <p>< PREV</p>
     <p class="project">
-      &nbsp;&nbsp;ClariLegal UX Design
+      &nbsp;&nbsp;Computer Vision
     </p>
   </a>
-  <a class="next" href="inquiry.html">
+  <a class="next" href="lighting.html">
     <p>NEXT ></p>
     <p class="project">
-      Contextual Inquiry&nbsp;&nbsp;
+      Interactive Ground&nbsp;&nbsp;
     </p>
   </a>
 </footer>
