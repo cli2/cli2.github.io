@@ -3,7 +3,7 @@ header, footer, section{
   align-self: center;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  padding: 0px 14%;
+  padding: 0px 12%;
   /*margin: 0 auto;*/
 }
 p{
@@ -186,7 +186,7 @@ header a:hover{
 /*projects style*/
 section.title{
   text-align: center;
-  height: 650px;
+  height: 95vh;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -208,7 +208,7 @@ section.title{
   position: relative;
 }
 .title img{
-  top:0;
+  /*top:0;*/
   left: 0;
   bottom: 0;
   right: 0;
@@ -602,7 +602,7 @@ table{
   margin-top: -5px;;
   margin-bottom: 40px;
 }
-.cover a p.cover_des{
+/*.cover a p.cover_des{
   color:white;
   font-size: 16px;
   text-align: center;
@@ -617,6 +617,30 @@ table{
   right: 0;
   top: 0;
   bottom:0;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}*/
+.cover a p.cover_des{
+  color:rgba(0,0,0,0.95);
+  font-size: 14px;
+  text-align: center;
+  top: 10px;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  line-height: 80%;
+}
+.cover a p.cover_des b{
+  font-size: 16px;
+}
+.cover img{
+  background-color: black;
+}
+
+.cover img:hover{
+  opacity: 0.5;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
@@ -647,9 +671,9 @@ footer{
   margin-top: 80px;
 }
 .footer_img{
-  height: 22px;
+  height: 23px;
   margin: 15px 15px;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 .copyright{
   text-align: right;
@@ -852,7 +876,10 @@ p.button.white a:hover{
 }
 
 /*responsive design*/
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 800px){
+  section.title{
+    height: 550px;
+  }
   .nav li a{display: none;}
   .nav_bread{display: inline-block;}
   .bread_img, .logo_img{
@@ -863,11 +890,26 @@ p.button.white a:hover{
     padding: 0px 5%;
   }
   header{height: 60px;}
-  .page_des h1{font-size: 28px;}
-  .page_des p{font-size: 14px;}
+  .page_des h1{
+    font-size: 20px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .page_des p{
+    font-size: 12px;
+    float: left;
+    width: 100%;
+  }
+  p.text{
+    padding: 0;
+  }
   /*.right b{font-size: 36px;}*/
   table{
     font-size: 14px;
+  }
+  .cover{
+    padding:8% 3%;
   }
   #filters{
     width: 350px;
@@ -886,6 +928,16 @@ p.button.white a:hover{
   /*.nav a.bold{display: inline-block;}*/
 }
 @media only screen and (max-width: 550px){
+  section.title{
+    height: 450px;
+  }
+  div.center-div{
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .sm-hide{
+    display: none;
+  }
   .nav_bread{display: inline-block;}
   .bread_img, .logo_img{
     width: 25px;
@@ -898,13 +950,13 @@ p.button.white a:hover{
     }
   header{height: 55px;}
   .page_des h1{
-    font-size: 20px;
+    font-size: 18px;
     width: 100%;
     margin-left: 0;
     margin-top: 0;
   }
   .page_des p{
-    font-size: 12px;
+    font-size: 10px;
     float: left;
     width: 100%;
   }
@@ -927,7 +979,7 @@ p.button.white a:hover{
     font-size: 10px;
   }
   .cover{
-    padding:10% 3%;
+    padding:5% 3%;
   }
   .page p{
     font-size: 12px;
@@ -1080,7 +1132,7 @@ p.button.white a:hover{
     width: 8.33333333%;
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 800px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
     padding: 3%;
