@@ -272,7 +272,7 @@ section.title{
   margin-bottom: 0;
 }
 .title h1{
-  margin-top: 140px;
+  margin-top: 20vh;
   font-family: "Roboto Slab",cursive;
   font-size: 36px;
   z-index: 999;
@@ -291,7 +291,9 @@ section.title{
   bottom: 0;
   right: 0;
   margin: auto;
-  width: 90%;
+  /*width: 90%;*/
+  max-height: 95vh;
+  max-width: 90%;
   position: absolute;
   z-index: 1;
 }
