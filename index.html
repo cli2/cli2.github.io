@@ -3,16 +3,22 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Chong Li</title>
+    <title>Chong Li's Portfolio</title>
     <script src="https://use.fontawesome.com/f3a7dfaa36.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto+Slab:300,400|Ubuntu:300,400" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <script src='p_js/js.js'></script>
     <script type="text/javascript" src="processing.js"></script>
     <script type="text/javascript">
       // convenience function to get the id attribute of generated sketch html element
       function getProcessingSketchId () { return 'theCanvas'; }
-      </script>
+    </script>
+      <style media="screen">
+        #icons a i:hover{
+          color: rgb(52,183,143);
+        }
+    </style>
     <script type="text/javascript">
         $(document).ready(function() {
             $('#filters li span').click(function() {
@@ -94,7 +100,7 @@
         <!-- <div style="height:150px;"><h1>Designer | Maker | Programmer</h1></div> -->
 
         <div>
-          <h1 style="color:black">
+          <h1 style="color:black; font-family:Ubuntu, serif;">
             Hi, I am Chong Li,<br>
             a hybrid <b style="color: rgb(52,183,143);">designer</b> passionate about<br>
             products, ux, and interactions</b>.
@@ -115,12 +121,29 @@
                 <li><span class="code" id='code'>CODE</span></li>
             </ul>
         </section>
-        <section class="clearfix" id='coverlist'>
+        <div class="clearfix" id='coverlist' style="padding:0 9%; margin:0 auto; max-width:1280px;">
+            <div class="col-lg-4 col-md-6 cover ux">
+                <a href="pages/adobe.html">
+                    <img src="p_image/p_cover/adobe.jpg" class="img-responsive" alt="" />
+                    <p class='cover_des'>
+                        <b>Adobe PPM 2.0</b><br><br>Experience as ONE Adobe
+                    </p>
+                </a>
+            </div>
+
             <div class="col-lg-4 col-md-6 cover ux">
                 <a href="pages/nsportc.html">
                     <img src="p_image/p_cover/nsportc.jpg" class="img-responsive" alt="" />
                     <p class='cover_des'>
-                        <b>NSportC</b><br><br>UX &amp; Product Design
+                        <b>NSportC</b><br><br>Handling High-school Concussions
+                    </p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 cover ux">
+                <a href="pages/airc.html">
+                    <img src="p_image/p_cover/airc.jpg" class="img-responsive" alt="" />
+                    <p class='cover_des'>
+                        <b>Air C</b><br><br>Protection from Smog
                     </p>
                 </a>
             </div>
@@ -128,32 +151,15 @@
                 <a href="pages/legal.html">
                     <img src="p_image/p_cover/legal.jpg" class="img-responsive" alt="" />
                     <p class='cover_des'>
-                        <b>ClariLegal</b><br><br>Web UX Design
-                    </p>
-                </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 cover ux">
-                <a href="pages/inquiry.html">
-                    <img src="p_image/p_cover/inquiry.jpg" class="img-responsive" alt="" />
-                    <p class='cover_des'>
-                        <b>Contextual Inquiry</b><br><br>UX Research
+                        <b>ClariLegal</b><br><br>Facilitating Litigation Services
                     </p>
                 </a>
             </div>
             <div class="col-lg-4 col-md-6 cover ux">
-                <a href="pages/graphic.html">
+                <a href="pages/visual.html">
                     <img src="p_image/p_cover/ui.jpg" class="img-responsive" alt="" />
                     <p class='cover_des'>
-                        <b>Visual Design</b><br><br>UI &amp; Graphics
-                    </p>
-                </a>
-            </div>
-            <div class="col-lg-4 col-md-6 cover code">
-                <a href="pages/artcode.html">
-                    <img src="p_image/p_cover/artcode.png" class="img-responsive" alt="" />
-                    <p class='cover_des'>
-                        <b>Interactive Graphics</b><br><br>2D Interaction &amp; Animation
+                        <b>2D Visual Design</b><br><br>UI Design &amp; Interactive Arts
                     </p>
                 </a>
             </div>
@@ -161,7 +167,7 @@
                 <a href="pages/museum.html">
                     <img src="p_image/p_cover/museum.jpg" class="img-responsive" alt="Hyperreality Museum" />
                     <p class='cover_des'>
-                        <b>Hyperreality Museum</b><br><br>3D Experience &amp; Interaction
+                        <b>Hyperreality Museum</b><br><br>Museum Experience of the Future
                     </p>
                 </a>
             </div>
@@ -169,52 +175,27 @@
                 <a href="pages/lighting.html">
                     <img src="p_image/p_cover/lighting.png" class="img-responsive" alt="" />
                     <p class='cover_des'>
-                        <b>Lighting Ground</b><br><br>Interactive Installation
+                        <b>Lighting Ground</b><br><br>Interactive Lighting Installtion
                     </p>
                 </a>
             </div>
-
             <div class="col-lg-4 col-md-6 cover make">
                 <a href="pages/timber.html">
                     <img src="p_image/p_cover/timber.png" class="img-responsive" alt="" />
                     <p class='cover_des'>
-                        <b>Scripted Timber</b><br><br>Interactive Platform
+                        <b>Scripted Timber</b><br><br>Digitalizing Traditional Fabrication
                     </p>
                 </a>
             </div>
             <div class="col-lg-4 col-md-6 cover code">
-                <a href="pages/data.html">
-                    <img src="p_image/p_cover/data.png" class="img-responsive" alt="" />
+                <a href="pages/code.html">
+                    <img src="p_image/p_cover/code.png" class="img-responsive" alt="" />
                     <p class='cover_des'>
-                        <b>Trend in Names</b><br><br>Data Manipulation &amp; Analysis
+                        <b>Design + Code</b><br><br>A Collection of Coding Projects
                     </p>
                 </a>
             </div>
-            <!-- <div class="col-lg-4 col-md-6 cover code">
-                <a href="pages/cv.html">
-                    <img src="p_image/p_cover/cv.jpg" class="img-responsive" alt="" />
-                    <p class='cover_des'>
-                        <b>Image Processing</b><br><br>Computer Vision
-                    </p>
-                </a>
-            </div>
-            <div class="col-lg-4 col-md-6 cover make">
-                <a href="pages/lujiazui.html">
-                    <img src="p_image/p_cover/lujiazui.jpg" class="img-responsive" alt="Synecdoche Lujiazui" />
-                    <p class='cover_des'>
-                        <b>Synecdoche Lujiazui</b><br><br>City Mapping &amp; Visualization
-                    </p>
-                </a>
-            </div> -->
-            <!-- <div class="col-lg-4 col-md-6 cover make">
-                <a href="pages/particle.html">
-                    <img src="p_image/p_cover/particle.jpg" class="img-responsive" alt="Particle Hut" />
-                    <p class='cover_des'>
-                        <b>3D Modeling</b><br><br>Digital Fab &amp; Handcrafts
-                    </p>
-                </a>
-            </div> -->
-        </section>
+        </div>
     </div>
 
     <div class="blue" style="height:250px; margin:65px 0 0 0;">
@@ -238,31 +219,32 @@
                     <br><br>With passion for design and technology, <b>I am currently seeking UX design and product design summer internships starting May 2017.</b>
                 </p> -->
                 <p style="text-align:center; line-height:190%;">
-                  A UX/Product designer obsessed with research, making, and coding.<br>
-                  5+ years of experience in developing user-centered design solutions.<br>
-                  2+ years of experience in front-end development and interactive programming.<br>
-                  Learner and fanatic in Computer Vision and Machine Learning.<br>
+                  A UX/Product designer👨🏻‍🎨 obsessed with research, making, and coding<br>
+                  5+ years of experience in developing user-centered design solutions👨🏻‍🎓<br>
+                  2+ years of experience in front-end development👨🏻‍💻 and interactive programming<br>
+                  Learner and fanatic in Artificial Intelligence and Machine Learning🤔<br>
+                  Amateur photographer with iPhone(6s)📱 and drone(DJI Mavic Pro)✈<br>
                 </p>
             </div>
             <br>
-            <h1 style="margin:10px;">
-              <a href="https://www.linkedin.com/in/jonlichong" target="_blank">
-                <img class='footer_img' src="p_image/linkedin.png" alt="linkedin of Chong Li" />
+            <h1 style="margin:5px; font-size:30px;" id="icons">
+              <a href="https://www.linkedin.com/in/jonlichong" target="_blank" style="margin:0 15px; color:rgba(0,0,0,0.8)">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
               </a>
-              <a href="https://www.openprocessing.org/user/74111" target="_blank">
+              <!-- <a href="https://www.openprocessing.org/user/74111" target="_blank">
                   <img class='footer_img' src="p_image/oprocessing.png" alt="Openprocessing of Chong Li" />
-              </a>
-              <a href="https://www.instagram.com/catacil/" target="_blank">
+              </a> -->
+              <!-- <a href="https://www.instagram.com/catacil/" target="_blank">
                   <img class='footer_img' src="p_image/instagram.png" alt="instagram of Chong Li" />
+              </a> -->
+              <a href="https://github.com/cli2" target="_blank" style="margin:0 15px; color:rgba(0,0,0,0.8)">
+                  <i class="fa fa-github-square" aria-hidden="true"></i>
               </a>
-              <a href="https://github.com/cli2" target="_blank">
-                  <img class='footer_img' src="p_image/github.png" alt="github of Chong Li" />
+              <a href="https://www.behance.net/catacil" target="_blank" style="margin:0 15px; color:rgba(0,0,0,0.8)">
+                  <i class="fa fa-behance-square" aria-hidden="true"></i>
               </a>
-              <a href="https://www.behance.net/catacil" target="_blank">
-                  <img class='footer_img' src="p_image/behance.png" alt="behance of Chong Li" />
-              </a>
-              <a href="https://www.flickr.com/photos/147113974@N03/albums" target="_blank">
-                <img class="footer_img" src="p_image/flickr-1.png" alt="flickr" />
+              <a href="https://www.flickr.com/photos/147113974@N03/albums" target="_blank" style="margin:0 15px; color:rgba(0,0,0,0.8)">
+                <i class="fa fa-flickr" aria-hidden="true"></i>
               </a>
             </h1>
         </section>
@@ -278,7 +260,7 @@
         </p>
 
         <p class="col-md-6 col-sm-12">
-            &copy;&nbsp;2017 Chong Li | All Rights Reserved
+            &copy;&nbsp;2017 | Designed and Coded by Chong Li
         </p>
         <p class="col-md-3 sm-hide">
             <a href="mailto:chongli@umich.edu">chongli@umich.edu</a><br>

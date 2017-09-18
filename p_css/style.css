@@ -1,26 +1,104 @@
 /* page style */
-header, footer, section{
-  align-self: center;
+body{
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  padding: 0px 12%;
+  align-self: center;
+}
+header{
+  padding: 0px 10%;
+  /*margin: 0 auto;*/
+}
+section{
+  padding: 0px 17%;
   /*margin: 0 auto;*/
 }
 p{
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 16px;
   opacity: 0.8;
 }
+p::selection{
+  color:white;
+  background: rgb(52,183,143);
+}
+p a::selection{
+  color:black;
+  background: rgb(52,183,143);
+}
+p b::selection{
+  color:white;
+  background: rgb(52,183,143);
+}
+p i::selection{
+  color:white;
+  background: rgb(52,183,143);
+}
+div li i::selection{
+  color:white;
+  background: rgb(52,183,143);
+}
+h1 b::selection{
+  color:white;
+  background: rgb(52,183,143);
+}
+div ul li::selection{
+  color:white;
+  background: rgb(52,183,143);
+}
+li::selection{
+  color:white;
+  background: rgb(52,183,143);
+}
+br::selection{
+  color:white;
+  background: rgb(52,183,143);
+}
+li b::selection{
+  color:white;
+  background: rgb(52,183,143);
+}
+h1::selection{
+  color:white;
+  background: rgb(52,183,143);
+}
+h2::selection{
+  color:white;
+  background: rgb(52,183,143);
+}
+h3::selection{
+  color:white;
+  background: rgb(52,183,143);
+}
+h3 b::selection{
+  color:white;
+  background: rgb(52,183,143);
+}
+h4::selection{
+  color:white;
+  background: rgb(52,183,143);
+}
+h5::selection{
+  color:white;
+  background: rgb(52,183,143);
+}
+h6::selection{
+  color:white;
+  background: rgb(52,183,143);
+}
 h1{
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   font-size: 48px;
   opacity: 0.8;
   /*text-align: center;*/
 }
 a{
-  color: #6076c1;
+  color: rgb(52,183,143);
   text-decoration: none;
+  cursor: pointer;
+}
+p a:hover{
+  text-decoration: underline;
   cursor: pointer;
 }
 img {
@@ -195,7 +273,7 @@ section.title{
 }
 .title h1{
   margin-top: 140px;
-  font-family: "Ubuntu",cursive;
+  font-family: "Roboto Slab",cursive;
   font-size: 36px;
   z-index: 999;
   position: relative;
@@ -213,7 +291,7 @@ section.title{
   bottom: 0;
   right: 0;
   margin: auto;
-  width: 100%;
+  width: 90%;
   position: absolute;
   z-index: 1;
 }
@@ -224,18 +302,18 @@ section.page{
   position: relative;
 }
 section.page h1{
-  font-family: "Ubuntu",cursive;
+  font-family: "Roboto Slab",cursive;
   font-weight: 400;
   font-size: 28px;
 }
 section.page h2{
-  font-family: "Ubuntu",cursive;
+  font-family: "Roboto Slab",cursive;
   font-weight: 300;
   font-size: 22px;
-  text-align: center;
+  /*text-align: center;*/
 }
 section.page h3{
-  font-family: "Ubuntu",cursive;
+  font-family: "Roboto Slab",cursive;
   font-weight: 300;
   font-size: 22px;
 }
@@ -244,16 +322,12 @@ section.page li{
   line-height: 180%;
   font-size: 17px;
 }
-p.text{
-  padding: 0 15%;
-  position: relative;
-}
 ul.padding{
   padding: 0 15%;
 }
 section.page img{
   width: 100%;
-  box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);
+  /*box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);*/
   margin: 2% 0;
   float: right;
   display: inline-block;
@@ -267,7 +341,7 @@ section.grey{
 }*/
 section.grey img{
   float: left;
-  box-shadow: 0 0 10px 5px rgba(0,0,0,0.13);
+  /*box-shadow: 0 0 10px 5px rgba(0,0,0,0.13);*/
 }
 .center{
   text-align: center;
@@ -284,7 +358,13 @@ div.center-div p{
 div.center-div h3{
   text-align: center;
 }
-
+div.image-div img{
+  width: 100%;
+  display: block;
+}
+div.image-div{
+  margin: 20 0px;
+}
 .backtotop a{
   color: rgba(0,0,0,0.2);
   position: fixed;
@@ -298,6 +378,7 @@ div.center-div h3{
   text-align: center;
   border: 2px solid rgba(0,0,0,0.2);
   border-radius: 100%;
+  z-index: 999;
 }
 footer.end-nav{
   border-top:1px solid rgba(0,0,0,0.2);
@@ -326,8 +407,17 @@ footer.end-nav p{
 }
 footer.end-nav .project{
   font-weight: 400;
-  color:#6076c1;
+  color:rgb(52,183,143);
   font-size: 20px;
+}
+footer a:hover{
+  text-decoration: none;
+}
+footer.end-nav .previous{
+  padding-left: 14%;
+}
+footer.end-nav .next{
+  padding-right: 14%;
 }
 
 footer.blue p,
@@ -396,7 +486,7 @@ footer.blue a{
 .full ul{
   width: 100%;
   font-size: 48px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   font-weight: 400;
   /*font-variant: small-caps;*/
   text-transform: uppercase;
@@ -427,7 +517,7 @@ footer.blue a{
   font-family: 'Lato', sans-serif;
   font-weight: 100;
   line-height: 230%;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   margin: auto;
   padding: 0 20px;
@@ -442,7 +532,7 @@ footer.blue a{
 }
 .right b{
   font-size: 54px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.7);
   opacity: 1;
@@ -517,7 +607,7 @@ footer.blue a{
   height: auto;
 }
 .page_des h1{
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   font-weight: 400;
   font-size: 36px;
   float: left;
@@ -530,7 +620,6 @@ footer.blue a{
   border-radius: 100%;
 }
 .page_des p{
-  font-size: 17px;
   line-height: 200%;
   float: right;
   width: 63%;
@@ -598,29 +687,9 @@ table{
   text-align: center;
   text-decoration: none;
   color: black;
-  font-size: 16px;
   margin-top: -5px;;
   margin-bottom: 40px;
 }
-/*.cover a p.cover_des{
-  color:white;
-  font-size: 16px;
-  text-align: center;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,.8);
-  padding-top: 38%;
-  margin: auto;
-  opacity: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom:0;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-}*/
 .cover a p.cover_des{
   color:rgba(0,0,0,0.95);
   font-size: 14px;
@@ -646,8 +715,20 @@ table{
   transition: all 0.5s ease-out;
 }
 .cover a:hover .cover_des{
+
+  color: rgb(52,183,143);
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.cover a:hover .cover_des b{
+  color: black;
   opacity: 1;
   cursor: pointer;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 .cover_des:hover{
   cursor: pointer;
@@ -698,7 +779,7 @@ footer{
   bottom: 0;
   left: 0;
   right: 0;
-  box-shadow: 0 0 0px 0px rgba(0,0,0,0);
+  /*box-shadow: 0 0 0px 0px rgba(0,0,0,0);*/
   /*cursor: pointer;*/
 }
 .slide p{
@@ -725,7 +806,6 @@ footer{
   overflow:hidden;
   z-index:1;
   cursor:pointer;
-  font-size:18px;
   opacity: 0.6;
 }
 .floating{
@@ -765,7 +845,6 @@ footer{
 	color:rgb(52,183,143);
   opacity: 0.8;
 	cursor: pointer;
-  font-size: 16px;
   padding: 6px;
   border-top: 1px solid rgb(52,183,143);
   border-bottom: 1px solid rgb(52,183,143);
@@ -874,6 +953,16 @@ p.button.white a:hover{
 
 
 }
+p i{
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+p li i{
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
 
 /*responsive design*/
 @media only screen and (max-width: 800px){
@@ -900,9 +989,6 @@ p.button.white a:hover{
     font-size: 12px;
     float: left;
     width: 100%;
-  }
-  p.text{
-    padding: 0;
   }
   /*.right b{font-size: 36px;}*/
   table{
@@ -983,9 +1069,6 @@ p.button.white a:hover{
   }
   .page p{
     font-size: 12px;
-  }
-  p.text{
-    padding: 0;
   }
   footer a p.project{
     font-size: 12px;

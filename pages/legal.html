@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-    <meta charset="utf-8">
-    <title>ClariLegal UX Design</title>
-    <link rel="shortcut icon" href="../p_image/logo.png">
-    <script src="https://use.fontawesome.com/f3a7dfaa36.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400|Roboto+Slab:300,400|Ubuntu:300,400" rel="stylesheet">
-    <script src='../p_js/jquery-3.1.1.min.js'></script>
-    <script src='../p_js/js.js'></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../p_css/style.css" media="screen" title="no title">
+  <meta charset="utf-8">
+  <title>ClariLegal</title>
+  <link rel="shortcut icon" href="../p_image/logo.png">
+  <script src="https://use.fontawesome.com/f3a7dfaa36.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto+Slab:300,400|Ubuntu:300,400" rel="stylesheet">
+  <script src='../p_js/jquery-3.1.1.min.js'></script>
+  <script src='../p_js/js.js'></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="../p_css/css/lightbox.min.css">
+  <link rel="stylesheet" href="../p_css/style.css" media="screen" title="no title">
+  <style media="screen">
+    h4{
+      font-family: Roboto Slab, serif;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 180%;
+    }
+    section.page h4 li{
+      font-size: 15px;
+    }
+    .image-box img:hover {
+      box-shadow: 0 0 5px rgb(52,183,143);
+    }
+  </style>
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -54,7 +70,7 @@
 <!-- Begin of custom code -->
 <section class="title clearfix" style="background-color:#e58027;">
     <h1>ClariLegal</h1>
-    <p>Redesign the Reporting Function for a Vendor Management Software in the Legal Industry</p>
+    <p>Redesign the Reporting Function for Litigation Services</p>
     <img src="image/legal/title.jpg" alt="lighting design title"/>
 </section>
 <section class="page clearfix">
@@ -81,35 +97,25 @@
     <p>Bicheng Xu, Courtney Luk</p>
   </div>
 </div>
-  <div class="col-md-6">
-    <h1 class=''>About ClariLegal</h1>
-    <p class="">
+    <h1 class='center'>About ClariLegal</h1>
+    <p class="col-md-6">
       Clarilegal is a platform that connects and facilitates business between law firms and vendors. For example if a law firm needs data collection on multiple devices for a case they’re working on, the contact several vendors in order to determine what specialists they want to hire to get the job done.
     </p>
-  </div>
     <div class="col-md-6">
       <img src="image/legal/service.jpg" alt=""/>
-      <!-- <p class="center">
-        <i>Inaccessibility to River</i>
-      </p> -->
     </div>
+
 </section>
 <section class="page clearfix grey" >
-
-
-  <div class="col-md-7">
-    <img src="image/legal/program.jpg" alt="" />
-    <p class="center">
-      <i>Three Main Benefits of ClariLegal</i>
-    </p>
-  </div>
-  <div class="col-md-5">
-    <h1 class="">Problem Statement</h1>
+    <h1 class="center">Design Challenge</h1>
     <p class="">
     Due to the complicated nature of the legal industry, it is crucial that ClariLegal offers straightforward communication tools if it is to be successful in facilitating such detailed and intensive information.
     However, ClariLegal lacks <b>flexible</b> and <b>cohesive</b> reporting tools for both vendor and clients.
     </p>
-  </div>
+    <img src="image/legal/program.jpg" alt="" />
+    <p class="center">
+      <i>Three Main Benefits of ClariLegal</i>
+    </p>
 </section>
 <section class="page clearfix" >
     <h1 class="center">Evaluating the Current Platform</h1>
@@ -155,7 +161,7 @@
 <section class="page clearfix grey">
   <h1 class="center">Key Findings</h1>
   <p>
-    <ul class="padding">
+    <ul class="">
       <li><b>Current discussion panel is not efficient</b><br>
       Every word matters in the legal world. ClariLegal needs to create a functionality where chat transcripts between buyers and vendors can be organized and readily accessible for future reference.</li>
       <li><b>The statement of work is not editable</b><br>
@@ -170,147 +176,170 @@
 
 <section class="page clearfix">
   <h1 class="center">UX Redesign</h1>
-  <p class="text center">
+  <p class="text ">
     Based on the 4 key findings, we did UX Redesign for ClariLegal.
+    We aim to create easy communication within ClariLegal and flexible reporting functionality to a third party.
   </p>
-  <h1 class="center">Discussion Panel</h1>
+  <h2 class="" style="margin-bottom:-10px;">Discussion Panel</h2>
   <div class="clearfix">
-    <div class="col-md-4" style="padding:1.5%;">
-      <p class="center">
+    <div class="col-md-6" style="padding:2%;">
+      <p class="">
         Before
       </p>
-      <img src="image/legal/d1.png" alt="" />
-      <p class="center">
-        <i>The existing discussion panel is too bulky to use and lacks real-time communication.</i>
-      </p>
+      <div class="image-box">
+        <a class="example-image-link" href="image/legal/d1.png"
+        data-lightbox="example-set" data-title="">
+          <img class="example-image" src="image/legal/d1.png" alt=""/>
+        </a>
+      <h4>
+        <i>
+          <li>Bulky discussion panel</li>
+          <li>No real-time communication.</li></i>
+      </h4>
+      </div>
     </div>
-    <div class="col-md-4" style="padding:1.5%;">
-      <p class="center">
+    <div class="col-md-6" style="padding:2%;">
+      <p class="">
         After
       </p>
-      <img src="image/legal/d2.png" alt="" />
-      <p class="center">
-        <i>We designed a chat-box which enables real-time communication. Users can set private chat or group chat.</i>
-      </p>
-    </div>
-    <div class="col-md-4" style="padding:1.5%;">
-      <p class="center">
-        Report
-      </p>
-      <img src="image/legal/d3.png" alt="" />
-      <p class="center">
-        <i>Through the chatbox users can generate a full report of the chat history to a third part for references.</i>
-      </p>
+      <div class="image-box">
+        <a class="example-image-link" href="image/legal/d2.png"
+        data-lightbox="example-set" data-title="">
+          <img class="example-image" src="image/legal/d2.png" alt=""/>
+        </a>
+      <h4>
+        <i>
+          <li>Smart chatbot</li>
+          <li>Group/Private chat functionality</li>
+          <li>Chat history reporting</li>
+        </i>
+      </h4>
+      </div>
     </div>
   </div>
-  <h1 class="center">Statement of Work</h1>
+  <h2 class="" style="margin-bottom:-10px;">Statement of Work</h2>
   <div class="clearfix">
-    <div class="col-md-4" style="padding:1.5%;">
-      <p class="center">
+    <div class="col-md-6" style="padding:2%;">
+      <p class="">
         Before
       </p>
-      <img src="image/legal/s1.png" alt="" />
-      <p class="center">
-        <i>The existing statement of work is not editable once it is signed. However, it is very common that it could be revised often.</i>
-      </p>
+      <div class="image-box">
+        <a class="example-image-link" href="image/legal/s1.png"
+        data-lightbox="example-set" data-title="">
+          <img class="example-image" src="image/legal/s1.png" alt=""/>
+        </a>
+        <h4>
+          <i>
+            <li>Not editable once signed</li>
+          </i>
+        </h4>
+      </div>
     </div>
-    <div class="col-md-4" style="padding:1.5%;">
-      <p class="center">
+    <div class="col-md-6" style="padding:2%;">
+      <p class="">
         After
       </p>
-      <img src="image/legal/s2.png" alt="" />
-      <p class="center">
-        <i>We redesigned the platform and added a revise button, which users can propose changes to the other party.</i>
-      </p>
-    </div>
-    <div class="col-md-4" style="padding:1.5%;">
-      <p class="center">
-        Report
-      </p>
-      <img src="image/legal/s3.png" alt="" />
-      <p class="center">
-        <i>The red ones show pending approvals and green ones are approved changes.</i>
-      </p>
+      <div class="image-box">
+        <a class="example-image-link" href="image/legal/s2.png"
+        data-lightbox="example-set" data-title="">
+          <img class="example-image" src="image/legal/s2.png" alt=""/>
+        </a>
+        <h4>
+          <i>
+            <li>Revision function</li>
+            <li>Propose changes to the other party</li>
+            <li>Approve changes</li>
+          </i>
+        </h4>
+      </div>
     </div>
   </div>
-  <h1 class="center">Service Comparison</h1>
+</div>
+  <h2 class="" style="margin-bottom:-10px;">Service Comparison</h2>
   <div class="clearfix">
-    <div class="col-md-4" style="padding:1.5%;">
-      <p class="center">
+    <div class="col-md-6" style="padding:2%;">
+      <p class="">
         Before
       </p>
-      <img src="image/legal/c1.png" alt="" />
-      <p class="center">
-        <i>The cells in the existing comparison form are too narrow to hold passages.
-It is also very burdensome to click on each headlines and wait for the charts to drop down.</i>
-      </p>
+      <div class="image-box">
+        <a class="example-image-link" href="image/legal/c1.png"
+        data-lightbox="example-set" data-title="">
+          <img class="example-image" src="image/legal/c1-1.png" alt=""/>
+        </a>
+        <h4>
+          <i>
+            <li>Cells are too narrow</li>
+            <li>Burdensome clicks</li>
+          </i>
+        </h4>
+      </div>
     </div>
-    <div class="col-md-4" style="padding:1.5%;">
-      <p class="center">
+    <div class="col-md-6" style="padding:2%;">
+      <p class="">
         After
       </p>
-      <img src="image/legal/c2.png" alt="" />
-      <p class="center">
-        <i>In the new design, all parts are enlarged by default, and users can also click the navigation to get a certain part quickly.</i>
-      </p>
-    </div>
-    <div class="col-md-4" style="padding:1.5%;">
-      <p class="center">
-        Report
-      </p>
-      <img src="image/legal/c3.png" alt="" />
-      <p class="center">
-        <i>The export function is easy to use and informative.</i>
-      </p>
+      <div class="image-box">
+        <a class="example-image-link" href="image/legal/c2.png"
+        data-lightbox="example-set" data-title="">
+          <img class="example-image" src="image/legal/c2-1.png" alt=""/>
+        </a>
+        <h4>
+          <i>
+            <li>Full information at a glance</li>
+            <li>Navigational comparisons</li>
+          </i>
+        </h4>
+      </div>
     </div>
   </div>
-  <h1 class="center">Project Progress</h1>
+  <h2 class="" style="margin-bottom:-10px;">Project Progress</h2>
   <div class="clearfix">
-    <div class="col-md-6" style="padding:1.5%;">
-      <p class="center">
+    <div class="col-md-6" style="padding:2%;">
+      <p class="">
         Before
       </p>
-      <img src="image/legal/p1.png" alt="" />
-      <p class="center">
-        <i>The existing export function is limited and the visualization is not well-designed</i>
-      </p>
+      <div class="image-box">
+        <a class="example-image-link" href="image/legal/p1.png"
+        data-lightbox="example-set" data-title="">
+          <img class="example-image" src="image/legal/p1-1.png" alt=""/>
+        </a>
+        <h4>
+          <i>
+            <li>No visualization</li>
+          </i>
+        </h4>
+      </div>
     </div>
-    <div class="col-md-6" style="padding:1.5%;">
-      <p class="center">
+    <div class="col-md-6" style="padding:2%;">
+      <p class="">
         After
       </p>
-      <img src="image/legal/p2.png" alt="" />
-      <p class="center">
-        <i>We used a new visualization strategy in the new design and different colors indicate different status.</i>
-      </p>
+      <div class="image-box">
+        <a class="example-image-link" href="image/legal/p2.png"
+        data-lightbox="example-set" data-title="">
+          <img class="example-image" src="image/legal/p2-1.png" alt=""/>
+        </a>
+        <h4>
+          <i>
+            <li>Full information visualization</li>
+            <li>clear color palette</li>
+          </i>
+        </h4>
+      </div>
     </div>
   </div>
 </section>
 <section class="page clearfix grey">
-    <h1 class="center">Other Thoughts</h1>
-    <div class="col-md-6">
-        <div class="" style="box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);margin: 4% 0;float: right; padding:0 25px;background-color:white;">
-        <p>
-          <b>We did well in:</b><br>
-          <ul>
-            <li>Improving the clarity and communication of the site.</li>
-            <li>A good grasp on the problem and client's needs.</li>
-          </ul>
-        </p>
-        </div>
-    </div>
-    <div class="col-md-6">
-        <div class="" style="box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);margin: 4% 0;float: right; padding:0 25px;background-color:white;">
-          <p>
-            <b>What's next:</b><br>
-            <ul>
-              <li>Refining the user interface of design solutions.</li>
-              <li>Conducting usability testing on the new features.</li>
-              <li>Implementing A/B testing on the site.</li>
-            </ul>
-          </p>
-        </div>
-    </div>
+  <h1 class="center">Impacts</h1>
+  <div>
+      <p>
+        <ul>
+          <li>A good grasp on the problem and client's needs led to the design success.</li>
+          <li>User research, industry research, and marketing research helped us better define the problems and develop new product requirements.</li>
+          <li>In the end, we improved the clarity and communication of the site and got buy-in from our client's side.</li>
+        </ul>
+      </p>
+  </div>
 </section>
 
 <!-- End of custom code -->
@@ -318,10 +347,10 @@ It is also very burdensome to click on each headlines and wait for the charts to
   <a href="#top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
 </div>
 <footer class="end-nav">
-  <a class="previous" href="nsportc.html">
+  <a class="previous" href="airc.html">
     <p>< PREV</p>
     <p class="project">
-      &nbsp;&nbsp;NSportC UX Design
+      &nbsp;&nbsp;AirC UX Design
     </p>
   </a>
   <!-- <a class="next" href="museum.html">
@@ -330,13 +359,14 @@ It is also very burdensome to click on each headlines and wait for the charts to
       3D Experience &amp; Interaction&nbsp;&nbsp;
     </p>
   </a> -->
-  <a class="next" href="inquiry.html">
+  <a class="next" href="visual.html">
     <p>NEXT ></p>
     <p class="project">
-      Contextual Inquiry&nbsp;&nbsp;
+      Visual Collections&nbsp;&nbsp;
     </p>
   </a>
 </footer>
+<script src="../p_js/js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>
