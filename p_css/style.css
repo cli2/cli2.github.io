@@ -3,6 +3,7 @@ body{
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   align-self: center;
+  margin: 0;
 }
 header{
   padding: 0px 10%;
