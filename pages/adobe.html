@@ -109,17 +109,55 @@
 
     <section class="page clearfix grey">
         <div>
-            <h1 class="center">Design Challenge</h1>
+            <h1 class="center">Design Challenge -<br>Accelerating Project Management &amp; Reporting</h1>
             <p>
-              The Adobe PPM 1.0 was built several years ago upon several different applications.
+              The Adobe PPM (Project Portfolio Management) 1.0 was built several years ago upon several different applications.
               Adobe has evolved a lot since then, making most of the functionalities in Adobe PPM 1.0 redundant and outdated.
-              Adobe employees are hoping for a better management application that helps them manage projects and align with company strategy.
+              The UI looks like from 1990s and the backend data fetching is slow. Different BUs are using different project management tools and people often need to jump back and forth to oversee projects.
             </p>
             <img src="image/adobe/current.png" alt="" />
             <p class="center">
-              <i>Screens of Adobe PPM 1.0</i>
+              <i>Outdated UI of Adobe PPM 1.0</i>
             </p>
-            <h2>Key Issues</h2>
+            <p>
+              This is why Adobe PPM 2.0 is brought up by our team to accelerate the process and help Adobe employees manage projects and align with company strategy.
+              Our team is also hoping that Adobe PPM 2.0 can become the 'single source of truth' at Adobe to help us win in the marketplace.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="page clearfix">
+        <div>
+            <h1 class="center">The Process</h1>
+            <p>
+              As the only designer on the team, I worked closely with PMs to dig user needs and define the 2.0. I also met with my design mentor every week to critique and iterate the design.
+            </p>
+            <img src="image/adobe/process.png" alt="" />
+            <!-- <p class="center">
+              <i>Screens of Adobe PPM 1.0</i>
+            </p> -->
+        </div>
+    </section>
+
+
+    <section class="page clearfix grey">
+        <div>
+            <h1 class="center">The Research</h1>
+            <p>
+              My team has conducted extensive competitive analysis and user research such as surveys and interviews before my internship.
+              So my primary research task focused on synthesizing the research data and distilling key insights.
+
+            </p>
+            <h2>Personas</h2>
+            <p>
+              I created three primary personas based on the user research - the project initiators who create projects, the project managers who manage and report projects, and the executives who approve projects and align to company strategy.
+            </p>
+            <img src="image/adobe/persona.png" alt="" />
+            <p class="center">
+              <i>Three Personas</i>
+            </p>
+            <h2>Identifying Key Issues</h2>
             <p class="">
               After analyzing surveys, interview data, and conducting heuristic evaluation on current application, I worked with the product manager and my team to identify the key issues of Adobe PPM 1.0:
               <ul style="column-count:2; list-style-position: inside;">
@@ -169,36 +207,80 @@
           It also provides an intuitive dashboard which presents the key information and project changes, as well as smart notifications that help simplify the workflow.
         </p>
         <div class="clearfix">
-          <h2>Iteration 1</h2>
+          <h2>Iteration 1 - Starting From Scratch</h2>
           <p>
-            Starting from "scratch", I first distilled the most important information sections and rephrased them in to different pods that enable flexibility on different screen sizes.
+            <b>Goal</b><br>
+            Redesign the application architecture and fit the information in a modern and intuitive user interface.
+          </p>
+          <p>
+            <b>Solution</b><br>
+            Starting from "scratch", I distilled the most important information sections and rephrased them in to different pods that enable flexibility on different platforms and screen sizes.
             I also designed a dashboard that consists of succinct data from different tabs.
+            To improve the UI style and create a sense of 'familiarity', I followed the Adobe internal design guidelines.
           </p>
           <img src="image/adobe/i1.png" alt="" />
+          <p>
+            <b>Key Takeaways</b><br>
+            <ul style="margin-top:-10px;">
+              <li>Only present the essential information on the dashboard.</li>
+              <li>Do not try to guide users to perform two tasks on the same page.</li>
+              <li>Use only one and clear navigation.</li>
+            </ul>
+          </p>
         </div>
         <div class="clearfix">
-          <h2>Iteration 2</h2>
+          <h2>Iteration 2 - Handling Tables</h2>
           <p>
+            <b>Goal</b><br>
+            Design clean and intuitive tables.
+          </p>
+          <p>
+            <b>Solution</b><br>
             However, the information presentation in iteration 1 is still to overwhelming and patterns used are not consistent.
             So the second iteration focused on understanding what is really important to users and only keep the relevant data on the dashboard and front page.
             In addition, I also explored the interaction patterns used in table design such as 'drawers', 'modal screen', and 'breadcrums'.
           </p>
           <img src="image/adobe/i2.png" alt="" />
+          <p>
+            <b>Key Takeaways</b><br>
+            <ul style="margin-top:-10px;">
+              <li>Put the most important information at the beginning or end of the table columns.</li>
+              <li>Utilize the patterns that people are familiar with and keep them consistent.</li>
+              <li>Design "bonus" interactions (shortcuts) to meet the needs of proficient users.</li>
+            </ul>
+          </p>
         </div>
         <div class="clearfix">
-          <h2>Iteration 3</h2>
+          <h2>Iteration 3 - Designing Forms</h2>
           <p>
-            Continueing with iteration 2, this iteration dealt with designing forms and the interface for editing forms.
+            <b>Goal</b><br>
+            Create forms that are easy to edit and catch the key information.
+          </p>
+          <p>
+            <b>Solution</b><br>
             I iterated through different layout by experimenting with margins, font size, paddings, and button positions.
             In addition, I also learnt how to choose button styles more wisely (e.g. using CTA buttons only once for proceeding to next steps, group action buttons together as a toolbar).
           </p>
           <img src="image/adobe/i3.png" alt="" />
+          <p>
+            <b>Key Takeaways</b><br>
+            <ul style="margin-top:-10px;">
+              <li>Design tooltips to provide instructions and explain different fields.</li>
+              <li>Use different button styles to guide user to complete different tasks.</li>
+            </ul>
+          </p>
         </div>
         <div class="clearfix">
-          <h2>Iteration 4</h2>
+          <h2>Iteration 4 - Data Presentation and Filtering</h2>
           <p>
+            <b>Goal</b><br>
+            Redesign the tables to make them functional.
+          </p>
+          <p>
+            <b>Solution</b><br>
+            After sharing my design with my team and potential users, I got valuable feedback on how users would normally use the data.
             In this iteration, I looked at tables again to explore the four key aspects:
-            <ul>
+            <ul style="margin-top:-10px;">
               <li>How to present data given a limited table width</li>
               <li>How to arrange columns and decide which comes first</li>
               <li>How to filter the data to enable customization</li>
@@ -206,22 +288,54 @@
             </ul>
           </p>
           <img src="image/adobe/i4.png" alt="" />
+          <p>
+            <b>Key Takeaways</b><br>
+            <ul style="margin-top:-10px;">
+              <li>Jump out of the guidelines and create new patterns!</li>
+              <li>Use colors wisely and carefully.</li>
+            </ul>
+          </p>
         </div>
         <div class="clearfix">
-          <h2>Iteration 5</h2>
+          <h2>Iteration 5 - 'Automated Workflow'</h2>
           <p>
-            In iteration 5, I started to look at the 'automated workflow' and how the interface would look like for different personas.
+            <b>Goal</b><br>
+            Design interactions within and between personas.
+          </p>
+          <p>
+            <b>Solution</b><br>
+            I started to look at the 'automated workflow' and how the interface would look like for different personas.
             I created a user workflow cycle engaging all three primary personas and bridged the gap between them by designing micro-interactions like useful feedback and smart notifications.
           </p>
           <img src="image/adobe/i5.png" alt="" />
+          <p>
+            <b>Key Takeaways</b><br>
+            <ul style="margin-top:-10px;">
+              <li>Well-designed notifications are powerful.</li>
+              <li>Different personas have different access to the functions.</li>
+            </ul>
+          </p>
         </div>
         <div class="clearfix">
-          <h2>Iteration 6</h2>
+          <h2>Iteration 6 - Pixel Perfect Mockups</h2>
           <p>
-            This is the last round during my internship. I refined the icon styles, unified margins/paddings, adjusted color palette to create pixel-perfect hi-fidelity mockups.
+            <b>Goal</b><br>
+            Make the design hi-fi!
+          </p>
+          <p>
+            <b>Solution</b><br>
+            This is the last round during my internship.
+            I refined the icon styles, unified margins/paddings, adjusted color palette to create pixel-perfect hi-fidelity mockups.
             I also created a working prototype to help my team present the new solution to stakeholders.
           </p>
           <img src="image/adobe/i6.png" alt="" />
+          <p>
+            <b>Key Takeaways</b><br>
+            <ul style="margin-top:-10px; margin-bottom:-20px;">
+              <li>Pay close attention to keep margins and paddings consistent.</li>
+              <li>Design clear font hierarchy.</li>
+            </ul>
+          </p>
         </div>
     </section>
 

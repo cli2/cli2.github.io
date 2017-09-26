@@ -966,9 +966,14 @@ p li i{
   font-weight: 300;
   font-size: 15px;
 }
-
+#museum-title{
+  margin-top: 45vh;
+}
 /*responsive design*/
 @media only screen and (max-width: 800px){
+  #museum-title{
+    margin-top: 25vh;
+  }
   section.title{
     height: 550px;
   }
@@ -1000,6 +1005,9 @@ p li i{
   .cover{
     padding:8% 3%;
   }
+  .title h1{
+    margin-top: 13vh;
+  }
   #filters{
     width: 350px;
   }
@@ -1017,6 +1025,7 @@ p li i{
   /*.nav a.bold{display: inline-block;}*/
 }
 @media only screen and (max-width: 550px){
+
   section.title{
     height: 450px;
   }
@@ -1057,9 +1066,7 @@ p li i{
     background-color: rgba(255, 255, 255, 0.8);
   }
   #filters{
-    width: 190px;
-    padding-left: 0;
-    padding-right: 0;
+    display: none;
   }
   #filters li{
     margin: 0 4px;
