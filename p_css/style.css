@@ -19,6 +19,14 @@ p{
   font-size: 16px;
   opacity: 0.8;
 }
+img::selection{
+  color:rgba(52,183,143,0);
+  background: rgba(52,183,143,0);
+}
+br::selection{
+  color:rgba(52,183,143,0);
+  background: rgba(52,183,143,0);
+}
 p::selection{
   color:white;
   background: rgb(52,183,143);
