@@ -238,6 +238,9 @@ header a:hover{
 }
 #title{
  background: none;
+ height:75vh;
+ margin-top:-10px;
+ margin-bottom:0;
 }
 #canvas{
   width: 100%;
@@ -441,8 +444,8 @@ footer.blue a{
   font-size: 16px;
   text-align: center;
   opacity: 1;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 10px;
 }
 
 /* paragraph style */
@@ -1031,9 +1034,13 @@ p li i{
   }
   #title div h1{
     font-size: 36px;}
-    #title div{
-      height:240px;
-    }
+  #title div{
+    height:240px;
+  }
+  #title{
+    height:50vh;
+    margin-bottom: -60px;
+  }
   /*.nav a.bold{display: inline-block;}*/
 }
 @media only screen and (max-width: 550px){
@@ -1054,10 +1061,15 @@ p li i{
     height: 25px;
   }
   #title div h1{
-    font-size: 24px;}
-    #title div{
-      height:180px;
-    }
+    font-size: 20px;
+  }
+  #title div{
+    height:180px;
+    padding: 0 8%;
+  }
+  #title{
+    height: 60vh;
+  }
   header{height: 55px;}
   .page_des h1{
     font-size: 18px;
