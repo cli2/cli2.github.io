@@ -9,7 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <script src='p_js/js.js'></script>
-    <script type="text/javascript" src="processing.js"></script>
+    <!-- <script type="text/javascript" src="processing.js"></script> -->
     <script type="text/javascript">
       // convenience function to get the id attribute of generated sketch html element
       function getProcessingSketchId () { return 'theCanvas'; }
@@ -69,12 +69,11 @@
 
 <body>
   <div id='canvas'>
-    <canvas id="theCanvas" datasrc="background/background.js"></canvas>
+    <!-- <canvas id="theCanvas" datasrc="background/background.js"></canvas> -->
   </div>
-    <header class='nav-down' id='top'>
+    <header class='nav-down' id='top' style="padding: 0px 14%; ">
         <a href="index.html">
             <img class='logo_img' id="logo_img" src="p_image/logo.png" alt="logo of Chong Li" style=""/>
-            <!-- <img class='logo_img' id="logo_img-1" src="p_image/logo-1.png" alt="logo of Chong Li" style="display:block;"/> -->
         </a>
         <nav class="nav nav_bread">
             <a href="#"><img class="bread_img" onclick="show_nav()" src="p_image/bread.png" alt="nav bread icon" /></a>
@@ -94,34 +93,35 @@
             <li><a href="Chong-Li-Resume.pdf" target="_blank">Resume</a></li>
         </ul>
     </div>
-    <!-- <canvas id="theCanvas" data-processing-sources="back/back.pde"></canvas> -->
 
-    <div class="blue" id="title">
-        <!-- <div style="height:150px;"><h1>Designer | Maker | Programmer</h1></div> -->
-
-        <div>
-          <h1 style="color:black; font-family:Ubuntu, serif;">
-            Hi, I am Chong Li,<br>
-            a hybrid <b style="color: rgb(52,183,143);">designer</b> passionate about<br>
-            products, ux, and interactions</b>.
+    <div class="blue" id="title" >
+        <div style="padding:0 14%;">
+          <h1>
+            <b style="font-size:40px; font-weight:400; opacity:0.75;">Hi, I am Chong.</b><br>
+            <br>I am a <b style="color: rgb(52,183,143);">product designer</b> passionate about user experience, data-driven design, and emerging technologies.
           </h1>
         </div>
-
-        <!-- <div style="height:360px;"><h1 style="line-height:100px;"> UX Designer <br> Digital Maker <br> Art Programmer </h1></div> -->
-        <a id='toportfolio' href="#portfolio"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+        <!-- <a id='toportfolio' href="#portfolio"><i class="fa fa-angle-down" aria-hidden="true"></i></a> -->
     </div>
 
     <div>
-        <section style="height:8vh; width:100%;" id="portfolio"></section>
-        <section class="clearfix">
+        <section style="height:0vh; width:100%;" id="portfolio"></section>
+        <!-- <section class="clearfix">
             <ul id="filters">
                 <li class="active"><span class="all">ALL</span></li>
                 <li><span class="ux" id='ux'>DESIGN</span></li>
                 <li><span class="make" id='make'>MAKE</span></li>
                 <li><span class="code" id='code'>CODE</span></li>
             </ul>
-        </section>
-        <div class="clearfix" id='coverlist' style="padding:0 9%; margin:0 auto; max-width:1280px;">
+        </section> -->
+        <div style="padding:0 14%; margin-top:0;">
+          <h1 style="color:black; font-family:Lato, serif; text-align:left; font-size:20px; font-weight:400;" >
+            Portfolio -
+          </h1>
+        </div>
+
+        <div class="clearfix" id='coverlist' style="padding:0 12%; margin:0 auto;">
+
             <div class="col-lg-4 col-md-6 cover ux">
                 <a href="pages/adobe.html">
                     <img src="p_image/p_cover/adobe.jpg" class="img-responsive" alt="" />
@@ -157,7 +157,7 @@
             </div>
             <div class="col-lg-4 col-md-6 cover ux">
                 <a href="pages/visual.html">
-                    <img src="p_image/p_cover/ui.jpg" class="img-responsive" alt="" />
+                    <img src="p_image/p_cover/visual.png" class="img-responsive" alt="" />
                     <p class='cover_des'>
                         <b>2D Visual Design</b><br><br>UI Design &amp; Interactive Arts
                     </p>
@@ -219,31 +219,25 @@
                     <br><br>With passion for design and technology, <b>I am currently seeking UX design and product design summer internships starting May 2017.</b>
                 </p> -->
                 <p style="text-align:center; line-height:190%;">
-                  A UX/Product designer👨🏻‍🎨 obsessed with research, making, and coding<br>
+                  A Product designer👨🏻‍🎨 obsessed with research, making, and coding<br>
                   5+ years of experience in developing user-centered design solutions👨🏻‍🎓<br>
                   2+ years of experience in front-end development👨🏻‍💻 and interactive programming<br>
-                  Learner and fanatic in Artificial Intelligence and Machine Learning🤔<br>
+                  Learner and enthusiastic in Artificial Intelligence and Machine Learning🤔<br>
                   Amateur photographer with iPhone(6s)📱 and drone(DJI Mavic Pro)✈<br>
                 </p>
             </div>
             <br>
-            <h1 style="margin:5px; font-size:30px;" id="icons">
-              <a href="https://www.linkedin.com/in/jonlichong" target="_blank" style="margin:0 15px; color:rgba(0,0,0,0.8)">
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            <h1 style="margin:5px; font-size:24px;" id="icons">
+              <a href="https://www.linkedin.com/in/jonlichong" target="_blank" style="margin:0 15px; color:rgba(0,0,0,0.7)">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
               </a>
-              <!-- <a href="https://www.openprocessing.org/user/74111" target="_blank">
-                  <img class='footer_img' src="p_image/oprocessing.png" alt="Openprocessing of Chong Li" />
-              </a> -->
-              <!-- <a href="https://www.instagram.com/catacil/" target="_blank">
-                  <img class='footer_img' src="p_image/instagram.png" alt="instagram of Chong Li" />
-              </a> -->
-              <a href="https://github.com/cli2" target="_blank" style="margin:0 15px; color:rgba(0,0,0,0.8)">
-                  <i class="fa fa-github-square" aria-hidden="true"></i>
+              <a href="https://github.com/cli2" target="_blank" style="margin:0 15px; color:rgba(0,0,0,0.7)">
+                  <i class="fa fa-github" aria-hidden="true"></i>
               </a>
-              <a href="https://www.behance.net/catacil" target="_blank" style="margin:0 15px; color:rgba(0,0,0,0.8)">
-                  <i class="fa fa-behance-square" aria-hidden="true"></i>
+              <a href="https://www.instagram.com/catacil/" target="_blank" style="margin:0 15px; color:rgba(0,0,0,0.7)">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
               </a>
-              <a href="https://www.flickr.com/photos/147113974@N03/albums" target="_blank" style="margin:0 15px; color:rgba(0,0,0,0.8)">
+              <a href="https://www.flickr.com/photos/147113974@N03/albums" target="_blank" style="margin:0 15px; color:rgba(0,0,0,0.7)">
                 <i class="fa fa-flickr" aria-hidden="true"></i>
               </a>
             </h1>
@@ -251,15 +245,9 @@
     </div>
 
 
-    <footer class="blue" style="height:100px; margin-bottom:0px; bottom:0;">
-        <p class="col-md-3 sm-hide">
-            (734)389-5728
-        </p>
-        <p class="col-md-6 col-sm-12">
+    <footer class="blue" style="height:100px; margin-bottom:0px; bottom:0; padding:0 8%;">
+        <p style="text-align:center; line-height:50px;">
             Design and Code by Chong Li &copy; 2017
-        </p>
-        <p class="col-md-3 sm-hide">
-            <a href="mailto:chongli@umich.edu">chongli@umich.edu</a><br>
         </p>
     </footer>
     <script type="text/javascript">
@@ -272,24 +260,12 @@
                     "border-bottom": "0px solid #eee",
                     "color": "white"
                 });
-                // $('#logo_img').css({
-                //   "display": "none"
-                // });
-                // $('#logo_img-1').css({
-                //   "display": "block"
-                // });
             } else {
                 $('#top').css({
                     "background-color": "white",
                     "border-bottom": "1px solid #eee",
                     "color": "grey"
                 });
-                // $('#logo_img').css({
-                //   "display": "block"
-                // });
-                // $('#logo_img-1').css({
-                //   "display": "none"
-                // });
             }
             if ($(this).scrollTop() < t) {
                 $('#top a').css({
