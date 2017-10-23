@@ -6,7 +6,7 @@ body{
   margin: 0;
 }
 header{
-  padding: 0px 10%;
+  padding: 0px 14%;
   /*margin: 0 auto;*/
 }
 section{
@@ -17,7 +17,7 @@ p{
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 16px;
-  opacity: 0.8;
+  /*color: rgba(0,0,0,0.8);*/
 }
 img::selection{
   color:rgba(52,183,143,0);
@@ -102,7 +102,7 @@ h6::selection{
 h1{
   font-family: "Roboto Slab", sans-serif;
   font-size: 48px;
-  opacity: 0.8;
+  /*color: rgba(0,0,0,0.8);*/
   /*text-align: center;*/
 }
 a{
@@ -130,6 +130,18 @@ img {
           box-sizing: border-box;
 }
 
+h4{
+  font-family: "Roboto Slab", serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 180%;
+}
+section.page h4 li{
+  font-size: 15px;
+}
+.image-box img:hover {
+  box-shadow: 0 0 5px rgb(52,183,143);
+}
 /* header style */
 header.nav-down{
   background-color: rgba(0,0,0,0);
@@ -140,9 +152,6 @@ header.nav-down{
   right: 0;
   left: 0;
   top: 0px;
-  /*-webkit-transition: all 0.31s;
-  -moz-transition: all 0.31s;
-  transition: all 0.31s;*/
 }
 header.non-fixed{
   background-color: white;
@@ -180,8 +189,7 @@ header a:hover{
 }
 .nav li{
   display: inline-block;
-  margin: 0px 15px;
-  margin-top: 10px;
+  margin: 10px 0px 0px 30px;;
 }
 .nav{
   float: right;
@@ -433,15 +441,6 @@ footer.end-nav .next{
   padding-right: 14%;
 }
 
-footer.blue p,
-footer.blue a{
-  color: white;
-  font-size: 16px;
-  text-align: center;
-  opacity: 1;
-  padding-top: 25px;
-  padding-bottom: 10px;
-}
 
 /* paragraph style */
 .index_header{
@@ -847,12 +846,13 @@ footer{
   padding-bottom: 15px;
   margin-bottom: 35px;
   margin-top: 30px;
-  width: 520px;
+  width: 500px;
+  /*padding-left: 0px;*/
 }
 #filters li{
   list-style:none;
   float: left;
-  margin: 0 25px;
+  margin: 0 25px 0 25px;
 }
 #filters li span{
 	color:rgb(52,183,143);
@@ -915,16 +915,16 @@ p.button a{
   border: 2px solid black;
   text-transform: uppercase;
   text-decoration: none;
-  /*transition: all .5s ease;
+  transition: all .5s ease;
   -webkit-transition: all .5s ease;
-  -moz-transition: all .5s ease;*/
+  -moz-transition: all .5s ease;
   font-weight: 400;
 }
 p.button a:hover{
   text-decoration: none;
-  background-color: black;
-  color: white;
+  color: rgb(52,183,143);
   opacity: 1;
+  border: 2px solid rgb(52,183,143);
 }
 .button-white{
   text-align: center;
@@ -938,17 +938,16 @@ p.button-white a{
   border: 2px solid white;
   text-transform: uppercase;
   text-decoration: none;
-  /*opacity: 0.8;*/
-  /*transition: all .5s ease;
+  opacity: 0.8;
+  transition: all .5s ease;
   -webkit-transition: all .5s ease;
-  -moz-transition: all .5s ease;*/
+  -moz-transition: all .5s ease;
   font-weight: 400;
 }
 p.button.white a:hover{
   text-decoration: none;
-  background-color: rgba(255,255,255,0.2);
-  color: white;
-  /*opacity: 1;*/
+  background-color: white;
+  color: rgb(52,183,143);
 }
 #title{
  background: none;
@@ -980,6 +979,29 @@ p li i{
 }
 #museum-title{
   margin-top: 45vh;
+}
+
+.image-box{
+  /*background-color: rgb(249,248,247);*/
+  /*border-radius: 10px;*/
+}
+section.lightbox-section h2{
+  font-size: 18px;
+  margin: 0 0 0 10px;
+}
+section.lightbox-section p{
+  font-size: 14px;
+  margin: -10px 0 10px 10px;
+  line-height: 60px;
+  font-family: Roboto Slab, serif;
+}
+section.page img{
+  /*box-shadow: 10px 10px 5px rgb(245,244,243);*/
+  margin-bottom: 20px;
+  margin-top: -2px;
+}
+.image-box img:hover {
+  box-shadow: 0 0 5px rgb(52,183,143);
 }
 /*responsive design*/
 @media only screen and (max-width: 800px){
@@ -1058,10 +1080,10 @@ p li i{
   }
   #title{
     /*height: 30vh;*/
-    display: none;
+    /*display: none;*/
   }
   #portfolio{
-    margin-top: 100px;
+    /*margin-top: 100px;*/
   }
   header{height: 55px;}
   .page_des h1{
@@ -1083,13 +1105,13 @@ p li i{
     background-color: rgba(255, 255, 255, 0.8);
   }
   #filters{
-    display: none;
+    /*display: none;*/
+    margin-top: 100px;
+    /*width: 290px;*/
   }
   #filters li{
     margin: 0 4px;
-  }
-  #filters li span{
-    font-size: 10px;
+    display: none;
   }
   .cover{
     padding:5% 3%;
