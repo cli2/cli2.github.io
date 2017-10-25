@@ -5,6 +5,9 @@ body{
   align-self: center;
   margin: 0;
 }
+b{
+  font-weight: 400;
+}
 header{
   padding: 0px 14%;
   /*margin: 0 auto;*/
@@ -354,7 +357,7 @@ section.page img{
   display: inline-block;
   /*border-radius: 10px;*/
 }
-section.grey{
+.grey{
   background-color: rgb(245,244,243);
 }
 /*section.eight{
