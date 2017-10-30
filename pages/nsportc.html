@@ -57,7 +57,7 @@
     <!-- Begin of custom code -->
     <section class="title clearfix" style="background-color:#799eb8;">
         <h1>NSportC</h1>
-        <p>UX Design for a Sports Management Platform Which Focuses on Concussions</p>
+        <p>Helping High-school Coaches Handle Sports Concussions</p>
         <img src="image/nsportc/title.jpg" alt="lighting design title" />
     </section>
     <section class="page clearfix">
@@ -94,8 +94,12 @@
                 Also, even if the incident doesn’t lead to a concussion, all pre-medical information should be recorded because they are very important to doctors.
             </p>
             <div class="">
-              <img src="image/nsportc/story.png" alt="" style="margin-bottom:50px;margin-top:10px;" />
+              <img src="image/nsportc/concussion.jpg" alt="" style="margin-top:10px;padding:0 10%;" />
+              <p class="center">
+                <i>64% -76.8% football players have ever suffered from sports concussion (<a href="https://c.o0bg.com/rf/image_960w/Boston/2011-2020/2013/07/09/BostonGlobe.com/Regional/Images/12122010_12Theriault-7797891.jpg" target="_blank">Image Source</a>)</i>
+              </p>
             </div>
+
     </section>
 
     <section class="page clearfix grey">
@@ -122,26 +126,22 @@
         <h2>User Research</h2>
         <p>
             We conducted interviews to understand what coaches really need.
-            We talked with two coaches, Joe and Max, who have been high school coaches for over 10 years,
+            We talked with two coaches who have been high school coaches for over 10 years.
             Interestingly, they both also have children who played in high school teams,
             so they also shared their experience as parents. Here is the major findings:
           <ul>
             <li>Coaches can hardly tell if a player is in suspicious of having a concussion after being hit.</li>
-            <li>Although state laws regulates that coaches go through a concussion training, only a few can remember the details of the training.</li>
+            <li>Although state laws regulates that coaches go through a concussion training, few can remember the details.</li>
             <li>Parents think the pre-medical records are important even if the incident does not lead to concussion.</li>
           </ul>
         </p>
 
         <div class="clearfix">
           <p>
-            We built two primary personas for coaches and one secondary persona for parents based on our interviews.
-            A more experienced coach have more awareness of each player's health status,
-            while a less experienced coach may miss some important health indicators.
-          </p>
-          <br>
-          <p style="margin-top:-20px;">
-              Parents care about children's health as well as how they recover from the concussion.
-              In addition, they play an important role in helping recording children's recovery.
+            Then We built two primary personas for coaches and one secondary persona for parents based.
+            A more experienced coach is more aware of players' health status,
+            while a less experienced coach may miss some important indicators.
+            In addition, parents play an important role in helping record player's recovery.
           </p>
           <div class="col-md-4">
             <div class="image-box">
@@ -186,7 +186,7 @@
             <ul>
               <li>We decided to bring parents in to the loop of the product</li>
               <li>Coaches need help to determine if a player has concussion or not</li>
-              <li>A coach at high-school may coach more than one team</li>
+              <li>Coaches only carry a phone with them, but often have computers in their office</li>
             </ul>
           </p>
         </div>
@@ -287,27 +287,52 @@
 
     <section class="page clearfix grey">
         <h1 class="center">Duo-platform Experience</h1>
-          <div>
-            <p>
-              After the research, we found that most coaches have a smartphone and carry it with them on court.
-              They also often have computers in their office. Therefore, We decided to put the more sophisticated team management tools on the web platform,
-              while the mobile app covers the assessment tool.
-            </p>
-              <h2>Web - Team Management &amp; Records</h2>
+        <div class="clearfix">
 
-              <p>
-                  The web app is mainly designed with emphasis on information management. Coaches will be able to view all players' status and previous assessment test results. In addition, coaches can print out reports based on his players' status.
-              </p>
-              <img src="image/nsportc/webwire.png" alt=""/>
+          <h2>Key Features</h2>
+          <p>
+            After the research, we found that most coaches have a smartphone and carry it with them on court.
+            They also often have computers in their office. Therefore, We decided to put the more sophisticated team management tools on the web platform,
+            while the mobile app covers the assessment tool.
+          </p>
+          <div class="col-lg-4" style="padding-bottom:0;">
+            <img src="image/nsportc/team-icon.svg" alt="" style="padding:0 18%;"/>
+
           </div>
-          <div>
-            <h2><br>App - Concussion Assessment &amp; Quick Access</h2>
-            <p>
-                The mobile has an emphasis on the assessment tool exclusively. To simplify the process and save time, the coach will be able to quickly access the assessment tool on the main page and then select the player associated
-                with the test.
+          <div class="col-lg-4" style="padding-bottom:0;">
+            <img src="image/nsportc/report-icon.png" alt="" style="padding:0 18%;"/>
+
+          </div>
+          <div class="col-lg-4" style="padding-bottom:0;">
+            <img src="image/nsportc/clock-icon.png" alt="" style="padding:0 18%;"/>
+          </div>
+          <div class="">
+            <p class="center col-lg-4" style="padding:0;">
+              <i>Team Management</i>
             </p>
-            <img src="image/nsportc/appwire.png" alt="" />
+            <p class="center col-lg-4" style="padding:0;">
+              <i>Player Records</i>
+            </p>
+            <p class="center col-lg-4" style="padding:0;">
+              <i>Concussion Assessment</i>
+            </p>
           </div>
+        </div>
+        <div>
+          <h2>Web - Team Management &amp; Records</h2>
+          <p>
+              The web app is mainly designed with emphasis on information management. Coaches will be able to view all players' status and previous assessment test results. In addition, coaches can print out reports based on his players' status.
+          </p>
+          <img src="image/nsportc/webwire.png" alt=""/>
+        </div>
+        <div>
+          <h2>App - Concussion Assessment &amp; Quick Access</h2>
+          <p>
+              The mobile has an emphasis on the assessment tool exclusively. To simplify the process and save time, the coach will be able to quickly access the assessment tool on the main page and then select the player associated
+              with the test.
+          </p>
+          <img src="image/nsportc/appwire.png" alt="" />
+        </div>
 
     </section>
 
@@ -403,7 +428,7 @@
          For example, on our first version, we use the alphabetical order for the player list.
          But we later changed it to order by status to better group the information.
       </p>
-      <div>
+      <div style="padding:0 3%;">
         <img src="image/nsportc/test1.png" alt="" />
       </div>
       <p class="center" style="margin-top:0px;margin-bottom:50px;">
@@ -413,7 +438,7 @@
         Also from coach feedback, teenage player may look similar on small profile pictures.
         So in order identify players, we added names identify each player.
       </p>
-      <div>
+      <div style="padding:0 3%;">
         <img src="image/nsportc/test2.png" alt="" />
       </div>
       <p class="center" style="margin-top:0px;margin-bottom:50px;">
@@ -423,36 +448,43 @@
 
     <section class="page clearfix">
       <h1 class="center">Prototyping</h1>
-      <div class="clearfix" >
-        <h2 style="margin-bottom:40px;">Player Information &amp; Test Results</h2>
-        <div class="col-md-6" style="padding:0 10% 0 10%;">
-          <img src="image/nsportc/playerinfo.png" alt="gif of player information" />
-          <p class="center" style="margin-top:0px;margin-bottom:0px;">
-              <i></i>
-          </p>
-        </div>
-        <div class="col-md-6" style="padding:0 10% 0 10%;">
-            <img src="image/nsportc/process.gif" alt="gif of player information" />
-            <p class="center" style="margin-top:0px;margin-bottom:0px;">
-                <i></i>
+
+      <div class="clearfix" style="margin-top:60px;">
+        <div class="col-md-6" style="padding:0 4%;">
+          <div class="" style="margin-top:40%;">
+            <h2>Player Info &amp; Test Results</h2>
+            <p>
+              Coaches can access player information and their previous records via the mobile app.
             </p>
+          </div>
+        </div>
+        <div class="col-md-6" style="padding:0 10%;">
+          <div class="">
+            <img src="image/nsportc/phonecase.png" alt="" style="opacity:1;"/>
+          </div>
+          <div class="" style="position:absolute; top:11.6%;left:24.1%;width:51.5%;">
+            <img src="image/nsportc/process.gif" alt="gif of player information"/ style="top:0">
+          </div>
         </div>
       </div>
 
 
-      <div class="clearfix">
-        <h2 style="margin-bottom:40px;">5-minute Assessment</h2>
-        <div class="col-md-6" style="padding:0 10% 0 10%;">
-          <img src="image/nsportc/test.png" alt="gif of player information" />
-          <p class="center" style="margin-top:0px;">
-              <i></i>
-          </p>
-        </div>
-        <div class="col-md-6" style="padding:0 10% 0 10%;">
-            <img src="image/nsportc/test.gif" alt="gif of player information"/>
-            <p class="center" style="margin-top:0px;">
-                <i></i>
+      <div class="clearfix" style="margin-top:80px;">
+        <div class="col-md-6" style="padding:0 4%;">
+          <div class="" style="margin-top:40%;">
+            <h2>5-minute Assessment</h2>
+            <p>
+              Coaches can also use the 5-min concussion assessment to check if a player is suspicious of concussion and needs to be removed from play.
             </p>
+          </div>
+        </div>
+        <div class="col-md-6" style="padding:0 10%;">
+          <div class="">
+            <img src="image/nsportc/phonecase.png" alt="" />
+          </div>
+          <div class="" style="position:absolute; top:11.6%;left:24.1%;width:51.5%;">
+            <img src="image/nsportc/test.gif" alt="gif of player information"/ style="top:0">
+          </div>
         </div>
       </div>
     </section>
@@ -473,17 +505,17 @@
         <a href="#top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
     </div>
     <footer class="end-nav">
-        <a class="previous" href="adobe.html">
+        <a class="previous" href="airc.html">
             <p>
                 < PREV</p>
                     <p class="project">
-                        &nbsp;&nbsp;Adobe PPM 2.0
+                        &nbsp;&nbsp;AirC
                     </p>
         </a>
-        <a class="next" href="airc.html">
+        <a class="next" href="legal.html">
             <p>NEXT ></p>
             <p class="project">
-                AirC&nbsp;&nbsp;
+                ClariLegal&nbsp;&nbsp;
             </p>
         </a>
     </footer>
