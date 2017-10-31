@@ -147,9 +147,9 @@
               The primary users of Adobe PPM 2.0 will be the product managers, program managers, and vice presidents at Adobe.
               In order to illustrate our users and their goals, I created three primary personas and identified their needs by analyzing the previous user research such as surveys and interviews.
             </p>
-            <!-- <img src="image/adobe/persona.png" alt=""/> -->
+            <img src="image/adobe/persona.png" alt=""/>
             <p class="center">
-              <!-- <i>User Needs</i> -->
+              <i>Use Cases</i>
             </p>
             <h2>Identifying Key Issues</h2>
             <p class="">
@@ -169,11 +169,14 @@
 
     <section class="page clearfix">
         <h1 class="center">Constructing the 2.0</h1>
+        <h2>Key Features</h2>
         <p>
-          My team had conducted preliminary research by interviewing and surveying users across different positions.
-          Based on our research insights, I created four personas.
-          Each persona will have different view, task, and access.
-          <br><br>
+          Based on the personas, use cases, and key issues, my team and I identified the key features that are important in the new PPM (icon credit to <a href="https://www.flaticon.com/authors/smashicons" target="_blank">Smashicons</a>).
+        </p>
+        <img src="image/adobe/features.png" alt="" style="padding:0;"/>
+
+        <h2>User Workflow</h2>
+        <p>
           Based on the different tasks of each persona, I built the user workflow to demonstrate how they will use Adobe PPM 2.0 to achieve their goals.
         </p>
         <img src="image/adobe/vp.png" alt="" />
@@ -184,7 +187,7 @@
         <p class="center">
           <i>Workflow for Project Managers</i>
         </p>
-        <br>
+        <h2>Information Architecture</h2>
         <p>
           I also constructed the sitemap (information architecture) by analyzing the existing architecture and future vision.
           The new PPM will keep only the essential functions and be accessible on both web and mobile(not in scope).
@@ -199,27 +202,64 @@
         <h1 class="center">Solution Overview</h1>
         <p>
           The Adobe PPM 2.0 consists of an all new dashboard, project management, portfolio prioritization, reporting, and admistration functionalities.
-          With the new dashboard, users can get the most important updates and sending updates within one click.
-          With the automated workflow, the system guides users to manage projects and prioritize portfolio step by step.
-          With smart notifications and groups, collaboration becomes easy and intuitive.
           As there are three different personas using this platform, I designed different interactions and pages for these scenarios.
         </p>
-        <img src="image/adobe/overview.png" width="100%;" />
-        <!-- <h2>Initiators</h2>
-        <p class="center">
-          <i>Initiating a Project</i>
-        </p>
-        <h2>Managers</h2>
-        <p class="center">
-          <i>Managing a Project - Updating and Reporting</i>
-        </p>
-        <p class="center">
-          <i>Prioritizing Portfolio</i>
-        </p>
-        <h2>Executives</h2>
-        <p class="center">
-          <i>Approving a Project</i>
-        </p> -->
+        <!-- <img src="image/adobe/overview.png" width="100%;" /> -->
+        <div class="clearfix" style="margin-top:60px;">
+          <div class="col-md-4" style="padding:0;">
+            <div class="" style="margin-top:40%;">
+              <h2>Initiating</h2>
+              <p>
+                Users can initiate a project in PPM or load an existing project elsewhere.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-8" style="padding:0%;">
+            <div class="">
+              <img src="image/adobe/maccase.png" alt="" style="opacity:0.9;"/>
+            </div>
+            <div class="" style="position:absolute; top:5.6%;left:12.6%;width:75.1%;">
+              <img src="image/adobe/initiate.gif" alt="" />
+              <!-- <video autoplay="" loop="" controls="controls" width="100%" height="auto" name="schema explorer" src="image/adobe/initiator.mp4" style="margin-bottom: 30px"></video> -->
+            </div>
+          </div>
+        </div>
+        <div class="clearfix" style="margin-top:60px;">
+          <div class="col-md-4" style="padding:0%;">
+            <div class="" style="margin-top:40%;">
+              <h2>Prioritizing</h2>
+              <p>
+                With the automated workflow, the system guides users to prioritize portfolio step by step before it is sent for approval.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-8" style="padding:0%;">
+            <div class="">
+              <img src="image/adobe/maccase.png" alt="" style="opacity:0.9;"/>
+            </div>
+            <div class="" style="position:absolute; top:5.6%;left:12.6%;width:75.1%;">
+              <img src="image/adobe/portfolio.gif" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="clearfix" style="margin-top:60px;">
+          <div class="col-md-4" style="padding:0%;">
+            <div class="" style="margin-top:40%;">
+              <h2>Updating</h2>
+              <p>
+                With the new dashboard, managers can update a project regularly and send update.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-8" style="padding:0%;">
+            <div class="">
+              <img src="image/adobe/maccase.png" alt="" style="opacity:0.9;"/>
+            </div>
+            <div class="" style="position:absolute; top:5.6%;left:12.6%;width:75.1%;">
+              <img src="image/adobe/update.gif" alt="" />
+            </div>
+          </div>
+        </div>
     </section>
 
 
@@ -244,13 +284,13 @@
             I also designed a dashboard that consists of succinct data from different tabs.
             To improve the UI style and create a sense of 'familiarity', I followed the Adobe internal design guidelines.
           </p>
-          <img src="image/adobe/i1.png" alt="" />
+          <!-- <img src="image/adobe/i1.png" alt="" />
           <p class="center" style="margin-bottom:40px;;">
             <i>Screens in Iteration 1</i>
-          </p>
+          </p> -->
           <img src="image/adobe/critique1.png" alt="" />
           <p class="center">
-            <i>Sample Screen -  Dashboard</i>
+            <i>Dashboard Design - 1st Iteration</i>
           </p>
           <p>
             <b>Key Takeaways</b><br>
@@ -273,13 +313,13 @@
             So the second iteration focused on understanding what is really important to users and only keep the relevant data on the dashboard and front page.
             In addition, I also explored the interaction patterns used in table design such as 'drawers', 'modal screen', and 'breadcrums'.
           </p>
-          <img src="image/adobe/i2.png" alt="" />
+          <img src="image/adobe/i2-1.png" alt="" />
           <p class="center" style="margin-bottom:40px;;">
-            <i>Screens in Iteration 2</i>
+            <i>Table Pattern Design - Breadcrum, Drawer, Modal Screen</i>
           </p>
           <img src="image/adobe/critique2.png" alt="" />
           <p class="center">
-            <i>Sample Screen - Table Design for Project Page</i>
+            <i>Table Design for Project Page</i>
           </p>
           <p>
             <b>Key Takeaways</b><br>
@@ -301,13 +341,13 @@
             I iterated through different layout by experimenting with margins, font size, paddings, and button positions.
             In addition, I also learnt how to choose button styles more wisely (e.g. using CTA buttons only once for proceeding to next steps, group action buttons together as a toolbar).
           </p>
-          <img src="image/adobe/i3.png" alt="" />
+          <!-- <img src="image/adobe/i3.png" alt="" />
           <p class="center" style="margin-bottom:40px;;">
             <i>Screens in Iteration 3</i>
-          </p>
+          </p> -->
           <img src="image/adobe/critique3.png" alt="" />
           <p class="center">
-            <i>Sample Screen - Editing Info</i>
+            <i>Editing Project Information</i>
           </p>
           <p>
             <b>Key Takeaways</b><br>
@@ -334,13 +374,13 @@
               <li>How to design editing functionality inside a table</li>
             </ul>
           </p>
-          <img src="image/adobe/i4.png" alt="" />
+          <!-- <img src="image/adobe/i4.png" alt="" />
           <p class="center" style="margin-bottom:40px;;">
             <i>Screens in Iteration 4</i>
-          </p>
+          </p> -->
           <img src="image/adobe/critique4.png" alt="" />
           <p class="center">
-            <i>Sample Screen - Filter</i>
+            <i>Design for Filter and Filter State</i>
           </p>
           <p>
             <b>Key Takeaways</b><br>
@@ -358,17 +398,17 @@
           </p>
           <p>
             <b>Solution</b><br>
-            This is the last round during my internship.
-            I refined the icon styles, unified margins/paddings, adjusted color palette to create pixel-perfect hi-fidelity mockups.
+            In this iteration, I refined the icon styles, unified margins/paddings, adjusted color palette to create pixel-perfect hi-fidelity mockups.
             I also created a working prototype to help my team present the new solution to stakeholders.
+          </p>
+
+          <img src="image/adobe/critique5.png" alt="" />
+          <p class="center">
+            <i>Hi-fidelity Design</i>
           </p>
           <img src="image/adobe/i5.png" alt="" />
           <p class="center" style="margin-bottom:40px;;">
-            <i>Final Hi-fi Mockups</i>
-          </p>
-          <img src="image/adobe/critique5.png" alt="" />
-          <p class="center">
-            <i>Sample Screen - Hi-fidelity Design</i>
+            <i>Hi-fidelity Mockups</i>
           </p>
           <p>
             <b>Key Takeaways</b><br>
@@ -386,14 +426,13 @@
           </p>
           <p>
             <b>Solution</b><br>
-            I started to look at the 'automated workflow' and how the interface would look like for different personas.
+            I also re-examined the 'automated workflow' and adjusted the interface for different personas.
             I created a user workflow cycle engaging all three primary personas and bridged the gap between them by designing micro-interactions like useful feedback and smart notifications.
           </p>
-          <!-- <img src="image/adobe/i6.png" alt="" />
+          <img src="image/adobe/automated-workflow.png" alt="" />
           <p class="center" style="margin-bottom:40px;;">
-            <i>Screens of Iteration 6</i>
-          </p> -->
-          <video autoplay="" loop="" controls="controls" width="100%" height="auto" name="schema explorer" src="image/adobe/Workflow Prototype-NDA.mp4" style="margin-bottom: 30px"></video>
+            <i>Automated Workflow of Three Personas</i>
+          </p>
           <p>
             <b>Key Takeaways</b><br>
             <ul style="margin-top:-10px;">
@@ -402,10 +441,16 @@
             </ul>
           </p>
         </div>
+        <h2>Final Prototype</h2>
+        <p>
+          Finally, I designed the interactions between different screens and workflow and created a final prototype.
+        </p>
+        <video autoplay="" loop="" controls="controls" width="100%" height="auto" name="schema explorer" src="image/adobe/Workflow Prototype-NDA.mp4" style="margin-bottom: 30px"></video>
     </section>
 
+
     <section class="page clearfix grey">
-        <h1 class="center">Internship Impacts</h1>
+        <h1 class="center">Other Internship Highlights</h1>
         <div class="">
           <h2>To get more buy-in for Adobe PPM 2.0</h2>
           <p>
