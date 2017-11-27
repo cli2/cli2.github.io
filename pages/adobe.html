@@ -10,6 +10,8 @@
     <script src='../p_js/jquery-3.1.1.min.js'></script>
     <script src='../p_js/js.js'></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="../p_css/css/lightbox.min.css">
     <link rel="stylesheet" href="../p_css/style.css" media="screen" title="no title">
     <script>
         (function(i, s, o, g, r, a, m) {
@@ -146,9 +148,9 @@
           </div>
           <div class="col-sm-8" style="padding:0%;">
             <div class="">
-              <img src="image/adobe/maccase.png" alt="" style="opacity:0.9;"/>
+              <img src="image/adobe/maccase-1.png" alt="" style="opacity:0.9;"/>
             </div>
-            <div class="" style="position:absolute; top:5.6%;left:12.6%;width:75.1%;">
+            <div class="" style="position:absolute; top:6.1%;left:12.6%;width:75.1%;">
               <img src="image/adobe/initiate.gif" alt="" />
               <!-- <video autoplay="" loop="" controls="controls" width="100%" height="auto" name="schema explorer" src="image/adobe/initiator.mp4" style="margin-bottom: 30px"></video> -->
             </div>
@@ -165,9 +167,9 @@
           </div>
           <div class="col-sm-8" style="padding:0%;">
             <div class="">
-              <img src="image/adobe/maccase.png" alt="" style="opacity:0.9;"/>
+              <img src="image/adobe/maccase-1.png" alt="" style="opacity:0.9;"/>
             </div>
-            <div class="" style="position:absolute; top:5.6%;left:12.6%;width:75.1%;">
+            <div class="" style="position:absolute; top:6.1%;left:12.6%;width:75.1%;">
               <img src="image/adobe/portfolio.gif" alt="" />
             </div>
           </div>
@@ -177,15 +179,15 @@
             <div class="" style="margin-top:40%;">
               <h2>Updating</h2>
               <p class="sm-hide">
-                With the new dashboard, managers can update a project regularly and send update.
+                With the new dashboard, managers can update a project regularly and send updates to others easily.
               </p>
             </div>
           </div>
           <div class="col-sm-8" style="padding:0%;">
             <div class="">
-              <img src="image/adobe/maccase.png" alt="" style="opacity:0.9;"/>
+              <img src="image/adobe/maccase-1.png" alt="" style="opacity:0.9;"/>
             </div>
-            <div class="" style="position:absolute; top:5.6%;left:12.6%;width:75.1%;">
+            <div class="" style="position:absolute; top:6.1%;left:12.6%;width:75.1%;">
               <img src="image/adobe/update.gif" alt="" />
             </div>
           </div>
@@ -206,10 +208,40 @@
               The primary users of Adobe PPM 2.0 will be the product managers, program managers, and vice presidents at Adobe.
               In order to illustrate our users and their goals, I created three primary personas and identified their needs by analyzing the previous user research such as surveys and interviews.
             </p>
-            <img src="image/adobe/persona.png" alt=""/>
+            <!-- <img src="image/adobe/persona.png" alt=""/> -->
             <!-- <p class="center">
               <i>Use Cases</i>
             </p> -->
+            <div class="clearfix">
+              <div class="image-box col-md-4" style="padding:2%;">
+                <a class="example-image-link" href="image/adobe/persona-1.png"
+                data-lightbox="example-set" data-title="">
+                  <img class="example-image" src="image/adobe/persona-1.png" alt=""/>
+                </a>
+                <h4  class="center" style="margin-bottom:0px;">
+                  <i>Project Initiator</i>
+                </h4>
+              </div>
+              <div class="image-box col-md-4" style="padding:2%;">
+                <a class="example-image-link" href="image/adobe/persona-2.png"
+                data-lightbox="example-set" data-title="">
+                  <img class="example-image" src="image/adobe/persona-2.png" alt=""/>
+                </a>
+                <h4  class="center" style="margin-bottom:0px;">
+                  <i>Project Managers</i>
+                </h4>
+              </div>
+              <div class="image-box col-md-4" style="padding:2%;">
+                <a class="example-image-link" href="image/adobe/persona-3.png"
+                data-lightbox="example-set" data-title="">
+                  <img class="example-image" src="image/adobe/persona-3.png" alt=""/>
+                </a>
+                <h4  class="center" style="margin-bottom:0px;">
+                  <i>Executives</i>
+                </h4>
+              </div>
+            </div>
+
             <h2>Identifying Key Issues</h2>
             <p class="">
               After analyzing surveys, interview data, and conducting heuristic evaluation on current application, I worked with the product manager and my team to identify the key issues of Adobe PPM 1.0:
@@ -238,215 +270,395 @@
         <p>
           Based on the different tasks of each persona, I built the user workflow to demonstrate how they will use Adobe PPM 2.0 to achieve their goals.
         </p>
-        <img src="image/adobe/vp.png" alt="" />
-        <p class="center" style="margin-top:-10px; margin-bottom:40px;">
-          <i>Workflow for Executives</i>
-        </p>
-        <img src="image/adobe/pdm.png" alt="" />
-        <p class="center">
-          <i>Workflow for Project Managers</i>
-        </p>
+        <div class="image-box">
+          <a class="example-image-link" href="image/adobe/vp.png"
+          data-lightbox="example-set" data-title="">
+            <img class="example-image" src="image/adobe/vp.png" alt=""/>
+          </a>
+          <h4  class="center" style="margin-bottom:60px;">
+            <i>Workflow for Executives</i>
+          </h4>
+        </div>
+
+        <div class="image-box">
+          <a class="example-image-link" href="image/adobe/pdm.png"
+          data-lightbox="example-set" data-title="">
+            <img class="example-image" src="image/adobe/pdm.png" alt=""/>
+          </a>
+          <h4  class="center" style="margin-bottom:60px;">
+            <i>Workflow for Project Managers</i>
+          </h4>
+        </div>
+
         <h2>Information Architecture</h2>
         <p>
           I also constructed the sitemap (information architecture) by analyzing the existing architecture and future vision.
           The new PPM will keep only the essential functions and be accessible on both web and mobile(not in scope).
         </p>
-        <img src="image/adobe/sitemap.png" alt="" />
-        <p class="center">
-          <i>Adobe PPM 2.0 Sitemap</i>
-        </p>
+
+        <div class="image-box">
+          <a class="example-image-link" href="image/adobe/sitemap.png"
+          data-lightbox="example-set" data-title="">
+            <img class="example-image" src="image/adobe/sitemap.png" alt=""/>
+          </a>
+          <h4  class="center">
+            <i>Adobe PPM 2.0 Sitemap</i>
+          </h4>
+        </div>
     </section>
-
-
 
 
 
 
     <section class="page clearfix grey">
-        <h1 class="center">Design Iterations</h1>
+      <h1 class="center">Design Details</h1>
+      <p>
+        As the only designer in the team, I spent 6 weeks in designing the interfaces and interactions of the new PPM.
+        Adobe PPM 2.0 not only covers the primary functions of project & portfolio management,
+        but also provides an intuitive dashboard which presents the key information and project changes to simplify the workflow.
+      </p>
+      <div class="clearfix">
+        <h2>Dashboard Tab</h2>
         <p>
-          As the only designer in the team, I worked through 6 rounds of design iterations to get to the final mockups and prototype.
-          Adobe PPM 2.0 covers the primary functions of reporting, project recording, strategy alignment, portfolio management.
-          It also provides an intuitive dashboard which presents the key information and project changes, as well as smart notifications that help simplify the workflow.
+          To solve the pain point of burdensome workflow, I designed a highly-customizable dashboard where users can pin the most important information.
+          The different pods on the dashboard also serves as shortcuts to most frequently used tabs.
         </p>
+
+        <div class="image-box col-md-4" style="padding:2%;">
+          <a class="example-image-link" href="image/adobe/dashboard-initiator.png"
+          data-lightbox="example-set" data-title="">
+            <img class="example-image" src="image/adobe/dashboard-initiator.png" style="box-shadow: 0 0 2px 2px rgba(0,0,0,0.13);" alt="" style=""/>
+          </a>
+          <h4  class="center" style="margin-bottom:0px;">
+            <i>Dashboard for Project Managers</i>
+          </h4>
+        </div>
+        <div class="image-box col-md-4"  style="padding:2%;">
+          <a class="example-image-link" href="image/adobe/dashboard-manager.png"
+          data-lightbox="example-set" data-title="">
+            <img class="example-image" src="image/adobe/dashboard-manager.png" style="box-shadow: 0 0 2px 2px rgba(0,0,0,0.13);" alt=""/>
+          </a>
+          <h4  class="center" style="margin-bottom:0px;">
+            <i>Dashboard for Portfolio Managers</i>
+          </h4>
+        </div>
+        <div class="image-box col-md-4"  style="padding:2%;">
+          <a class="example-image-link" href="image/adobe/dashboard-executives.png"
+          data-lightbox="example-set" data-title="">
+            <img class="example-image" src="image/adobe/dashboard-executives.png" style="box-shadow: 0 0 2px 2px rgba(0,0,0,0.13);" alt=""/>
+          </a>
+          <h4  class="center" style="margin-bottom:0px;">
+            <i>Dashboard for Executives</i>
+          </h4>
+        </div>
+      </div>
+
+      <div class="clearfix">
+        <h2>Project Tab</h2>
+        <p>The project page is what users visit most frequently in PPM 2.0. This page contains a project list and a detailed project information page.</p>
+        <p></p>
         <div class="clearfix">
-          <h2>Iteration 1 - Starting From Scratch</h2>
           <p>
-            <b>Challenge</b><br>
-            Redesign the application architecture and fit the information in a modern and intuitive user interface.
+            <b>Project List</b><br>
+            The project list contains all the projects at Adobe, including closed projects.
+            With so many projects going on, it is hard to satisfy the needs of different personas.
+            Therefore, I explored the three HMW questions:
           </p>
+            <ul style="margin-top:-10px;">
+              <li>How might we present data given a limited table width?</li>
+              <li>How might we arrange columns and decide which comes first?</li>
+              <li>How might we filter the data to enable customization?</li>
+            </ul>
           <p>
-            <b>Solution</b><br>
-            Starting from "scratch", I distilled the most important information sections and rephrased them in to different pods that enable flexibility on different platforms and screen sizes.
-            I also designed a dashboard that consists of succinct data from different tabs.
-            To improve the UI style and create a sense of 'familiarity', I followed the Adobe internal design guidelines.
+            As a result, I designed an efficient and clear project list with searching, sorting and filtering functions.
           </p>
-          <!-- <img src="image/adobe/i1.png" alt="" />
-          <p class="center" style="margin-bottom:40px;;">
-            <i>Screens in Iteration 1</i>
+          <div class="image-box">
+            <a class="example-image-link" href="image/adobe/critique4.png"
+            data-lightbox="example-set" data-title="">
+              <img class="example-image" src="image/adobe/critique4.png" alt=""/>
+            </a>
+            <h4  class="center" style="margin-bottom:0px;">
+              <i>Project List &amp; Filters</i>
+            </h4>
+          </div>
+        </div>
+        <div class="clearfix">
+          <p>
+            <b>Reorganizing Categories</b><br>
+            There are many topics in each projects, such as status, milestones, etc. In PPM 1.0, these topics are unorganized and users had a hard time finding the information.
+            Therefore, I conducted 'card sorting' with PPM users asking them to reorganize the topics into categories.
+            As a result, the topics are organized into three categories - project information, project activities, and project dependencies.
+          </p>
+          <div class="image-box">
+            <a class="example-image-link" href="image/adobe/grouping.png"
+            data-lightbox="example-set" data-title="">
+              <img class="example-image" src="image/adobe/grouping.png" alt=""/>
+            </a>
+            <h4  class="center" style="margin-bottom:0px;">
+              <i>Project Categories</i>
+            </h4>
+          </div>
+          <!-- <p class="center">
+            <i>Project Categories</i>
           </p> -->
-          <img src="image/adobe/critique1.png" alt="" />
-          <p class="center">
-            <i>Dashboard Design - 1st Iteration</i>
-          </p>
-          <p>
-            <b>Key Takeaways</b><br>
-            <ul style="margin-top:-10px;">
-              <li>Only present the essential information on the dashboard.</li>
-              <li>Do not try to guide users to perform two tasks on the same page.</li>
-              <li>Use only one and clear navigation.</li>
-            </ul>
-          </p>
         </div>
-        <div class="clearfix">
-          <h2>Iteration 2 - Handling Tables</h2>
+        <div class="">
           <p>
-            <b>Challenge</b><br>
-            Design clean and intuitive tables.
-          </p>
-          <p>
-            <b>Solution</b><br>
-            However, the information presentation in iteration 1 is still to overwhelming and patterns used are not consistent.
-            So the second iteration focused on understanding what is really important to users and only keep the relevant data on the dashboard and front page.
-            In addition, I also explored the interaction patterns used in table design such as 'drawers', 'modal screen', and 'breadcrums'.
-          </p>
-          <img src="image/adobe/i2-1.png" alt="" />
-          <p class="center" style="margin-bottom:40px;;">
-            <i>Table Pattern Design - Breadcrum, Drawer, Modal Screen</i>
-          </p>
-          <img src="image/adobe/critique2.png" alt="" />
-          <p class="center">
-            <i>Table Design for Project Page</i>
-          </p>
-          <p>
-            <b>Key Takeaways</b><br>
-            <ul style="margin-top:-10px;">
-              <li>Put the most important information at the beginning or end of the table columns.</li>
-              <li>Utilize the patterns that people are familiar with and keep them consistent.</li>
-              <li>Design "bonus" interactions (shortcuts) to meet the needs of proficient users.</li>
-            </ul>
-          </p>
-        </div>
-        <div class="clearfix">
-          <h2>Iteration 3 - Designing Forms</h2>
-          <p>
-            <b>Challenge</b><br>
-            Create forms that are easy to edit and catch the key information.
-          </p>
-          <p>
-            <b>Solution</b><br>
-            I iterated through different layout by experimenting with margins, font size, paddings, and button positions.
-            In addition, I also learnt how to choose button styles more wisely (e.g. using CTA buttons only once for proceeding to next steps, group action buttons together as a toolbar).
-          </p>
-          <!-- <img src="image/adobe/i3.png" alt="" />
-          <p class="center" style="margin-bottom:40px;;">
-            <i>Screens in Iteration 3</i>
-          </p> -->
-          <img src="image/adobe/critique3.png" alt="" />
-          <p class="center">
-            <i>Editing Project Information</i>
-          </p>
-          <p>
-            <b>Key Takeaways</b><br>
-            <ul style="margin-top:-10px;">
-              <li>Design tooltips to provide instructions and explain different fields.</li>
-              <li>Use different button styles to guide user to complete different tasks.</li>
-            </ul>
-          </p>
-        </div>
-        <div class="clearfix">
-          <h2>Iteration 4 - Data Presentation and Filtering</h2>
-          <p>
-            <b>Challenge</b><br>
-            Redesign the tables to make them functional.
-          </p>
-          <p>
-            <b>Solution</b><br>
-            After sharing my design with my team and potential users, I got valuable feedback on how users would normally use the data.
-            In this iteration, I looked at tables again to explore the four key aspects:
-            <ul style="margin-top:-10px;">
-              <li>How to present data given a limited table width</li>
-              <li>How to arrange columns and decide which comes first</li>
-              <li>How to filter the data to enable customization</li>
-              <li>How to design editing functionality inside a table</li>
-            </ul>
-          </p>
-          <!-- <img src="image/adobe/i4.png" alt="" />
-          <p class="center" style="margin-bottom:40px;;">
-            <i>Screens in Iteration 4</i>
-          </p> -->
-          <img src="image/adobe/critique4.png" alt="" />
-          <p class="center">
-            <i>Design for Filter and Filter State</i>
-          </p>
-          <p>
-            <b>Key Takeaways</b><br>
-            <ul style="margin-top:-10px;">
-              <li>Jump out of the guidelines and create new patterns!</li>
-              <li>Use colors wisely and carefully.</li>
-            </ul>
-          </p>
-        </div>
-        <div class="clearfix">
-          <h2>Iteration 5 - Pixel Perfect Mockups</h2>
-          <p>
-            <b>Challenge</b><br>
-            Make the design hi-fi!
-          </p>
-          <p>
-            <b>Solution</b><br>
-            In this iteration, I refined the icon styles, unified margins/paddings, adjusted color palette to create pixel-perfect hi-fidelity mockups.
-            I also created a working prototype to help my team present the new solution to stakeholders.
+            <b>Updating & Editing Information</b><br>
+            In order to create forms that are easy to view and edit,
+            I experimented with two different layouts - steplist and static editing.
+            I also explored different types of buttons and used them to guide users complete their tasks.
           </p>
 
-          <img src="image/adobe/critique5.png" alt="" />
-          <p class="center">
-            <i>Hi-fidelity Design</i>
-          </p>
-          <!-- <img src="image/adobe/i5.png" alt="" />
-          <p class="center" style="margin-bottom:40px;;">
-            <i>Hi-fidelity Mockups</i>
-          </p> -->
-          <p>
-            <b>Key Takeaways</b><br>
-            <ul style="margin-top:-10px; margin-bottom:-20px;">
-              <li>Pay close attention to keep margins and paddings consistent.</li>
-              <li>Design clear font hierarchy.</li>
-            </ul>
-          </p>
+          <div class="image-box">
+            <a class="example-image-link" href="image/adobe/project-updates.png"
+            data-lightbox="example-set" data-title="">
+              <img class="example-image" src="image/adobe/project-updates.png" alt=""/>
+            </a>
+            <h4  class="center" style="margin-bottom:40px;">
+              <i>Updating Project Status Using Steplist</i>
+            </h4>
+          </div>
+
+          <div class="image-box">
+            <a class="example-image-link" href="image/adobe/critique3.png"
+            data-lightbox="example-set" data-title="">
+              <img class="example-image" src="image/adobe/critique3.png" alt=""/>
+            </a>
+            <h4  class="center" style="margin-bottom:0px;">
+              <i>Editing Project Details</i>
+            </h4>
+          </div>
         </div>
-        <div class="clearfix">
-          <h2>Iteration 6 - 'Automated Workflow'</h2>
-          <p>
-            <b>Challenge</b><br>
-            Design interactions within and between personas.
-          </p>
-          <p>
-            <b>Solution</b><br>
-            I also re-examined the 'automated workflow' and adjusted the interface for different personas.
-            I created a user workflow cycle engaging all three primary personas and bridged the gap between them by designing micro-interactions like useful feedback and smart notifications.
-          </p>
-          <img src="image/adobe/automated-workflow.png" alt="" />
-          <p class="center" style="margin-bottom:40px;;">
-            <i>Automated Workflow of Three Personas</i>
-          </p>
-          <p>
-            <b>Key Takeaways</b><br>
-            <ul style="margin-top:-10px;">
-              <li>Well-designed notifications are powerful.</li>
-              <li>Different personas have different access to the functions.</li>
-            </ul>
-          </p>
-        </div>
-        <h2>Final Prototype</h2>
+      </div>
+
+      <div class="clearfix">
+        <h2>Unified Priority List Tab</h2>
         <p>
-          Finally, I designed the interactions between different screens and workflow and created a final prototype.
+          In the UPL (Unified Priority List) tab, I designed a real-time roadmap to help users make decisions. I also designed two edit modes to help solve the pain points of burdensome prioritization process.
         </p>
-        <video autoplay="" loop="" controls="controls" width="100%" height="auto" name="schema explorer" src="image/adobe/Workflow Prototype-NDA.mp4" style="margin-bottom: 30px; box-shadow:0px 0px 10px rgba(0,0,0,0.2);"></video>
+        <div class="image-box">
+          <a class="example-image-link" href="image/adobe/UPL.png"
+          data-lightbox="example-set" data-title="">
+            <img class="example-image" src="image/adobe/UPL.png" alt=""/>
+          </a>
+          <h4  class="center" style="margin-bottom:0px;">
+            <i>Two edit modes</i>
+          </h4>
+        </div>
+      </div>
+
+      <div class="clearfix">
+        <h2>Administration Tab</h2>
+        <p>
+          In the administration tab, I utilized the same table design patterns in the project tab such as 'breadcrums', 'drawers', and 'modal screen'.
+        </p>
+        <div class="image-box">
+          <a class="example-image-link" href="image/adobe/i2-1.png"
+          data-lightbox="example-set" data-title="">
+            <img class="example-image" src="image/adobe/i2-1.png" alt=""/>
+          </a>
+          <h4  class="center" style="margin-bottom:0px;">
+            <i>Table Pattern Design - Breadcrum, Drawer, Modal Screen</i>
+          </h4>
+        </div>
+      </div>
+
+      <div class="clearfix">
+        <h2>The Automated Workflow</h2>
+        <p>
+          To put all the functions and programs, I created a user workflow cycle engaging all three primary personas and bridged the gap between them by designing micro-interactions like useful feedback and smart notifications.
+        </p>
+        <div class="image-box">
+          <a class="example-image-link" href="image/adobe/automated-workflow.png"
+          data-lightbox="example-set" data-title="">
+            <img class="example-image" src="image/adobe/automated-workflow.png" alt=""/>
+          </a>
+          <h4  class="center" style="margin-bottom:0px;">
+            <i>Automated Workflow of Three Personas</i>
+          </h4>
+        </div>
+      </div>
+
+      <div class="clearfix">
+        <h2>Pixel Perfect Mockups</h2>
+        <p>
+          Finally, I refined the icon styles, unified margins/paddings, adjusted color palette to create hi-fidelity mockups.
+        </p>
+        <div class="image-box">
+          <a class="example-image-link" href="image/adobe/critique5.png"
+          data-lightbox="example-set" data-title="">
+            <img class="example-image" src="image/adobe/critique5.png" alt=""/>
+          </a>
+          <h4  class="center" style="margin-bottom:0px;">
+            <i>Hi-fidelity Design Following the Adobe Design Guidelines</i>
+          </h4>
+        </div>
+      </div>
     </section>
 
+    <section class="page clearfix">
+        <h1 class="center">Design Iterations</h1>
+        <div class="clearfix">
+          <h2>Dashboard Iterations</h2>
+          <div class="image-box col-md-4" style="padding:2%;">
+            <a class="example-image-link" href="image/adobe/dashboard-1.png"
+            data-lightbox="example-set" data-title="">
+              <img class="example-image" src="image/adobe/dashboard-1.png" alt=""/>
+            </a>
+            <h4>
+              <i>Iteration 1</i><br>
+              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Width of the pods too small <br>
+              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Too much information <br>
+            </h4>
+          </div>
+          <div class="image-box col-md-4"  style="padding:2%;">
+            <a class="example-image-link" href="image/adobe/dashboard-2.png"
+            data-lightbox="example-set" data-title="">
+              <img class="example-image" src="image/adobe/dashboard-2.png" alt=""/>
+            </a>
+            <h4>
+              <i>Iteration 2</i><br>
+              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Accessibility issues <br>
+              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Inconsistent pods width  <br>
+            </h4>
+          </div>
+          <div class="image-box col-md-4"  style="padding:2%;">
+            <a class="example-image-link" href="image/adobe/dashboard-3.png"
+            data-lightbox="example-set" data-title="">
+              <img class="example-image" src="image/adobe/dashboard-3.png" alt=""/>
+            </a>
+            <h4>
+              <i>Iteration 3</i><br>
+              <i class="em em-white_check_mark" style="font-size:9px;margin-top:-4px;"></i> Accessible status <br>
+              <i class="em em-white_check_mark" style="font-size:9px;margin-top:-4px;"></i> Consistent pods <br>
+              <i class="em em-white_check_mark" style="font-size:9px;margin-top:-4px;"></i> Easy customization <br>
+            </h4>
+          </div>
+        </div>
+
+
+        <div class="clearfix">
+          <h2>Table Iterations</h2>
+          <div class="image-box col-md-4"  style="padding:2%;">
+            <a class="example-image-link" href="image/adobe/table-1.png"
+            data-lightbox="example-set" data-title="">
+              <img class="example-image" src="image/adobe/table-1.png" alt=""/>
+            </a>
+            <h4>
+              <i>Iteration 1</i><br>
+              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Too many visual noises <br>
+              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Two tasks at the same time  <br>
+            </h4>
+          </div>
+          <div class="image-box col-md-4"  style="padding:2%;">
+            <a class="example-image-link" href="image/adobe/table-2.png"
+            data-lightbox="example-set" data-title="">
+              <img class="example-image" src="image/adobe/table-2.png" alt=""/>
+            </a>
+            <h4>
+              <i>Iteration 2</i><br>
+              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Unintuitive subscription <br>
+              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Bad button choice  <br>
+            </h4>
+          </div>
+          <div class="image-box col-md-4"  style="padding:2%;">
+            <a class="example-image-link" href="image/adobe/table-3.png"
+            data-lightbox="example-set" data-title="">
+              <img class="example-image" src="image/adobe/table-3.png" alt=""/>
+            </a>
+            <h4>
+              <i>Iteration 3</i><br>
+              <i class="em em-white_check_mark" style="font-size:9px;margin-top:-4px;"></i> Clear navigation <br>
+              <i class="em em-white_check_mark" style="font-size:9px;margin-top:-4px;"></i> Accessiblity  <br>
+            </h4>
+          </div>
+        </div>
+
+        <div class="clearfix">
+          <h2>Editing UPL</h2>
+          <div class="image-box col-md-4"  style="padding:2%;">
+            <a class="example-image-link" href="image/adobe/UPL-1.png"
+            data-lightbox="example-set" data-title="">
+              <img class="example-image" src="image/adobe/UPL-1.png" alt=""/>
+            </a>
+            <h4>
+              <i>Iteration 1</i><br>
+              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Too much information <br>
+              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Bad driver-receiver model  <br>
+            </h4>
+          </div>
+          <div class="image-box col-md-4"  style="padding:2%;">
+            <a class="example-image-link" href="image/adobe/UPL-2.png"
+            data-lightbox="example-set" data-title="">
+              <img class="example-image" src="image/adobe/UPL-2.png" alt=""/>
+            </a>
+            <h4>
+              <i>Iteration 2</i><br>
+              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Two CTA buttons <br>
+              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Bad help documentation design  <br>
+            </h4>
+          </div>
+          <div class="image-box col-md-4"  style="padding:2%;">
+            <a class="example-image-link" href="image/adobe/UPL-3.png"
+            data-lightbox="example-set" data-title="">
+              <img class="example-image" src="image/adobe/UPL-3.png" alt=""/>
+            </a>
+            <h4>
+              <i>Iteration 3</i><br>
+              <i class="em em-white_check_mark" style="font-size:9px;margin-top:-4px;"></i> Clear hierarchy <br>
+              <i class="em em-white_check_mark" style="font-size:9px;margin-top:-4px;"></i> Easy access <br>
+            </h4>
+          </div>
+        </div>
+
+
+    </section>
+
+    <section class="page clearfix grey">
+      <h1 class="center">Final Prototype</h1>
+      <p>
+        Finally, I designed the interactions between different screens and workflow and created a final prototype.
+      </p>
+      <video autoplay="" loop="" controls="controls" width="100%" height="auto" name="schema explorer" src="image/adobe/Workflow Prototype-NDA.mp4" style="margin-bottom: 30px; box-shadow:0px 0px 10px rgba(0,0,0,0.2);"></video>
+
+    </section>
 
     <section class="page clearfix">
+      <h1 class="center">Key Takeaways</h1>
+      <h2>Design for Users</h2>
+      <p>
+        <ul>
+          <li>Do not try to guide users to perform two tasks on the same page.</li>
+          <li>Different personas should have different access to the functions.</li>
+        </ul>
+      </p>
+      <h2>Design for Clarity</h2>
+      <p>
+        <ul>
+          <li>Only present the important and essential information to users.</li>
+          <li>Design and follow a clear hierarchy for fonts, colors, buttons, margins, etc.</li>
+        </ul>
+      </p>
+
+      <h2>Design for Consistency</h2>
+      <p>
+        <ul>
+          <li>Follow design guidelines and utilize patterns that people are familiar with and keep them consistent.</li>
+          <li>Jump out of the guidelines and create new patterns!</li>
+        </ul>
+      </p>
+
+      <h2>Design for 'Bonuses'</h2>
+      <p>
+        <ul>
+          <li>Design "bonus" interactions (shortcuts) to meet the needs of super users.</li>
+          <li>Design tooltips to provide instructions and explain different fields.</li>
+        </ul>
+      </p>
+    </section>
+
+    <section class="page clearfix grey">
         <h1 class="center">Other Internship Highlights</h1>
         <div class="">
           <h2>To get more buy-in for Adobe PPM 2.0</h2>
@@ -491,6 +703,7 @@
             </p>
         </a>
     </footer>
+    <script src="../p_js/js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>

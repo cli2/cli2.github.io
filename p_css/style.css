@@ -353,6 +353,10 @@ section.page li{
 ul.padding{
   padding: 0 15%;
 }
+
+p b{
+  margin-bottom: 0;
+}
 section.page img{
   width: 100%;
   /*box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);*/

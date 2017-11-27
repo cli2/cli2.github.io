@@ -9,6 +9,7 @@
     <script src='../p_js/jquery-3.1.1.min.js'></script>
     <script src='../p_js/js.js'></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../p_css/css/lightbox.min.css">
     <link rel="stylesheet" href="../p_css/style.css" media="screen" title="no title">
     <script>
         (function(i, s, o, g, r, a, m) {
@@ -169,10 +170,19 @@
       To help me narrow down to one best solution, I tried to discover the stories of the primary persona of a busy father who wants to protect his child from the smog and at the same time keep the kid from being bored.
       I set up five stories settings and mapped them together to gain more insights:
     </p>
-    <img src="image/airc/storymap.png" alt="" />
+    <div class="image-box">
+      <a class="example-image-link" href="image/airc/storymap.png"
+      data-lightbox="example-set" data-title="">
+        <img class="example-image" src="image/airc/storymap.png" alt=""/>
+      </a>
+      <h4  class="center" style="margin-bottom:40px;">
+        <i>Story Mapping: User Activities and Tasks in Different Settings</i>
+      </h4>
+    </div>
+    <!-- <img src="image/airc/storymap.png" alt="" />
     <p class="center">
       <i>Story Mapping: User Activities and Tasks in Different Settings</i>
-    </p>
+    </p> -->
     <p>
       Based on the story mapping, I concluded that the most important features are accurate air quality forecast, interpretation of the air quality index, advices on how to protect children, and connecting devices to monitor home conditions.
     </p>
@@ -205,13 +215,13 @@
       The first iteration is rapid prototyping on paper.
       I sketched a mobile app interface with five tabs: dashbaord, forum, add post, air map, device.
     </p>
-    <img src="image/airc/paper.png" alt=""  style="padding:0 1%;"/>
+    <img src="image/airc/paper-prototype.png" alt=""  style="padding:0 1%;"/>
   </div>
   <div class="clearfix">
     <h2>Testing with Users</h2>
     <div class="" style="padding:0;">
       <p>
-        Then I tested with two users with the paper prototype and here is the takeaways from the test:
+        Then I <a href="https://www.youtube.com/embed/IW8wHRf5W0s" target="_blank">tested with two users</a> with the paper prototype and here are the major takeaways from the test:
         <ul>
           <li>The tips on dashboard are common-sense and not helpful enough</li>
           <li>Some icons are vague and might cause confusion</li>
@@ -270,6 +280,14 @@
     <img src="image/airc/device.png" alt="" />
   </div>
   <div class="clearfix">
+    <h2>Notifications</h2>
+    <p>
+      I use a combination of push notifications, in-app banners, and widgets to provide accurate and timely forecast.
+    </p>
+    <img src="image/airc/notification.png" alt="" />
+  </div>
+  <div class="clearfix">
+  <div class="clearfix">
     <h2>Design for the Eco-system</h2>
     <p>
       To help parents get notifications and forecast more easily and control connected devices remotely,
@@ -295,7 +313,7 @@
   <div class="clearfix" style="margin-top:80px;">
     <div class="col-sm-6" style="padding:0;">
       <div class="" style="margin-top:40%;">
-        <h2>Dashboard</h2>
+        <h2>Dashboard Interactions</h2>
         <p class="sm-hide">Parents can view current air quality, air forecast, and tips to prepare for their children. They can also control connected devices on the dashboard.        </p>
       </div>
     </div>
@@ -369,6 +387,7 @@
     </p>
   </a>
 </footer>
+<script src="../p_js/js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>
