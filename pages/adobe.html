@@ -13,6 +13,9 @@
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <link rel="stylesheet" href="../p_css/css/lightbox.min.css">
     <link rel="stylesheet" href="../p_css/style.css" media="screen" title="no title">
+    <style media="screen">
+      li {list-style-type: square;}
+    </style>
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -92,12 +95,8 @@
                 I was working on the product design of Adobe PPM 2.0 (Project Portfolio Management) where everyone at Adobe can access projects, align with corporate strategy, manage portfolio, and work as One Adobe.
                 <br><br>
                 In the 12 weeks, I worked with PMs, software engineers, and design mentors to create seamless and meaningful user experience to accelerate the reporting and strategic planning across Adobe.
-                <br><br>
-                <i>
-                  * Due to NDA, I only showcase my design process and several mock-ups that contain no confidential information on this page.
-                  If you want to know more about the details, you can access the <a href="https://wiki.corp.adobe.com/display/SLC/Adobe+PPM+Solution+-+UX+Design" target="_blank">design</a> at Adobe Wiki (Internal Access Only) or <a href="mailto:chongli@umich.edu?Subject=Adobe%20PPM2.0" target="_top">shoot me an email</a>.
-                </i>
             </p>
+            <img src="image/adobe/process.png" alt="" style="padding:2% 4%;"/>
         </div>
     </section>
 
@@ -110,6 +109,7 @@
               Adobe has evolved a lot since then, making most of the functionalities in Adobe PPM 1.0 redundant and outdated.
               The UI looks like from 1990s and the backend data fetching is slow. Different BUs are using different project management tools and people often need to jump back and forth to oversee projects.
             </p>
+
             <img src="image/adobe/current.png" alt="" />
             <p class="center">
               <i>Outdated UI of Adobe PPM 1.0</i>
@@ -118,6 +118,7 @@
               This is why Adobe PPM 2.0 is brought up by our team to accelerate the process and help Adobe employees manage projects and align with company strategy.
               Our team is also hoping that Adobe PPM 2.0 can become the 'single source of truth' at Adobe to help Adobe win in the marketplace.
             </p>
+
         </div>
     </section>
 
@@ -152,7 +153,6 @@
             </div>
             <div class="" style="position:absolute; top:6.1%;left:12.6%;width:75.1%;">
               <img src="image/adobe/initiate.gif" alt="" />
-              <!-- <video autoplay="" loop="" controls="controls" width="100%" height="auto" name="schema explorer" src="image/adobe/initiator.mp4" style="margin-bottom: 30px"></video> -->
             </div>
           </div>
         </div>
@@ -270,7 +270,7 @@
         <p>
           Based on the different tasks of each persona, I built the user workflow to demonstrate how they will use Adobe PPM 2.0 to achieve their goals.
         </p>
-        <div class="image-box">
+        <!-- <div class="image-box">
           <a class="example-image-link" href="image/adobe/vp.png"
           data-lightbox="example-set" data-title="">
             <img class="example-image" src="image/adobe/vp.png" alt=""/>
@@ -278,7 +278,7 @@
           <h4  class="center" style="margin-bottom:60px;">
             <i>Workflow for Executives</i>
           </h4>
-        </div>
+        </div> -->
 
         <div class="image-box">
           <a class="example-image-link" href="image/adobe/pdm.png"
@@ -377,12 +377,12 @@
             data-lightbox="example-set" data-title="">
               <img class="example-image" src="image/adobe/critique4-copy.png" alt=""/>
             </a>
-            <h4  class="center" style="margin-bottom:0px;">
+            <h4  class="center" style="margin-bottom:40px;">
               <i>Project List &amp; Filters</i>
             </h4>
           </div>
         </div>
-        <div class="clearfix">
+        <!-- <div class="clearfix">
           <p>
             <b>Reorganizing Categories</b><br>
             There are many topics in each projects, such as status, milestones, etc. In PPM 1.0, these topics are unorganized and users had a hard time finding the information.
@@ -398,16 +398,11 @@
               <i>Project Categories</i>
             </h4>
           </div>
-          <!-- <p class="center">
-            <i>Project Categories</i>
-          </p> -->
-        </div>
+        </div> -->
         <div class="">
           <p>
             <b>Updating & Editing Information</b><br>
-            In order to create forms that are easy to view and edit,
-            I experimented with two different layouts - steplist and static editing.
-            I also explored different types of buttons and used them to guide users complete their tasks.
+            For updating a project, I designed a steplist for managers so that managers will not miss any important information or fill in the wrong information.
           </p>
 
           <div class="image-box">
@@ -419,7 +414,9 @@
               <i>Updating Project Status Using Steplist</i>
             </h4>
           </div>
-
+          <p>In order to create forms that are easy to view and edit,
+          I experimented with two different layouts - steplist and static editing.
+          I also explored different types of buttons and used them to guide users complete their tasks.</p>
           <div class="image-box">
             <a class="example-image-link" href="image/adobe/critique3.png"
             data-lightbox="example-set" data-title="">
@@ -508,8 +505,8 @@
             </a>
             <h4>
               <i>Iteration 1</i><br>
-              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Width of the pods too small <br>
-              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Too much information <br>
+              <i class="em em-red_circle"  style="font-size:7px;margin-top:-4px;"></i> Width of the pods too small <br>
+              <i class="em em-red_circle"  style="font-size:7px;margin-top:-4px;"></i> Too much information <br>
             </h4>
           </div>
           <div class="image-box col-md-4"  style="padding:2%;">
@@ -519,8 +516,8 @@
             </a>
             <h4>
               <i>Iteration 2</i><br>
-              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Accessibility issues <br>
-              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Inconsistent pods width  <br>
+              <i class="em em-red_circle"  style="font-size:7px;margin-top:-4px;"></i> Accessibility issues <br>
+              <i class="em em-red_circle"  style="font-size:7px;margin-top:-4px;"></i> Inconsistent pods width  <br>
             </h4>
           </div>
           <div class="image-box col-md-4"  style="padding:2%;">
@@ -530,9 +527,9 @@
             </a>
             <h4>
               <i>Iteration 3</i><br>
-              <i class="em em-white_check_mark" style="font-size:9px;margin-top:-4px;"></i> Accessible status <br>
-              <i class="em em-white_check_mark" style="font-size:9px;margin-top:-4px;"></i> Consistent pods <br>
-              <i class="em em-white_check_mark" style="font-size:9px;margin-top:-4px;"></i> Easy customization <br>
+              <i class="em em-white_check_mark" style="font-size:7px;margin-top:-4px;"></i> Accessible status <br>
+              <i class="em em-white_check_mark" style="font-size:7px;margin-top:-4px;"></i> Consistent pods <br>
+              <!-- <i class="em em-white_check_mark" style="font-size:7px;margin-top:-4px;"></i> Easy customization <br> -->
             </h4>
           </div>
         </div>
@@ -547,8 +544,8 @@
             </a>
             <h4>
               <i>Iteration 1</i><br>
-              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Too many visual noises <br>
-              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Two tasks at the same time  <br>
+              <i class="em em-red_circle"  style="font-size:7px;margin-top:-4px;"></i> Too many visual noises <br>
+              <i class="em em-red_circle"  style="font-size:7px;margin-top:-4px;"></i> Two tasks at the same time  <br>
             </h4>
           </div>
           <div class="image-box col-md-4"  style="padding:2%;">
@@ -558,8 +555,8 @@
             </a>
             <h4>
               <i>Iteration 2</i><br>
-              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Unintuitive subscription <br>
-              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Bad button choice  <br>
+              <i class="em em-red_circle"  style="font-size:7px;margin-top:-4px;"></i> Unintuitive subscription <br>
+              <i class="em em-red_circle"  style="font-size:7px;margin-top:-4px;"></i> Bad button choice  <br>
             </h4>
           </div>
           <div class="image-box col-md-4"  style="padding:2%;">
@@ -569,8 +566,8 @@
             </a>
             <h4>
               <i>Iteration 3</i><br>
-              <i class="em em-white_check_mark" style="font-size:9px;margin-top:-4px;"></i> Clear navigation <br>
-              <i class="em em-white_check_mark" style="font-size:9px;margin-top:-4px;"></i> Accessiblity  <br>
+              <i class="em em-white_check_mark" style="font-size:7px;margin-top:-4px;"></i> Clear navigation <br>
+              <i class="em em-white_check_mark" style="font-size:7px;margin-top:-4px;"></i> Accessiblity  <br>
             </h4>
           </div>
         </div>
@@ -584,8 +581,8 @@
             </a>
             <h4>
               <i>Iteration 1</i><br>
-              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Too much information <br>
-              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Bad driver-receiver model  <br>
+              <i class="em em-red_circle"  style="font-size:7px;margin-top:-4px;"></i> Too much information <br>
+              <i class="em em-red_circle"  style="font-size:7px;margin-top:-4px;"></i> Bad driver-receiver model  <br>
             </h4>
           </div>
           <div class="image-box col-md-4"  style="padding:2%;">
@@ -595,8 +592,8 @@
             </a>
             <h4>
               <i>Iteration 2</i><br>
-              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Two CTA buttons <br>
-              <i class="em em-red_circle"  style="font-size:9px;margin-top:-4px;"></i> Bad help documentation design  <br>
+              <i class="em em-red_circle"  style="font-size:7px;margin-top:-4px;"></i> Two CTA buttons <br>
+              <i class="em em-red_circle"  style="font-size:7px;margin-top:-4px;"></i> Bad help documentation design  <br>
             </h4>
           </div>
           <div class="image-box col-md-4"  style="padding:2%;">
@@ -606,8 +603,8 @@
             </a>
             <h4>
               <i>Iteration 3</i><br>
-              <i class="em em-white_check_mark" style="font-size:9px;margin-top:-4px;"></i> Clear hierarchy <br>
-              <i class="em em-white_check_mark" style="font-size:9px;margin-top:-4px;"></i> Easy access <br>
+              <i class="em em-white_check_mark" style="font-size:7px;margin-top:-4px;"></i> Clear hierarchy <br>
+              <i class="em em-white_check_mark" style="font-size:7px;margin-top:-4px;"></i> Easy access <br>
             </h4>
           </div>
         </div>
