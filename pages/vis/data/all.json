@@ -1,0 +1,5903 @@
+[
+    {
+        "name": "Putian", 
+        "value": [
+            119.007777, 
+            25.454084, 
+            71
+        ], 
+        "social": {
+            "GDP": 0.05415299497671009, 
+            "City": "Putian", 
+            "o3": 59, 
+            "Green_Covered_Area_percentage": 0.5880604729, 
+            "pm10": 20, 
+            "dust_removed": 216175.0, 
+            "pm2_5": 10, 
+            "Population_Density": 0.30654091566090125, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5656, 
+            "GDP_per_capita": 0.0692251089602083, 
+            "co": 0.7, 
+            "so2": 2, 
+            "aqi": 71.45863791562404, 
+            "no2": 17, 
+            "population": 0.21123724673085215
+        }
+    }, 
+    {
+        "name": "Zhangye", 
+        "value": [
+            100.449818, 
+            38.925875, 
+            94
+        ], 
+        "social": {
+            "GDP": 0.007144147075466263, 
+            "City": "Zhangye", 
+            "o3": 100, 
+            "Green_Covered_Area_percentage": 0.2505491666, 
+            "pm10": 77, 
+            "dust_removed": 838696.0, 
+            "pm2_5": 22, 
+            "Population_Density": 0.008176624205500435, 
+            "dust_emission": 0.004792012086906993, 
+            "secondary_industry_percentage": 0.35119999999999996, 
+            "GDP_per_capita": 0.03753194787326219, 
+            "co": 0.7, 
+            "so2": 16, 
+            "aqi": 94.56672637552782, 
+            "no2": 24, 
+            "population": 0.06703549360540308
+        }
+    }, 
+    {
+        "name": "Qiqihar", 
+        "value": [
+            123.918186, 
+            47.35434799999999, 
+            79
+        ], 
+        "social": {
+            "GDP": 0.04890235732244694, 
+            "City": "Qiqihar", 
+            "o3": 64, 
+            "Green_Covered_Area_percentage": 0.4841710815, 
+            "pm10": 47, 
+            "dust_removed": 24757.0, 
+            "pm2_5": 29, 
+            "Population_Density": 0.04647745193552271, 
+            "dust_emission": 0.0008937054970816615, 
+            "secondary_industry_percentage": 0.3668, 
+            "GDP_per_capita": 0.029788262340478336, 
+            "co": 0.7, 
+            "so2": 8, 
+            "aqi": 79.54447061712088, 
+            "no2": 16, 
+            "population": 0.3737605977870384
+        }
+    }, 
+    {
+        "name": "Yangjiang", 
+        "value": [
+            111.982232, 
+            21.857958, 
+            76
+        ], 
+        "social": {
+            "GDP": 0.04000556996375476, 
+            "City": "Yangjiang", 
+            "o3": 43, 
+            "Green_Covered_Area_percentage": 0.4644010854, 
+            "pm10": 32, 
+            "dust_removed": 573319.0, 
+            "pm2_5": 28, 
+            "Population_Density": 0.13366536072791266, 
+            "dust_emission": 0.003452405266583026, 
+            "secondary_industry_percentage": 0.4941, 
+            "GDP_per_capita": 0.06112656800379673, 
+            "co": 0.7, 
+            "so2": 5, 
+            "aqi": 76.54567952884777, 
+            "no2": 14, 
+            "population": 0.17674953297887627
+        }
+    }, 
+    {
+        "name": "Shijiazhuang", 
+        "value": [
+            114.514893, 
+            38.042805, 
+            170
+        ], 
+        "social": {
+            "GDP": 0.21852892627739043, 
+            "City": "Shijiazhuang", 
+            "o3": 64, 
+            "Green_Covered_Area_percentage": 0.549166559, 
+            "pm10": 86, 
+            "dust_removed": 525134.0, 
+            "pm2_5": 26, 
+            "Population_Density": 0.23902908821689808, 
+            "dust_emission": 0.03309501186744489, 
+            "secondary_industry_percentage": 0.4851, 
+            "GDP_per_capita": 0.08726395583247341, 
+            "co": 0.7, 
+            "so2": 13, 
+            "aqi": 170.55575386073158, 
+            "no2": 39, 
+            "population": 0.694352636873114
+        }
+    }, 
+    {
+        "name": "Dandong", 
+        "value": [
+            124.35445, 
+            40.000787, 
+            80
+        ], 
+        "social": {
+            "GDP": 0.04315509444649393, 
+            "City": "Dandong", 
+            "o3": 65, 
+            "Green_Covered_Area_percentage": 0.4999353922, 
+            "pm10": 109, 
+            "dust_removed": 909000.0, 
+            "pm2_5": 49, 
+            "Population_Density": 0.056296307585008164, 
+            "dust_emission": 0.012159849598688809, 
+            "secondary_industry_percentage": 0.4943, 
+            "GDP_per_capita": 0.08213923394769039, 
+            "co": 0.8, 
+            "so2": 26, 
+            "aqi": 80.31339729236282, 
+            "no2": 25, 
+            "population": 0.14535134358384827
+        }
+    }, 
+    {
+        "name": "Foshan", 
+        "value": [
+            113.121435, 
+            23.021478, 
+            88
+        ], 
+        "social": {
+            "GDP": 0.31874355691067185, 
+            "City": "Foshan", 
+            "o3": 34, 
+            "Green_Covered_Area_percentage": 0.4963173537, 
+            "pm10": 35, 
+            "dust_removed": 1967613.0, 
+            "pm2_5": 22, 
+            "Population_Density": 0.38168451505273465, 
+            "dust_emission": 0.015594812068132199, 
+            "secondary_industry_percentage": 0.6192, 
+            "GDP_per_capita": 0.38120833714313085, 
+            "co": 0.6, 
+            "so2": 10, 
+            "aqi": 88.17167008657206, 
+            "no2": 30, 
+            "population": 0.2455812616755281
+        }
+    }, 
+    {
+        "name": "Huangshi", 
+        "value": [
+            115.038835, 
+            30.20002999999999, 
+            119
+        ], 
+        "social": {
+            "GDP": 0.04477670724298237, 
+            "City": "Huangshi", 
+            "o3": 70, 
+            "Green_Covered_Area_percentage": 0.4063832536, 
+            "pm10": 93, 
+            "dust_removed": 3861592.0, 
+            "pm2_5": 49, 
+            "Population_Density": 0.21573472584275658, 
+            "dust_emission": 0.007656436519001232, 
+            "secondary_industry_percentage": 0.6122, 
+            "GDP_per_capita": 0.07659216879797623, 
+            "co": 1.0, 
+            "so2": 20, 
+            "aqi": 119.08019893220114, 
+            "no2": 38, 
+            "population": 0.16101451357953728
+        }
+    }, 
+    {
+        "name": "Lishui", 
+        "value": [
+            119.922796, 
+            28.46763, 
+            79
+        ], 
+        "social": {
+            "GDP": 0.03735564000545138, 
+            "City": "Lishui", 
+            "o3": 39, 
+            "Green_Covered_Area_percentage": 0.5673859672, 
+            "pm10": 25, 
+            "dust_removed": 122818.0, 
+            "pm2_5": 18, 
+            "Population_Density": 0.05466175021100555, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5064, 
+            "GDP_per_capita": 0.06276586943932844, 
+            "co": 0.7, 
+            "so2": 8, 
+            "aqi": 79.94052319655431, 
+            "no2": 32, 
+            "population": 0.1620204052306366
+        }
+    }, 
+    {
+        "name": "Shuozhou", 
+        "value": [
+            112.432825, 
+            39.331595, 
+            99
+        ], 
+        "social": {
+            "GDP": 0.039378328102248256, 
+            "City": "Shuozhou", 
+            "o3": 75, 
+            "Green_Covered_Area_percentage": 0.6416849722, 
+            "pm10": 56, 
+            "dust_removed": 8661529.0, 
+            "pm2_5": 14, 
+            "Population_Density": 0.058855579473863856, 
+            "dust_emission": 0.009472707413886497, 
+            "secondary_industry_percentage": 0.5603, 
+            "GDP_per_capita": 0.11011838673580905, 
+            "co": 0.5, 
+            "so2": 13, 
+            "aqi": 99.03221629030168, 
+            "no2": 17, 
+            "population": 0.09778703836758157
+        }
+    }, 
+    {
+        "name": "Hezhou", 
+        "value": [
+            111.566694, 
+            24.403582, 
+            74
+        ], 
+        "social": {
+            "GDP": 0.01124684108322984, 
+            "City": "Hezhou", 
+            "o3": 61, 
+            "Green_Covered_Area_percentage": 0.6002067451, 
+            "pm10": 46, 
+            "dust_removed": 1109201.0, 
+            "pm2_5": 31, 
+            "Population_Density": 0.07240398886169892, 
+            "dust_emission": 0.0015222804776408713, 
+            "secondary_industry_percentage": 0.4631, 
+            "GDP_per_capita": 0.021130225409389955, 
+            "co": 0.9, 
+            "so2": 14, 
+            "aqi": 74.35186483319548, 
+            "no2": 16, 
+            "population": 0.11610863629831875
+        }
+    }, 
+    {
+        "name": "Maoming", 
+        "value": [
+            110.925439, 
+            21.662991, 
+            76
+        ], 
+        "social": {
+            "GDP": 0.09231069687719318, 
+            "City": "Maoming", 
+            "o3": 60, 
+            "Green_Covered_Area_percentage": 0.4150407029, 
+            "pm10": 38, 
+            "dust_removed": 689290.0, 
+            "pm2_5": 16, 
+            "Population_Density": 0.2505976110881376, 
+            "dust_emission": 0.003434962469443391, 
+            "secondary_industry_percentage": 0.41359999999999997, 
+            "GDP_per_capita": 0.0437386522460389, 
+            "co": 0.8, 
+            "so2": 8, 
+            "aqi": 76.80617557184478, 
+            "no2": 17, 
+            "population": 0.5140824831153902
+        }
+    }, 
+    {
+        "name": "Yantai", 
+        "value": [
+            121.447852, 
+            37.46453899999999, 
+            90
+        ], 
+        "social": {
+            "GDP": 0.2535541725172085, 
+            "City": "Yantai", 
+            "o3": 75, 
+            "Green_Covered_Area_percentage": 0.5530430288, 
+            "pm10": 155, 
+            "dust_removed": 4994525.0, 
+            "pm2_5": 36, 
+            "Population_Density": 0.17652836877283723, 
+            "dust_emission": 0.010873839736848448, 
+            "secondary_industry_percentage": 0.5478000000000001, 
+            "GDP_per_capita": 0.16943366816010727, 
+            "co": 0.9, 
+            "so2": 16, 
+            "aqi": 90.84672779245007, 
+            "no2": 25, 
+            "population": 0.4403649949705418
+        }
+    }, 
+    {
+        "name": "Shangluo", 
+        "value": [
+            109.940477, 
+            33.870422, 
+            94
+        ], 
+        "social": {
+            "GDP": 0.015310112461454447, 
+            "City": "Shangluo", 
+            "o3": 94, 
+            "Green_Covered_Area_percentage": 0.299909549, 
+            "pm10": 72, 
+            "dust_removed": 111123.0, 
+            "pm2_5": 22, 
+            "Population_Density": 0.04600550224086624, 
+            "dust_emission": 0.001174058818380522, 
+            "secondary_industry_percentage": 0.5029, 
+            "GDP_per_capita": 0.026008943227486273, 
+            "co": 0.6, 
+            "so2": 3, 
+            "aqi": 94.96165937981685, 
+            "no2": 32, 
+            "population": 0.1522488863342434
+        }
+    }, 
+    {
+        "name": "Bozhou", 
+        "value": [
+            115.778676, 
+            33.844582, 
+            97
+        ], 
+        "social": {
+            "GDP": 0.028392552224911386, 
+            "City": "Bozhou", 
+            "o3": 106, 
+            "Green_Covered_Area_percentage": 0.5107895077, 
+            "pm10": 120, 
+            "dust_removed": 38402.0, 
+            "pm2_5": 84, 
+            "Population_Density": 0.28616266532301654, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.4046, 
+            "GDP_per_capita": 0.008906218024913898, 
+            "co": 0.8, 
+            "so2": 32, 
+            "aqi": 97.98438637450776, 
+            "no2": 56, 
+            "population": 0.4239833309383532
+        }
+    }, 
+    {
+        "name": "Baotou", 
+        "value": [
+            109.840313, 
+            40.65797800000001, 
+            105
+        ], 
+        "social": {
+            "GDP": 0.15500460174229255, 
+            "City": "Baotou", 
+            "o3": 60, 
+            "Green_Covered_Area_percentage": 0.5416720507, 
+            "pm10": 53, 
+            "dust_removed": 6545382.0, 
+            "pm2_5": 17, 
+            "Population_Density": 0.027250298272175972, 
+            "dust_emission": 0.0310170990154651, 
+            "secondary_industry_percentage": 0.5163, 
+            "GDP_per_capita": 0.3206390880868721, 
+            "co": 0.5, 
+            "so2": 9, 
+            "aqi": 105.24478068665358, 
+            "no2": 18, 
+            "population": 0.13392728840350623
+        }
+    }, 
+    {
+        "name": "Changzhou", 
+        "value": [
+            119.974061, 
+            31.811226, 
+            100
+        ], 
+        "social": {
+            "GDP": 0.1950581941086335, 
+            "City": "Changzhou", 
+            "o3": 96, 
+            "Green_Covered_Area_percentage": 0.548003618, 
+            "pm10": 109, 
+            "dust_removed": 2071449.0, 
+            "pm2_5": 72, 
+            "Population_Density": 0.3172883228602309, 
+            "dust_emission": 0.010942342358342287, 
+            "secondary_industry_percentage": 0.5161, 
+            "GDP_per_capita": 0.24109269346151668, 
+            "co": 1.2, 
+            "so2": 20, 
+            "aqi": 100.71648994424532, 
+            "no2": 66, 
+            "population": 0.2353067969535853
+        }
+    }, 
+    {
+        "name": "Liaoyuan", 
+        "value": [
+            -71.08391809999999, 
+            42.3628299, 
+            101
+        ], 
+        "social": {
+            "GDP": 0.024153639119319933, 
+            "City": "Liaoyuan", 
+            "o3": 64, 
+            "Green_Covered_Area_percentage": 0.5056208813, 
+            "pm10": 20, 
+            "dust_removed": 918819.0, 
+            "pm2_5": 12, 
+            "Population_Density": 0.08716872391793005, 
+            "dust_emission": 0.002832393113710546, 
+            "secondary_industry_percentage": 0.5915, 
+            "GDP_per_capita": 0.10666344466650121, 
+            "co": 0.9, 
+            "so2": 9, 
+            "aqi": 101.35259424372096, 
+            "no2": 15, 
+            "population": 0.060497197873257656
+        }
+    }, 
+    {
+        "name": "Deyang", 
+        "value": [
+            104.397894, 
+            31.126855, 
+            97
+        ], 
+        "social": {
+            "GDP": 0.056631251615404575, 
+            "City": "Deyang", 
+            "o3": 90, 
+            "Green_Covered_Area_percentage": 0.5080759788, 
+            "pm10": 78, 
+            "dust_removed": 809035.0, 
+            "pm2_5": 42, 
+            "Population_Density": 0.2506820248562902, 
+            "dust_emission": 0.0031901290259561507, 
+            "secondary_industry_percentage": 0.6006, 
+            "GDP_per_capita": 0.05922384628446778, 
+            "co": 0.7, 
+            "so2": 12, 
+            "aqi": 97.35859838310525, 
+            "no2": 31, 
+            "population": 0.25434688892082197
+        }
+    }, 
+    {
+        "name": "Luoyang", 
+        "value": [
+            112.453926, 
+            34.620202, 
+            109
+        ], 
+        "social": {
+            "GDP": 0.13809169607455235, 
+            "City": "Luoyang", 
+            "o3": 79, 
+            "Green_Covered_Area_percentage": 0.4760304949, 
+            "pm10": 98, 
+            "dust_removed": 6827141.0, 
+            "pm2_5": 23, 
+            "Population_Density": 0.1705004585200722, 
+            "dust_emission": 0.016166301530779876, 
+            "secondary_industry_percentage": 0.5774, 
+            "GDP_per_capita": 0.08050646359357516, 
+            "co": 0.7, 
+            "so2": 27, 
+            "aqi": 109.31821827936189, 
+            "no2": 44, 
+            "population": 0.4688892082195718
+        }
+    }, 
+    {
+        "name": "Yichun", 
+        "value": [
+            114.416785, 
+            27.815743, 
+            79
+        ], 
+        "social": {
+            "GDP": 0.0047407065947966546, 
+            "City": "Yichun", 
+            "o3": 51, 
+            "Green_Covered_Area_percentage": 0.3731748288, 
+            "pm10": 39, 
+            "dust_removed": 721281.0, 
+            "pm2_5": 35, 
+            "Population_Density": 0.010586253532676115, 
+            "dust_emission": 0.005965119479988989, 
+            "secondary_industry_percentage": 0.3257, 
+            "GDP_per_capita": 0.03205019353771264, 
+            "co": 0.4, 
+            "so2": 8, 
+            "aqi": 84.38462436256553, 
+            "no2": 19, 
+            "population": 0.0615749389280069
+        }
+    }, 
+    {
+        "name": "Erdos", 
+        "value": [
+            20.4695633, 
+            49.4022894, 
+            80
+        ], 
+        "social": {
+            "GDP": 0.1761481942397777, 
+            "City": "Erdos", 
+            "o3": 91, 
+            "Green_Covered_Area_percentage": 0.5463238144, 
+            "pm10": 90, 
+            "dust_removed": 7419989.0, 
+            "pm2_5": 15, 
+            "Population_Density": 0.0029813407296188235, 
+            "dust_emission": 0.0326284963294012, 
+            "secondary_industry_percentage": 0.5989, 
+            "GDP_per_capita": 0.540925933182683, 
+            "co": 0.7, 
+            "so2": 12, 
+            "aqi": 80.78228643477111, 
+            "no2": 19, 
+            "population": 0.08291421181204196
+        }
+    }, 
+    {
+        "name": "Baise", 
+        "value": [
+            106.618283, 
+            23.902479, 
+            74
+        ], 
+        "social": {
+            "GDP": 0.028989031923221265, 
+            "City": "Baise", 
+            "o3": 58, 
+            "Green_Covered_Area_percentage": 0.4793901021, 
+            "pm10": 41, 
+            "dust_removed": 2127119.0, 
+            "pm2_5": 24, 
+            "Population_Density": 0.03978574244217952, 
+            "dust_emission": 0.008861258088700747, 
+            "secondary_industry_percentage": 0.5381, 
+            "GDP_per_capita": 0.02417370934946075, 
+            "co": 1.3, 
+            "so2": 9, 
+            "aqi": 74.35186483319548, 
+            "no2": 16, 
+            "population": 0.2674234803851128
+        }
+    }, 
+    {
+        "name": "Bengbu", 
+        "value": [
+            117.389719, 
+            32.916287, 
+            94
+        ], 
+        "social": {
+            "GDP": 0.038512416860748654, 
+            "City": "Bengbu", 
+            "o3": 76, 
+            "Green_Covered_Area_percentage": 0.4963173537, 
+            "pm10": 126, 
+            "dust_removed": 100467.0, 
+            "pm2_5": 92, 
+            "Population_Density": 0.23248702138540026, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5117, 
+            "GDP_per_capita": 0.041483252130221054, 
+            "co": 0.9, 
+            "so2": 18, 
+            "aqi": 94.77008530359394, 
+            "no2": 46, 
+            "population": 0.23667193562293432
+        }
+    }, 
+    {
+        "name": "Qinhuangdao", 
+        "value": [
+            119.600523, 
+            39.935361, 
+            98
+        ], 
+        "social": {
+            "GDP": 0.0460244166605168, 
+            "City": "Qinhuangdao", 
+            "o3": 66, 
+            "Green_Covered_Area_percentage": 0.7198604471, 
+            "pm10": 88, 
+            "dust_removed": 2079644.0, 
+            "pm2_5": 19, 
+            "Population_Density": 0.1401153398214408, 
+            "dust_emission": 0.024557555522009004, 
+            "secondary_industry_percentage": 0.3829, 
+            "GDP_per_capita": 0.06853716838434108, 
+            "co": 0.7, 
+            "so2": 10, 
+            "aqi": 98.79166739399675, 
+            "no2": 28, 
+            "population": 0.18264118407817215
+        }
+    }, 
+    {
+        "name": "Guyuan", 
+        "value": [
+            106.24261, 
+            36.01585499999999, 
+            101
+        ], 
+        "social": {
+            "GDP": 0.0, 
+            "City": "Guyuan", 
+            "o3": 59, 
+            "Green_Covered_Area_percentage": 0.3587026748, 
+            "pm10": 105, 
+            "dust_removed": 29560.0, 
+            "pm2_5": 28, 
+            "Population_Density": 0.04150087674967432, 
+            "dust_emission": 0.002252340823376139, 
+            "secondary_industry_percentage": 0.2623, 
+            "GDP_per_capita": 0.007560815253122946, 
+            "co": 0.8, 
+            "so2": 16, 
+            "aqi": 101.26153848794746, 
+            "no2": 47, 
+            "population": 0.08363270584854145
+        }
+    }, 
+    {
+        "name": "Shangrao", 
+        "value": [
+            117.943433, 
+            28.454862, 
+            79
+        ], 
+        "social": {
+            "GDP": 0.05688191025554169, 
+            "City": "Shangrao", 
+            "o3": 51, 
+            "Green_Covered_Area_percentage": 0.6104147823, 
+            "pm10": 53, 
+            "dust_removed": 2849143.0, 
+            "pm2_5": 34, 
+            "Population_Density": 0.12404986542882634, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5061, 
+            "GDP_per_capita": 0.021837759229506554, 
+            "co": 1.2, 
+            "so2": 26, 
+            "aqi": 79.51592693199673, 
+            "no2": 32, 
+            "population": 0.45092685730708437
+        }
+    }, 
+    {
+        "name": "Beihai", 
+        "value": [
+            109.120161, 
+            21.481291, 
+            74
+        ], 
+        "social": {
+            "GDP": 0.025773501147679866, 
+            "City": "Beihai", 
+            "o3": 59, 
+            "Green_Covered_Area_percentage": 0.4998061765, 
+            "pm10": 38, 
+            "dust_removed": 542295.0, 
+            "pm2_5": 27, 
+            "Population_Density": 0.19092475277702436, 
+            "dust_emission": 0.0014341150666441708, 
+            "secondary_industry_percentage": 0.5084000000000001, 
+            "GDP_per_capita": 0.07637882013837184, 
+            "co": 0.8, 
+            "so2": 7, 
+            "aqi": 74.35186483319548, 
+            "no2": 10, 
+            "population": 0.09455381520333384
+        }
+    }, 
+    {
+        "name": "Neijiang", 
+        "value": [
+            105.058433, 
+            29.580228, 
+            88
+        ], 
+        "social": {
+            "GDP": 0.04138315369541935, 
+            "City": "Neijiang", 
+            "o3": 42, 
+            "Green_Covered_Area_percentage": 0.5539475384, 
+            "pm10": 64, 
+            "dust_removed": 1781062.0, 
+            "pm2_5": 43, 
+            "Population_Density": 0.3002942970179376, 
+            "dust_emission": 0.004188808447641797, 
+            "secondary_industry_percentage": 0.6184000000000001, 
+            "GDP_per_capita": 0.03621702348141472, 
+            "co": 0.8, 
+            "so2": 10, 
+            "aqi": 88.5768631783791, 
+            "no2": 33, 
+            "population": 0.2794223307946544
+        }
+    }, 
+    {
+        "name": "Nanjing", 
+        "value": [
+            118.796877, 
+            32.060255, 
+            109
+        ], 
+        "social": {
+            "GDP": 0.36550575659797163, 
+            "City": "Nanjing", 
+            "o3": 102, 
+            "Green_Covered_Area_percentage": 0.571650084, 
+            "pm10": 126, 
+            "dust_removed": 5396989.0, 
+            "pm2_5": 71, 
+            "Population_Density": 0.37076060634728264, 
+            "dust_emission": 0.020486723811384375, 
+            "secondary_industry_percentage": 0.4307, 
+            "GDP_per_capita": 0.2529553143409486, 
+            "co": 0.8, 
+            "so2": 21, 
+            "aqi": 109.44936053286722, 
+            "no2": 53, 
+            "population": 0.4332519040091967
+        }
+    }, 
+    {
+        "name": "Chongzuo", 
+        "value": [
+            107.365094, 
+            22.377253, 
+            74
+        ], 
+        "social": {
+            "GDP": 0.018753233756271758, 
+            "City": "Chongzuo", 
+            "o3": 85, 
+            "Green_Covered_Area_percentage": 0.4700865745, 
+            "pm10": 40, 
+            "dust_removed": 298093.0, 
+            "pm2_5": 26, 
+            "Population_Density": 0.05073267305708259, 
+            "dust_emission": 0.003754958511514149, 
+            "secondary_industry_percentage": 0.42460000000000003, 
+            "GDP_per_capita": 0.03322578819267561, 
+            "co": 0.7, 
+            "so2": 7, 
+            "aqi": 74.35186483319548, 
+            "no2": 15, 
+            "population": 0.14951860899554537
+        }
+    }, 
+    {
+        "name": "Dingxi", 
+        "value": [
+            104.626282, 
+            35.580662, 
+            94
+        ], 
+        "social": {
+            "GDP": 0.0032339301813932575, 
+            "City": "Dingxi", 
+            "o3": 97, 
+            "Green_Covered_Area_percentage": 0.3443597364, 
+            "pm10": 89, 
+            "dust_removed": 606754.0, 
+            "pm2_5": 45, 
+            "Population_Density": 0.052796973341830734, 
+            "dust_emission": 0.0006158893099122025, 
+            "secondary_industry_percentage": 0.256, 
+            "GDP_per_capita": 0.0, 
+            "co": 0.8, 
+            "so2": 36, 
+            "aqi": 94.56672637552782, 
+            "no2": 36, 
+            "population": 0.18709584710446903
+        }
+    }, 
+    {
+        "name": "Nanyang", 
+        "value": [
+            112.528308, 
+            32.990664, 
+            114
+        ], 
+        "social": {
+            "GDP": 0.10814004514712776, 
+            "City": "Nanyang", 
+            "o3": 80, 
+            "Green_Covered_Area_percentage": 0.3204548391, 
+            "pm10": 142, 
+            "dust_removed": 1759734.0, 
+            "pm2_5": 81, 
+            "Population_Density": 0.1656428300166357, 
+            "dust_emission": 0.005231570574825794, 
+            "secondary_industry_percentage": 0.506, 
+            "GDP_per_capita": 0.028162023067779565, 
+            "co": 1.8, 
+            "so2": 16, 
+            "aqi": 114.28350295267701, 
+            "no2": 46, 
+            "population": 0.8122575082626814
+        }
+    }, 
+    {
+        "name": "Jieyang", 
+        "value": [
+            116.372708, 
+            23.549701, 
+            85
+        ], 
+        "social": {
+            "GDP": 0.06640787699246925, 
+            "City": "Jieyang", 
+            "o3": 56, 
+            "Green_Covered_Area_percentage": 0.3218762114, 
+            "pm10": 39, 
+            "dust_removed": 243960.0, 
+            "pm2_5": 17, 
+            "Population_Density": 0.4935787982682443, 
+            "dust_emission": 0.0007306946292676182, 
+            "secondary_industry_percentage": 0.6315, 
+            "GDP_per_capita": 0.03286657871477026, 
+            "co": 0.9, 
+            "so2": 10, 
+            "aqi": 85.40742617687074, 
+            "no2": 17, 
+            "population": 0.46019543037792787
+        }
+    }, 
+    {
+        "name": "Fuxin", 
+        "value": [
+            121.670273, 
+            42.021602, 
+            86
+        ], 
+        "social": {
+            "GDP": 0.020176967735803804, 
+            "City": "Fuxin", 
+            "o3": 77, 
+            "Green_Covered_Area_percentage": 0.5344359736, 
+            "pm10": 57, 
+            "dust_removed": 1747437.0, 
+            "pm2_5": 19, 
+            "Population_Density": 0.06696313805117646, 
+            "dust_emission": 0.007651679392508604, 
+            "secondary_industry_percentage": 0.4633, 
+            "GDP_per_capita": 0.0518088918496458, 
+            "co": 0.3, 
+            "so2": 19, 
+            "aqi": 86.48289398972965, 
+            "no2": 19, 
+            "population": 0.1102888346026728
+        }
+    }, 
+    {
+        "name": "Anshun", 
+        "value": [
+            105.947595, 
+            26.253088, 
+            84
+        ], 
+        "social": {
+            "GDP": 0.011494838555811633, 
+            "City": "Anshun", 
+            "o3": 60, 
+            "Green_Covered_Area_percentage": 0.2906060214, 
+            "pm10": 20, 
+            "dust_removed": 1392656.0, 
+            "pm2_5": 13, 
+            "Population_Density": 0.1144151852552802, 
+            "dust_emission": 0.00416819423284041, 
+            "secondary_industry_percentage": 0.3832, 
+            "GDP_per_capita": 0.014366202089075242, 
+            "co": 0.7, 
+            "so2": 9, 
+            "aqi": 84.79253373812006, 
+            "no2": 12, 
+            "population": 0.13751975858600374
+        }
+    }, 
+    {
+        "name": "Yuxi", 
+        "value": [
+            102.527197, 
+            24.347324, 
+            61
+        ], 
+        "social": {
+            "GDP": 0.04292965620483733, 
+            "City": "Yuxi", 
+            "o3": 56, 
+            "Green_Covered_Area_percentage": 0.382607572, 
+            "pm10": 77, 
+            "dust_removed": 1231964.0, 
+            "pm2_5": 35, 
+            "Population_Density": 0.050057362911861567, 
+            "dust_emission": 0.006126544638972156, 
+            "secondary_industry_percentage": 0.603, 
+            "GDP_per_capita": 0.09333133046836561, 
+            "co": 1.3, 
+            "so2": 21, 
+            "aqi": 61.88895622351506, 
+            "no2": 24, 
+            "population": 0.14060928294295158
+        }
+    }, 
+    {
+        "name": "Weinan", 
+        "value": [
+            109.502882, 
+            34.49938, 
+            111
+        ], 
+        "social": {
+            "GDP": 0.05443987350788977, 
+            "City": "Weinan", 
+            "o3": 67, 
+            "Green_Covered_Area_percentage": 0.2719989663, 
+            "pm10": 108, 
+            "dust_removed": 4383305.0, 
+            "pm2_5": 33, 
+            "Population_Density": 0.16261928240294057, 
+            "dust_emission": 0.003336014238396734, 
+            "secondary_industry_percentage": 0.5509000000000001, 
+            "GDP_per_capita": 0.03322143413839797, 
+            "co": 0.6, 
+            "so2": 15, 
+            "aqi": 111.52771991377386, 
+            "no2": 42, 
+            "population": 0.3555108492599512
+        }
+    }, 
+    {
+        "name": "Jining", 
+        "value": [
+            116.587282, 
+            35.41498199999999, 
+            126
+        ], 
+        "social": {
+            "GDP": 0.15493550476015414, 
+            "City": "Jining", 
+            "o3": 81, 
+            "Green_Covered_Area_percentage": 0.4581987337, 
+            "pm10": 119, 
+            "dust_removed": 8459756.0, 
+            "pm2_5": 71, 
+            "Population_Density": 0.28374919896084966, 
+            "dust_emission": 0.01875925261102816, 
+            "secondary_industry_percentage": 0.5111, 
+            "GDP_per_capita": 0.07159153746010598, 
+            "co": 0.7, 
+            "so2": 19, 
+            "aqi": 126.19403481822833, 
+            "no2": 52, 
+            "population": 0.5816927719499928
+        }
+    }, 
+    {
+        "name": "Hanzhong", 
+        "value": [
+            107.023323, 
+            33.06748, 
+            94
+        ], 
+        "social": {
+            "GDP": 0.03262404207363797, 
+            "City": "Hanzhong", 
+            "o3": 69, 
+            "Green_Covered_Area_percentage": 0.4886936297, 
+            "pm10": 71, 
+            "dust_removed": 2235041.0, 
+            "pm2_5": 46, 
+            "Population_Density": 0.05047175778280768, 
+            "dust_emission": 0.00565305198207261, 
+            "secondary_industry_percentage": 0.451, 
+            "GDP_per_capita": 0.03142756377601003, 
+            "co": 1.1, 
+            "so2": 25, 
+            "aqi": 94.96165937981685, 
+            "no2": 26, 
+            "population": 0.24960482827992528
+        }
+    }, 
+    {
+        "name": "Jinzhong", 
+        "value": [
+            112.752652, 
+            37.687357, 
+            99
+        ], 
+        "social": {
+            "GDP": 0.03918349795619297, 
+            "City": "Jinzhong", 
+            "o3": 85, 
+            "Green_Covered_Area_percentage": 0.4655640264, 
+            "pm10": 89, 
+            "dust_removed": 71771.0, 
+            "pm2_5": 28, 
+            "Population_Density": 0.07351671578731712, 
+            "dust_emission": 1.0, 
+            "secondary_industry_percentage": 0.5242, 
+            "GDP_per_capita": 0.04913550252317445, 
+            "co": 0.8, 
+            "so2": 26, 
+            "aqi": 99.03221629030168, 
+            "no2": 24, 
+            "population": 0.2082914211812042
+        }
+    }, 
+    {
+        "name": "Linfen", 
+        "value": [
+            111.518975, 
+            36.088005, 
+            93
+        ], 
+        "social": {
+            "GDP": 0.048599194313314636, 
+            "City": "Linfen", 
+            "o3": 92, 
+            "Green_Covered_Area_percentage": 0.4848171598, 
+            "pm10": 99, 
+            "dust_removed": 4081858.0, 
+            "pm2_5": 65, 
+            "Population_Density": 0.0770045391258517, 
+            "dust_emission": 0.02930802203754705, 
+            "secondary_industry_percentage": 0.5986, 
+            "GDP_per_capita": 0.044097861723944254, 
+            "co": 0.9, 
+            "so2": 45, 
+            "aqi": 93.9329995279695, 
+            "no2": 26, 
+            "population": 0.27906308377640465
+        }
+    }, 
+    {
+        "name": "Wuhai", 
+        "value": [
+            106.794216, 
+            39.655248, 
+            105
+        ], 
+        "social": {
+            "GDP": 0.0180762934234907, 
+            "City": "Wuhai", 
+            "o3": 80, 
+            "Green_Covered_Area_percentage": 0.5215144075, 
+            "pm10": 44, 
+            "dust_removed": 4076554.0, 
+            "pm2_5": 18, 
+            "Population_Density": 0.11715095865025817, 
+            "dust_emission": 0.013248597281968207, 
+            "secondary_industry_percentage": 0.6594, 
+            "GDP_per_capita": 0.20736836605405123, 
+            "co": 0.8, 
+            "so2": 8, 
+            "aqi": 105.24478068665358, 
+            "no2": 12, 
+            "population": 0.012429946831441302
+        }
+    }, 
+    {
+        "name": "Pingxiang", 
+        "value": [
+            113.854556, 
+            27.622768, 
+            83
+        ], 
+        "social": {
+            "GDP": 0.028730305743547978, 
+            "City": "Pingxiang", 
+            "o3": 83, 
+            "Green_Covered_Area_percentage": 0.5163457811, 
+            "pm10": 55, 
+            "dust_removed": 1341268.0, 
+            "pm2_5": 46, 
+            "Population_Density": 0.19001922323679657, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5934, 
+            "GDP_per_capita": 0.07128457663353231, 
+            "co": 0.8, 
+            "so2": 4, 
+            "aqi": 83.84974679327003, 
+            "no2": 18, 
+            "population": 0.11151027446472193
+        }
+    }, 
+    {
+        "name": "Chaozhou", 
+        "value": [
+            116.622756, 
+            23.656703, 
+            86
+        ], 
+        "social": {
+            "GDP": 0.027890539306100748, 
+            "City": "Chaozhou", 
+            "o3": 43, 
+            "Green_Covered_Area_percentage": 0.5626049877, 
+            "pm10": 28, 
+            "dust_removed": "", 
+            "pm2_5": 9, 
+            "Population_Density": 0.3219963088019874, 
+            "dust_emission": 0.0008141029137716909, 
+            "secondary_industry_percentage": 0.5586, 
+            "GDP_per_capita": 0.045323528003100085, 
+            "co": 0.9, 
+            "so2": 7, 
+            "aqi": 86.6585236948715, 
+            "no2": 18, 
+            "population": 0.16396033912918523
+        }
+    }, 
+    {
+        "name": "Jinzhou", 
+        "value": [
+            121.1268459, 
+            41.095685, 
+            100
+        ], 
+        "social": {
+            "GDP": 0.05424957668410857, 
+            "City": "Jinzhou", 
+            "o3": 54, 
+            "Green_Covered_Area_percentage": 0.534694405, 
+            "pm10": 56, 
+            "dust_removed": 858193.0, 
+            "pm2_5": 19, 
+            "Population_Density": 0.11298015119668554, 
+            "dust_emission": 0.006135424608425062, 
+            "secondary_industry_percentage": 0.48829999999999996, 
+            "GDP_per_capita": 0.077382429649368, 
+            "co": 0.9, 
+            "so2": 43, 
+            "aqi": 100.87884109369325, 
+            "no2": 39, 
+            "population": 0.19334674522201464
+        }
+    }, 
+    {
+        "name": "Shangqiu", 
+        "value": [
+            115.656339, 
+            34.414961, 
+            114
+        ], 
+        "social": {
+            "GDP": 0.06327367523239077, 
+            "City": "Shangqiu", 
+            "o3": 85, 
+            "Green_Covered_Area_percentage": 0.5312055821, 
+            "pm10": 149, 
+            "dust_removed": 920900.0, 
+            "pm2_5": 76, 
+            "Population_Density": 0.33404445533770044, 
+            "dust_emission": 0.011001013585084696, 
+            "secondary_industry_percentage": 0.4681, 
+            "GDP_per_capita": 0.01720939953237457, 
+            "co": 1.0, 
+            "so2": 10, 
+            "aqi": 114.28350295267701, 
+            "no2": 53, 
+            "population": 0.6470757292714471
+        }
+    }, 
+    {
+        "name": "Jinhua", 
+        "value": [
+            119.64742, 
+            29.079175, 
+            98
+        ], 
+        "social": {
+            "GDP": 0.12959545178265755, 
+            "City": "Jinhua", 
+            "o3": 37, 
+            "Green_Covered_Area_percentage": 0.4833957876, 
+            "pm10": 42, 
+            "dust_removed": 2010074.0, 
+            "pm2_5": 25, 
+            "Population_Density": 0.1621434956732929, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.4886, 
+            "GDP_per_capita": 0.11787731145856464, 
+            "co": 1.0, 
+            "so2": 13, 
+            "aqi": 98.86640052028976, 
+            "no2": 40, 
+            "population": 0.3119701106480816
+        }
+    }, 
+    {
+        "name": "Qinzhou", 
+        "value": [
+            108.654146, 
+            21.979933, 
+            74
+        ], 
+        "social": {
+            "GDP": 0.026649020604668717, 
+            "City": "Qinzhou", 
+            "o3": 77, 
+            "Green_Covered_Area_percentage": 0.4446310893, 
+            "pm10": 42, 
+            "dust_removed": 281591.0, 
+            "pm2_5": 22, 
+            "Population_Density": 0.12133711404346484, 
+            "dust_emission": 0.0016446971993844912, 
+            "secondary_industry_percentage": 0.4204, 
+            "GDP_per_capita": 0.023030770101580087, 
+            "co": 0.7, 
+            "so2": 12, 
+            "aqi": 74.35186483319548, 
+            "no2": 11, 
+            "population": 0.25535278057192123
+        }
+    }, 
+    {
+        "name": "Yiyang", 
+        "value": [
+            112.35518, 
+            28.55386, 
+            98
+        ], 
+        "social": {
+            "GDP": 0.04389430610006973, 
+            "City": "Yiyang", 
+            "o3": 64, 
+            "Green_Covered_Area_percentage": 0.4888228453, 
+            "pm10": 83, 
+            "dust_removed": 885637.0, 
+            "pm2_5": 52, 
+            "Population_Density": 0.14565978947490651, 
+            "dust_emission": 0.01064866908286407, 
+            "secondary_industry_percentage": 0.4498, 
+            "GDP_per_capita": 0.03263799086519412, 
+            "co": 1.1, 
+            "so2": 13, 
+            "aqi": 98.80724774151626, 
+            "no2": 30, 
+            "population": 0.3183647075729271
+        }
+    }, 
+    {
+        "name": "Jincheng", 
+        "value": [
+            112.851831, 
+            35.490701, 
+            99
+        ], 
+        "social": {
+            "GDP": 0.03963571902942887, 
+            "City": "Jincheng", 
+            "o3": 96, 
+            "Green_Covered_Area_percentage": 0.5032949994, 
+            "pm10": 83, 
+            "dust_removed": 2850068.0, 
+            "pm2_5": 16, 
+            "Population_Density": 0.0854382416708012, 
+            "dust_emission": 0.02129733816572814, 
+            "secondary_industry_percentage": 0.6245, 
+            "GDP_per_capita": 0.08427707459801194, 
+            "co": 0.7, 
+            "so2": 24, 
+            "aqi": 99.03221629030168, 
+            "no2": 24, 
+            "population": 0.13004742060640898
+        }
+    }, 
+    {
+        "name": "Luohe", 
+        "value": [
+            114.016536, 
+            33.580873, 
+            117
+        ], 
+        "social": {
+            "GDP": 0.03168121842107429, 
+            "City": "Luohe", 
+            "o3": 81, 
+            "Green_Covered_Area_percentage": 0.5432226386, 
+            "pm10": 116, 
+            "dust_removed": 682635.0, 
+            "pm2_5": 33, 
+            "Population_Density": 0.48320357915594975, 
+            "dust_emission": 0.0013107469196020252, 
+            "secondary_industry_percentage": 0.6779999999999999, 
+            "GDP_per_capita": 0.05014999716986472, 
+            "co": 0.6, 
+            "so2": 22, 
+            "aqi": 117.60700140809013, 
+            "no2": 43, 
+            "population": 0.1701393878430809
+        }
+    }, 
+    {
+        "name": "Suqian", 
+        "value": [
+            118.275198, 
+            33.963232, 
+            101
+        ], 
+        "social": {
+            "GDP": 0.0711197262597931, 
+            "City": "Suqian", 
+            "o3": 78, 
+            "Green_Covered_Area_percentage": 0.5372787182, 
+            "pm10": 118, 
+            "dust_removed": 404698.0, 
+            "pm2_5": 91, 
+            "Population_Density": 0.2536863874953601, 
+            "dust_emission": 0.011444060632431424, 
+            "secondary_industry_percentage": 0.478, 
+            "GDP_per_capita": 0.04663845239494756, 
+            "co": 0.9, 
+            "so2": 17, 
+            "aqi": 101.87837566431837, 
+            "no2": 56, 
+            "population": 0.3796522488863343
+        }
+    }, 
+    {
+        "name": "Weihai", 
+        "value": [
+            122.120419, 
+            37.513068, 
+            88
+        ], 
+        "social": {
+            "GDP": 0.11049634094363293, 
+            "City": "Weihai", 
+            "o3": 77, 
+            "Green_Covered_Area_percentage": 0.6145496834, 
+            "pm10": 116, 
+            "dust_removed": 1185624.0, 
+            "pm2_5": 46, 
+            "Population_Density": 0.16443034138323084, 
+            "dust_emission": 0.0023281377054920073, 
+            "secondary_industry_percentage": 0.5149, 
+            "GDP_per_capita": 0.20022989406585942, 
+            "co": 0.4, 
+            "so2": 10, 
+            "aqi": 88.59609621151607, 
+            "no2": 12, 
+            "population": 0.1551228624802414
+        }
+    }, 
+    {
+        "name": "Wuxi", 
+        "value": [
+            120.31191, 
+            31.491169, 
+            103
+        ], 
+        "social": {
+            "GDP": 0.36823228616343345, 
+            "City": "Wuxi", 
+            "o3": 79, 
+            "Green_Covered_Area_percentage": 0.5478744024, 
+            "pm10": 101, 
+            "dust_removed": 5633367.0, 
+            "pm2_5": 69, 
+            "Population_Density": 0.3877584691244018, 
+            "dust_emission": 0.013850215212402527, 
+            "secondary_industry_percentage": 0.5214, 
+            "GDP_per_capita": 0.353921478985157, 
+            "co": 1.3, 
+            "so2": 19, 
+            "aqi": 103.3521304535904, 
+            "no2": 58, 
+            "population": 0.311395315418882
+        }
+    }, 
+    {
+        "name": "Ziyang", 
+        "value": [
+            104.627636, 
+            30.128901, 
+            100
+        ], 
+        "social": {
+            "GDP": 0.04245783119727716, 
+            "City": "Ziyang", 
+            "o3": 0, 
+            "Green_Covered_Area_percentage": 0.5016151958, 
+            "pm10": 0, 
+            "dust_removed": 115739.0, 
+            "pm2_5": 0, 
+            "Population_Density": 0.24069050453534296, 
+            "dust_emission": 0.0012787156012183318, 
+            "secondary_industry_percentage": 0.5563, 
+            "GDP_per_capita": 0.028603959576960086, 
+            "co": 0.0, 
+            "so2": 0, 
+            "aqi": 100.62314497913509, 
+            "no2": 0, 
+            "population": 0.3368300043109642
+        }
+    }, 
+    {
+        "name": "Ganzhou", 
+        "value": [
+            114.933546, 
+            25.830694, 
+            79
+        ], 
+        "social": {
+            "GDP": 0.0695808430932704, 
+            "City": "Ganzhou |", 
+            "o3": 63, 
+            "Green_Covered_Area_percentage": 0.4943791187, 
+            "pm10": 47, 
+            "dust_removed": 2219154.0, 
+            "pm2_5": 38, 
+            "Population_Density": 0.086627708394755, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.45659999999999995, 
+            "GDP_per_capita": 0.020910345668369103, 
+            "co": 1.9, 
+            "so2": 8, 
+            "aqi": 79.51592693199673, 
+            "no2": 14, 
+            "population": 0.6393159936772526
+        }
+    }, 
+    {
+        "name": "Hechi", 
+        "value": [
+            4.401498699999999, 
+            51.2666134, 
+            74
+        ], 
+        "social": {
+            "GDP": 0.016138286479533456, 
+            "City": "Hechi", 
+            "o3": 57, 
+            "Green_Covered_Area_percentage": 0.3683938493, 
+            "pm10": 33, 
+            "dust_removed": 612228.0, 
+            "pm2_5": 19, 
+            "Population_Density": 0.043576687939065314, 
+            "dust_emission": 0.004555424329340307, 
+            "secondary_industry_percentage": 0.359, 
+            "GDP_per_capita": 0.009496192379534203, 
+            "co": 0.6, 
+            "so2": 5, 
+            "aqi": 74.35186483319548, 
+            "no2": 19, 
+            "population": 0.26699238396321306
+        }
+    }, 
+    {
+        "name": "Fushun", 
+        "value": [
+            123.957208, 
+            41.880872, 
+            96
+        ], 
+        "social": {
+            "GDP": 0.0540401801472241, 
+            "City": "Fushun", 
+            "o3": 63, 
+            "Green_Covered_Area_percentage": 0.5336606797, 
+            "pm10": 62, 
+            "dust_removed": 2062756.0, 
+            "pm2_5": 34, 
+            "Population_Density": 0.07034736264693317, 
+            "dust_emission": 0.015067722452749049, 
+            "secondary_industry_percentage": 0.5929, 
+            "GDP_per_capita": 0.11555877755572101, 
+            "co": 1.0, 
+            "so2": 51, 
+            "aqi": 96.37466468493535, 
+            "no2": 39, 
+            "population": 0.12990372179910908
+        }
+    }, 
+    {
+        "name": "Zhoushan", 
+        "value": [
+            122.207215, 
+            29.98529499999999, 
+            74
+        ], 
+        "social": {
+            "GDP": 0.03491728220522682, 
+            "City": "Zhoushan", 
+            "o3": 122, 
+            "Green_Covered_Area_percentage": 0.4898565706, 
+            "pm10": 62, 
+            "dust_removed": 114444.0, 
+            "pm2_5": 28, 
+            "Population_Density": 0.25277318398531523, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.4421, 
+            "GDP_per_capita": 0.19061396519369012, 
+            "co": 1.4, 
+            "so2": 7, 
+            "aqi": 74.38501699405208, 
+            "no2": 46, 
+            "population": 0.042678545768070134
+        }
+    }, 
+    {
+        "name": "Shaoyang", 
+        "value": [
+            111.467674, 
+            27.23895, 
+            100
+        ], 
+        "social": {
+            "GDP": 0.04421686295135088, 
+            "City": "Shaoyang", 
+            "o3": 99, 
+            "Green_Covered_Area_percentage": 0.4603953999, 
+            "pm10": 47, 
+            "dust_removed": 651139.0, 
+            "pm2_5": 35, 
+            "Population_Density": 0.14504970812321288, 
+            "dust_emission": 0.0067887366467459355, 
+            "secondary_industry_percentage": 0.3889, 
+            "GDP_per_capita": 0.012145634407478524, 
+            "co": 0.7, 
+            "so2": 11, 
+            "aqi": 100.11129573831187, 
+            "no2": 13, 
+            "population": 0.5502227331513149
+        }
+    }, 
+    {
+        "name": "Nantong", 
+        "value": [
+            120.894291, 
+            31.980171, 
+            95
+        ], 
+        "social": {
+            "GDP": 0.226710069655874, 
+            "City": "Nantong", 
+            "o3": 100, 
+            "Green_Covered_Area_percentage": 0.5383124435, 
+            "pm10": 85, 
+            "dust_removed": 2279475.0, 
+            "pm2_5": 53, 
+            "Population_Density": 0.3637465898211284, 
+            "dust_emission": 0.010564626514827646, 
+            "secondary_industry_percentage": 0.5207, 
+            "GDP_per_capita": 0.12471970775587689, 
+            "co": 0.9, 
+            "so2": 15, 
+            "aqi": 95.26653116397739, 
+            "no2": 28, 
+            "population": 0.5231355079752839
+        }
+    }, 
+    {
+        "name": "Jiamusi", 
+        "value": [
+            130.3188779, 
+            46.799777, 
+            84
+        ], 
+        "social": {
+            "GDP": 0.028441713793959867, 
+            "City": "Jiamusi", 
+            "o3": 64, 
+            "Green_Covered_Area_percentage": 0.5319808761, 
+            "pm10": 62, 
+            "dust_removed": 1289878.0, 
+            "pm2_5": 54, 
+            "Population_Density": 0.024556731761274316, 
+            "dust_emission": 0.012555642522875436, 
+            "secondary_industry_percentage": 0.2481, 
+            "GDP_per_capita": 0.052958362178942925, 
+            "co": 0.4, 
+            "so2": 12, 
+            "aqi": 84.38462436256553, 
+            "no2": 19, 
+            "population": 0.14894381376634575
+        }
+    }, 
+    {
+        "name": "Xinxiang", 
+        "value": [
+            113.926763, 
+            35.303704, 
+            129
+        ], 
+        "social": {
+            "GDP": 0.07391257025324777, 
+            "City": "Xinxiang", 
+            "o3": 87, 
+            "Green_Covered_Area_percentage": 0.5226773485, 
+            "pm10": 79, 
+            "dust_removed": 3276417.0, 
+            "pm2_5": 30, 
+            "Population_Density": 0.2765701919333813, 
+            "dust_emission": 0.004322007989435373, 
+            "secondary_industry_percentage": 0.5659000000000001, 
+            "GDP_per_capita": 0.04321616573272202, 
+            "co": 1.1, 
+            "so2": 21, 
+            "aqi": 129.83534207727757, 
+            "no2": 45, 
+            "population": 0.418666475068257
+        }
+    }, 
+    {
+        "name": "Lianyungang", 
+        "value": [
+            119.221611, 
+            34.596653, 
+            100
+        ], 
+        "social": {
+            "GDP": 0.0748148321098102, 
+            "City": "Lianyungang", 
+            "o3": 71, 
+            "Green_Covered_Area_percentage": 0.5109187233, 
+            "pm10": 101, 
+            "dust_removed": 1868082.0, 
+            "pm2_5": 47, 
+            "Population_Density": 0.2582600788150706, 
+            "dust_emission": 0.0058737826513305365, 
+            "secondary_industry_percentage": 0.4522, 
+            "GDP_per_capita": 0.05644595965533306, 
+            "co": 1.5, 
+            "so2": 21, 
+            "aqi": 100.92084929791268, 
+            "no2": 40, 
+            "population": 0.34329645063945974
+        }
+    }, 
+    {
+        "name": "Heze", 
+        "value": [
+            115.480656, 
+            35.23375, 
+            136
+        ], 
+        "social": {
+            "GDP": 0.08716770578490066, 
+            "City": "Heze", 
+            "o3": 88, 
+            "Green_Covered_Area_percentage": 0.5233234268, 
+            "pm10": 158, 
+            "dust_removed": 1976795.0, 
+            "pm2_5": 59, 
+            "Population_Density": 0.2963230130801037, 
+            "dust_emission": 0.010783771475254696, 
+            "secondary_industry_percentage": 0.5432, 
+            "GDP_per_capita": 0.028331831184607546, 
+            "co": 1.3, 
+            "so2": 10, 
+            "aqi": 136.9428861908701, 
+            "no2": 53, 
+            "population": 0.6607271159649375
+        }
+    }, 
+    {
+        "name": "Zhanjiang", 
+        "value": [
+            110.359368, 
+            21.270702, 
+            83
+        ], 
+        "social": {
+            "GDP": 0.0876344325556706, 
+            "City": "Zhanjiang", 
+            "o3": 59, 
+            "Green_Covered_Area_percentage": 0.5212559762, 
+            "pm10": 27, 
+            "dust_removed": 1014024.0, 
+            "pm2_5": 20, 
+            "Population_Density": 0.2288533924200115, 
+            "dust_emission": 0.002928487068861626, 
+            "secondary_industry_percentage": 0.3953, 
+            "GDP_per_capita": 0.03747752219479168, 
+            "co": 0.7, 
+            "so2": 8, 
+            "aqi": 83.95401493000178, 
+            "no2": 10, 
+            "population": 0.48570196867366
+        }
+    }, 
+    {
+        "name": "Hegang", 
+        "value": [
+            130.297964, 
+            47.349916, 
+            79
+        ], 
+        "social": {
+            "GDP": 0.006399132209133838, 
+            "City": "Hegang", 
+            "o3": 70, 
+            "Green_Covered_Area_percentage": 0.4305465822, 
+            "pm10": 40, 
+            "dust_removed": 1493252.0, 
+            "pm2_5": 31, 
+            "Population_Density": 0.02438023025515204, 
+            "dust_emission": 0.008282791507197216, 
+            "secondary_industry_percentage": 0.4483, 
+            "GDP_per_capita": 0.046205223994322316, 
+            "co": 0.6, 
+            "so2": 12, 
+            "aqi": 79.54447061712088, 
+            "no2": 10, 
+            "population": 0.050294582554964794
+        }
+    }, 
+    {
+        "name": "Binzhou", 
+        "value": [
+            117.970699, 
+            37.38198, 
+            121
+        ], 
+        "social": {
+            "GDP": 0.09210333590005279, 
+            "City": "Binzhou", 
+            "o3": 66, 
+            "Green_Covered_Area_percentage": 0.7777490632, 
+            "pm10": 114, 
+            "dust_removed": 2480607.0, 
+            "pm2_5": 43, 
+            "Population_Density": 0.14774327463411455, 
+            "dust_emission": 0.006718331174655045, 
+            "secondary_industry_percentage": 0.5131, 
+            "GDP_per_capita": 0.10455390536898433, 
+            "co": 1.3, 
+            "so2": 19, 
+            "aqi": 121.78298923067418, 
+            "no2": 46, 
+            "population": 0.24680270153757725
+        }
+    }, 
+    {
+        "name": "Ulanqab", 
+        "value": [
+            113.132585, 
+            40.994785, 
+            80
+        ], 
+        "social": {
+            "GDP": 0.03038607952775985, 
+            "City": "Ulanqab", 
+            "o3": 73, 
+            "Green_Covered_Area_percentage": 0.5252616617, 
+            "pm10": 26, 
+            "dust_removed": 3143276.0, 
+            "pm2_5": 7, 
+            "Population_Density": 0.016100007206708362, 
+            "dust_emission": 0.007649459400145378, 
+            "secondary_industry_percentage": 0.5242, 
+            "GDP_per_capita": 0.0458394834350005, 
+            "co": 0.4, 
+            "so2": 21, 
+            "aqi": 80.78228643477111, 
+            "no2": 14, 
+            "population": 0.17768357522632564
+        }
+    }, 
+    {
+        "name": "Jingdezhen", 
+        "value": [
+            117.178443, 
+            29.268783, 
+            83
+        ], 
+        "social": {
+            "GDP": 0.02321913511690292, 
+            "City": "Jingdezhen", 
+            "o3": 107, 
+            "Green_Covered_Area_percentage": 0.6582245768, 
+            "pm10": 41, 
+            "dust_removed": 1052076.0, 
+            "pm2_5": 26, 
+            "Population_Density": 0.11742722186416711, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5828, 
+            "GDP_per_capita": 0.07091448201993286, 
+            "co": 0.4, 
+            "so2": 5, 
+            "aqi": 83.84974679327003, 
+            "no2": 6, 
+            "population": 0.09247018249748526
+        }
+    }, 
+    {
+        "name": "Zhuzhou", 
+        "value": [
+            113.133853, 
+            27.827986, 
+            102
+        ], 
+        "social": {
+            "GDP": 0.08247199159664913, 
+            "City": "Zhuzhou", 
+            "o3": 0, 
+            "Green_Covered_Area_percentage": 0.5292673472, 
+            "pm10": 0, 
+            "dust_removed": 1878232.0, 
+            "pm2_5": 0, 
+            "Population_Density": 0.13229171862818492, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.6003000000000001, 
+            "GDP_per_capita": 0.08779732748148439, 
+            "co": 0.0, 
+            "so2": 0, 
+            "aqi": 102.46211279342505, 
+            "no2": 0, 
+            "population": 0.25858600373616897
+        }
+    }, 
+    {
+        "name": "Jingmen", 
+        "value": [
+            112.199427, 
+            31.035395, 
+            125
+        ], 
+        "social": {
+            "GDP": 0.047605014795648076, 
+            "City": "Jingmen", 
+            "o3": 74, 
+            "Green_Covered_Area_percentage": 0.5079467631, 
+            "pm10": 81, 
+            "dust_removed": 4869951.0, 
+            "pm2_5": 39, 
+            "Population_Density": 0.08919849128841892, 
+            "dust_emission": 0.02051019230208134, 
+            "secondary_industry_percentage": 0.5421, 
+            "GDP_per_capita": 0.0686786751483644, 
+            "co": 0.9, 
+            "so2": 7, 
+            "aqi": 125.24302630494792, 
+            "no2": 33, 
+            "population": 0.18953872682856734
+        }
+    }, 
+    {
+        "name": "Zigong", 
+        "value": [
+            104.778442, 
+            29.33903, 
+            104
+        ], 
+        "social": {
+            "GDP": 0.038220561479369, 
+            "City": "Zigong", 
+            "o3": 59, 
+            "Green_Covered_Area_percentage": 0.5076883318, 
+            "pm10": 60, 
+            "dust_removed": 184645.0, 
+            "pm2_5": 37, 
+            "Population_Density": 0.2849425027197946, 
+            "dust_emission": 0.0007789001777262457, 
+            "secondary_industry_percentage": 0.5977, 
+            "GDP_per_capita": 0.04777486056141176, 
+            "co": 0.7, 
+            "so2": 13, 
+            "aqi": 104.16137993623813, 
+            "no2": 39, 
+            "population": 0.20929731283230352
+        }
+    }, 
+    {
+        "name": "Dazhou", 
+        "value": [
+            107.468023, 
+            31.20957099999999, 
+            100
+        ], 
+        "social": {
+            "GDP": 0.049603453586686386, 
+            "City": "Dazhou", 
+            "o3": 32, 
+            "Green_Covered_Area_percentage": 0.5464530301, 
+            "pm10": 83, 
+            "dust_removed": 2826492.0, 
+            "pm2_5": 51, 
+            "Population_Density": 0.15520621894547423, 
+            "dust_emission": 0.0038481981907696524, 
+            "secondary_industry_percentage": 0.5314, 
+            "GDP_per_capita": 0.02110627811086293, 
+            "co": 0.7, 
+            "so2": 23, 
+            "aqi": 100.62314497913509, 
+            "no2": 48, 
+            "population": 0.46709297312832304
+        }
+    }, 
+    {
+        "name": "Nanchong", 
+        "value": [
+            106.110698, 
+            30.837793, 
+            101
+        ], 
+        "social": {
+            "GDP": 0.053484925202446805, 
+            "City": "Nanchong", 
+            "o3": 32, 
+            "Green_Covered_Area_percentage": 0.5247447991, 
+            "pm10": 52, 
+            "dust_removed": 9400.0, 
+            "pm2_5": 35, 
+            "Population_Density": 0.22955172447468356, 
+            "dust_emission": 0.001060839207855982, 
+            "secondary_industry_percentage": 0.5184000000000001, 
+            "GDP_per_capita": 0.019804415881848385, 
+            "co": 0.8, 
+            "so2": 7, 
+            "aqi": 101.11145988768301, 
+            "no2": 22, 
+            "population": 0.5183934473343872
+        }
+    }, 
+    {
+        "name": "Baoshan", 
+        "value": [
+            99.16176100000001, 
+            25.112046, 
+            61
+        ], 
+        "social": {
+            "GDP": 0.012455748810321543, 
+            "City": "Baoshan", 
+            "o3": 98, 
+            "Green_Covered_Area_percentage": 0.3357022871, 
+            "pm10": 55, 
+            "dust_removed": 534903.0, 
+            "pm2_5": 22, 
+            "Population_Density": 0.0463546682181196, 
+            "dust_emission": 0.002311963475417073, 
+            "secondary_industry_percentage": 0.3452, 
+            "GDP_per_capita": 0.019795707773293102, 
+            "co": 1.0, 
+            "so2": 9, 
+            "aqi": 61.88895622351506, 
+            "no2": 13, 
+            "population": 0.15691909757149014
+        }
+    }, 
+    {
+        "name": "Meishan", 
+        "value": [
+            103.848396, 
+            30.07728, 
+            101
+        ], 
+        "social": {
+            "GDP": 0.03161150983726965, 
+            "City": "Meishan", 
+            "o3": 77, 
+            "Green_Covered_Area_percentage": 0.4880475514, 
+            "pm10": 42, 
+            "dust_removed": 535926.0, 
+            "pm2_5": 31, 
+            "Population_Density": 0.18541483603781794, 
+            "dust_emission": 0.0038501010413667033, 
+            "secondary_industry_percentage": 0.5711999999999999, 
+            "GDP_per_capita": 0.034889036926734326, 
+            "co": 0.3, 
+            "so2": 7, 
+            "aqi": 101.11145988768301, 
+            "no2": 26, 
+            "population": 0.22539157924989223
+        }
+    }, 
+    {
+        "name": "Baoji", 
+        "value": [
+            107.237743, 
+            34.363184, 
+            109
+        ], 
+        "social": {
+            "GDP": 0.063632713422755, 
+            "City": "Baoji", 
+            "o3": 79, 
+            "Green_Covered_Area_percentage": 0.5909032175, 
+            "pm10": 69, 
+            "dust_removed": 2744655.0, 
+            "pm2_5": 26, 
+            "Population_Density": 0.07782949183275273, 
+            "dust_emission": 0.004833874800042116, 
+            "secondary_industry_percentage": 0.6581999999999999, 
+            "GDP_per_capita": 0.06888549272655232, 
+            "co": 0.5, 
+            "so2": 5, 
+            "aqi": 109.16187188930282, 
+            "no2": 22, 
+            "population": 0.2493174306653255
+        }
+    }, 
+    {
+        "name": "Yueyang", 
+        "value": [
+            113.12873, 
+            29.356803, 
+            95
+        ], 
+        "social": {
+            "GDP": 0.10516536871020385, 
+            "City": "Yueyang", 
+            "o3": 32, 
+            "Green_Covered_Area_percentage": 0.5396046001, 
+            "pm10": 121, 
+            "dust_removed": 1220387.0, 
+            "pm2_5": 80, 
+            "Population_Density": 0.14076762805721077, 
+            "dust_emission": 0.008722349995116016, 
+            "secondary_industry_percentage": 0.5498, 
+            "GDP_per_capita": 0.07637882013837184, 
+            "co": 1.4, 
+            "so2": 22, 
+            "aqi": 95.07717051604241, 
+            "no2": 44, 
+            "population": 0.3783589596206352
+        }
+    }, 
+    {
+        "name": "Dalian", 
+        "value": [
+            121.614682, 
+            38.91400300000001, 
+            86
+        ], 
+        "social": {
+            "GDP": 0.3486519802058249, 
+            "City": "Dalian", 
+            "o3": 70, 
+            "Green_Covered_Area_percentage": 0.572425378, 
+            "pm10": 81, 
+            "dust_removed": 4179954.0, 
+            "pm2_5": 25, 
+            "Population_Density": 0.17663964148543213, 
+            "dust_emission": 0.01448513302828524, 
+            "secondary_industry_percentage": 0.5086999999999999, 
+            "GDP_per_capita": 0.26352478109992117, 
+            "co": 0.6, 
+            "so2": 13, 
+            "aqi": 86.56316399568404, 
+            "no2": 27, 
+            "population": 0.39739905158787187
+        }
+    }, 
+    {
+        "name": "Tongchuan", 
+        "value": [
+            108.945019, 
+            34.897887, 
+            108
+        ], 
+        "social": {
+            "GDP": 0.00649067637303722, 
+            "City": "Tongchuan", 
+            "o3": 71, 
+            "Green_Covered_Area_percentage": 0.5655769479, 
+            "pm10": 77, 
+            "dust_removed": 1107064.0, 
+            "pm2_5": 26, 
+            "Population_Density": 0.07954078910525632, 
+            "dust_emission": 0.011052390551205075, 
+            "secondary_industry_percentage": 0.6679999999999999, 
+            "GDP_per_capita": 0.06320345189423131, 
+            "co": 1.1, 
+            "so2": 24, 
+            "aqi": 108.90280262902343, 
+            "no2": 41, 
+            "population": 0.03420031613737607
+        }
+    }, 
+    {
+        "name": "Huaibei", 
+        "value": [
+            116.798265, 
+            33.955844, 
+            97
+        ], 
+        "social": {
+            "GDP": 0.024310619992794397, 
+            "City": "Huaibei", 
+            "o3": 67, 
+            "Green_Covered_Area_percentage": 0.5688073394, 
+            "pm10": 105, 
+            "dust_removed": 610694.0, 
+            "pm2_5": 62, 
+            "Population_Density": 0.2964227747878903, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.6701999999999999, 
+            "GDP_per_capita": 0.05294965407038764, 
+            "co": 0.8, 
+            "so2": 16, 
+            "aqi": 97.98438637450776, 
+            "no2": 52, 
+            "population": 0.1283230349188102
+        }
+    }, 
+    {
+        "name": "Heyuan", 
+        "value": [
+            114.700961, 
+            23.743685, 
+            76
+        ], 
+        "social": {
+            "GDP": 0.02322123136994212, 
+            "City": "Heyuan", 
+            "o3": 63, 
+            "Green_Covered_Area_percentage": 0.5651893009, 
+            "pm10": 29, 
+            "dust_removed": "", 
+            "pm2_5": 18, 
+            "Population_Density": 0.08462863690353424, 
+            "dust_emission": 0.0012644442217404487, 
+            "secondary_industry_percentage": 0.4955, 
+            "GDP_per_capita": 0.022725986302145243, 
+            "co": 0.8, 
+            "so2": 6, 
+            "aqi": 76.579488606309, 
+            "no2": 16, 
+            "population": 0.23006179048713896
+        }
+    }, 
+    {
+        "name": "Maanshan", 
+        "value": [
+            118.507011, 
+            31.67044, 
+            97
+        ], 
+        "social": {
+            "GDP": 0.05181587826146335, 
+            "City": "Maanshan", 
+            "o3": 106, 
+            "Green_Covered_Area_percentage": 0.5609251841, 
+            "pm10": 136, 
+            "dust_removed": 4551509.0, 
+            "pm2_5": 83, 
+            "Population_Density": 0.2125960685816407, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.6452, 
+            "GDP_per_capita": 0.105139525669327, 
+            "co": 1.2, 
+            "so2": 40, 
+            "aqi": 97.98438637450776, 
+            "no2": 50, 
+            "population": 0.13694496335680417
+        }
+    }, 
+    {
+        "name": "Jiaozuo", 
+        "value": [
+            113.241823, 
+            35.215892, 
+            117
+        ], 
+        "social": {
+            "GDP": 0.07117039115507459, 
+            "City": "Jiaozuo", 
+            "o3": 88, 
+            "Green_Covered_Area_percentage": 0.4831373562, 
+            "pm10": 74, 
+            "dust_removed": 3764211.0, 
+            "pm2_5": 25, 
+            "Population_Density": 0.34280430205061757, 
+            "dust_emission": 0.010313133094250727, 
+            "secondary_industry_percentage": 0.6742, 
+            "GDP_per_capita": 0.08270308397664486, 
+            "co": 0.9, 
+            "so2": 23, 
+            "aqi": 117.60700140809013, 
+            "no2": 31, 
+            "population": 0.23695933323753415
+        }
+    }, 
+    {
+        "name": "Chuzhou", 
+        "value": [
+            118.328321, 
+            32.25342500000001, 
+            97
+        ], 
+        "social": {
+            "GDP": 0.04216750715442058, 
+            "City": "Chuzhou", 
+            "o3": 103, 
+            "Green_Covered_Area_percentage": 0.5001938235, 
+            "pm10": 115, 
+            "dust_removed": 1186099.0, 
+            "pm2_5": 84, 
+            "Population_Density": 0.12374674327047515, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.53, 
+            "GDP_per_capita": 0.034360019332000995, 
+            "co": 0.8, 
+            "so2": 12, 
+            "aqi": 97.98438637450776, 
+            "no2": 31, 
+            "population": 0.2967380370742923
+        }
+    }, 
+    {
+        "name": "Suining", 
+        "value": [
+            105.592898, 
+            30.532847, 
+            88
+        ], 
+        "social": {
+            "GDP": 0.02584900360681111, 
+            "City": "Suining", 
+            "o3": 57, 
+            "Green_Covered_Area_percentage": 0.4150407029, 
+            "pm10": 63, 
+            "dust_removed": 41907.0, 
+            "pm2_5": 36, 
+            "Population_Density": 0.26952164249296773, 
+            "dust_emission": 0.0006679005595649323, 
+            "secondary_industry_percentage": 0.5518, 
+            "GDP_per_capita": 0.024010432314049226, 
+            "co": 0.7, 
+            "so2": 9, 
+            "aqi": 88.5768631783791, 
+            "no2": 29, 
+            "population": 0.24421612300617904
+        }
+    }, 
+    {
+        "name": "Zunyi", 
+        "value": [
+            106.927389, 
+            27.725654, 
+            84
+        ], 
+        "social": {
+            "GDP": 0.06544230736038001, 
+            "City": "Zunyi", 
+            "o3": 74, 
+            "Green_Covered_Area_percentage": 0.3979842357, 
+            "pm10": 51, 
+            "dust_removed": 2901274.0, 
+            "pm2_5": 33, 
+            "Population_Density": 0.09325418899440545, 
+            "dust_emission": 0.003622076111486748, 
+            "secondary_industry_percentage": 0.4696, 
+            "GDP_per_capita": 0.026041598634568577, 
+            "co": 1.1, 
+            "so2": 23, 
+            "aqi": 84.79253373812006, 
+            "no2": 34, 
+            "population": 0.5296019543037793
+        }
+    }, 
+    {
+        "name": "Shiyan", 
+        "value": [
+            110.798266, 
+            32.629398, 
+            119
+        ], 
+        "social": {
+            "GDP": 0.041908248741236234, 
+            "City": "Shiyan", 
+            "o3": 94, 
+            "Green_Covered_Area_percentage": 0.5536891071, 
+            "pm10": 33, 
+            "dust_removed": 604472.0, 
+            "pm2_5": 15, 
+            "Population_Density": 0.05233269761699129, 
+            "dust_emission": 0.00466515538043692, 
+            "secondary_industry_percentage": 0.5062, 
+            "GDP_per_capita": 0.04949253497394099, 
+            "co": 0.9, 
+            "so2": 10, 
+            "aqi": 119.08019893220114, 
+            "no2": 8, 
+            "population": 0.22165541026009486
+        }
+    }, 
+    {
+        "name": "Anqing", 
+        "value": [
+            117.115101, 
+            30.531919, 
+            97
+        ], 
+        "social": {
+            "GDP": 0.05767161406194364, 
+            "City": "Anqing", 
+            "o3": 81, 
+            "Green_Covered_Area_percentage": 0.5234526425, 
+            "pm10": 112, 
+            "dust_removed": 1481993.0, 
+            "pm2_5": 76, 
+            "Population_Density": 0.15187571223860208, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5314, 
+            "GDP_per_capita": 0.03133612863617958, 
+            "co": 0.8, 
+            "so2": 12, 
+            "aqi": 97.98438637450776, 
+            "no2": 41, 
+            "population": 0.4190975714901567
+        }
+    }, 
+    {
+        "name": "Zhumadian", 
+        "value": [
+            114.022298, 
+            33.011529, 
+            114
+        ], 
+        "social": {
+            "GDP": 0.06345114709604129, 
+            "City": "Zhumadian", 
+            "o3": 90, 
+            "Green_Covered_Area_percentage": 0.5184132317, 
+            "pm10": 94, 
+            "dust_removed": 1753082.0, 
+            "pm2_5": 41, 
+            "Population_Density": 0.22409168868953586, 
+            "dust_emission": 0.006714208331694767, 
+            "secondary_industry_percentage": 0.43770000000000003, 
+            "GDP_per_capita": 0.01916436990303521, 
+            "co": 0.6, 
+            "so2": 20, 
+            "aqi": 114.28350295267701, 
+            "no2": 34, 
+            "population": 0.6150308952435695
+        }
+    }, 
+    {
+        "name": "Xining", 
+        "value": [
+            101.778223, 
+            36.617134, 
+            94
+        ], 
+        "social": {
+            "GDP": 0.03714342356470126, 
+            "City": "Xining", 
+            "o3": 64, 
+            "Green_Covered_Area_percentage": 0.4930869621, 
+            "pm10": 104, 
+            "dust_removed": 2392883.0, 
+            "pm2_5": 45, 
+            "Population_Density": 0.10990672272909707, 
+            "dust_emission": 0.016525306010090182, 
+            "secondary_industry_percentage": 0.5257999999999999, 
+            "GDP_per_capita": 0.07554284171706485, 
+            "co": 1.0, 
+            "so2": 38, 
+            "aqi": 94.93522484584311, 
+            "no2": 43, 
+            "population": 0.13507687886190545
+        }
+    }, 
+    {
+        "name": "Jixi", 
+        "value": [
+            130.969333, 
+            45.295075, 
+            79
+        ], 
+        "social": {
+            "GDP": 0.018112821449723874, 
+            "City": "Jixi", 
+            "o3": 69, 
+            "Green_Covered_Area_percentage": 0.5149244088, 
+            "pm10": 78, 
+            "dust_removed": 1359507.0, 
+            "pm2_5": 21, 
+            "Population_Density": 0.027933282387214008, 
+            "dust_emission": 0.025513737947027177, 
+            "secondary_industry_percentage": 0.38530000000000003, 
+            "GDP_per_capita": 0.048162371392121775, 
+            "co": 0.3, 
+            "so2": 3, 
+            "aqi": 79.54447061712088, 
+            "no2": 15, 
+            "population": 0.10691191263112518
+        }
+    }, 
+    {
+        "name": "Cangzhou", 
+        "value": [
+            116.838834, 
+            38.30447700000001, 
+            126
+        ], 
+        "social": {
+            "GDP": 0.1321262641462123, 
+            "City": "Cangzhou", 
+            "o3": 69, 
+            "Green_Covered_Area_percentage": 0.4715079468, 
+            "pm10": 67, 
+            "dust_removed": 1742600.0, 
+            "pm2_5": 25, 
+            "Population_Density": 0.20211341369157712, 
+            "dust_emission": 0.01711392112811132, 
+            "secondary_industry_percentage": 0.5227, 
+            "GDP_per_capita": 0.06869173731119732, 
+            "co": 0.8, 
+            "so2": 18, 
+            "aqi": 126.19826672455518, 
+            "no2": 39, 
+            "population": 0.5112085069693921
+        }
+    }, 
+    {
+        "name": "Xianyang", 
+        "value": [
+            108.708991, 
+            34.329605, 
+            110
+        ], 
+        "social": {
+            "GDP": 0.07831474832271627, 
+            "City": "Xianyang", 
+            "o3": 100, 
+            "Green_Covered_Area_percentage": 0.3959167851, 
+            "pm10": 90, 
+            "dust_removed": 1963062.0, 
+            "pm2_5": 31, 
+            "Population_Density": 0.1969488259947982, 
+            "dust_emission": 0.00919013410022441, 
+            "secondary_industry_percentage": 0.5785, 
+            "GDP_per_capita": 0.05768468809732182, 
+            "co": 1.1, 
+            "so2": 9, 
+            "aqi": 110.27046886311065, 
+            "no2": 39, 
+            "population": 0.35407386118695217
+        }
+    }, 
+    {
+        "name": "Liaoyang", 
+        "value": [
+            123.236944, 
+            41.267244, 
+            86
+        ], 
+        "social": {
+            "GDP": 0.0418802784696152, 
+            "City": "Liaoyang", 
+            "o3": 66, 
+            "Green_Covered_Area_percentage": 0.5243571521, 
+            "pm10": 55, 
+            "dust_removed": 3844503.0, 
+            "pm2_5": 26, 
+            "Population_Density": 0.14201081256988374, 
+            "dust_emission": 0.010756497283363631, 
+            "secondary_industry_percentage": 0.6294, 
+            "GDP_per_capita": 0.11231718414601756, 
+            "co": 0.9, 
+            "so2": 26, 
+            "aqi": 86.48289398972965, 
+            "no2": 30, 
+            "population": 0.10231355079752837
+        }
+    }, 
+    {
+        "name": "Ningbo", 
+        "value": [
+            121.54399, 
+            29.868336, 
+            82
+        ], 
+        "social": {
+            "GDP": 0.32428507418487773, 
+            "City": "Ningbo", 
+            "o3": 55, 
+            "Green_Covered_Area_percentage": 0.4894689236, 
+            "pm10": 57, 
+            "dust_removed": 6796256.0, 
+            "pm2_5": 41, 
+            "Population_Density": 0.22292908091002434, 
+            "dust_emission": 0.007807078857934443, 
+            "secondary_industry_percentage": 0.5249, 
+            "GDP_per_capita": 0.24928049253061987, 
+            "co": 1.3, 
+            "so2": 12, 
+            "aqi": 82.10346729420006, 
+            "no2": 75, 
+            "population": 0.3887771231498779
+        }
+    }, 
+    {
+        "name": "Shantou", 
+        "value": [
+            116.681972, 
+            23.354091, 
+            74
+        ], 
+        "social": {
+            "GDP": 0.06456621832016002, 
+            "City": "Shantou", 
+            "o3": 65, 
+            "Green_Covered_Area_percentage": 0.5361157772, 
+            "pm10": 34, 
+            "dust_removed": 853454.0, 
+            "pm2_5": 16, 
+            "Population_Density": 1.0, 
+            "dust_emission": 0.002182252493051424, 
+            "secondary_industry_percentage": 0.5222, 
+            "GDP_per_capita": 0.04482716581544906, 
+            "co": 0.9, 
+            "so2": 14, 
+            "aqi": 74.66320923327558, 
+            "no2": 28, 
+            "population": 0.3582411265986492
+        }
+    }, 
+    {
+        "name": "Laiwu", 
+        "value": [
+            117.676723, 
+            36.213813, 
+            129
+        ], 
+        "social": {
+            "GDP": 0.021967700064791026, 
+            "City": "Laiwu", 
+            "o3": 0, 
+            "co": 0.0, 
+            "pm10": 0, 
+            "dust_removed": 3974017.0, 
+            "pm2_5": 0, 
+            "Population_Density": 0.2122967834582807, 
+            "dust_emission": 0.02404917727083019, 
+            "secondary_industry_percentage": 0.5604, 
+            "GDP_per_capita": 0.09371666427193681, 
+            "so2": 0, 
+            "aqi": 129.39961179902784, 
+            "no2": 0, 
+            "population": 0.06365857163385545
+        }
+    }, 
+    {
+        "name": "Lincang", 
+        "value": [
+            100.088824, 
+            23.884154, 
+            61
+        ], 
+        "social": {
+            "GDP": 0.010884875608554745, 
+            "City": "Lincang", 
+            "o3": 0, 
+            "Green_Covered_Area_percentage": 0.4981263729, 
+            "pm10": 0, 
+            "dust_removed": 130289.0, 
+            "pm2_5": 0, 
+            "Population_Density": 0.034559762986864445, 
+            "dust_emission": 0.0009878966016356903, 
+            "secondary_industry_percentage": 0.42219999999999996, 
+            "GDP_per_capita": 0.020080898328478564, 
+            "co": 0.0, 
+            "so2": 0, 
+            "aqi": 61.88895622351506, 
+            "no2": 0, 
+            "population": 0.14269291564880013
+        }
+    }, 
+    {
+        "name": "Hulunbuir", 
+        "value": [
+            119.765607, 
+            49.211742, 
+            80
+        ], 
+        "social": {
+            "GDP": 0.05824697716226622, 
+            "City": "Hulunbuir", 
+            "o3": 55, 
+            "Green_Covered_Area_percentage": null, 
+            "pm10": 22, 
+            "dust_removed": 3799953.0, 
+            "pm2_5": 14, 
+            "Population_Density": 0.0, 
+            "dust_emission": 0.020067462396500785, 
+            "secondary_industry_percentage": 0.4769, 
+            "GDP_per_capita": 0.10479555538139339, 
+            "co": 0.4, 
+            "so2": 4, 
+            "aqi": 80.78228643477111, 
+            "no2": 12, 
+            "population": 0.15483546486564162
+        }
+    }, 
+    {
+        "name": "Rizhao", 
+        "value": [
+            119.526925, 
+            35.416734, 
+            100
+        ], 
+        "social": {
+            "GDP": 0.06149677630597627, 
+            "City": "Rizhao", 
+            "o3": 86, 
+            "Green_Covered_Area_percentage": 0.5505879313, 
+            "pm10": 144, 
+            "dust_removed": 3561092.0, 
+            "pm2_5": 61, 
+            "Population_Density": 0.20388610282278224, 
+            "dust_emission": 0.009092454436242453, 
+            "secondary_industry_percentage": 0.5228, 
+            "GDP_per_capita": 0.0943153467351124, 
+            "co": 0.8, 
+            "so2": 15, 
+            "aqi": 100.18782002238704, 
+            "no2": 55, 
+            "population": 0.18055755137232363
+        }
+    }, 
+    {
+        "name": "Shanghai", 
+        "value": [
+            121.4737021, 
+            31.2303904, 
+            88
+        ], 
+        "social": {
+            "GDP": 1.0, 
+            "City": "Shanghai", 
+            "o3": 105, 
+            "Green_Covered_Area_percentage": null, 
+            "pm10": 103, 
+            "dust_removed": "", 
+            "pm2_5": 67, 
+            "Population_Density": 0.8630118064348669, 
+            "dust_emission": 0.021103247404828926, 
+            "secondary_industry_percentage": 0.3716, 
+            "GDP_per_capita": 0.3101088078163982, 
+            "co": 0.8, 
+            "so2": 12, 
+            "aqi": 88.09388698658752, 
+            "no2": 55, 
+            "population": 1.0
+        }
+    }, 
+    {
+        "name": "Pingdingshan", 
+        "value": [
+            113.192661, 
+            33.766169, 
+            122
+        ], 
+        "social": {
+            "GDP": 0.06414481543470085, 
+            "City": "Pingdingshan", 
+            "o3": 85, 
+            "Green_Covered_Area_percentage": 0.5083344101, 
+            "pm10": 84, 
+            "dust_removed": 7716020.0, 
+            "pm2_5": 29, 
+            "Population_Density": 0.2570936340005679, 
+            "dust_emission": 0.027234866312059885, 
+            "secondary_industry_percentage": 0.5822999999999999, 
+            "GDP_per_capita": 0.04469654418711984, 
+            "co": 0.6, 
+            "so2": 20, 
+            "aqi": 122.46137253983193, 
+            "no2": 29, 
+            "population": 0.3580255783876994
+        }
+    }, 
+    {
+        "name": "Shaoguan", 
+        "value": [
+            113.59762, 
+            24.810879, 
+            86
+        ], 
+        "social": {
+            "GDP": 0.03861604365909624, 
+            "City": "Shaoguan", 
+            "o3": 35, 
+            "Green_Covered_Area_percentage": 0.5914200801, 
+            "pm10": 32, 
+            "dust_removed": 458739.0, 
+            "pm2_5": 23, 
+            "Population_Density": 0.06451130183992446, 
+            "dust_emission": 0.0012098958379583174, 
+            "secondary_industry_percentage": 0.424, 
+            "GDP_per_capita": 0.04873928358390916, 
+            "co": 0.7, 
+            "so2": 8, 
+            "aqi": 86.59797985419772, 
+            "no2": 22, 
+            "population": 0.2080040235666044
+        }
+    }, 
+    {
+        "name": "Wuzhong", 
+        "value": [
+            106.198393, 
+            37.99746, 
+            101
+        ], 
+        "social": {
+            "GDP": 0.007889077904928519, 
+            "City": "Wuzhong", 
+            "o3": 78, 
+            "Green_Covered_Area_percentage": 0.4996769608, 
+            "pm10": 58, 
+            "dust_removed": 3779354.0, 
+            "pm2_5": 22, 
+            "Population_Density": 0.029065194287457442, 
+            "dust_emission": 0.003849149616068178, 
+            "secondary_industry_percentage": 0.5428999999999999, 
+            "GDP_per_capita": 0.03490209908956725, 
+            "co": 0.2, 
+            "so2": 31, 
+            "aqi": 101.26153848794746, 
+            "no2": 11, 
+            "population": 0.07537002442879724
+        }
+    }, 
+    {
+        "name": "Tianshui", 
+        "value": [
+            105.72498, 
+            34.58088499999999, 
+            94
+        ], 
+        "social": {
+            "GDP": 0.01267025759014125, 
+            "City": "Tianshui", 
+            "o3": 92, 
+            "Green_Covered_Area_percentage": 0.4412714821, 
+            "pm10": 43, 
+            "dust_removed": 890536.0, 
+            "pm2_5": 18, 
+            "Population_Density": 0.09773962951097213, 
+            "dust_emission": 0.0007877801471791509, 
+            "secondary_industry_percentage": 0.37079999999999996, 
+            "GDP_per_capita": 0.00786342202541897, 
+            "co": 0.6, 
+            "so2": 9, 
+            "aqi": 94.56672637552782, 
+            "no2": 11, 
+            "population": 0.24364132777697944
+        }
+    }, 
+    {
+        "name": "Loudi", 
+        "value": [
+            111.993497, 
+            27.700062, 
+            98
+        ], 
+        "social": {
+            "GDP": 0.04366288723448615, 
+            "City": "Loudi", 
+            "o3": 0, 
+            "Green_Covered_Area_percentage": 0.510660292, 
+            "pm10": 0, 
+            "dust_removed": 4017621.0, 
+            "pm2_5": 0, 
+            "Population_Density": 0.203490892826296, 
+            "dust_emission": 0.0008841912440964061, 
+            "secondary_industry_percentage": 0.5407, 
+            "GDP_per_capita": 0.037148791096829815, 
+            "co": 0.0, 
+            "so2": 0, 
+            "aqi": 98.80724774151626, 
+            "no2": 0, 
+            "population": 0.28818795803994823
+        }
+    }, 
+    {
+        "name": "Quzhou", 
+        "value": [
+            118.859457, 
+            28.970079, 
+            87
+        ], 
+        "social": {
+            "GDP": 0.04078689809542992, 
+            "City": "Quzhou", 
+            "o3": 62, 
+            "Green_Covered_Area_percentage": 0.5234526425, 
+            "pm10": 50, 
+            "dust_removed": 3531549.0, 
+            "pm2_5": 38, 
+            "Population_Density": 0.10643424743036191, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5262, 
+            "GDP_per_capita": 0.07225553073744617, 
+            "co": 1.1, 
+            "so2": 21, 
+            "aqi": 87.67200743201572, 
+            "no2": 37, 
+            "population": 0.1549791636729415
+        }
+    }, 
+    {
+        "name": "Qingyuan", 
+        "value": [
+            113.056042, 
+            23.681774, 
+            81
+        ], 
+        "social": {
+            "GDP": 0.04248951776604564, 
+            "City": "Qingyuan", 
+            "o3": 33, 
+            "Green_Covered_Area_percentage": 0.3575397338, 
+            "pm10": 32, 
+            "dust_removed": 612820.0, 
+            "pm2_5": 26, 
+            "Population_Density": 0.07875420624744041, 
+            "dust_emission": 0.010084473880838421, 
+            "secondary_industry_percentage": 0.39409999999999995, 
+            "GDP_per_capita": 0.039737276364887164, 
+            "co": 0.9, 
+            "so2": 11, 
+            "aqi": 81.68881939083745, 
+            "no2": 21, 
+            "population": 0.265770944101164
+        }
+    }, 
+    {
+        "name": "Yingkou", 
+        "value": [
+            122.235084, 
+            40.667433, 
+            86
+        ], 
+        "social": {
+            "GDP": 0.06210158499186283, 
+            "City": "Yingkou", 
+            "o3": 72, 
+            "Green_Covered_Area_percentage": 0.503811862, 
+            "pm10": 43, 
+            "dust_removed": 1918319.0, 
+            "pm2_5": 14, 
+            "Population_Density": 0.16634499900613361, 
+            "dust_emission": 0.010437452666591398, 
+            "secondary_industry_percentage": 0.5272, 
+            "GDP_per_capita": 0.12307605226606755, 
+            "co": 0.3, 
+            "so2": 12, 
+            "aqi": 86.48289398972965, 
+            "no2": 36, 
+            "population": 0.14082483115390143
+        }
+    }, 
+    {
+        "name": "Xuancheng", 
+        "value": [
+            118.75868, 
+            30.940195, 
+            97
+        ], 
+        "social": {
+            "GDP": 0.030806740087532525, 
+            "City": "Xuancheng", 
+            "o3": 104, 
+            "Green_Covered_Area_percentage": 1.0, 
+            "pm10": 113, 
+            "dust_removed": 2206937.0, 
+            "pm2_5": 61, 
+            "Population_Density": 0.08249143385544168, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5255, 
+            "GDP_per_capita": 0.04722624972242904, 
+            "co": 0.9, 
+            "so2": 24, 
+            "aqi": 97.98438637450776, 
+            "no2": 46, 
+            "population": 0.1739474062365282
+        }
+    }, 
+    {
+        "name": "Xiaogan", 
+        "value": [
+            113.957037, 
+            30.917766, 
+            125
+        ], 
+        "social": {
+            "GDP": 0.049300692087044885, 
+            "City": "Xiaogan", 
+            "o3": 128, 
+            "Green_Covered_Area_percentage": 0.3478485592, 
+            "pm10": 79, 
+            "dust_removed": 1550358.0, 
+            "pm2_5": 49, 
+            "Population_Density": 0.2232859208570947, 
+            "dust_emission": 0.0005911522521505384, 
+            "secondary_industry_percentage": 0.48619999999999997, 
+            "GDP_per_capita": 0.03287746385046436, 
+            "co": 0.6, 
+            "so2": 12, 
+            "aqi": 125.24302630494792, 
+            "no2": 30, 
+            "population": 0.3516309814628539
+        }
+    }, 
+    {
+        "name": "Meizhou", 
+        "value": [
+            116.122523, 
+            24.288578, 
+            74
+        ], 
+        "social": {
+            "GDP": 0.028808992266315607, 
+            "City": "Meizhou", 
+            "o3": 44, 
+            "Green_Covered_Area_percentage": 0.5490373433, 
+            "pm10": 21, 
+            "dust_removed": 2251838.0, 
+            "pm2_5": 17, 
+            "Population_Density": 0.12311747704432165, 
+            "dust_emission": 0.0016202772833890022, 
+            "secondary_industry_percentage": 0.36200000000000004, 
+            "GDP_per_capita": 0.014871272385281555, 
+            "co": 0.8, 
+            "so2": 3, 
+            "aqi": 74.74997387554048, 
+            "no2": 18, 
+            "population": 0.3487570053168559
+        }
+    }, 
+    {
+        "name": "Ezhou", 
+        "value": [
+            114.894843, 
+            30.39194, 
+            125
+        ], 
+        "social": {
+            "GDP": 0.020915371701682985, 
+            "City": "Ezhou", 
+            "o3": 64, 
+            "Green_Covered_Area_percentage": 0.4397208942, 
+            "pm10": 90, 
+            "dust_removed": 1525000.0, 
+            "pm2_5": 65, 
+            "Population_Density": 0.2601056706094548, 
+            "dust_emission": 0.0059628994876257625, 
+            "secondary_industry_percentage": 0.5945, 
+            "GDP_per_capita": 0.10656765547239312, 
+            "co": 1.4, 
+            "so2": 12, 
+            "aqi": 125.24302630494792, 
+            "no2": 53, 
+            "population": 0.048642046271015954
+        }
+    }, 
+    {
+        "name": "Nanning", 
+        "value": [
+            108.366543, 
+            22.817002, 
+            81
+        ], 
+        "social": {
+            "GDP": 0.1223480794183345, 
+            "City": "Nanning", 
+            "o3": 60, 
+            "Green_Covered_Area_percentage": 0.5389585218, 
+            "pm10": 42, 
+            "dust_removed": 2692039.0, 
+            "pm2_5": 17, 
+            "Population_Density": 0.12111456861827503, 
+            "dust_emission": 0.006435440719226783, 
+            "secondary_industry_percentage": 0.3962, 
+            "GDP_per_capita": 0.06599875474047659, 
+            "co": 0.7, 
+            "so2": 11, 
+            "aqi": 81.5257973639156, 
+            "no2": 31, 
+            "population": 0.48943813766345745
+        }
+    }, 
+    {
+        "name": "Lanzhou", 
+        "value": [
+            103.834303, 
+            36.061089, 
+            97
+        ], 
+        "social": {
+            "GDP": 0.07438813957024544, 
+            "City": "Lanzhou", 
+            "o3": 126, 
+            "Green_Covered_Area_percentage": 0.4332601111, 
+            "pm10": 120, 
+            "dust_removed": 3780795.0, 
+            "pm2_5": 41, 
+            "Population_Density": 0.10422414151875958, 
+            "dust_emission": 0.012511559817377085, 
+            "secondary_industry_percentage": 0.4619, 
+            "GDP_per_capita": 0.08649546525246984, 
+            "co": 1.3, 
+            "so2": 32, 
+            "aqi": 97.25496310738247, 
+            "no2": 68, 
+            "population": 0.20383675815490732
+        }
+    }, 
+    {
+        "name": "Wuhan", 
+        "value": [
+            114.305539, 
+            30.592849, 
+            119
+        ], 
+        "social": {
+            "GDP": 0.4140365822486893, 
+            "City": "Wuhan", 
+            "o3": 67, 
+            "Green_Covered_Area_percentage": 0.4972218633, 
+            "pm10": 100, 
+            "dust_removed": 2874300.0, 
+            "pm2_5": 56, 
+            "Population_Density": 0.3674991654689291, 
+            "dust_emission": 0.005563300862245034, 
+            "secondary_industry_percentage": 0.4857, 
+            "GDP_per_capita": 0.2214167221808587, 
+            "co": 0.7, 
+            "so2": 13, 
+            "aqi": 119.08019893220114, 
+            "no2": 40, 
+            "population": 0.5633711740192556
+        }
+    }, 
+    {
+        "name": "Ya'an", 
+        "value": [
+            103.013261, 
+            29.980537, 
+            100
+        ], 
+        "social": {
+            "GDP": 0.010972400008835077, 
+            "City": "Ya'an", 
+            "o3": 89, 
+            "Green_Covered_Area_percentage": 0.5354696989, 
+            "pm10": 46, 
+            "dust_removed": 261206.0, 
+            "pm2_5": 32, 
+            "Population_Density": 0.03618664649121542, 
+            "dust_emission": 0.0024610201055194083, 
+            "secondary_industry_percentage": 0.5748, 
+            "GDP_per_capita": 0.03965454933361199, 
+            "co": 0.3, 
+            "so2": 8, 
+            "aqi": 100.62314497913509, 
+            "no2": 28, 
+            "population": 0.0854289409397902
+        }
+    }, 
+    {
+        "name": "Harbin", 
+        "value": [
+            126.534967, 
+            45.80377499999999, 
+            112
+        ], 
+        "social": {
+            "GDP": 0.2256903055799562, 
+            "City": "Harbin", 
+            "o3": 63, 
+            "Green_Covered_Area_percentage": 0.4609122626, 
+            "pm10": 43, 
+            "dust_removed": 3864927.0, 
+            "pm2_5": 36, 
+            "Population_Density": 0.06811039779088857, 
+            "dust_emission": 0.025899382334696196, 
+            "secondary_industry_percentage": 0.34759999999999996, 
+            "GDP_per_capita": 0.09146997226467425, 
+            "co": 0.5, 
+            "so2": 17, 
+            "aqi": 112.1195272544063, 
+            "no2": 17, 
+            "population": 0.687311395315419
+        }
+    }, 
+    {
+        "name": "Hohhot", 
+        "value": [
+            111.749995, 
+            40.842356, 
+            92
+        ], 
+        "social": {
+            "GDP": 0.1179989659636623, 
+            "City": "Hohhot", 
+            "o3": 78, 
+            "Green_Covered_Area_percentage": 0.4662101047, 
+            "pm10": 68, 
+            "dust_removed": 6827550.0, 
+            "pm2_5": 21, 
+            "Population_Density": 0.048388272623599654, 
+            "dust_emission": 0.015274816026061441, 
+            "secondary_industry_percentage": 0.31980000000000003, 
+            "GDP_per_capita": 0.2338606093063556, 
+            "co": 1.2, 
+            "so2": 16, 
+            "aqi": 92.29664198001426, 
+            "no2": 22, 
+            "population": 0.13960339129185229
+        }
+    }, 
+    {
+        "name": "Yulin", 
+        "value": [
+            110.18122, 
+            22.654032, 
+            94
+        ], 
+        "social": {
+            "GDP": 0.0474111884233198, 
+            "City": "Yulin", 
+            "o3": 65, 
+            "Green_Covered_Area_percentage": 0.4637550071, 
+            "pm10": 20, 
+            "dust_removed": 1349089.0, 
+            "pm2_5": 16, 
+            "Population_Density": 0.2058621523043866, 
+            "dust_emission": 0.0032180375013795668, 
+            "secondary_industry_percentage": 0.43939999999999996, 
+            "GDP_per_capita": 0.018916188809209696, 
+            "co": 0.8, 
+            "so2": 4, 
+            "aqi": 74.35186483319548, 
+            "no2": 9, 
+            "population": 0.47320017243856877
+        }
+    }, 
+    {
+        "name": "Guilin", 
+        "value": [
+            110.179953, 
+            25.234479, 
+            100
+        ], 
+        "social": {
+            "GDP": 0.06886143146004925, 
+            "City": "Guilin", 
+            "o3": 94, 
+            "Green_Covered_Area_percentage": 0.5392169531, 
+            "pm10": 41, 
+            "dust_removed": 358175.0, 
+            "pm2_5": 31, 
+            "Population_Density": 0.06804133196236999, 
+            "dust_emission": 0.004680695326979504, 
+            "secondary_industry_percentage": 0.4782, 
+            "GDP_per_capita": 0.05084229180000958, 
+            "co": 0.5, 
+            "so2": 9, 
+            "aqi": 100.09579516928392, 
+            "no2": 8, 
+            "population": 0.3478229630694065
+        }
+    }, 
+    {
+        "name": "Suihua", 
+        "value": [
+            126.968887, 
+            46.653845, 
+            90
+        ], 
+        "social": {
+            "GDP": 0.04672977079284478, 
+            "City": "Suihua", 
+            "o3": 64, 
+            "Green_Covered_Area_percentage": 0.405866391, 
+            "pm10": 54, 
+            "dust_removed": 170744.0, 
+            "pm2_5": 33, 
+            "Population_Density": 0.0573553167219072, 
+            "dust_emission": 0.0036388846250940327, 
+            "secondary_industry_percentage": 0.2691, 
+            "GDP_per_capita": 0.028053171710838546, 
+            "co": 0.8, 
+            "so2": 7, 
+            "aqi": 90.1285786835333, 
+            "no2": 25, 
+            "population": 0.38338841787613165
+        }
+    }, 
+    {
+        "name": "Chengdu", 
+        "value": [
+            104.066801, 
+            30.572815, 
+            110
+        ], 
+        "social": {
+            "GDP": 0.4167267145119382, 
+            "City": "Chengdu", 
+            "o3": 70, 
+            "Green_Covered_Area_percentage": 0.5138906836, 
+            "pm10": 62, 
+            "dust_removed": 2342401.0, 
+            "pm2_5": 35, 
+            "Population_Density": 0.37185031136344976, 
+            "dust_emission": 0.006594645885846724, 
+            "secondary_industry_percentage": 0.45909999999999995, 
+            "GDP_per_capita": 0.14861911168584627, 
+            "co": 0.8, 
+            "so2": 9, 
+            "aqi": 110.16766009116537, 
+            "no2": 47, 
+            "population": 0.8211668343152753
+        }
+    }, 
+    {
+        "name": "Shenyang", 
+        "value": [
+            123.431472, 
+            41.805699, 
+            111
+        ], 
+        "social": {
+            "GDP": 0.3256720233588511, 
+            "City": "Shenyang", 
+            "o3": 65, 
+            "Green_Covered_Area_percentage": 0.5405091097, 
+            "pm10": 65, 
+            "dust_removed": 2108881.0, 
+            "pm2_5": 31, 
+            "Population_Density": 0.2110958057295187, 
+            "dust_emission": 0.01895461193899207, 
+            "secondary_industry_percentage": 0.5167, 
+            "GDP_per_capita": 0.19606306412215735, 
+            "co": 0.6, 
+            "so2": 25, 
+            "aqi": 111.79135485183872, 
+            "no2": 29, 
+            "population": 0.4944675959189539
+        }
+    }, 
+    {
+        "name": "Chizhou", 
+        "value": [
+            117.489156, 
+            30.656037, 
+            97
+        ], 
+        "social": {
+            "GDP": 0.013039492254085907, 
+            "City": "Chizhou", 
+            "o3": 86, 
+            "Green_Covered_Area_percentage": 0.5208683292, 
+            "pm10": 116, 
+            "dust_removed": 866657.0, 
+            "pm2_5": 84, 
+            "Population_Density": 0.07125672912198681, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.488, 
+            "GDP_per_capita": 0.04381702522303643, 
+            "co": 1.1, 
+            "so2": 12, 
+            "aqi": 97.98438637450776, 
+            "no2": 60, 
+            "population": 0.0891651099295876
+        }
+    }, 
+    {
+        "name": "Zhangjiakou", 
+        "value": [
+            114.886335, 
+            40.76754400000001, 
+            84
+        ], 
+        "social": {
+            "GDP": 0.05294542250211107, 
+            "City": "Zhangjiakou", 
+            "o3": 66, 
+            "Green_Covered_Area_percentage": 0.5305595038, 
+            "pm10": 36, 
+            "dust_removed": 4322258.0, 
+            "pm2_5": 23, 
+            "Population_Density": 0.04473545868358565, 
+            "dust_emission": 0.01328855714450628, 
+            "secondary_industry_percentage": 0.4213, 
+            "GDP_per_capita": 0.043092075185809264, 
+            "co": 0.7, 
+            "so2": 16, 
+            "aqi": 84.63340512563006, 
+            "no2": 7, 
+            "population": 0.30880873688748384
+        }
+    }, 
+    {
+        "name": "Tongling", 
+        "value": [
+            117.81154, 
+            30.945515, 
+            97
+        ], 
+        "social": {
+            "GDP": 0.02323385557532741, 
+            "City": "Tongling", 
+            "o3": 77, 
+            "Green_Covered_Area_percentage": 0.5880604729, 
+            "pm10": 116, 
+            "dust_removed": 4701887.0, 
+            "pm2_5": 87, 
+            "Population_Density": 0.23330813705731007, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.7214, 
+            "GDP_per_capita": 0.18192544988265824, 
+            "co": 1.6, 
+            "so2": 26, 
+            "aqi": 97.98438637450776, 
+            "no2": 76, 
+            "population": 0.026153182928581698
+        }
+    }, 
+    {
+        "name": "Xingtai", 
+        "value": [
+            114.504677, 
+            37.070834, 
+            175
+        ], 
+        "social": {
+            "GDP": 0.06637164309528167, 
+            "City": "Xingtai", 
+            "o3": 87, 
+            "Green_Covered_Area_percentage": 0.4784855925, 
+            "pm10": 71, 
+            "dust_removed": 3353160.0, 
+            "pm2_5": 26, 
+            "Population_Density": 0.23158532888016362, 
+            "dust_emission": 0.030909587956731713, 
+            "secondary_industry_percentage": 0.5238, 
+            "GDP_per_capita": 0.027480613573328806, 
+            "co": 0.4, 
+            "so2": 14, 
+            "aqi": 175.21882594756622, 
+            "no2": 18, 
+            "population": 0.5155194711883891
+        }
+    }, 
+    {
+        "name": "Handan", 
+        "value": [
+            114.538961, 
+            36.625656, 
+            151
+        ], 
+        "social": {
+            "GDP": 0.13439149198774505, 
+            "City": "Handan", 
+            "o3": 81, 
+            "Green_Covered_Area_percentage": 0.5947796873, 
+            "pm10": 84, 
+            "dust_removed": 9598433.0, 
+            "pm2_5": 37, 
+            "Population_Density": 0.31228105179511445, 
+            "dust_emission": 0.06762318737623542, 
+            "secondary_industry_percentage": 0.5134000000000001, 
+            "GDP_per_capita": 0.048750168719603255, 
+            "co": 0.8, 
+            "so2": 16, 
+            "aqi": 151.06275757828874, 
+            "no2": 40, 
+            "population": 0.6866647506825694
+        }
+    }, 
+    {
+        "name": "Leshan", 
+        "value": [
+            103.765678, 
+            29.552115, 
+            88
+        ], 
+        "social": {
+            "GDP": 0.04443869227630526, 
+            "City": "Leshan", 
+            "o3": 41, 
+            "Green_Covered_Area_percentage": 0.4488952061, 
+            "pm10": 47, 
+            "dust_removed": 3213168.0, 
+            "pm2_5": 30, 
+            "Population_Density": 0.10351813549427047, 
+            "dust_emission": 0.009067400236714615, 
+            "secondary_industry_percentage": 0.6158, 
+            "GDP_per_capita": 0.05109264992097391, 
+            "co": 0.6, 
+            "so2": 6, 
+            "aqi": 88.5768631783791, 
+            "no2": 37, 
+            "population": 0.22833740479954018
+        }
+    }, 
+    {
+        "name": "Wuzhou", 
+        "value": [
+            111.279115, 
+            23.476962, 
+            100
+        ], 
+        "social": {
+            "GDP": 0.037758676166063744, 
+            "City": "Wuzhou", 
+            "o3": 50, 
+            "Green_Covered_Area_percentage": 0.4793901021, 
+            "pm10": 40, 
+            "dust_removed": 76625.0, 
+            "pm2_5": 26, 
+            "Population_Density": 0.09863748508138293, 
+            "dust_emission": 0.0026865079012699626, 
+            "secondary_industry_percentage": 0.6603, 
+            "GDP_per_capita": 0.045952688846219156, 
+            "co": 0.7, 
+            "so2": 10, 
+            "aqi": 100.09579516928392, 
+            "no2": 30, 
+            "population": 0.18422187095847103
+        }
+    }, 
+    {
+        "name": "Shanwei", 
+        "value": [
+            115.375158, 
+            22.786186, 
+            77
+        ], 
+        "social": {
+            "GDP": 0.022820898395320165, 
+            "City": "Shanwei", 
+            "o3": 98, 
+            "Green_Covered_Area_percentage": 0.5264246027, 
+            "pm10": 27, 
+            "dust_removed": 490997.0, 
+            "pm2_5": 15, 
+            "Population_Density": 0.27420276949028194, 
+            "dust_emission": 0.001102701920991106, 
+            "secondary_industry_percentage": 0.46990000000000004, 
+            "GDP_per_capita": 0.02312655929568818, 
+            "co": 0.8, 
+            "so2": 9, 
+            "aqi": 77.61723524633472, 
+            "no2": 8, 
+            "population": 0.224241988791493
+        }
+    }, 
+    {
+        "name": "Fuyang", 
+        "value": [
+            115.814504, 
+            32.890479, 
+            97
+        ], 
+        "social": {
+            "GDP": 0.04106254836701211, 
+            "City": "Fuyang", 
+            "o3": 87, 
+            "Green_Covered_Area_percentage": 0.4226644269, 
+            "pm10": 127, 
+            "dust_removed": 1352850.0, 
+            "pm2_5": 64, 
+            "Population_Density": 0.4095410576416131, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.41090000000000004, 
+            "GDP_per_capita": 0.003663936674634586, 
+            "co": 0.8, 
+            "so2": 14, 
+            "aqi": 97.98438637450776, 
+            "no2": 48, 
+            "population": 0.7247449346170427
+        }
+    }, 
+    {
+        "name": "Shuangyashan", 
+        "value": [
+            131.159133, 
+            46.646508, 
+            79
+        ], 
+        "social": {
+            "GDP": 0.017374912367635685, 
+            "City": "Shuangyashan", 
+            "o3": 64, 
+            "Green_Covered_Area_percentage": 0.5570487143, 
+            "pm10": 90, 
+            "dust_removed": 864217.0, 
+            "pm2_5": 52, 
+            "Population_Density": 0.020919265861059723, 
+            "dust_emission": 0.01754681963894044, 
+            "secondary_industry_percentage": 0.43060000000000004, 
+            "GDP_per_capita": 0.06226297617026094, 
+            "co": 0.6, 
+            "so2": 16, 
+            "aqi": 79.54447061712088, 
+            "no2": 13, 
+            "population": 0.08068688029889352
+        }
+    }, 
+    {
+        "name": "Changsha", 
+        "value": [
+            112.938814, 
+            28.228209, 
+            105
+        ], 
+        "social": {
+            "GDP": 0.32541804993105733, 
+            "City": "Changsha", 
+            "o3": 82, 
+            "Green_Covered_Area_percentage": 0.4390748159, 
+            "pm10": 98, 
+            "dust_removed": 1141000.0, 
+            "pm2_5": 75, 
+            "Population_Density": 0.21138741698322705, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5518, 
+            "GDP_per_capita": 0.21657719085126115, 
+            "co": 0.8, 
+            "so2": 16, 
+            "aqi": 105.90970552835562, 
+            "no2": 52, 
+            "population": 0.4482684293720363
+        }
+    }, 
+    {
+        "name": "Karamay", 
+        "value": [
+            84.88920700000001, 
+            45.579888, 
+            77
+        ], 
+        "social": {
+            "GDP": 0.031287813819526215, 
+            "City": "Karamay", 
+            "o3": 71, 
+            "Green_Covered_Area_percentage": 0.549166559, 
+            "pm10": 59, 
+            "dust_removed": 575785.0, 
+            "pm2_5": 22, 
+            "Population_Density": 0.0149642583716391, 
+            "dust_emission": 0.0014138179936089592, 
+            "secondary_industry_percentage": 0.7698999999999999, 
+            "GDP_per_capita": 0.47044467956337543, 
+            "co": 0.7, 
+            "so2": 4, 
+            "aqi": 77.39061675455979, 
+            "no2": 23, 
+            "population": 0.0
+        }
+    }, 
+    {
+        "name": "Xinyang", 
+        "value": [
+            114.091192, 
+            32.147679, 
+            114
+        ], 
+        "social": {
+            "GDP": 0.06527858486243204, 
+            "City": "Xinyang", 
+            "o3": 90, 
+            "Green_Covered_Area_percentage": 0.5430934229, 
+            "pm10": 124, 
+            "dust_removed": 896465.0, 
+            "pm2_5": 54, 
+            "Population_Density": 0.20442328131096613, 
+            "dust_emission": 0.0027369334420918163, 
+            "secondary_industry_percentage": 0.4045, 
+            "GDP_per_capita": 0.0217245538182879, 
+            "co": 1.0, 
+            "so2": 18, 
+            "aqi": 114.28350295267701, 
+            "no2": 39, 
+            "population": 0.5889495617186378
+        }
+    }, 
+    {
+        "name": "Dezhou", 
+        "value": [
+            116.357464, 
+            37.43409200000001, 
+            138
+        ], 
+        "social": {
+            "GDP": 0.10633651587029991, 
+            "City": "Dezhou", 
+            "o3": 76, 
+            "Green_Covered_Area_percentage": 0.4645303011, 
+            "pm10": 90, 
+            "dust_removed": 1921635.0, 
+            "pm2_5": 34, 
+            "Population_Density": 0.2106085080952282, 
+            "dust_emission": 0.004992445683129707, 
+            "secondary_industry_percentage": 0.529, 
+            "GDP_per_capita": 0.07421485516238445, 
+            "co": 1.2, 
+            "so2": 13, 
+            "aqi": 138.38210293050858, 
+            "no2": 41, 
+            "population": 0.3882741773243283
+        }
+    }, 
+    {
+        "name": "Baishan", 
+        "value": [
+            126.422806, 
+            41.93391700000001, 
+            101
+        ], 
+        "social": {
+            "GDP": 0.022909132440281917, 
+            "City": "Baishan", 
+            "o3": 67, 
+            "Green_Covered_Area_percentage": 0.3477193436, 
+            "pm10": 71, 
+            "dust_removed": 1133072.0, 
+            "pm2_5": 29, 
+            "Population_Density": 0.024054086187349756, 
+            "dust_emission": 0.0031530234393136545, 
+            "secondary_industry_percentage": 0.5945, 
+            "GDP_per_capita": 0.09717378336838348, 
+            "co": 0.8, 
+            "so2": 18, 
+            "aqi": 101.35259424372096, 
+            "no2": 18, 
+            "population": 0.0644489150740049
+        }
+    }, 
+    {
+        "name": "Tangshan", 
+        "value": [
+            118.180193, 
+            39.63086699999999, 
+            136
+        ], 
+        "social": {
+            "GDP": 0.27724061332554256, 
+            "City": "Tangshan", 
+            "o3": 63, 
+            "Green_Covered_Area_percentage": 0.5265538183, 
+            "pm10": 70, 
+            "dust_removed": 16358017.0, 
+            "pm2_5": 21, 
+            "Population_Density": 0.2024203728849195, 
+            "dust_emission": 0.15156712432337804, 
+            "secondary_industry_percentage": 0.5870000000000001, 
+            "GDP_per_capita": 0.16202306777956293, 
+            "co": 0.4, 
+            "so2": 10, 
+            "aqi": 136.7150409626216, 
+            "no2": 31, 
+            "population": 0.5047420606408967
+        }
+    }, 
+    {
+        "name": "Xuchang", 
+        "value": [
+            113.852454, 
+            34.035771, 
+            117
+        ], 
+        "social": {
+            "GDP": 0.07911638536468213, 
+            "City": "Xuchang", 
+            "o3": 86, 
+            "Green_Covered_Area_percentage": 0.4569065771, 
+            "pm10": 105, 
+            "dust_removed": 2053699.0, 
+            "pm2_5": 26, 
+            "Population_Density": 0.379416854317422, 
+            "dust_emission": 0.005443421274630815, 
+            "secondary_industry_percentage": 0.6683, 
+            "GDP_per_capita": 0.06361055596919071, 
+            "co": 0.9, 
+            "so2": 23, 
+            "aqi": 117.60700140809013, 
+            "no2": 44, 
+            "population": 0.32964506394596926
+        }
+    }, 
+    {
+        "name": "Baoding", 
+        "value": [
+            -80.83287779999999, 
+            35.1474946, 
+            172
+        ], 
+        "social": {
+            "GDP": 0.1270526081405237, 
+            "City": "Baoding", 
+            "o3": 79, 
+            "Green_Covered_Area_percentage": 0.5300426412, 
+            "pm10": 77, 
+            "dust_removed": 1326353.0, 
+            "pm2_5": 38, 
+            "Population_Density": 0.20983343624222048, 
+            "dust_emission": 0.012182366664087247, 
+            "secondary_industry_percentage": 0.5436, 
+            "GDP_per_capita": 0.03601673698464325, 
+            "co": 0.8, 
+            "so2": 11, 
+            "aqi": 172.00884832013864, 
+            "no2": 36, 
+            "population": 0.8120419600517317
+        }
+    }, 
+    {
+        "name": "Nanping", 
+        "value": [
+            118.17771, 
+            26.641774, 
+            69
+        ], 
+        "social": {
+            "GDP": 0.04308623556882099, 
+            "City": "Nanping", 
+            "o3": 81, 
+            "Green_Covered_Area_percentage": 0.6110608606, 
+            "pm10": 7, 
+            "dust_removed": 704894.0, 
+            "pm2_5": 5, 
+            "Population_Density": 0.04229897051213307, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.4351, 
+            "GDP_per_capita": 0.05788062053981565, 
+            "co": 0.6, 
+            "so2": 2, 
+            "aqi": 69.63018109884233, 
+            "no2": 7, 
+            "population": 0.1991665469176606
+        }
+    }, 
+    {
+        "name": "Panzhihua", 
+        "value": [
+            101.718637, 
+            26.582347, 
+            68
+        ], 
+        "social": {
+            "GDP": 0.028849535387456823, 
+            "City": "Panzhihua", 
+            "o3": 71, 
+            "Green_Covered_Area_percentage": 0.5593745962, 
+            "pm10": 52, 
+            "dust_removed": 2663186.0, 
+            "pm2_5": 23, 
+            "Population_Density": 0.054220496395617164, 
+            "dust_emission": 0.01342873380515571, 
+            "secondary_industry_percentage": 0.7456999999999999, 
+            "GDP_per_capita": 0.13737041245956172, 
+            "co": 1.7, 
+            "so2": 41, 
+            "aqi": 68.85963422606451, 
+            "no2": 41, 
+            "population": 0.05324040810461274
+        }
+    }, 
+    {
+        "name": "Hefei", 
+        "value": [
+            117.227219, 
+            31.820591, 
+            111
+        ], 
+        "social": {
+            "GDP": 0.20962343176520581, 
+            "City": "Hefei", 
+            "o3": 92, 
+            "Green_Covered_Area_percentage": 0.5803075333, 
+            "pm10": 102, 
+            "dust_removed": 4770975.0, 
+            "pm2_5": 72, 
+            "Population_Density": 0.2346894532270202, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5529, 
+            "GDP_per_capita": 0.12457820099185356, 
+            "co": 0.9, 
+            "so2": 17, 
+            "aqi": 111.6299692014149, 
+            "no2": 66, 
+            "population": 0.48369018537146147
+        }
+    }, 
+    {
+        "name": "Bazhong", 
+        "value": [
+            106.747477, 
+            31.867903, 
+            100
+        ], 
+        "social": {
+            "GDP": 0.010877737143305446, 
+            "City": "Bazhong", 
+            "o3": 91, 
+            "Green_Covered_Area_percentage": 0.4979971573, 
+            "pm10": 29, 
+            "dust_removed": 1350.0, 
+            "pm2_5": 15, 
+            "Population_Density": 0.11794905241271691, 
+            "dust_emission": 0.0005781494397373559, 
+            "secondary_industry_percentage": 0.4603, 
+            "GDP_per_capita": 0.004915727279456265, 
+            "co": 0.5, 
+            "so2": 5, 
+            "aqi": 100.62314497913509, 
+            "no2": 16, 
+            "population": 0.2531254490587728
+        }
+    }, 
+    {
+        "name": "Benxi", 
+        "value": [
+            123.685142, 
+            41.486981, 
+            87
+        ], 
+        "social": {
+            "GDP": 0.04718715546488102, 
+            "City": "Benxi", 
+            "o3": 53, 
+            "Green_Covered_Area_percentage": 0.6376792867, 
+            "pm10": 51, 
+            "dust_removed": 2482995.0, 
+            "pm2_5": 16, 
+            "Population_Density": 0.06563170273535968, 
+            "dust_emission": 0.019358016265566904, 
+            "secondary_industry_percentage": 0.5967, 
+            "GDP_per_capita": 0.15265967405549677, 
+            "co": 1.1, 
+            "so2": 41, 
+            "aqi": 87.12996946063316, 
+            "no2": 31, 
+            "population": 0.08262681419744218
+        }
+    }, 
+    {
+        "name": "Jiujiang", 
+        "value": [
+            116.00193, 
+            29.705077, 
+            79
+        ], 
+        "social": {
+            "GDP": 0.0662388695091307, 
+            "City": "Jiujiang", 
+            "o3": 63, 
+            "Green_Covered_Area_percentage": 0.6668820261, 
+            "pm10": 129, 
+            "dust_removed": 2279099.0, 
+            "pm2_5": 80, 
+            "Population_Density": 0.09834203689284873, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5608, 
+            "GDP_per_capita": 0.05033939853094209, 
+            "co": 0.8, 
+            "so2": 33, 
+            "aqi": 79.51592693199673, 
+            "no2": 49, 
+            "population": 0.3381232935766633
+        }
+    }, 
+    {
+        "name": "Pingliang", 
+        "value": [
+            106.665131, 
+            35.543061, 
+            94
+        ], 
+        "social": {
+            "GDP": 0.00738251765769877, 
+            "City": "Pingliang", 
+            "o3": 100, 
+            "Green_Covered_Area_percentage": 0.0078821553, 
+            "pm10": 79, 
+            "dust_removed": 2312186.0, 
+            "pm2_5": 22, 
+            "Population_Density": 0.07579588742727265, 
+            "dust_emission": 0.008107729252268514, 
+            "secondary_industry_percentage": 0.42979999999999996, 
+            "GDP_per_capita": 0.013704385838873867, 
+            "co": 0.9, 
+            "so2": 16, 
+            "aqi": 94.56672637552782, 
+            "no2": 50, 
+            "population": 0.13931599367725248
+        }
+    }, 
+    {
+        "name": "Xianning", 
+        "value": [
+            114.322439, 
+            29.841438, 
+            121
+        ], 
+        "social": {
+            "GDP": 0.03217491168973827, 
+            "City": "Xianning", 
+            "o3": 55, 
+            "Green_Covered_Area_percentage": 0.4731877504, 
+            "pm10": 84, 
+            "dust_removed": 1685807.0, 
+            "pm2_5": 67, 
+            "Population_Density": 0.1111499073419354, 
+            "dust_emission": 0.0006146207428475018, 
+            "secondary_industry_percentage": 0.4851, 
+            "GDP_per_capita": 0.04477491716411737, 
+            "co": 1.8, 
+            "so2": 3, 
+            "aqi": 121.1252069047008, 
+            "no2": 29, 
+            "population": 0.1878143411409685
+        }
+    }, 
+    {
+        "name": "Yongzhou", 
+        "value": [
+            111.613445, 
+            26.420394, 
+            98
+        ], 
+        "social": {
+            "GDP": 0.046336833062797636, 
+            "City": "Yongzhou", 
+            "o3": 72, 
+            "Green_Covered_Area_percentage": 0.4678899083, 
+            "pm10": 70, 
+            "dust_removed": 494903.0, 
+            "pm2_5": 61, 
+            "Population_Density": 0.10347592861019415, 
+            "dust_emission": 0.014028131743226804, 
+            "secondary_industry_percentage": 0.38049999999999995, 
+            "GDP_per_capita": 0.022773880899199288, 
+            "co": 0.8, 
+            "so2": 18, 
+            "aqi": 98.80724774151626, 
+            "no2": 39, 
+            "population": 0.422905589883604
+        }
+    }, 
+    {
+        "name": "Urumqi", 
+        "value": [
+            87.61684799999999, 
+            43.825592, 
+            112
+        ], 
+        "social": {
+            "GDP": 0.09430357989737034, 
+            "City": "Urumqi", 
+            "o3": 90, 
+            "Green_Covered_Area_percentage": 0.4853340225, 
+            "pm10": 20, 
+            "dust_removed": 3318686.0, 
+            "pm2_5": 15, 
+            "Population_Density": 0.06932288642429343, 
+            "dust_emission": 0.016422552077849425, 
+            "secondary_industry_percentage": 0.3973, 
+            "GDP_per_capita": 0.16404334896438819, 
+            "co": 0.9, 
+            "so2": 9, 
+            "aqi": 112.77773622604684, 
+            "no2": 11, 
+            "population": 0.15993677252478802
+        }
+    }, 
+    {
+        "name": "Changchun", 
+        "value": [
+            125.323544, 
+            43.817071, 
+            101
+        ], 
+        "social": {
+            "GDP": 0.22504283417631418, 
+            "City": "Changchun", 
+            "o3": 55, 
+            "Green_Covered_Area_percentage": 0.3461687557, 
+            "pm10": 63, 
+            "dust_removed": 1661896.0, 
+            "pm2_5": 21, 
+            "Population_Density": 0.13632055738972917, 
+            "dust_emission": 0.022933155395659724, 
+            "secondary_industry_percentage": 0.5314, 
+            "GDP_per_capita": 0.12634594702857566, 
+            "co": 0.6, 
+            "so2": 16, 
+            "aqi": 101.35259424372096, 
+            "no2": 29, 
+            "population": 0.5151602241701394
+        }
+    }, 
+    {
+        "name": "Qujing", 
+        "value": [
+            103.796167, 
+            25.489999, 
+            69
+        ], 
+        "social": {
+            "GDP": 0.06540827709667685, 
+            "City": "Qujing", 
+            "o3": 24, 
+            "Green_Covered_Area_percentage": 0.4452771676, 
+            "pm10": 46, 
+            "dust_removed": 7877264.0, 
+            "pm2_5": 28, 
+            "Population_Density": 0.08136335899018944, 
+            "dust_emission": 0.013165188997464135, 
+            "secondary_industry_percentage": 0.5293, 
+            "GDP_per_capita": 0.035409346412912386, 
+            "co": 1.0, 
+            "so2": 8, 
+            "aqi": 69.26760202909396, 
+            "no2": 31, 
+            "population": 0.42779134933180063
+        }
+    }, 
+    {
+        "name": "Suzhou", 
+        "value": [
+            120.585289, 
+            31.298974, 
+            97
+        ], 
+        "social": {
+            "GDP": 0.5991245206939603, 
+            "City": "Suzhou", 
+            "o3": 85, 
+            "Green_Covered_Area_percentage": 0.5384416591, 
+            "pm10": 108, 
+            "dust_removed": 6229796.0, 
+            "pm2_5": 72, 
+            "Population_Density": 0.2917224628159509, 
+            "dust_emission": 0.020418855473422887, 
+            "secondary_industry_percentage": 0.5263, 
+            "GDP_per_capita": 0.41496314293053976, 
+            "co": 1.2, 
+            "so2": 13, 
+            "aqi": 98.12343753681472, 
+            "no2": 61, 
+            "population": 0.4404368443741917
+        }
+    }, 
+    {
+        "name": "Shaoxing", 
+        "value": [
+            120.586109, 
+            29.995762, 
+            99
+        ], 
+        "social": {
+            "GDP": 0.176679984222918, 
+            "City": "Shaoxing", 
+            "o3": 67, 
+            "Green_Covered_Area_percentage": 0.5221604859, 
+            "pm10": 101, 
+            "dust_removed": 1333616.0, 
+            "pm2_5": 60, 
+            "Population_Density": 0.2008472071692877, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5301, 
+            "GDP_per_capita": 0.17710333477017123, 
+            "co": 1.0, 
+            "so2": 9, 
+            "aqi": 99.81173844839367, 
+            "no2": 50, 
+            "population": 0.2899123437275471
+        }
+    }, 
+    {
+        "name": "Jiangmen", 
+        "value": [
+            113.081508, 
+            22.579117, 
+            83
+        ], 
+        "social": {
+            "GDP": 0.08484111702199999, 
+            "City": "Jiangmen", 
+            "o3": 45, 
+            "Green_Covered_Area_percentage": 0.5531722445, 
+            "pm10": 46, 
+            "dust_removed": 1419523.0, 
+            "pm2_5": 28, 
+            "Population_Density": 0.15480333507933633, 
+            "dust_emission": 0.003758764212708251, 
+            "secondary_industry_percentage": 0.5065, 
+            "GDP_per_capita": 0.09249752907419743, 
+            "co": 0.9, 
+            "so2": 17, 
+            "aqi": 83.95401493000178, 
+            "no2": 41, 
+            "population": 0.2547779853427216
+        }
+    }, 
+    {
+        "name": "Lu'an", 
+        "value": [
+            116.521442, 
+            31.734476, 
+            97
+        ], 
+        "social": {
+            "GDP": 0.03862240711765399, 
+            "City": "Lu'an", 
+            "o3": 86, 
+            "Green_Covered_Area_percentage": 0.4782271611, 
+            "pm10": 115, 
+            "dust_removed": 216083.0, 
+            "pm2_5": 57, 
+            "Population_Density": 0.1488406536200987, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.4733, 
+            "GDP_per_capita": 0.012369868202777017, 
+            "co": 0.6, 
+            "so2": 10, 
+            "aqi": 97.98438637450776, 
+            "no2": 51, 
+            "population": 0.48548642046271023
+        }
+    }, 
+    {
+        "name": "Huizhou", 
+        "value": [
+            114.415801, 
+            23.112257, 
+            79
+        ], 
+        "social": {
+            "GDP": 0.11650330109198116, 
+            "City": "Huizhou", 
+            "o3": 60, 
+            "Green_Covered_Area_percentage": 0.4601369686, 
+            "pm10": 38, 
+            "dust_removed": "", 
+            "pm2_5": 21, 
+            "Population_Density": 0.11230867808645574, 
+            "dust_emission": 0.0070909727499108835, 
+            "secondary_industry_percentage": 0.5789, 
+            "GDP_per_capita": 0.15169307400586055, 
+            "co": 1.0, 
+            "so2": 7, 
+            "aqi": 79.09997433988994, 
+            "no2": 18, 
+            "population": 0.21899698232504672
+        }
+    }, 
+    {
+        "name": "Huangshan", 
+        "value": [
+            118.169798, 
+            30.113962, 
+            97
+        ], 
+        "social": {
+            "GDP": 0.0134153845056339, 
+            "City": "Huangshan", 
+            "o3": 91, 
+            "Green_Covered_Area_percentage": 0.5880604729, 
+            "pm10": 52, 
+            "dust_removed": 16472.0, 
+            "pm2_5": 18, 
+            "Population_Density": 0.053832960469113324, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.4633, 
+            "GDP_per_capita": 0.05134736209621589, 
+            "co": 0.4, 
+            "so2": 13, 
+            "aqi": 97.98438637450776, 
+            "no2": 32, 
+            "population": 0.07867509699669493
+        }
+    }, 
+    {
+        "name": "Longnan", 
+        "value": [
+            104.921841, 
+            33.400684, 
+            94
+        ], 
+        "social": {
+            "GDP": 0.0031070251700090396, 
+            "City": "Longnan", 
+            "o3": 89, 
+            "Green_Covered_Area_percentage": 0.0208037214, 
+            "pm10": 74, 
+            "dust_removed": 621384.0, 
+            "pm2_5": 34, 
+            "Population_Density": 0.035127637454481754, 
+            "dust_emission": 0.0005848094168270347, 
+            "secondary_industry_percentage": 0.2965, 
+            "GDP_per_capita": 0.0008904040997775078, 
+            "co": 0.7, 
+            "so2": 38, 
+            "aqi": 94.56672637552782, 
+            "no2": 37, 
+            "population": 0.1768213823825262
+        }
+    }, 
+    {
+        "name": "Yingtan", 
+        "value": [
+            117.069202, 
+            28.260189, 
+            79
+        ], 
+        "social": {
+            "GDP": 0.017298518183937652, 
+            "City": "Yingtan", 
+            "o3": 81, 
+            "Green_Covered_Area_percentage": 0.5176379377, 
+            "pm10": 56, 
+            "dust_removed": 1136993.0, 
+            "pm2_5": 39, 
+            "Population_Density": 0.13051519256215396, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.6258, 
+            "GDP_per_capita": 0.07809214049662343, 
+            "co": 0.6, 
+            "so2": 15, 
+            "aqi": 79.51592693199673, 
+            "no2": 26, 
+            "population": 0.062149734157206496
+        }
+    }, 
+    {
+        "name": "Qingdao", 
+        "value": [
+            120.382609, 
+            36.067108, 
+            94
+        ], 
+        "social": {
+            "GDP": 0.3652639171604872, 
+            "City": "Qingdao", 
+            "o3": 64, 
+            "Green_Covered_Area_percentage": 0.572037731, 
+            "pm10": 167, 
+            "dust_removed": 2573400.0, 
+            "pm2_5": 40, 
+            "Population_Density": 0.2592807179025538, 
+            "dust_emission": 0.008608813242825301, 
+            "secondary_industry_percentage": 0.4548, 
+            "GDP_per_capita": 0.20689812819206604, 
+            "co": 1.0, 
+            "so2": 11, 
+            "aqi": 94.2349040719508, 
+            "no2": 34, 
+            "population": 0.527230923983331
+        }
+    }, 
+    {
+        "name": "Xiamen", 
+        "value": [
+            118.089425, 
+            24.479833, 
+            71
+        ], 
+        "social": {
+            "GDP": 0.13236770674292098, 
+            "City": "Xiamen", 
+            "o3": 75, 
+            "Green_Covered_Area_percentage": 0.5348236206, 
+            "pm10": 38, 
+            "dust_removed": 440731.0, 
+            "pm2_5": 21, 
+            "Population_Density": 0.476158866650362, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.4754, 
+            "GDP_per_capita": 0.31523135267404245, 
+            "co": 0.6, 
+            "so2": 15, 
+            "aqi": 71.45863791562404, 
+            "no2": 49, 
+            "population": 0.11215691909757151
+        }
+    }, 
+    {
+        "name": "Huaihua", 
+        "value": [
+            110.001922, 
+            27.569517, 
+            98
+        ], 
+        "social": {
+            "GDP": 0.04363928688011388, 
+            "City": "Huaihua", 
+            "o3": 0, 
+            "Green_Covered_Area_percentage": 0.4474738338, 
+            "pm10": 0, 
+            "dust_removed": 607954.0, 
+            "pm2_5": 0, 
+            "Population_Density": 0.06782262357217139, 
+            "dust_emission": 0.0068581906935383, 
+            "secondary_industry_percentage": 0.43829999999999997, 
+            "GDP_per_capita": 0.028943575810616056, 
+            "co": 0.0, 
+            "so2": 0, 
+            "aqi": 98.80724774151626, 
+            "no2": 0, 
+            "population": 0.34559563155625805
+        }
+    }, 
+    {
+        "name": "Zhongwei", 
+        "value": [
+            105.196902, 
+            37.499972, 
+            101
+        ], 
+        "social": {
+            "GDP": 0.004849623047249838, 
+            "City": "Zhongwei", 
+            "o3": 98, 
+            "Green_Covered_Area_percentage": 0.4642718698, 
+            "pm10": 65, 
+            "dust_removed": 2027366.0, 
+            "pm2_5": 20, 
+            "Population_Density": 0.022864619463395963, 
+            "dust_emission": 0.015667437532586318, 
+            "secondary_industry_percentage": 0.44689999999999996, 
+            "GDP_per_capita": 0.03330416116967314, 
+            "co": 0.4, 
+            "so2": 10, 
+            "aqi": 101.26153848794746, 
+            "no2": 24, 
+            "population": 0.059563155625808314
+        }
+    }, 
+    {
+        "name": "Huanggang", 
+        "value": [
+            114.872199, 
+            30.453667, 
+            121
+        ], 
+        "social": {
+            "GDP": 0.05367154307880064, 
+            "City": "Huanggang", 
+            "o3": 74, 
+            "Green_Covered_Area_percentage": 0.3553430676, 
+            "pm10": 110, 
+            "dust_removed": 987098.0, 
+            "pm2_5": 51, 
+            "Population_Density": 0.1610346057826659, 
+            "dust_emission": 0.0005829065662299836, 
+            "secondary_industry_percentage": 0.3912, 
+            "GDP_per_capita": 0.020376974019358125, 
+            "co": 1.2, 
+            "so2": 11, 
+            "aqi": 121.1252069047008, 
+            "no2": 39, 
+            "population": 0.46694927432102323
+        }
+    }, 
+    {
+        "name": "Guigang", 
+        "value": [
+            109.598926, 
+            23.11153, 
+            74
+        ], 
+        "social": {
+            "GDP": 0.026100871444135657, 
+            "City": "Guigang", 
+            "o3": 85, 
+            "Green_Covered_Area_percentage": 0.2882801396, 
+            "pm10": 28, 
+            "dust_removed": 2521452.0, 
+            "pm2_5": 23, 
+            "Population_Density": 0.19092091574203318, 
+            "dust_emission": 0.016592222922753145, 
+            "secondary_industry_percentage": 0.40880000000000005, 
+            "GDP_per_capita": 0.011723291142547382, 
+            "co": 0.5, 
+            "so2": 10, 
+            "aqi": 74.35186483319548, 
+            "no2": 8, 
+            "population": 0.35651674091105046
+        }
+    }, 
+    {
+        "name": "Chenzhou", 
+        "value": [
+            113.014717, 
+            25.770509, 
+            98
+        ], 
+        "social": {
+            "GDP": 0.07015085584619225, 
+            "City": "Chenzhou", 
+            "o3": 56, 
+            "Green_Covered_Area_percentage": 0.4920532369, 
+            "pm10": 74, 
+            "dust_removed": 3000370.0, 
+            "pm2_5": 48, 
+            "Population_Density": 0.0977357925761463, 
+            "dust_emission": 0.007515625574819451, 
+            "secondary_industry_percentage": 0.5742, 
+            "GDP_per_capita": 0.05336546625390232, 
+            "co": 0.8, 
+            "so2": 14, 
+            "aqi": 98.80724774151626, 
+            "no2": 30, 
+            "population": 0.33991952866791203
+        }
+    }, 
+    {
+        "name": "Guiyang", 
+        "value": [
+            106.630153, 
+            26.647661, 
+            77
+        ], 
+        "social": {
+            "GDP": 0.08882114054289283, 
+            "City": "Guiyang", 
+            "o3": 58, 
+            "Green_Covered_Area_percentage": null, 
+            "pm10": 41, 
+            "dust_removed": 3079328.0, 
+            "pm2_5": 23, 
+            "Population_Density": 0.1770041554023195, 
+            "dust_emission": 0.006776050976098928, 
+            "secondary_industry_percentage": 0.4069, 
+            "GDP_per_capita": 0.10148647413038651, 
+            "co": 0.8, 
+            "so2": 19, 
+            "aqi": 77.83147814919637, 
+            "no2": 24, 
+            "population": 0.2435694783733295
+        }
+    }, 
+    {
+        "name": "Lvliang", 
+        "value": [
+            111.144319, 
+            37.518314, 
+            93
+        ], 
+        "social": {
+            "GDP": 0.04881848385730392, 
+            "City": "Lvliang", 
+            "o3": 72, 
+            "Green_Covered_Area_percentage": 0.4994185295, 
+            "pm10": 169, 
+            "dust_removed": 3032182.0, 
+            "pm2_5": 50, 
+            "Population_Density": 0.06731230402842982, 
+            "dust_emission": 0.036671736706368585, 
+            "secondary_industry_percentage": 0.706, 
+            "GDP_per_capita": 0.04958397011377144, 
+            "co": 2.1, 
+            "so2": 123, 
+            "aqi": 93.9329995279695, 
+            "no2": 48, 
+            "population": 0.24457537002442878
+        }
+    }, 
+    {
+        "name": "Chengde", 
+        "value": [
+            117.96275, 
+            40.952942, 
+            99
+        ], 
+        "social": {
+            "GDP": 0.050848917352301314, 
+            "City": "Chengde", 
+            "o3": 72, 
+            "Green_Covered_Area_percentage": 0.5250032304, 
+            "pm10": 40, 
+            "dust_removed": 2062026.0, 
+            "pm2_5": 11, 
+            "Population_Density": 0.03267196420823856, 
+            "dust_emission": 0.009950005771980144, 
+            "secondary_industry_percentage": 0.5108, 
+            "GDP_per_capita": 0.05496122714665761, 
+            "co": 0.2, 
+            "so2": 12, 
+            "aqi": 99.36962174447656, 
+            "no2": 21, 
+            "population": 0.24407242419887915
+        }
+    }, 
+    {
+        "name": "Siping", 
+        "value": [
+            124.350398, 
+            43.166419, 
+            101
+        ], 
+        "social": {
+            "GDP": 0.04796606520218134, 
+            "City": "Siping", 
+            "o3": 69, 
+            "Green_Covered_Area_percentage": 0.4320971702, 
+            "pm10": 84, 
+            "dust_removed": 1651845.0, 
+            "pm2_5": 36, 
+            "Population_Density": 0.08564927609118278, 
+            "dust_emission": 0.010893502526351309, 
+            "secondary_industry_percentage": 0.46490000000000004, 
+            "GDP_per_capita": 0.06203221129354598, 
+            "co": 0.3, 
+            "so2": 20, 
+            "aqi": 101.35259424372096, 
+            "no2": 28, 
+            "population": 0.21166834315275182
+        }
+    }, 
+    {
+        "name": "Zhengzhou", 
+        "value": [
+            113.625328, 
+            34.746611, 
+            122
+        ], 
+        "social": {
+            "GDP": 0.28100761738670366, 
+            "City": "Zhengzhou", 
+            "o3": 82, 
+            "Green_Covered_Area_percentage": 0.4226644269, 
+            "pm10": 95, 
+            "dust_removed": 10193815.0, 
+            "pm2_5": 28, 
+            "Population_Density": 0.46977411645052664, 
+            "dust_emission": 0.010518006675199894, 
+            "secondary_industry_percentage": 0.5596, 
+            "GDP_per_capita": 0.12861440930722642, 
+            "co": 0.3, 
+            "so2": 20, 
+            "aqi": 122.4364205189474, 
+            "no2": 35, 
+            "population": 0.5297456531110792
+        }
+    }, 
+    {
+        "name": "Ankang", 
+        "value": [
+            109.029022, 
+            32.684714, 
+            94
+        ], 
+        "social": {
+            "GDP": 0.019683391185015064, 
+            "City": "Ankang", 
+            "o3": 96, 
+            "Green_Covered_Area_percentage": 0.5188008787, 
+            "pm10": 46, 
+            "dust_removed": 601191.0, 
+            "pm2_5": 41, 
+            "Population_Density": 0.04641222304182996, 
+            "dust_emission": 0.0023389205255419637, 
+            "secondary_industry_percentage": 0.5316, 
+            "GDP_per_capita": 0.024428421524702728, 
+            "co": 0.6, 
+            "so2": 11, 
+            "aqi": 94.96165937981685, 
+            "no2": 20, 
+            "population": 0.16223595344158645
+        }
+    }, 
+    {
+        "name": "Fuzhou", 
+        "value": [
+            119.296482, 
+            26.074478, 
+            79
+        ], 
+        "social": {
+            "GDP": 0.03537444277894262, 
+            "City": "Fuzhou", 
+            "o3": 103, 
+            "Green_Covered_Area_percentage": 0.6251453676, 
+            "pm10": 73, 
+            "dust_removed": 6598.0, 
+            "pm2_5": 50, 
+            "Population_Density": 0.0817931018007696, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5199, 
+            "GDP_per_capita": 0.03045443264495735, 
+            "co": 1.3, 
+            "so2": 12, 
+            "aqi": 79.51592693199673, 
+            "no2": 19, 
+            "population": 0.25707716625952004
+        }
+    }, 
+    {
+        "name": "Yichang", 
+        "value": [
+            111.286471, 
+            30.691966, 
+            125
+        ], 
+        "social": {
+            "GDP": 0.123026238285733, 
+            "City": "Yichang", 
+            "o3": 37, 
+            "Green_Covered_Area_percentage": 0.5265538183, 
+            "pm10": 116, 
+            "dust_removed": 1925613.0, 
+            "pm2_5": 61, 
+            "Population_Density": 0.06896604647722306, 
+            "dust_emission": 0.004230671160776921, 
+            "secondary_industry_percentage": 0.601, 
+            "GDP_per_capita": 0.1350736488281063, 
+            "co": 1.2, 
+            "so2": 20, 
+            "aqi": 125.24302630494792, 
+            "no2": 37, 
+            "population": 0.2598792930018681
+        }
+    }, 
+    {
+        "name": "Zibo", 
+        "value": [
+            118.055019, 
+            36.813546, 
+            134
+        ], 
+        "social": {
+            "GDP": 0.16892764364318338, 
+            "City": "Zibo", 
+            "o3": 72, 
+            "Green_Covered_Area_percentage": 0.563251066, 
+            "pm10": 111, 
+            "dust_removed": 6949682.0, 
+            "pm2_5": 59, 
+            "Population_Density": 0.26971732897371525, 
+            "dust_emission": 0.014776903453166406, 
+            "secondary_industry_percentage": 0.5711999999999999, 
+            "GDP_per_capita": 0.1764132171671652, 
+            "co": 1.1, 
+            "so2": 34, 
+            "aqi": 134.03350159449994, 
+            "no2": 50, 
+            "population": 0.2778416439143555
+        }
+    }, 
+    {
+        "name": "Changde", 
+        "value": [
+            111.698784, 
+            29.031654, 
+            101
+        ], 
+        "social": {
+            "GDP": 0.09720197886847146, 
+            "City": "Changde", 
+            "o3": 80, 
+            "Green_Covered_Area_percentage": 0.556014989, 
+            "pm10": 94, 
+            "dust_removed": 1695711.0, 
+            "pm2_5": 66, 
+            "Population_Density": 0.12433763964754352, 
+            "dust_emission": 0.006365669530668243, 
+            "secondary_industry_percentage": 0.4867, 
+            "GDP_per_capita": 0.06293132350187877, 
+            "co": 1.0, 
+            "so2": 22, 
+            "aqi": 101.13403710507622, 
+            "no2": 50, 
+            "population": 0.4118407817215118
+        }
+    }, 
+    {
+        "name": "Longyan", 
+        "value": [
+            117.017536, 
+            25.075123, 
+            69
+        ], 
+        "social": {
+            "GDP": 0.06055083862050135, 
+            "City": "Longyan", 
+            "o3": 42, 
+            "Green_Covered_Area_percentage": 0.5451608735, 
+            "pm10": 25, 
+            "dust_removed": 7385189.0, 
+            "pm2_5": 16, 
+            "Population_Density": 0.05705219456355598, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5379, 
+            "GDP_per_capita": 0.08802809235819933, 
+            "co": 0.7, 
+            "so2": 8, 
+            "aqi": 69.63018109884233, 
+            "no2": 18, 
+            "population": 0.1884609857738181
+        }
+    }, 
+    {
+        "name": "Shizuishan", 
+        "value": [
+            106.383303, 
+            38.983236, 
+            101
+        ], 
+        "social": {
+            "GDP": 0.012301559828422669, 
+            "City": "Shizuishan", 
+            "o3": 90, 
+            "Green_Covered_Area_percentage": 0.0, 
+            "pm10": 55, 
+            "dust_removed": 4504278.0, 
+            "pm2_5": 13, 
+            "Population_Density": 0.05147704903082218, 
+            "dust_emission": 0.02733286311780802, 
+            "secondary_industry_percentage": 0.6437999999999999, 
+            "GDP_per_capita": 0.10791958932560053, 
+            "co": 0.4, 
+            "so2": 21, 
+            "aqi": 101.26153848794746, 
+            "no2": 14, 
+            "population": 0.027662020405230636
+        }
+    }, 
+    {
+        "name": "Hengyang", 
+        "value": [
+            112.572018, 
+            26.893368, 
+            100
+        ], 
+        "social": {
+            "GDP": 0.09274357079543032, 
+            "City": "Hengyang", 
+            "o3": 90, 
+            "Green_Covered_Area_percentage": 0.4145238403, 
+            "pm10": 58, 
+            "dust_removed": 3137845.0, 
+            "pm2_5": 54, 
+            "Population_Density": 0.19321159838679697, 
+            "dust_emission": 0.007343100454020152, 
+            "secondary_industry_percentage": 0.47909999999999997, 
+            "GDP_per_capita": 0.04178585890251708, 
+            "co": 0.7, 
+            "so2": 20, 
+            "aqi": 100.11129573831187, 
+            "no2": 16, 
+            "population": 0.5374335393016239
+        }
+    }, 
+    {
+        "name": "Sanming", 
+        "value": [
+            117.638678, 
+            26.263406, 
+            71
+        ], 
+        "social": {
+            "GDP": 0.06044289792948512, 
+            "City": "Sanming", 
+            "o3": 16, 
+            "Green_Covered_Area_percentage": 0.5281044063, 
+            "pm10": 19, 
+            "dust_removed": 4496687.0, 
+            "pm2_5": 12, 
+            "Population_Density": 0.042678832468819886, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5224, 
+            "GDP_per_capita": 0.09740890229937606, 
+            "co": 0.8, 
+            "so2": 8, 
+            "aqi": 71.45863791562404, 
+            "no2": 21, 
+            "population": 0.17143267710878
+        }
+    }, 
+    {
+        "name": "Wuwei", 
+        "value": [
+            102.638201, 
+            37.928267, 
+            94
+        ], 
+        "social": {
+            "GDP": 0.009254966505494688, 
+            "City": "Wuwei", 
+            "o3": 102, 
+            "Green_Covered_Area_percentage": 0.2708360253, 
+            "pm10": 87, 
+            "dust_removed": 216569.0, 
+            "pm2_5": 36, 
+            "Population_Density": 0.017918740156815657, 
+            "dust_emission": 0.0030344124187641364, 
+            "secondary_industry_percentage": 0.4359, 
+            "GDP_per_capita": 0.025604016179665696, 
+            "co": 1.5, 
+            "so2": 19, 
+            "aqi": 94.56672637552782, 
+            "no2": 42, 
+            "population": 0.10921109354792355
+        }
+    }, 
+    {
+        "name": "Liupanshui", 
+        "value": [
+            104.830359, 
+            26.592666, 
+            77
+        ], 
+        "social": {
+            "GDP": 0.03264178319067351, 
+            "City": "Liupanshui", 
+            "o3": 82, 
+            "Green_Covered_Area_percentage": 0.3302752294, 
+            "pm10": 34, 
+            "dust_removed": 4789076.0, 
+            "pm2_5": 22, 
+            "Population_Density": 0.1220968378566731, 
+            "dust_emission": 0.01871072992080336, 
+            "secondary_industry_percentage": 0.5710999999999999, 
+            "GDP_per_capita": 0.040786603445798555, 
+            "co": 0.6, 
+            "so2": 19, 
+            "aqi": 77.83147814919637, 
+            "no2": 18, 
+            "population": 0.20563299324615605
+        }
+    }, 
+    {
+        "name": "Wenzhou", 
+        "value": [
+            120.699361, 
+            27.993828, 
+            81
+        ], 
+        "social": {
+            "GDP": 0.17838747336328847, 
+            "City": "Wenzhou", 
+            "o3": 72, 
+            "Green_Covered_Area_percentage": 0.4859801008, 
+            "pm10": 18, 
+            "dust_removed": 1084490.0, 
+            "pm2_5": 13, 
+            "Population_Density": 0.259000617753819, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5034000000000001, 
+            "GDP_per_capita": 0.08970875730936861, 
+            "co": 0.7, 
+            "so2": 10, 
+            "aqi": 81.47945730411804, 
+            "no2": 26, 
+            "population": 0.5502945825549649
+        }
+    }, 
+    {
+        "name": "Jinan", 
+        "value": [
+            117.120095, 
+            36.6512, 
+            132
+        ], 
+        "social": {
+            "GDP": 0.23564147086764553, 
+            "City": "Jinan", 
+            "o3": 76, 
+            "Green_Covered_Area_percentage": 0.4983848042, 
+            "pm10": 121, 
+            "dust_removed": 4140877.0, 
+            "pm2_5": 39, 
+            "Population_Density": 0.2839180264971549, 
+            "dust_emission": 0.014734089314732758, 
+            "secondary_industry_percentage": 0.3926, 
+            "GDP_per_capita": 0.1674438653552255, 
+            "co": 0.5, 
+            "so2": 14, 
+            "aqi": 132.6163131671196, 
+            "no2": 44, 
+            "population": 0.4119844805288117
+        }
+    }, 
+    {
+        "name": "Jilin", 
+        "value": [
+            126.4371385, 
+            43.1520105, 
+            101
+        ], 
+        "social": {
+            "GDP": 0.11365781266808103, 
+            "City": "Jilin", 
+            "o3": 65, 
+            "Green_Covered_Area_percentage": 0.5609251841, 
+            "pm10": 71, 
+            "dust_removed": 3868669.0, 
+            "pm2_5": 23, 
+            "Population_Density": 0.056676169541694986, 
+            "dust_emission": 0.010608709220325996, 
+            "secondary_industry_percentage": 0.489, 
+            "GDP_per_capita": 0.11452251263764254, 
+            "co": 1.1, 
+            "so2": 15, 
+            "aqi": 101.35259424372096, 
+            "no2": 18, 
+            "population": 0.2817933611151027
+        }
+    }, 
+    {
+        "name": "Yibin", 
+        "value": [
+            104.643159, 
+            28.751836, 
+            100
+        ], 
+        "social": {
+            "GDP": 0.05415446095322303, 
+            "City": "Yibin", 
+            "o3": 45, 
+            "Green_Covered_Area_percentage": 0.4087091355, 
+            "pm10": 56, 
+            "dust_removed": 2492645.0, 
+            "pm2_5": 42, 
+            "Population_Density": 0.1553021437184351, 
+            "dust_emission": 0.004731438009567533, 
+            "secondary_industry_percentage": 0.6065, 
+            "GDP_per_capita": 0.034852027465374386, 
+            "co": 1.2, 
+            "so2": 19, 
+            "aqi": 100.62314497913509, 
+            "no2": 34, 
+            "population": 0.36693490444029314
+        }
+    }, 
+    {
+        "name": "Ningde", 
+        "value": [
+            119.547932, 
+            26.665617, 
+            69
+        ], 
+        "social": {
+            "GDP": 0.04929091112910029, 
+            "City": "Ningde", 
+            "o3": 70, 
+            "Green_Covered_Area_percentage": 0.5454193048, 
+            "pm10": 17, 
+            "dust_removed": 560717.0, 
+            "pm2_5": 10, 
+            "Population_Density": 0.09518419465710763, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5065999999999999, 
+            "GDP_per_capita": 0.05941324764554515, 
+            "co": 0.5, 
+            "so2": 6, 
+            "aqi": 69.63018109884233, 
+            "no2": 14, 
+            "population": 0.22050581980169565
+        }
+    }, 
+    {
+        "name": "Guangzhou", 
+        "value": [
+            113.264385, 
+            23.12911, 
+            88
+        ], 
+        "social": {
+            "GDP": 0.7113811306011444, 
+            "City": "Guangzhou", 
+            "o3": 51, 
+            "Green_Covered_Area_percentage": 0.5247447991, 
+            "pm10": 20, 
+            "dust_removed": 3114074.0, 
+            "pm2_5": 19, 
+            "Population_Density": 0.4257446636912647, 
+            "dust_emission": 0.0032824172799131284, 
+            "secondary_industry_percentage": 0.33899999999999997, 
+            "GDP_per_capita": 0.38518358869861674, 
+            "co": 1.0, 
+            "so2": 10, 
+            "aqi": 88.54836831796325, 
+            "no2": 34, 
+            "population": 0.567251041816353
+        }
+    }, 
+    {
+        "name": "YunfU", 
+        "value": [
+            112.044491, 
+            22.915094, 
+            75
+        ], 
+        "social": {
+            "GDP": 0.019578205035854356, 
+            "City": "YunfU", 
+            "o3": 54, 
+            "Green_Covered_Area_percentage": 0.1553172244, 
+            "pm10": 27, 
+            "dust_removed": 425163.0, 
+            "pm2_5": 23, 
+            "Population_Density": 0.13925585430044587, 
+            "dust_emission": 0.003726732894324558, 
+            "secondary_industry_percentage": 0.4311, 
+            "GDP_per_capita": 0.026912409490096705, 
+            "co": 0.8, 
+            "so2": 15, 
+            "aqi": 75.3807578277406, 
+            "no2": 20, 
+            "population": 0.1802701537577238
+        }
+    }, 
+    {
+        "name": "Lasa", 
+        "value": [
+            -97.656741, 
+            30.313549, 
+            66
+        ], 
+        "social": {
+            "GDP": 0.005692092670687486, 
+            "City": "Lasa", 
+            "o3": 104, 
+            "Green_Covered_Area_percentage": 0.3674893397, 
+            "pm10": 52, 
+            "dust_removed": 198494.0, 
+            "pm2_5": 21, 
+            "Population_Density": 0.003971283937833899, 
+            "dust_emission": 0.0, 
+            "secondary_industry_percentage": 0.3528, 
+            "GDP_per_capita": 0.09231683582167535, 
+            "co": 0.7, 
+            "so2": 4, 
+            "aqi": 66.97078623505787, 
+            "no2": 24, 
+            "population": 0.01523207357378934
+        }
+    }, 
+    {
+        "name": "Beijing", 
+        "value": [
+            116.4073963, 
+            39.90419989999999, 
+            134
+        ], 
+        "social": {
+            "GDP": 0.9018841528494529, 
+            "City": "Beijing", 
+            "o3": 62, 
+            "Green_Covered_Area_percentage": 0.6552526166, 
+            "pm10": 26, 
+            "dust_removed": "", 
+            "pm2_5": 6, 
+            "Population_Density": 0.3039240889483351, 
+            "dust_emission": 0.008411868206030513, 
+            "secondary_industry_percentage": 0.2232, 
+            "GDP_per_capita": 0.3042917913014704, 
+            "co": 0.3, 
+            "so2": 2, 
+            "aqi": 134.55492779297327, 
+            "no2": 17, 
+            "population": 0.9118407817215118
+        }
+    }, 
+    {
+        "name": "Luzhou", 
+        "value": [
+            105.44174, 
+            28.871569, 
+            99
+        ], 
+        "social": {
+            "GDP": 0.04470441219106255, 
+            "City": "Luzhou", 
+            "o3": 47, 
+            "Green_Covered_Area_percentage": 0.5115648017, 
+            "pm10": 51, 
+            "dust_removed": 1065674.0, 
+            "pm2_5": 31, 
+            "Population_Density": 0.15558608090216106, 
+            "dust_emission": 0.001756331101078155, 
+            "secondary_industry_percentage": 0.6001, 
+            "GDP_per_capita": 0.03057199211045365, 
+            "co": 0.8, 
+            "so2": 13, 
+            "aqi": 99.32536713427385, 
+            "no2": 27, 
+            "population": 0.33697370311826413
+        }
+    }, 
+    {
+        "name": "Liuzhou", 
+        "value": [
+            109.428608, 
+            24.326292, 
+            98
+        ], 
+        "social": {
+            "GDP": 0.08530228802190883, 
+            "City": "Liuzhou", 
+            "o3": 78, 
+            "Green_Covered_Area_percentage": 0.5308179351, 
+            "pm10": 35, 
+            "dust_removed": 4001089.0, 
+            "pm2_5": 28, 
+            "Population_Density": 0.07297953729913327, 
+            "dust_emission": 0.017199232263212443, 
+            "secondary_industry_percentage": 0.6343, 
+            "GDP_per_capita": 0.0993312172629544, 
+            "co": 0.5, 
+            "so2": 10, 
+            "aqi": 98.46566791041018, 
+            "no2": 6, 
+            "population": 0.24033625520908178
+        }
+    }, 
+    {
+        "name": "Tianjin", 
+        "value": [
+            117.3616476, 
+            39.3433574, 
+            121
+        ], 
+        "social": {
+            "GDP": 0.6623603980096353, 
+            "City": "Tianjin", 
+            "o3": 60, 
+            "Green_Covered_Area_percentage": 0.4523840289, 
+            "pm10": 49, 
+            "dust_removed": 6640410.0, 
+            "pm2_5": 11, 
+            "Population_Density": 0.3194101779686894, 
+            "dust_emission": 0.019697040813608173, 
+            "secondary_industry_percentage": 0.5064, 
+            "GDP_per_capita": 0.29329345019615016, 
+            "co": 0.3, 
+            "so2": 5, 
+            "aqi": 121.08235889596199, 
+            "no2": 31, 
+            "population": 0.6903290702687168
+        }
+    }, 
+    {
+        "name": "Yancheng", 
+        "value": [
+            120.16366, 
+            33.347316, 
+            93
+        ], 
+        "social": {
+            "GDP": 0.15371977137171874, 
+            "City": "Yancheng", 
+            "o3": 84, 
+            "Green_Covered_Area_percentage": 0.5145367619, 
+            "pm10": 130, 
+            "dust_removed": 1277259.0, 
+            "pm2_5": 79, 
+            "Population_Density": 0.18239128842412283, 
+            "dust_emission": 0.009212016882090498, 
+            "secondary_industry_percentage": 0.4707, 
+            "GDP_per_capita": 0.07352038350510078, 
+            "co": 1.1, 
+            "so2": 15, 
+            "aqi": 93.26825437423082, 
+            "no2": 40, 
+            "population": 0.5642333668630551
+        }
+    }, 
+    {
+        "name": "Zhangzhou", 
+        "value": [
+            117.647093, 
+            24.513025, 
+            69
+        ], 
+        "social": {
+            "GDP": 0.09585218799725755, 
+            "City": "Zhangzhou", 
+            "o3": 79, 
+            "Green_Covered_Area_percentage": 0.5324977387, 
+            "pm10": 29, 
+            "dust_removed": 952415.0, 
+            "pm2_5": 18, 
+            "Population_Density": 0.1457518772128762, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.4882, 
+            "GDP_per_capita": 0.08124447579363524, 
+            "co": 0.7, 
+            "so2": 5, 
+            "aqi": 69.63018109884233, 
+            "no2": 18, 
+            "population": 0.32159793073717485
+        }
+    }, 
+    {
+        "name": "Jiuquan", 
+        "value": [
+            98.494548, 
+            39.73287, 
+            94
+        ], 
+        "social": {
+            "GDP": 0.021428846315841587, 
+            "City": "Jiuquan", 
+            "o3": 99, 
+            "Green_Covered_Area_percentage": 0.4658224577, 
+            "pm10": 61, 
+            "dust_removed": 158741.0, 
+            "pm2_5": 25, 
+            "Population_Density": 0.0, 
+            "dust_emission": 0.003916383670497316, 
+            "secondary_industry_percentage": 0.5302, 
+            "GDP_per_capita": 0.10759956633619394, 
+            "co": 0.6, 
+            "so2": 24, 
+            "aqi": 94.56672637552782, 
+            "no2": 25, 
+            "population": 0.05230636585716338
+        }
+    }, 
+    {
+        "name": "Qitaihe", 
+        "value": [
+            131.0031381, 
+            45.771726, 
+            84
+        ], 
+        "social": {
+            "GDP": 0.002709638154557988, 
+            "City": "Qitaihe", 
+            "o3": 77, 
+            "Green_Covered_Area_percentage": 0.5129861739, 
+            "pm10": 94, 
+            "dust_removed": 1869426.0, 
+            "pm2_5": 48, 
+            "Population_Density": 0.05287371314016635, 
+            "dust_emission": 0.005190659286989196, 
+            "secondary_industry_percentage": 0.4629, 
+            "GDP_per_capita": 0.0387227817181969, 
+            "co": 0.8, 
+            "so2": 7, 
+            "aqi": 84.38462436256553, 
+            "no2": 43, 
+            "population": 0.039086075585572644
+        }
+    }, 
+    {
+        "name": "Mudanjiang", 
+        "value": [
+            129.633168, 
+            44.55165299999999, 
+            90
+        ], 
+        "social": {
+            "GDP": 0.04823361992193731, 
+            "City": "Mudanjiang", 
+            "o3": 70, 
+            "Green_Covered_Area_percentage": 0.496188138, 
+            "pm10": 59, 
+            "dust_removed": 1707103.0, 
+            "pm2_5": 25, 
+            "Population_Density": 0.022028155751686717, 
+            "dust_emission": 0.01462404112186997, 
+            "secondary_industry_percentage": 0.4102, 
+            "GDP_per_capita": 0.08391568809296776, 
+            "co": 0.3, 
+            "so2": 15, 
+            "aqi": 90.1285786835333, 
+            "no2": 13, 
+            "population": 0.15950567610288835
+        }
+    }, 
+    {
+        "name": "Daqing", 
+        "value": [
+            125.103784, 
+            46.589309, 
+            84
+        ], 
+        "social": {
+            "GDP": 0.1866808666567419, 
+            "City": "Daqing", 
+            "o3": 62, 
+            "Green_Covered_Area_percentage": 0.580049102, 
+            "pm10": 35, 
+            "dust_removed": 1319166.0, 
+            "pm2_5": 29, 
+            "Population_Density": 0.04653116972424187, 
+            "dust_emission": 0.009135268574676104, 
+            "secondary_industry_percentage": 0.7936, 
+            "GDP_per_capita": 0.3033665547674717, 
+            "co": 0.6, 
+            "so2": 6, 
+            "aqi": 84.38462436256553, 
+            "no2": 12, 
+            "population": 0.16934904440293144
+        }
+    }, 
+    {
+        "name": "Baiyin", 
+        "value": [
+            104.138586, 
+            36.545015, 
+            94
+        ], 
+        "social": {
+            "GDP": 0.013089022651620126, 
+            "City": "Baiyin", 
+            "o3": 81, 
+            "Green_Covered_Area_percentage": 0.4003101176, 
+            "pm10": 96, 
+            "dust_removed": 2103982.0, 
+            "pm2_5": 31, 
+            "Population_Density": 0.028255589520190465, 
+            "dust_emission": 0.003938583594129579, 
+            "secondary_industry_percentage": 0.5463, 
+            "GDP_per_capita": 0.03868141820255931, 
+            "co": 0.2, 
+            "so2": 38, 
+            "aqi": 94.56672637552782, 
+            "no2": 29, 
+            "population": 0.09958327345883031
+        }
+    }, 
+    {
+        "name": "Huludao", 
+        "value": [
+            120.83694, 
+            40.71104, 
+            94
+        ], 
+        "social": {
+            "GDP": 0.027646057375920997, 
+            "City": "Huludao", 
+            "o3": 91, 
+            "Green_Covered_Area_percentage": 0.5229357798, 
+            "pm10": 122, 
+            "dust_removed": 1500232.0, 
+            "pm2_5": 35, 
+            "Population_Density": 0.09928593628216167, 
+            "dust_emission": 0.005992076530113879, 
+            "secondary_industry_percentage": 0.469, 
+            "GDP_per_capita": 0.04196219810076152, 
+            "co": 1.3, 
+            "so2": 80, 
+            "aqi": 94.69324821808875, 
+            "no2": 28, 
+            "population": 0.17401925564017817
+        }
+    }, 
+    {
+        "name": "Zhaoqing", 
+        "value": [
+            112.465091, 
+            23.047191, 
+            92
+        ], 
+        "social": {
+            "GDP": 0.06896261185173194, 
+            "City": "Zhaoqing", 
+            "o3": 51, 
+            "Green_Covered_Area_percentage": 0.4514795193, 
+            "pm10": 20, 
+            "dust_removed": 1836659.0, 
+            "pm2_5": 13, 
+            "Population_Density": 0.10690619712501839, 
+            "dust_emission": 0.009910997334740598, 
+            "secondary_industry_percentage": 0.4765, 
+            "GDP_per_capita": 0.06574404256523461, 
+            "co": 0.8, 
+            "so2": 10, 
+            "aqi": 92.95421843493374, 
+            "no2": 20, 
+            "population": 0.2808593188676534
+        }
+    }, 
+    {
+        "name": "Zhoukou", 
+        "value": [
+            114.69695, 
+            33.626149, 
+            114
+        ], 
+        "social": {
+            "GDP": 0.07505915063496461, 
+            "City": "Zhoukou", 
+            "o3": 94, 
+            "Green_Covered_Area_percentage": 0.5604083215, 
+            "pm10": 138, 
+            "dust_removed": 251872.0, 
+            "pm2_5": 42, 
+            "Population_Density": 0.3589196572971253, 
+            "dust_emission": 0.002775941879331364, 
+            "secondary_industry_percentage": 0.4991, 
+            "GDP_per_capita": 0.01616442650574082, 
+            "co": 1.0, 
+            "so2": 20, 
+            "aqi": 114.28350295267701, 
+            "no2": 45, 
+            "population": 0.7835177468027016
+        }
+    }, 
+    {
+        "name": "Tonghua", 
+        "value": [
+            125.939697, 
+            41.728401, 
+            101
+        ], 
+        "social": {
+            "GDP": 0.03830680198302176, 
+            "City": "Tonghua", 
+            "o3": 61, 
+            "Green_Covered_Area_percentage": 0.4523840289, 
+            "pm10": 49, 
+            "dust_removed": 1453281.0, 
+            "pm2_5": 16, 
+            "Population_Density": 0.050805575920592365, 
+            "dust_emission": 0.005664786227421092, 
+            "secondary_industry_percentage": 0.5418999999999999, 
+            "GDP_per_capita": 0.08009935951861576, 
+            "co": 2.3, 
+            "so2": 14, 
+            "aqi": 101.35259424372096, 
+            "no2": 33, 
+            "population": 0.13335249317430667
+        }
+    }, 
+    {
+        "name": "Sanmenxia", 
+        "value": [
+            111.200367, 
+            34.772792, 
+            114
+        ], 
+        "social": {
+            "GDP": 0.047113716577783904, 
+            "City": "Sanmenxia", 
+            "o3": 67, 
+            "Green_Covered_Area_percentage": 0.5566610673, 
+            "pm10": 106, 
+            "dust_removed": 3230949.0, 
+            "pm2_5": 37, 
+            "Population_Density": 0.07906116544078283, 
+            "dust_emission": 0.007257155035386678, 
+            "secondary_industry_percentage": 0.659, 
+            "GDP_per_capita": 0.09602431303908635, 
+            "co": 1.0, 
+            "so2": 19, 
+            "aqi": 114.28350295267701, 
+            "no2": 61, 
+            "population": 0.13557982468745508
+        }
+    }, 
+    {
+        "name": "Yan'an", 
+        "value": [
+            109.489757, 
+            36.585445, 
+            94
+        ], 
+        "social": {
+            "GDP": 0.054679285213569365, 
+            "City": "Yan'an", 
+            "o3": 106, 
+            "Green_Covered_Area_percentage": 0.5085928415, 
+            "pm10": 84, 
+            "dust_removed": 115629.0, 
+            "pm2_5": 29, 
+            "Population_Density": 0.02078880827400496, 
+            "dust_emission": 0.0016466000499815424, 
+            "secondary_industry_percentage": 0.7223, 
+            "GDP_per_capita": 0.10556186893425813, 
+            "co": 1.4, 
+            "so2": 15, 
+            "aqi": 94.96165937981685, 
+            "no2": 45, 
+            "population": 0.14283661445610002
+        }
+    }, 
+    {
+        "name": "Huai'an", 
+        "value": [
+            119.113185, 
+            33.551052, 
+            107
+        ], 
+        "social": {
+            "GDP": 0.09210954062230021, 
+            "City": "Huai'an", 
+            "o3": 71, 
+            "Green_Covered_Area_percentage": 0.5213851919, 
+            "pm10": 136, 
+            "dust_removed": 1719501.0, 
+            "pm2_5": 82, 
+            "Population_Density": 0.20680988862852534, 
+            "dust_emission": 0.0064151436461915715, 
+            "secondary_industry_percentage": 0.456, 
+            "GDP_per_capita": 0.06656913585084752, 
+            "co": 0.7, 
+            "so2": 25, 
+            "aqi": 107.97997883701716, 
+            "no2": 46, 
+            "population": 0.36794079609139246
+        }
+    }, 
+    {
+        "name": "Lijiang", 
+        "value": [
+            100.22775, 
+            26.855047, 
+            61
+        ], 
+        "social": {
+            "GDP": 0.0030748763984546385, 
+            "City": "Lijiang", 
+            "o3": 101, 
+            "Green_Covered_Area_percentage": 0.5235818581, 
+            "pm10": 53, 
+            "dust_removed": 500958.0, 
+            "pm2_5": 17, 
+            "Population_Density": 0.01787269633791352, 
+            "dust_emission": 0.003519005037479814, 
+            "secondary_industry_percentage": 0.45289999999999997, 
+            "GDP_per_capita": 0.02683621354023799, 
+            "co": 1.1, 
+            "so2": 11, 
+            "aqi": 61.88895622351506, 
+            "no2": 8, 
+            "population": 0.05870096278200891
+        }
+    }, 
+    {
+        "name": "Taiyuan", 
+        "value": [
+            112.548879, 
+            37.87059, 
+            109
+        ], 
+        "social": {
+            "GDP": 0.10410871711699714, 
+            "City": "Taiyuan", 
+            "o3": 81, 
+            "Green_Covered_Area_percentage": 0.510272645, 
+            "pm10": 93, 
+            "dust_removed": 4847500.0, 
+            "pm2_5": 23, 
+            "Population_Density": 0.19823421749171286, 
+            "dust_emission": 0.011526517491636972, 
+            "secondary_industry_percentage": 0.436, 
+            "GDP_per_capita": 0.1248285591128179, 
+            "co": 0.4, 
+            "so2": 3, 
+            "aqi": 109.62345506980678, 
+            "no2": 18, 
+            "population": 0.23631268860468457
+        }
+    }, 
+    {
+        "name": "Hebi", 
+        "value": [
+            114.297201, 
+            35.748233, 
+            129
+        ], 
+        "social": {
+            "GDP": 0.02050351166970294, 
+            "City": "Hebi", 
+            "o3": 83, 
+            "Green_Covered_Area_percentage": 0.5401214627, 
+            "pm10": 98, 
+            "dust_removed": 2106021.0, 
+            "pm2_5": 30, 
+            "Population_Density": 0.2879391913890475, 
+            "dust_emission": 0.004231305444309272, 
+            "secondary_industry_percentage": 0.7173, 
+            "GDP_per_capita": 0.06328617892550649, 
+            "co": 1.3, 
+            "so2": 10, 
+            "aqi": 129.83534207727757, 
+            "no2": 37, 
+            "population": 0.09103319442448628
+        }
+    }, 
+    {
+        "name": "Zhenjiang", 
+        "value": [
+            119.425836, 
+            32.187849, 
+            101
+        ], 
+        "social": {
+            "GDP": 0.1281249419474468, 
+            "City": "Zhenjiang", 
+            "o3": 120, 
+            "Green_Covered_Area_percentage": 0.5424473446, 
+            "pm10": 123, 
+            "dust_removed": 2118987.0, 
+            "pm2_5": 100, 
+            "Population_Density": 0.26719642693394463, 
+            "dust_emission": 0.006606380131195206, 
+            "secondary_industry_percentage": 0.5293, 
+            "GDP_per_capita": 0.2159915705509185, 
+            "co": 0.9, 
+            "so2": 16, 
+            "aqi": 101.096887260095, 
+            "no2": 62, 
+            "population": 0.16798390573358243
+        }
+    }, 
+    {
+        "name": "Xiangtan", 
+        "value": [
+            112.944026, 
+            27.829795, 
+            100
+        ], 
+        "social": {
+            "GDP": 0.05883116880267148, 
+            "City": "Xiangtan", 
+            "o3": 76, 
+            "Green_Covered_Area_percentage": 0.5185424473, 
+            "pm10": 123, 
+            "dust_removed": 6652307.0, 
+            "pm2_5": 80, 
+            "Population_Density": 0.21823644290790192, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5903, 
+            "GDP_per_capita": 0.0900287802987752, 
+            "co": 0.7, 
+            "so2": 16, 
+            "aqi": 100.11129573831187, 
+            "no2": 27, 
+            "population": 0.18185084063802268
+        }
+    }, 
+    {
+        "name": "Anyang", 
+        "value": [
+            114.392392, 
+            36.097577, 
+            129
+        ], 
+        "social": {
+            "GDP": 0.070063373464347, 
+            "City": "Anyang", 
+            "o3": 84, 
+            "Green_Covered_Area_percentage": 0.3585734591, 
+            "pm10": 124, 
+            "dust_removed": 3063547.0, 
+            "pm2_5": 55, 
+            "Population_Density": 0.3103356981927782, 
+            "dust_emission": 0.02939206460558347, 
+            "secondary_industry_percentage": 0.5708, 
+            "GDP_per_capita": 0.042584827862464134, 
+            "co": 0.9, 
+            "so2": 22, 
+            "aqi": 129.83534207727757, 
+            "no2": 43, 
+            "population": 0.4021411122287685
+        }
+    }, 
+    {
+        "name": "Shenzhen", 
+        "value": [
+            114.057865, 
+            22.543096, 
+            66
+        ], 
+        "social": {
+            "GDP": 0.66843300495973, 
+            "City": "Shenzhen", 
+            "o3": 84, 
+            "Green_Covered_Area_percentage": 0.5774647887, 
+            "pm10": 45, 
+            "dust_removed": 388863.0, 
+            "pm2_5": 24, 
+            "Population_Density": 0.5926843961094579, 
+            "dust_emission": 3.0128467786642244e-05, 
+            "secondary_industry_percentage": 0.4343, 
+            "GDP_per_capita": 1.0, 
+            "co": 0.7, 
+            "so2": 9, 
+            "aqi": 66.70753218732314, 
+            "no2": 34, 
+            "population": 0.1877424917373186
+        }
+    }, 
+    {
+        "name": "Changzhi", 
+        "value": [
+            113.116404, 
+            36.195409, 
+            99
+        ], 
+        "social": {
+            "GDP": 0.053726199725415126, 
+            "City": "Changzhi", 
+            "o3": 81, 
+            "Green_Covered_Area_percentage": 0.5836671405, 
+            "pm10": 75, 
+            "dust_removed": 5794274.0, 
+            "pm2_5": 22, 
+            "Population_Density": 0.08964741897345894, 
+            "dust_emission": 0.057623707488731954, 
+            "secondary_industry_percentage": 0.6501, 
+            "GDP_per_capita": 0.06734851156654519, 
+            "co": 0.7, 
+            "so2": 18, 
+            "aqi": 99.03221629030168, 
+            "no2": 27, 
+            "population": 0.21562006035349904
+        }
+    }, 
+    {
+        "name": "Xuzhou", 
+        "value": [
+            117.284124, 
+            34.205768, 
+            102
+        ], 
+        "social": {
+            "GDP": 0.1985545761042775, 
+            "City": "Xuzhou", 
+            "o3": 86, 
+            "Green_Covered_Area_percentage": 0.5027781367, 
+            "pm10": 118, 
+            "dust_removed": 7611744.0, 
+            "pm2_5": 78, 
+            "Population_Density": 0.33928194579782367, 
+            "dust_emission": 0.01633787522628065, 
+            "secondary_industry_percentage": 0.4775, 
+            "GDP_per_capita": 0.0775957783089724, 
+            "co": 0.9, 
+            "so2": 12, 
+            "aqi": 102.2467920162275, 
+            "no2": 52, 
+            "population": 0.6904009196723668
+        }
+    }, 
+    {
+        "name": "Huzhou", 
+        "value": [
+            120.086809, 
+            30.89440999999999, 
+            100
+        ], 
+        "social": {
+            "GDP": 0.07564252058152823, 
+            "City": "Huzhou", 
+            "o3": 102, 
+            "Green_Covered_Area_percentage": 0.6190722316, 
+            "pm10": 136, 
+            "dust_removed": 3580830.0, 
+            "pm2_5": 75, 
+            "Population_Density": 0.1690884463709286, 
+            "dust_emission": "", 
+            "secondary_industry_percentage": 0.5286, 
+            "GDP_per_capita": 0.131527271618968, 
+            "co": 1.232, 
+            "so2": 18, 
+            "aqi": 100.35718250257872, 
+            "no2": 54, 
+            "population": 0.16101451357953728
+        }
+    }, 
+    {
+        "name": "Liaocheng", 
+        "value": [
+            115.98546, 
+            36.45703, 
+            133
+        ], 
+        "social": {
+            "GDP": 0.10191430901344127, 
+            "City": "Liaocheng", 
+            "o3": 75, 
+            "Green_Covered_Area_percentage": 0.5938751777, 
+            "pm10": 150, 
+            "dust_removed": 2691167.0, 
+            "pm2_5": 68, 
+            "Population_Density": 0.25134966093152883, 
+            "dust_emission": 0.0055927950464993255, 
+            "secondary_industry_percentage": 0.5339, 
+            "GDP_per_capita": 0.06782745753708566, 
+            "co": 0.8, 
+            "so2": 15, 
+            "aqi": 133.76448658868017, 
+            "no2": 54, 
+            "population": 0.4010633711740193
+        }
+    }, 
+    {
+        "name": "Heihe", 
+        "value": [
+            127.528293, 
+            50.245129, 
+            90
+        ], 
+        "social": {
+            "GDP": 0.009650051844446129, 
+            "City": "Heihe", 
+            "o3": 52, 
+            "Green_Covered_Area_percentage": 0.3846750226, 
+            "pm10": 42, 
+            "dust_removed": 582561.0, 
+            "pm2_5": 24, 
+            "Population_Density": 0.005801527892749417, 
+            "dust_emission": 0.0028260502783870422, 
+            "secondary_industry_percentage": 0.1748, 
+            "GDP_per_capita": 0.03101610564677299, 
+            "co": 0.8, 
+            "so2": 17, 
+            "aqi": 90.1285786835333, 
+            "no2": 15, 
+            "population": 0.09606265267998275
+        }
+    }, 
+    {
+        "name": "Suizhou", 
+        "value": [
+            113.382458, 
+            31.690215, 
+            121
+        ], 
+        "social": {
+            "GDP": 0.02236267335458224, 
+            "City": "Suizhou", 
+            "o3": 89, 
+            "Green_Covered_Area_percentage": 0.5562734203, 
+            "pm10": 94, 
+            "dust_removed": 27437.0, 
+            "pm2_5": 50, 
+            "Population_Density": 0.09872573578436138, 
+            "dust_emission": 0.00016142515898316738, 
+            "secondary_industry_percentage": 0.4838, 
+            "GDP_per_capita": 0.03755371814465039, 
+            "co": 1.0, 
+            "so2": 14, 
+            "aqi": 121.1252069047008, 
+            "no2": 44, 
+            "population": 0.15763759160798965
+        }
+    }
+]

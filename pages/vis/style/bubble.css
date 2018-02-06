@@ -1,0 +1,89 @@
+body {
+
+  background: rgb(48, 50, 60);
+  color: white;
+  font-family: quicksand;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: rgba(255,255,255,0.4);
+  shape-rendering: crispEdges;
+}
+
+.bb_tooltips{
+  font-family: quicksand;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(0,0,0,0.7)
+}
+.city-name{
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.bb-tt-label{
+  font-weight: bold;
+}
+.bb-axis text{
+  color: rgba(255,255,255,0.8);
+  font-size: 14px;
+}
+
+
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px; /* demo only */
+}
+
+.custom-dropdown select{
+  background-color: #129cf7;
+  color: #ffffff;
+  font-size: 15px;
+  padding: .5em;
+  padding-right: 2.5em;
+  font-family: quicksand;
+  border: 0;
+  margin: 0 0 0 5px;
+  border-radius: 3px;
+  text-indent: 0.5em;
+  -webkit-appearance: button; /* hide default arrow in chrome OSX */
+}
+
+.custom-dropdown::before,
+.custom-dropdown::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.custom-dropdown::after { /*  Custom dropdown arrow */
+  content: "\25BC";
+  height: 1em;
+  font-size: .625em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -.5em;
+}
+
+.custom-dropdown::before { /*  Custom dropdown arrow cover */
+  width: 2em;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+
+.custom-dropdown::before {
+  background-color: rgba(0,0,0,.15);
+}
+
+.custom-dropdown::after {
+  color: rgba(0,0,0,.4);
+}

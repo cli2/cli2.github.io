@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Air Quality Visualization</title>
+  <link rel="shortcut icon" href="../../p_image/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="js/RadarChart.js"></script>
+  <link rel="stylesheet" href="../../p_css/style.css" media="screen" title="no title">
+  <style media="screen">
+    footer.end-nav {
+      border-top: 1px solid rgba(255, 255, 255, 0);
+      width: 100%;
+    }
+
+    footer.end-nav .previous {
+      /*width: 50%;*/
+      float: left;
+      padding: 30px 10px;
+    }
+
+    footer.end-nav a {
+      opacity: 0.7;
+      text-decoration: none;
+
+    }
+
+    footer.end-nav a p {
+      color: rgba(255, 255, 255, 1);
+    }
+
+    footer.end-nav a:hover {
+      opacity: 1;
+      background-color: rgba(0,0,0,0);
+    }
+
+    footer.end-nav .next {
+      /*width: 50%;*/
+      float: right;
+      text-align: right;
+      padding: 30px 10px;
+    }
+
+    footer.end-nav p {
+      color: black;
+      line-height: 60%;
+    }
+
+    footer.end-nav .project {
+      font-weight: 400;
+      color: rgb(52, 183, 143);
+      font-size: 20px;
+    }
+
+    footer a:hover {
+      text-decoration: none;
+    }
+
+    footer.end-nav .previous {
+      padding-left: 14%;
+    }
+
+    footer.end-nav .next {
+      padding-right: 14%;
+    }
+
+    section {
+      padding: 0;
+    }
+    header.non-fixed{
+      background-color: rgba(0,0,0,0);
+      border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+    header.non-fixed a{
+      color:rgba(255,255,255,0.6);
+    }
+    header.non-fixed a:hover{
+      color:rgba(255,255,255,1);
+    }
+  </style>
+  <link rel="stylesheet" href="style/style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+</head>
+
+<body>
+  <header class='non-fixed' id='top'>
+    <a href="../../index.html">
+          <img class='logo_img' src="../../p_image/logo-white.png" alt="logo of Chong Li" style="opacity:0.8" />
+      </a>
+    <nav class="nav nav_bread">
+      <a href="#"><img class="bread_img" onclick="show_nav()" src="../../p_image/bread.png" alt="nav bread icon" /></a>
+    </nav>
+    <nav class="nav">
+      <ul>
+        <li><a href="../../index.html#portfolio">Portfolio</a></li>
+        <li><a href="../../index.html#about">About</a></li>
+        <li><a href="../../Chong-Li-Resume.pdf" target="_blank">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="full" id='full' onclick='show_page()'>
+    <ul>
+      <li><a href="../index.html#portfolio">Portfolio</a></li>
+      <li><a href="../index.html#about">About</a></li>
+      <li><a href="../Chong-Li-Resume.pdf" target="_blank">Resume</a></li>
+    </ul>
+  </div>
+  <div class="">
+    <!-- introduction -->
+    <div class="" style="padding:0 12%;">
+    <section class="secbg">
+      <div class="container">
+        <div class="row" style="margin-top:2rem">
+          <div class="col-sm-10 ml-auto mr-auto">
+            <div class="text" style="width:80%; display:block;">
+              <h1 style="font-size : 300%; padding: 20px 0px 20px 0px;">China Air Quality Visualization</h1>
+              <p>Team: Chong Li, Tianyi Liu, Yu Liu, Kehan Liao, Shuyao Zhu</p>
+              <p style="display:block; padding: 0px 0px 40px 0px;">Air pollution is a leading cause of death across the globe, and contributes to stroke, heart disease, lung cancer, and other respiratory illness. This is an explorative project to learn and visualize the air quality of different cities in
+                China by using dataset during the year of 2004 to 2014. The goal of this project is to find out patterns of air quality change overtime, and to see if there’s any correlation between pollution level and other factors related to city population
+                and man-made factors.
+              </p>
+              <h2 style="font-size:150%; padding:20px 0px 20px 0px;">How was the air quality in the <b style="color:rgb(255,138,128) ;">ten-year span</b>?</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- chart -->
+
+      <!-- line chart start -->
+      <div class="clearfix" style="display:block;">
+        <div class="" id="line-chart" style="width:80%;display:inline-block;float:left;margin-bottom:20px;">
+        </div>
+        <div class="row" style="width:19%;display:inline-block;float:left;margin:30px 0 0px 0;">
+          <h2 style="margin-top:0;">Select a Year</h2>
+          <div class=" custom-dropdown" style="margin-left:0px;">
+            <select class="" id="year" style="margin-left:0px;">
+              <option value="2014" selected>2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+            </select>
+          </div>
+          <br><br><br>
+          <div class="">
+            <h2>Select Regions</h2>
+            <input class="region-input" type="checkbox" id="north" name="1" checked><label for="north" style="color:rgb(128,216,255);">North China</label>
+            <input class="region-input" type="checkbox" id="northeast" name="2"><label for="northeast" style="color:rgb(140,158,255) ;">Northeast China</label>
+            <input class="region-input" type="checkbox" id="east" name="3"><label for="east" style="color:rgb(255,138,128) ;">East China</label>
+            <input class="region-input" type="checkbox" id="southcentral" name="4"><label for="southcentral" style="color:rgb(234,128,252) ;">South Central China</label>
+            <input class="region-input" type="checkbox" id="southwest" name="5" checked><label for="southwest" style="color: rgb(255,209,128);">Southwest China</label>
+            <input class="region-input" type="checkbox" id="northwest" name="6"><label for="northwest" style="color: rgb(102,187,106);">Northwest China</label>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript" src="js/line-chart.js"></script>
+
+      <!-- line chart ends -->
+      <section class="secbg">
+        <div class="container">
+          <div class="row" style="margin-top:2rem">
+            <div class="col-sm-10 ml-auto mr-auto">
+              <div class="text" style="width:80%; display:block;">
+                <p style="padding: 0px 0px 40px 0px;">By checking the toolbox on the side, we can compare AQI (air quality index) of different geographic areas in China. We can see an ascending value of AQI (air quality index) over the years, which indicates air quality in those geographic
+                  areas was getting worse. In year of 2014, there was a significant increase of AQI value in North China area (blue lines), and a pattern of higher AQI (worse air quality) during winter time comparing to a lower AQI (better air quality)
+                  during summer time.</p>
+                <h2 style="font-size: 150%; padding:20px 0px 20px 0px;">How was the air quality <b style="color:rgb(255,138,128) ;">geographically</b>?</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- map view starts -->
+      <div class="clearfix" style="position:relative;">
+        <!-- map and scatter -->
+        <div id="china-map"></div>
+        <!-- slider for map -->
+        <div id="slider" class="slider"></div>
+        <!-- radar chart start -->
+        <div id="myChart">
+          <div id="RadarChart"></div>
+        </div>
+      </div>
+
+      <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+      <script src="http://d3js.org/queue.v1.min.js"></script>
+      <script src="js/d3.slider.js"></script>
+      <script type="text/javascript" src="js/map+radar.js"></script>
+      <!-- map chart ends -->
+      <section class="secbg">
+        <div class="container">
+          <div class="row" style="margin-top:2rem">
+            <div class="col-sm-10 ml-auto mr-auto">
+              <div class="text" style="width:80%; display:block;">
+                <p style="padding: 20px 0px 6px 0px;">To have a closer look of city AQI data, we plot 2014 AQI dataset onto China map. The map shows lower AQI (better air quality) in Southern China and a significant concentration of high AQI cities in Northern China. </p>
+                <p style="padding: 0px 0px 6px 0px;">Are you curious about the causes behind?</p>
+                <p style="padding: 0px 0px 24px 0px;">We can use slider bar below the map to select AQI in range from 125 to 200, selected cities have higher AQIs and worse air pollutions. Choose cities from map to compare relevancy between city economic development indicators and air pollutions,
+                  we found out that city with higher AQIs have larger population, larger green area coverage, and a more developed secondary industry.</p>
+                <h2 style="font-size: 150%; padding:20px 0px 20px 0px;">How was the air quality related to <b style="color:rgb(255,138,128) ;">city economic development indicators</b>?</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- bubble chart starts -->
+      <div class="clearfix">
+        <div class="">
+          <div id="chart" style="width:80%; display:inline-block; float:left;">
+          </div>
+          <!--dropdown  -->
+          <div class="row" style="width:19%; display:inline-block; float:left;">
+            <h2>X Axis</h2>
+            <div class="custom-dropdown" style="margin-left:0px;">
+              <select class="" id="p1-input" style="margin-left:0px;">
+    						<option value="aqi">Air Quality Index</option>
+    						<option value="GDP" selected="selected">GDP</option>
+    						<option value= "GDP_per_capita">GDP per capita</option>
+    						<option value= "secondary_industry_percentage">Secondary Industry as Percentage to GDP</option>
+    						<option value= "persons_employed_in_mining">Persons employed in Mining</option>
+    						<option value= "persons_employed_in_manufacturing">Persons employed in Manufactoring</option>
+    						<option value="population">Population</option>
+    						<option value="Population_Density">Population Density</option>
+    						<option value="Green_Covered_Area_percentage">Green Covered Area Percentage</option>
+    						<option value="dust_emission">Dust Emission</option>
+    						<option value="dust_removed">Dust Removed</option>
+  				     </select>
+            </div>
+            <br><br><br>
+            <h2>Y Axis </h2>
+            <div class=" custom-dropdown" style="margin-left:0px;">
+              <select class="" id="p2-input" style="margin-left:0px;">
+    				    <option value="aqi" selected="selected">Air Quality Index</option>
+    						<option value="GDP">GDP</option>
+    						<option value= "GDP_per_capita">GDP per capita</option>
+    						<option value= "secondary_industry_percentage">Secondary Industry as Percentage to GDP</option>
+    						<option value= "persons_employed_in_mining">Persons employed in Mining</option>
+    						<option value= "persons_employed_in_manufacturing">Persons employed in Manufactoring</option>
+    						<option value="population">Population</option>
+    						<option value="Population_Density">Population Density</option>
+    						<option value="Green_Covered_Area_percentage">Green Covered Area Percentage</option>
+    						<option value="dust_emission">Dust Emission</option>
+    						<option value="dust_removed">Dust Removed</option>
+  				    </select>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <script type="text/javascript" src="js/new_data.js"></script>
+      <script type="text/javascript" src="js/bubble_1.js"></script>
+      <!-- bubble chart ends -->
+
+      <section class="secbg" >
+        <div class="container" >
+          <div class="row" style="margin-top:2rem">
+            <div class="col-sm-10 ml-auto mr-auto">
+              <div class="text" style="width:80%; display:block; ">
+                <p style="display:block;padding: 0px 0px 40px 0px;">With our assumptions from radar chart above, we use bubble chart below to validate. As a result, there’s a positive correlation between city AQI and city population, city AQI and city secondary industry.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <hr style="border-bottom:1px solid rgba(255,255,255,0.1); width:100%; opacity:0.2;">
+  <footer class="end-nav">
+    <a class="previous" href="../nsportc.html">
+        <p>< PREV</p>
+        <p class="project">
+            &nbsp;&nbsp;NSportC
+        </p>
+    </a>
+
+    <a class="next" href="../legal.html">
+      <p>NEXT ></p>
+      <p class="project">
+        ClariLegal&nbsp;&nbsp;
+      </p>
+    </a>
+  </footer>
+</body>
