@@ -378,6 +378,9 @@ section.grey img{
 .center{
   text-align: center;
 }
+h1.center{
+  /* text-align: left; */
+}
 div.center-div{
   margin-top: -50px;
   margin-bottom: 10px;
