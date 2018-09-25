@@ -285,6 +285,7 @@ header a:hover{
 #toportfolio i{
   line-height: 50px;
 }
+
 /*projects style*/
 section.title{
   text-align: center;
@@ -970,21 +971,26 @@ p.button.white a:hover{
 }
 #title{
  background: none;
- height:520px;
  margin-top:-10px;
  margin-bottom:0;
+ height: 100vh;
 }
 #title div h1{
   color:black;
-  font-family:'Quicksand', sans-serif;
-  text-align:left;
-  font-size:28px;
+  font-size:4vw;
   line-height:150%;
   font-weight: 300;
+  margin-top: -7vh;
 }
-#toportfolio{
-
-
+#title h2{
+  width:98vw;
+  text-align:center;
+  position:absolute;
+  z-index:-1;
+  bottom: -5vh;
+}
+#title h2 img{
+  width:25vw;
 }
 p i{
   font-family: 'Lato', sans-serif;
@@ -1022,8 +1028,20 @@ section.page img{
 .image-box img:hover {
   box-shadow: 0 0 5px rgb(52,183,143);
 }
+
 /*responsive design*/
 @media only screen and (max-width: 800px){
+  #title div h1{
+    font-size:5.5vw;
+    margin-top: -5vh;
+  }
+  #title h2{
+    width:100vw;
+    bottom: 0vh;
+  }
+  #title h2 img{
+    width:35vw;
+  }
   .title img{
     max-width: 100%;
   }
@@ -1075,17 +1093,20 @@ section.page img{
   #filters li span{
     font-size: 14px;
   }
-  #title div h1{
-    font-size: 20px;
-    line-height: 150%;
-  }
-  #title{
-    height:480px;
-    margin-bottom: -60px;
-  }
   /*.nav a.bold{display: inline-block;}*/
 }
 @media only screen and (max-width: 550px){
+  #title div h1{
+    font-size:7vw;
+    margin-top: -7vh;
+  }
+  #title h2{
+    width:100vw;
+    bottom: 0vh;
+  }
+  #title h2 img{
+    width:60vw;
+  }
   .title img{
     max-width: 100%;
   }
@@ -1114,10 +1135,6 @@ section.page img{
   .bread_img, .logo_img{
     width: 25px;
     height: 25px;
-  }
-  #title{
-    /*height: 30vh;*/
-    /*display: none;*/
   }
   #portfolio{
     /*margin-top: 100px;*/

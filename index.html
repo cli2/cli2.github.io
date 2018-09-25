@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Chong Li</title>
+    <title>Chong Li's Portfolio</title>
     <script src="https://use.fontawesome.com/f3a7dfaa36.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -68,14 +68,14 @@
 </head>
 
 <body>
-    <header class='nav-down' id='top' style="padding: 0px 14%;">
+    <header class='nav-down' id='top' style="padding: 0px 14%; visibility:hidden;">
         <a href="index.html">
             <img class='logo_img' id="logo_img" src="p_image/logo.png" alt="logo of Chong Li" style=""/>
         </a>
         <nav class="nav nav_bread">
             <a href="#"><img class="bread_img" onclick="show_nav()" src="p_image/bread.png" alt="nav bread icon" /></a>
         </nav>
-        <nav class="nav">
+        <nav class="nav" id="nav-text">
             <ul>
                 <li><a href="index.html#portfolio" id="nav-p">Portfolio</a></li>
                 <li><a href="index.html#about" id="nav-a">About</a></li>
@@ -90,16 +90,18 @@
             <li><a href="Chong-Li-Resume.pdf" target="_blank">Resume</a></li>
         </ul>
     </div>
-    <div class="blue" id="title" >
-        <div style="padding:0 14%;">
-          <h1 style="text-align:center;font-size:40px; font-weight:400; opacity:0.75; font-family:'Monoton'; line-height:180%;">
-            Hi, I am Chong Li.
+    <div class="blue" id="title">
+        <div style="padding:0 14%; height:5vw;">
+          <h1 style="text-align:center; opacity:1; font-family:'Monoton'; line-height:180%;">
+            Hello, I am Chong Li
           </h1>
-          <h1 style="text-align:center;">
-            I am a <b style="color:rgb(52,183,143);font-weight:400;">product designer</b> passionate about <br>user experience, data-driven design, and emerging technologies.
-          </h1>
+          <!-- <h1 style="text-align:center;">
+            I am a <b style="color:rgb(52,183,143);font-weight:400;">designer</b> at Google
+          </h1> -->
         </div>
-        <!-- <a id='toportfolio' href="#portfolio"><i class="fa fa-angle-down" aria-hidden="true"></i></a> -->
+        <h2 id="scroll">
+          <img src="p_image/scroll.gif" alt="">
+        </h2>
     </div>
 
     <div>
@@ -206,14 +208,12 @@
             <div class="clearfix">
                 <p class="me" style="text-align:center; margin-bottom:40px; margin-top:-10px;"><img src="p_image/me.png" alt="picture of Chong" /></p>
                 <p style="text-align:center; line-height:190%;">
-                  Full-stack product designer📍the Bay Area<br>
-                  6+ years experience in user-centered design approach👨🏻‍🎓<br>
-                  2+ years experience in front-end dev👨🏻‍💻 and creative programming<br>
-                  Amateur photographer with iPhone📱 and DJI Mavic Pro✈<br>
-                  Learner and enthusiast in Artificial Intelligence🤔<br>
+                  👨🏻‍🎨 designer | maker | coder 👨🏻‍💻<br>
+                  📷 amateur photographer with a7r3 and mavic 🛩️<br>
+                  🍤 big fan of food and board games 🀄<br>
                 </p>
             </div>
-            <h1 style="margin:20px; font-size:24px;" id="icons">
+            <h1 style="margin-top:30px; margin-bottom: 40px;font-size:24px;" id="icons">
               <a href="https://www.linkedin.com/in/jonlichong" target="_blank" style="margin:0 15px; color:rgba(0,0,0,0.7)">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
               </a>
@@ -226,9 +226,9 @@
               <!-- <a href="https://www.flickr.com/photos/147113974@N03/" target="_blank" style="margin:0 15px; color:rgba(0,0,0,0.7)">
                 <i class="fa fa-flickr" aria-hidden="true"></i>
               </a> -->
-              <a href="https://www.behance.net/catacil" target="_blank" style="margin:0 15px; color:rgba(0,0,0,0.7)">
+              <!-- <a href="https://www.behance.net/catacil" target="_blank" style="margin:0 15px; color:rgba(0,0,0,0.7)">
                 <i class="fa fa-behance" aria-hidden="true"></i>
-              </a>
+              </a> -->
             </h1>
         </section>
     </div>
@@ -244,17 +244,28 @@
         var t = $('#portfolio').offset().top - 200;
         var t1 = $('#about').offset().top - 100;
         $(document).scroll(function() {
-            if ($(this).scrollTop() < t-300) {
+            if ($(this).scrollTop() < 50) {
+              $('#scroll').css({
+                  "visibility": "visible"
+              });
+            } else {
+              $('#scroll').css({
+                  "visibility": "hidden"
+              });
+            }
+            if ($(this).scrollTop() < 50) {
                 $('#top').css({
                     "background-color": "rgba(0,0,0,0)",
                     "border-bottom": "0px solid #eee",
-                    "color": "white"
+                    "color": "white",
+                    "visibility": "hidden"
                 });
             } else {
                 $('#top').css({
                     "background-color": "white",
                     "border-bottom": "1px solid #eee",
-                    "color": "grey"
+                    "color": "grey",
+                    "visibility": "visible"
                 });
             }
             if ($(this).scrollTop() < t) {
