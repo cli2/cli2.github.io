@@ -1026,7 +1026,7 @@ section.page img{
   margin-top: -2px;
 }
 .image-box img:hover {
-  box-shadow: 0 0 5px rgb(52,183,143);
+  box-shadow: 0 0 5px rgb(170,170,170);
 }
 
 /*responsive design*/
