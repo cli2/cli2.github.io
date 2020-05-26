@@ -1,0 +1,45 @@
+/* page style */
+div{
+  padding: 0 30% 0 15%;
+}
+p{
+  font-size:24px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.8);
+}
+a{
+  color: rgb(52,183,143);
+  text-decoration: none;
+  cursor: pointer;
+}
+p a:hover{
+  text-decoration: none;
+  box-shadow: inset 0 0px 0 white, inset 0 -5px 0 rgba(200,200,200,0.5);
+  cursor: pointer;
+}
+#paragraph{
+  position: absolute;
+  top: 45%;
+  transform: translate(0%, -50%);
+}
+#icons{
+  position: fixed;
+  bottom: 10%;
+}
+#icons p{
+  display: inline-block;
+  margin: 0 30px 0 0;
+}
+#icons p a{
+  color: rgba(0, 0, 0, 0.5);
+}
+#icons p a:hover{
+  color: rgb(52,183,143);
+}
+/*responsive design*/
+@media only screen and (max-width: 550px){
+  div{
+    padding: 0 15% 0 15%;
+  }
+}
