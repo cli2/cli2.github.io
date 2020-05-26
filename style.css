@@ -42,4 +42,7 @@ p a:hover{
   div{
     padding: 0 15% 0 15%;
   }
+  p{
+    font-size:16px;
+  }
 }
